@@ -1,0 +1,18 @@
+{
+  "line": "bj-2",
+  "stations": 18,
+  "route_km_assumed": 23.1,
+  "track_type": "Medium speed",
+  "track_native_type": 3,
+  "track_estimate": 120443427.05264843,
+  "stations_junctions_allowance": 60000000,
+  "fleet_count": 12,
+  "train_unit_price": 13200000,
+  "fleet_budget": 158400000,
+  "contingency_fraction": 0.25,
+  "operating_reserve": 50000000,
+  "cash_target": 500000000,
+  "estimate_total": 473554283.81581056,
+  "status": "planning estimate; native blueprint bill required before construction",
+  "source": "https://jtw.beijing.gov.cn/xxgk/xwfbh/201912/t20191209_1007489.html"
+}

@@ -8,6 +8,7 @@ from mcp.server.fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 
 from runtime_connection import RuntimeConnection
+from track_tangents import calculate_tangents
 
 mcp = FastMCP("NIMBY Rails Runtime")
 runtime = RuntimeConnection()
@@ -95,6 +96,18 @@ def set_medium_track(node_ids: list[str]) -> dict:
     if not node_ids or len(node_ids) > 5000 or any(not valid_id(i) for i in node_ids):
         raise ValueError("Invalid node IDs")
     return request("edit_kind", {"ids": list(dict.fromkeys(node_ids)), "track_type": 3})
+
+
+@mcp.tool()
+def set_tram_track(node_ids: list[str]) -> dict:
+    """Change blueprint nodes to built-in Tram; built nodes require native ReBP first.
+
+    Only edits type. Finish Medium-only creation/connection before conversion.
+    The native adapter verifies the supported game image and reads every node back.
+    """
+    if not node_ids or len(node_ids) > 5000 or any(not valid_id(i) for i in node_ids):
+        raise ValueError("Invalid node IDs")
+    return request("edit_kind", {"ids": list(dict.fromkeys(node_ids)), "track_type": 2})
 
 
 @mcp.tool()
@@ -213,6 +226,30 @@ def get_train(train_id: str) -> dict | None:
 
 
 @mcp.tool()
+def remove_line_stop(line_id: str, stop_id: str) -> dict:
+    """Remove one stop by stable ID using native EditStop; pause first.
+
+    Preserves remaining stop IDs/order and line metadata. Does not delete tracks.
+    """
+    if not valid_id(line_id) or not valid_id(stop_id):
+        raise ValueError("Invalid line or stop ID")
+    return request("remove_stop", {"line_id": line_id, "stop_id": stop_id})
+
+
+@mcp.tool()
+def set_line_stop_platform(line_id: str, stop_index: int, platform_node_id: str) -> dict:
+    """Edit an existing stop's directed platform within its station; pause first.
+
+    Uses native EditStop and preserves stop IDs, order, line metadata and fleet.
+    """
+    if not valid_id(line_id) or not valid_id(platform_node_id):
+        raise ValueError("Invalid object ID")
+    if isinstance(stop_index, bool) or not isinstance(stop_index, int) or not 0 <= stop_index < 1000:
+        raise ValueError("Invalid stop index")
+    return request("edit_stop", {"line_id": line_id, "stop_index": stop_index, "node_id": platform_node_id})
+
+
+@mcp.tool()
 def add_line_stop(line_id: str, platform_node_id: str) -> dict:
     """Append an oriented platform stop to an operating line using native EditStop."""
     for i in [line_id, platform_node_id]:
@@ -249,6 +286,17 @@ def get_station(station_id: str) -> dict | None:
     if not valid_id(station_id):
         raise ValueError("Invalid station ID")
     return request("get_station", {"id": station_id})
+
+
+@mcp.tool()
+def assign_platform_station(node_ids: list[str], station_id: str) -> dict:
+    """Assign existing platform nodes to a nearby station via native Track Edit.
+
+    Does not move tracks. The native station-distance limit still applies.
+    """
+    if not valid_id(station_id) or not node_ids or len(node_ids) > 100 or any(not valid_id(i) for i in node_ids):
+        raise ValueError("Expected station ID and 1..100 platform node IDs")
+    return request("assign_station", {"ids": list(dict.fromkeys(node_ids)), "station_id": station_id})
 
 
 @mcp.tool()
@@ -457,8 +505,159 @@ def set_track_depth(node_ids: list[str], depth: int) -> dict:
     return request("edit_depth", {"ids": list(dict.fromkeys(node_ids)), "depth": depth})
 
 
+@mcp.tool()
+def split_blueprint_track_edge(edge_id: str, position: float) -> dict:
+    """Insert native control points in a blueprint corridor; verify old nodes and connectivity."""
+    if not valid_id(edge_id) or not math.isfinite(position) or not 0.01 <= position <= 0.99:
+        raise ValueError("Expected native edge ID and position in 0.01..0.99")
+    return request("split_edge", {"id": edge_id, "position": position})
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def sample_track_curve(node_id: str, positions: list[float]) -> dict:
+    """Read native curve positions, using the same evaluator as Split."""
+    if not valid_id(node_id) or not 1 <= len(positions) <= 100:
+        raise ValueError("Expected a native node ID and 1..100 positions")
+    if any(not math.isfinite(p) or not 0 <= p <= 1 for p in positions):
+        raise ValueError("Curve positions must be finite and in 0..1")
+    return request("sample_curve", {"id": node_id, "positions": positions})
+
+
+@mcp.tool()
+def build_selected_blueprints(node_ids: list[str], protected_node_ids: list[str], building_ids: list[str] | None = None) -> dict:
+    """Build selected native track/building blueprints; verify protected blueprint states."""
+    building_ids = building_ids or []
+    if not 1 <= len(node_ids) + len(building_ids) <= 5000 or len(protected_node_ids) > 5000:
+        raise ValueError("Expected 1..5000 selected nodes and at most 5000 protected nodes")
+    if any(not valid_id(i) for i in node_ids + protected_node_ids + building_ids):
+        raise ValueError("Invalid native node ID")
+    if set(node_ids) & set(protected_node_ids):
+        raise ValueError("Selection overlaps protected nodes")
+    return request("build_selected", {"ids": list(dict.fromkeys(node_ids)),
+                                      "protected_ids": list(dict.fromkeys(protected_node_ids)), "building_ids": list(dict.fromkeys(building_ids))})
+
+
+@mcp.tool()
+def edit_blueprint_track_geometry(points: list[dict]) -> dict:
+    """Move non-platform blueprint controls and set native tangent directions."""
+    if not 1 <= len(points) <= 200:
+        raise ValueError("Expected 1..200 control points")
+    seen = set()
+    for p in points:
+        if not valid_id(p.get("id", "")) or p["id"] in seen:
+            raise ValueError("Expected unique native node IDs")
+        seen.add(p["id"])
+        for k in ["x", "y", "dx", "dy"]:
+            if isinstance(p.get(k), bool) or not isinstance(p.get(k), (float, int)) or not math.isfinite(p[k]):
+                raise ValueError("Expected finite coordinates and tangent vectors")
+        if math.hypot(p["dx"], p["dy"]) < 1e-6:
+            raise ValueError("Tangent vector must be nonzero")
+    return request("edit_geometry", {"points": points})
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def calculate_track_tangents(node_ids: list[str], paired_nodes: list[list[str]] | None = None) -> dict:
+    """Preview explicit tangent angles from live previous/next controls; no game changes.
+
+    A >=4:1 length ratio aligns to the long straight span; otherwise use a unit
+    vector bisector. Explicit pairs share
+    an axis; no automatic nearest-track guessing. Excludes platforms, junctions,
+    unconnected endpoints and turns >=120 degrees. Does not fix control positions.
+    """
+    if not 1 <= len(node_ids) <= 200 or len(set(node_ids)) != len(node_ids) or any(not valid_id(i) for i in node_ids):
+        raise ValueError("Expected 1..200 unique native node IDs")
+    pairs = paired_nodes or []
+    flat = []
+    for pair in pairs:
+        if len(pair) != 2 or any(not valid_id(i) or i not in node_ids for i in pair):
+            raise ValueError("Each pair must contain two selected native IDs")
+        flat.extend(pair)
+    if len(set(flat)) != len(flat):
+        raise ValueError("A node may only occur in one pair")
+    network = get_track_network(node_ids)
+    return calculate_tangents(network['nodes'], node_ids, pairs)
+
+
+@mcp.tool()
+def auto_set_track_tangents(node_ids: list[str], paired_nodes: list[list[str]] | None = None) -> dict:
+    """Calculate and set tangents on selected blueprint controls using native Edit.
+
+    Pause first. No ReBP, movement, building or expansion to other controls.
+    Connect the complete local corridor before using this tool. Preview with
+    calculate_track_tangents; native curves still require visual/curvature review.
+    """
+    if runtime_status()['speed'] != 0:
+        raise ValueError("Pause before setting tangents")
+    plan = calculate_track_tangents(node_ids, paired_nodes)
+    return dict(plan=plan, result=request("edit_geometry", {"points": plan['points'], "tangent_only": True}))
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_track_build_checks(node_ids: list[str]) -> dict:
+    """Read native cached build-blocking vectors; offsets are version-specific."""
+    if not 1 <= len(node_ids) <= 5000 or any(not valid_id(i) for i in node_ids):
+        raise ValueError("Expected 1..5000 native node IDs")
+    return request("build_checks", {"ids": node_ids})
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_building_catalog() -> dict:
+    """Read live building template IDs, names and default dimensions."""
+    return request("building_catalog")
+
+
+@mcp.tool()
+def create_platform_footprint_extension(start_x: float, start_y: float, end_x: float, end_y: float, depth: int, platform_ids: list[str]) -> dict:
+    """Create a native footprint extension blueprint; preserve supplied platforms."""
+    coords = [start_x, start_y, end_x, end_y]
+    if any(not math.isfinite(v) or abs(v) > 21000000 for v in coords):
+        raise ValueError("Invalid coordinates")
+    if not 1 <= math.hypot(end_x-start_x,end_y-start_y) <= 1000:
+        raise ValueError("Expected extension span 1..1000 world metres")
+    if type(depth) is not int or not -3 <= depth <= 3:
+        raise ValueError("Invalid depth")
+    if not 1 <= len(platform_ids) <= 100 or any(not valid_id(v) for v in platform_ids):
+        raise ValueError("Expected platform IDs")
+    return request("create_footprint", dict(start_x=start_x,start_y=start_y,end_x=end_x,end_y=end_y,depth=depth,platform_ids=platform_ids))
+
+
+@mcp.tool()
+def attach_platform_footprint(building_id: str, platform_id: str) -> dict:
+    """Attach an unbound footprint to an existing platform using native Edit."""
+    if not valid_id(building_id) or not valid_id(platform_id):
+        raise ValueError("Invalid native ID")
+    return request("attach_footprint", dict(building_id=building_id,platform_id=platform_id))
+
+
+@mcp.tool()
+def set_platform_footprint_geometry(building_id: str, platform_id: str, start: float, end: float, offset_min: float, offset_max: float) -> dict:
+    """Set native attached footprint track fractions and lateral offsets via Edit."""
+    if not valid_id(building_id) or not valid_id(platform_id):
+        raise ValueError("Invalid IDs")
+    values = [start,end,offset_min,offset_max]
+    if any(not math.isfinite(v) for v in values) or not 0 <= start < end <= 1 or not -500 <= offset_min < offset_max <= 500:
+        raise ValueError("Invalid footprint extent")
+    return request("attach_footprint", dict(building_id=building_id,platform_id=platform_id,geometry=values))
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_station_inventory() -> dict:
+    """List all live stations with global track-reference counts."""
+    return request("station_inventory")
+
+
+@mcp.tool()
+def delete_empty_stations(station_ids: list[str]) -> dict:
+    """Delete stations with zero global track references using native Station Delete."""
+    if not station_ids or len(station_ids)>100 or any(not valid_id(i) for i in station_ids):
+        raise ValueError("Expected 1..100 station IDs")
+    return request("delete_empty_stations", {"ids": list(dict.fromkeys(station_ids))})
+
+
 if __name__ == "__main__":
     try:
         mcp.run(transport="stdio")
     finally:
         close()
+
+

@@ -1,0 +1,31 @@
+{
+  "name": "53号站",
+  "passenger_service": false,
+  "source_station": {
+    "type": "node",
+    "id": 9470274656,
+    "lat": 39.9470576,
+    "lon": 116.1485756,
+    "tags": {
+      "internet_access": "no",
+      "name": "五三",
+      "name:en": "Wusan",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q11668737",
+      "wikipedia:zh": "53号站"
+    }
+  },
+  "source_way": 543009086,
+  "platform": {
+    "start_x": 12929514.617078211,
+    "start_y": 4858285.306404068,
+    "end_x": 12929691.515223783,
+    "end_y": 4858239.9691116875,
+    "depth": -1
+  },
+  "source_layer": -4,
+  "depth_note": "OSM relative layer -4 represented as underground -1; no intersecting existing infrastructure"
+}

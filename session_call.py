@@ -24,7 +24,13 @@ def call(tool, **arguments):
     out = QUEUE / f"{key}.result.json"
     for _ in range(300):
         if out.exists():
-            result = json.loads(out.read_text(encoding="utf-8"))
+            try:
+                result = json.loads(out.read_text(encoding="utf-8"))
+            except (PermissionError, json.JSONDecodeError):
+                # The Windows writer may still hold the result file. Wait on this
+                # same response; never enqueue the mutation a second time.
+                time.sleep(0.1)
+                continue
             if result.get("isError"):
                 raise RuntimeError(json.dumps(result, ensure_ascii=False))
             if not result.get("content"):

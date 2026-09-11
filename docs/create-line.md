@@ -8,7 +8,7 @@
 
 确定城市、线路名称、起终点或环线方向、完整站序、关闭／不停靠的站点、换乘站及是否共用既有设施。记录玩家已修改的几何、站名、停站和经营设置。
 
-按默认参数选择：地铁 Medium／地下，高铁 High speed／高架，普速 Medium／Ground。地铁避免导致信号阻塞的跨线同层平交，普通同层道岔和交叉渡线可以保留。当前工具未开放 High speed 参数；层级编辑支持 `-3..3`，原有建站接口仍为 `-1/0/1`。
+按默认参数选择：地铁 Medium，按实际地面／高架／地下区间还原；高铁 High speed／高架，普速 Medium／Ground。地铁避免导致信号阻塞的跨线同层平交，普通同层道岔和交叉渡线可以保留。当前工具未开放 High speed 参数；层级编辑支持 `-3..3`，原有建站接口仍为 `-1/0/1`。
 
 明确线路代码、颜色、运营方向及车队方案，例如 `bj-3`，内外环分别 `bj-3i`、`bj-3o`。当前正则只允许一个城市分隔连字符，`bj-3-inner` 不符合校验。新默认不是自动改造既有线路的指令。
 
@@ -121,13 +121,17 @@ west_secondary = p3.next      east_secondary = p2.previous
 
 ## 8. 换乘与已有设施
 
-两个同名近邻车站不会因此自动成为换乘站。核对位置和站 ID 后：
+建轨位置完成后、建造前，使用 `calculate_track_tangents(node_ids, paired_nodes)` 读取实时前后节点并预览切线角度，再用 `auto_set_track_tangents` 写入显式方向。相邻边长比例达到4:1时优先沿长直段，避免短过渡把长线拉弯；长度相近时使用单位向量角平分线。双线须显式传入对应节点对，工具不会猜测跨线配对；位置和间距错误需要先整理，方向计算不能代替几何修正。仅处理选定的非站台、非道岔蓝图控制点，先接完前后区间，保留玩家修正过的节点；设置后核对原生曲线和限速，不能把计算成功当作曲线验收或建造授权。
+
+同一换乘站使用统一 station 归属。先读取 `get_station_inventory` 和站台节点，核对位置、名称及原生 ID，再调用：
 
 ```python
-result = call('connect_station_walk_link', station_a=station_a, station_b=station_b)
+call('assign_platform_station', node_ids=new_platform_node_ids, station_id=existing_station_id)
 ```
 
-原生双向 WalkLink 遵守游戏距离限制，两侧 `walk_links` 必须互含对方 ID；重复连接为幂等。该工具不合并站组，也不连接股道。
+该接口使用 Track properties 对应的原生 Edit，保留轨道位置、连接和层级，读回节点归属。当前北京任务只需统一 station 归属，不要求站台范围重叠，不为合站补建 Platform footprint extension。
+
+合站后重新扫描全世界轨道引用，通过 `delete_empty_stations` 删除引用数为零的旧站点；工具拒绝删除仍有轨道引用的车站。历史 WalkLink 不等于合站，只有明确需要站外步行连接时才使用。
 
 已建轨道变更通过 `rebuild_track_blueprints → 类型／层级编辑 → build_all_blueprints`，完成后重新验证几何、连接、运营及费用。标签设置和步行换乘不需要重建轨道。
 
@@ -137,7 +141,9 @@ result = call('connect_station_walk_link', station_a=station_a, station_b=statio
 
 **`build_all_blueprints` 建造全世界全部待建蓝图。`verify_node_ids` 只限定读回范围，不是建设选区。** 查询既有已知网络，并观察全局蓝图账单或开发相应读取接口，确认没有误纳入玩家其他蓝图。已知网络没有蓝图不能证明世界其他位置也没有。
 
-核对原生账单、正常资金和购车储备后提交一次：
+独立补建可使用 `build_selected_blueprints(node_ids, protected_node_ids)`。它向原生建造命令传入选区模式，选择指定轨道及其附属建筑；保护列表仅作建造前后状态校验。完成后必须核对选中轨道和建筑均已建成，其他待建蓝图保持原状态。该模式已通过53号站及其连接线的小规模真实建造验证。
+
+原生建造可能允许现金变为负数，不能把命令成功当作预算足够。核对原生账单、正常资金和购车储备后提交一次：
 
 ```python
 result = call('build_all_blueprints', verify_node_ids=all_new_node_ids)
@@ -161,7 +167,13 @@ call('set_line_name', line_id=line_id, name=planned_name, code=planned_code,
 - 环线：沿规划顺序添加 `east_stop`，另一运营方向逆序添加 `west_stop`；N 站对应每方向 N 个停站，不额外重复首站。
 - 非环线：可正向添加全部 `east_stop`、逆序添加全部 `west_stop`，形成约 2N 个有向停站；必须有符合规格的可行折返。
 
+常规非环线需要站后折返空间和配线，终点安排到达、站后折返、出发的完整进路。机场线因站后空间不足例外采用站前折返、终点只列一次停站：北新桥→东直门→三元桥→T3→T2→三元桥→东直门循环，共7个停站。不得把机场线例外推广到8号线等常规线路。运行时核对实际渡线和换向位置。
+
 最后 `get_line` 比较完整有序停站列表，不能只检查总数。观察游戏分段路径、周期及缺失路径提示，确认方向和寻路正确。
+
+`west_stop` / `east_stop` 是建站端点键，不代表地图上固定的东西侧；也不能直接用 `next` 推断列车行驶方向。须在游戏核对站台编号和方向字母，以及区间是否发生不必要的站前换线。北京10号线已核实：外环规划顺序用 `east_stop`，内环逆序用 `west_stop`；慈寿寺内环为东侧 `2N`。
+
+修正既有停站使用 `set_line_stop_platform(line_id, stop_index, platform_node_id)`，其中索引从0开始。先暂停、保存实时停站列表，再通过原生 EditStop 修改同一车站的有向节点，读回核对停站 ID、站序和经营设置；不要删除重建运营线路或重复购车。
 
 ## 11. 购车并开通客运
 
@@ -188,7 +200,7 @@ call('set_line_service', line_id=line_id, service=2,
 | 类型、层级、全线建成 | 含分支的完整网络读回 |
 | 跨线平交与信号 | 正线交叉层级及行车核查；普通同层渡线不作为自动改造目标 |
 | 双环／双向折返可行 | 拓扑与实际行驶、停站观察 |
-| 换乘 | 两侧 walk_links 互含 |
+| 换乘 | 同一换乘站所有站台节点指向同一 station；需要的站外步行连接另行校验 |
 | 车队及编号 | 全车队查询、单车属性、实际线路状态 |
 | 客运运行 | service=2，并观察行驶、上下客和载客 |
 | 玩家改动保留 | 对比施工前现场，不能对比旧规划 |

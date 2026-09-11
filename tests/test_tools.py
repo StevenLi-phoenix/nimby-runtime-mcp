@@ -11,6 +11,70 @@ import server
 
 
 class ValidationTests(unittest.TestCase):
+    def test_tram_type_edit_validates_scope_and_preserves_uint64(self):
+        with patch.object(server, "request") as request:
+            for ids in [[], ["0"], ["01"], ["18446744073709551616"], ["1"] * 5001]:
+                with self.assertRaises(ValueError):
+                    server.set_tram_track(ids)
+            request.assert_not_called()
+            server.set_tram_track(["18446744073709551615", "1", "1"])
+            request.assert_called_once_with("edit_kind", {
+                "ids": ["18446744073709551615", "1"], "track_type": 2})
+
+    def test_remove_stop_validates_stable_ids_before_dispatch(self):
+        with patch.object(server, "request") as request:
+            for line_id, stop_id in [('0', '1'), ('1', '01'), ('1', '-1')]:
+                with self.assertRaises(ValueError):
+                    server.remove_line_stop(line_id, stop_id)
+            request.assert_not_called()
+            server.remove_line_stop('1', '2')
+            request.assert_called_once_with('remove_stop', {'line_id': '1', 'stop_id': '2'})
+    def test_existing_stop_edit_rejects_invalid_index_before_dispatch(self):
+        with patch.object(server, "request") as request:
+            for index in [-1, 1000, True, 1.5]:
+                with self.assertRaises(ValueError):
+                    server.set_line_stop_platform("1", index, "2")
+            request.assert_not_called()
+
+    def test_busy_result_file_waits_without_resubmitting_mutation(self):
+        from session_call import call
+        response = '{"content":[{"text":"{\\"verified\\":true}"}]}'
+        with patch("session_call.Path.write_text") as write, patch("session_call.Path.replace"), patch("session_call.Path.exists", return_value=True), patch("session_call.Path.read_text", side_effect=[PermissionError(), response]), patch("session_call.time.sleep"):
+            self.assertEqual(call("create_platform", start_x=1), {"verified": True})
+            self.assertEqual(write.call_count, 1)
+
+    def test_build_checks_reject_invalid_scope_before_attachment(self):
+        with patch.object(server, "request") as request:
+            for ids in [[], ["0"], ["01"], ["1"] * 5001]:
+                with self.assertRaises(ValueError):
+                    server.get_track_build_checks(ids)
+            request.assert_not_called()
+
+    def test_geometry_edit_rejects_duplicate_ids_and_invalid_vectors(self):
+        point = {"id": "1", "x": 1, "y": 2, "dx": 0, "dy": 1}
+        with patch.object(server, "request") as request:
+            for points in [[], [point, point], [{**point, "x": float("nan")}], [{**point, "dy": 0}], [{**point, "id": "0"}]]:
+                with self.assertRaises(ValueError):
+                    server.edit_blueprint_track_geometry(points)
+            request.assert_not_called()
+
+    def test_selected_build_rejects_overlap_and_invalid_ids_before_dispatch(self):
+        with patch.object(server, "request") as request:
+            for selected, protected in [([], []), (["1"], ["1"]), (["0"], []), (["1"], ["01"]), (["1"] * 5001, [])]:
+                with self.assertRaises(ValueError):
+                    server.build_selected_blueprints(selected, protected)
+            request.assert_not_called()
+
+    def test_split_and_curve_sampling_reject_invalid_inputs_before_dispatch(self):
+        with patch.object(server, "request") as request:
+            for edge, position in [("0", .5), ("01", .5), ("1", float('nan')), ("1", 0), ("1", 1)]:
+                with self.assertRaises(ValueError):
+                    server.split_blueprint_track_edge(edge, position)
+            for positions in [[], [float('inf')], [-.1], [1.1], [0]*101]:
+                with self.assertRaises(ValueError):
+                    server.sample_track_curve("1", positions)
+            request.assert_not_called()
+
     def test_depth_edit_supports_finite_grade_separation_layers(self):
         with patch.object(server, "request") as request:
             server.set_track_depth(["1"], -2)

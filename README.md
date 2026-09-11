@@ -11,7 +11,7 @@
 - [默认参数与接口支持范围](docs/defaults.md)
 - [变更记录](CHANGELOG.md)
 
-默认建设规则为地铁 Medium／地下、城间高铁 High speed／高架、普速 Medium／Ground；地铁禁止平交道岔，新站标签为 Name and pax。当前接口固定创建 Medium，High speed 尚待参数化，复杂地下立交也可能需要扩展层级／坡度接口，详见默认参数文档。
+默认建设规则为地铁 Medium、按实际地面／高架／地下区间还原；城间高铁 High speed／高架、普速 Medium／Ground。避免造成信号阻塞的跨线平交，普通同层渡线可保留，新站标签为 Name and pax。当前接口固定创建 Medium，High speed 尚待参数化，复杂立交也可能需要扩展层级／坡度接口，详见默认参数文档。
 
 ## 启动
 

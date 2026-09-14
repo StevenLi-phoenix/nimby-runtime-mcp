@@ -1,0 +1,486 @@
+{
+  "corridors": [
+    {
+      "track_ref": "3",
+      "start_node_id": "281475866820609",
+      "end_node_id": "281475860922369",
+      "points": [
+        {
+          "x": -8236371.916179738,
+          "y": 4975348.544713092,
+          "depth": -3,
+          "metres": 0.0,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8236688.957698999,
+          "y": 4974781.978130696,
+          "depth": -3,
+          "metres": 491.84924861185897,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237089.537846903,
+          "y": 4974056.003777967,
+          "depth": -3,
+          "metres": 1120,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237129.18752979,
+          "y": 4973987.425073109,
+          "depth": -3,
+          "metres": 1180,
+          "lateral_offset_metres": 1.2
+        },
+        {
+          "x": -8237180.204601347,
+          "y": 4973894.966458532,
+          "depth": -2,
+          "metres": 1260,
+          "lateral_offset_metres": 1.2
+        },
+        {
+          "x": -8237243.975940794,
+          "y": 4973779.393190312,
+          "depth": -1,
+          "metres": 1360,
+          "lateral_offset_metres": 1.2
+        },
+        {
+          "x": -8237339.517376696,
+          "y": 4973605.969516642,
+          "depth": -1,
+          "metres": 1510,
+          "lateral_offset_metres": 1.1
+        },
+        {
+          "x": -8237403.288716142,
+          "y": 4973490.396248421,
+          "depth": -2,
+          "metres": 1610,
+          "lateral_offset_metres": 1.1
+        },
+        {
+          "x": -8237460.682921644,
+          "y": 4973386.380307023,
+          "depth": -3,
+          "metres": 1700,
+          "lateral_offset_metres": 1.1
+        },
+        {
+          "x": -8237497.44323706,
+          "y": 4973316.20784269,
+          "depth": -3,
+          "metres": 1760,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237560.379274635,
+          "y": 4973201.1680910215,
+          "depth": -3,
+          "metres": 1859.341051417586,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237627.777680974,
+          "y": 4973064.997806637,
+          "depth": -3,
+          "metres": 1974.4909725780733,
+          "lateral_offset_metres": 0.0
+        }
+      ],
+      "source_way_ids": [
+        552497965,
+        813712315,
+        552497968
+      ],
+      "source_length_metres": 1974.4909725780733,
+      "source_projection_gaps_world_metres": [
+        0.03130998537145805,
+        0.2717129475052584
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 31.160606878811144,
+          "depth": -3
+        },
+        {
+          "start_metres": 31.160606878811144,
+          "end_metres": 258.84393970981273,
+          "depth": -3
+        },
+        {
+          "start_metres": 258.84393970981273,
+          "end_metres": 321.34064541964364,
+          "depth": -3
+        },
+        {
+          "start_metres": 321.34064541964364,
+          "end_metres": 491.84924861185897,
+          "depth": -3
+        },
+        {
+          "start_metres": 491.84924861185897,
+          "end_metres": 649.3392656460219,
+          "depth": -3
+        },
+        {
+          "start_metres": 649.3392656460219,
+          "end_metres": 671.4176791173273,
+          "depth": -3
+        },
+        {
+          "start_metres": 671.4176791173273,
+          "end_metres": 682.7827981730185,
+          "depth": -3
+        },
+        {
+          "start_metres": 682.7827981730185,
+          "end_metres": 738.4678727502574,
+          "depth": -3
+        },
+        {
+          "start_metres": 738.4678727502574,
+          "end_metres": 794.6225627212873,
+          "depth": -3
+        },
+        {
+          "start_metres": 794.6225627212873,
+          "end_metres": 804.491253737431,
+          "depth": -3
+        },
+        {
+          "start_metres": 804.491253737431,
+          "end_metres": 834.6605383254328,
+          "depth": -3
+        },
+        {
+          "start_metres": 834.6605383254328,
+          "end_metres": 1197.3902560086003,
+          "depth": -3
+        },
+        {
+          "start_metres": 1197.3902560086003,
+          "end_metres": 1279.8932870859169,
+          "depth": -4
+        },
+        {
+          "start_metres": 1279.8932870859169,
+          "end_metres": 1704.642499498987,
+          "depth": -4
+        },
+        {
+          "start_metres": 1704.642499498987,
+          "end_metres": 1733.3411704657797,
+          "depth": -4
+        },
+        {
+          "start_metres": 1733.3411704657797,
+          "end_metres": 1859.341051417586,
+          "depth": -4
+        },
+        {
+          "start_metres": 1859.341051417586,
+          "end_metres": 1915.0482770327328,
+          "depth": -4
+        },
+        {
+          "start_metres": 1915.0482770327328,
+          "end_metres": 1940.8343553859775,
+          "depth": -4
+        },
+        {
+          "start_metres": 1940.8343553859775,
+          "end_metres": 1953.5110853321112,
+          "depth": -4
+        },
+        {
+          "start_metres": 1953.5110853321112,
+          "end_metres": 1974.4909725780733,
+          "depth": -4
+        }
+      ],
+      "offset_profile": [
+        [
+          0,
+          0
+        ],
+        [
+          1120,
+          0
+        ],
+        [
+          1180,
+          1.2
+        ],
+        [
+          1360,
+          1.2
+        ],
+        [
+          1510,
+          1.1
+        ],
+        [
+          1700,
+          1.1
+        ],
+        [
+          1760,
+          0
+        ],
+        [
+          1974.4909725780733,
+          0
+        ]
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475867410434",
+      "end_node_id": "281475861512194",
+      "points": [
+        {
+          "x": -8236367.5066682445,
+          "y": 4975346.118299515,
+          "depth": -3,
+          "metres": 0.0,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8236833.461522553,
+          "y": 4974490.806412561,
+          "depth": -3,
+          "metres": 737.8781295027661,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237078.153575041,
+          "y": 4974049.733276453,
+          "depth": -3,
+          "metres": 1120,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237115.766632717,
+          "y": 4973980.028622886,
+          "depth": -3,
+          "metres": 1180,
+          "lateral_offset_metres": 0.7
+        },
+        {
+          "x": -8237166.994698186,
+          "y": 4973887.686745562,
+          "depth": -2,
+          "metres": 1260,
+          "lateral_offset_metres": 0.7
+        },
+        {
+          "x": -8237231.029780023,
+          "y": 4973772.259398905,
+          "depth": -1,
+          "metres": 1360,
+          "lateral_offset_metres": 0.7
+        },
+        {
+          "x": -8237326.389838697,
+          "y": 4973598.73416843,
+          "depth": -1,
+          "metres": 1510,
+          "lateral_offset_metres": 1.3
+        },
+        {
+          "x": -8237390.424920535,
+          "y": 4973483.306821774,
+          "depth": -2,
+          "metres": 1610,
+          "lateral_offset_metres": 1.3
+        },
+        {
+          "x": -8237448.056494188,
+          "y": 4973379.422209783,
+          "depth": -3,
+          "metres": 1700,
+          "lateral_offset_metres": 1.3
+        },
+        {
+          "x": -8237470.254963158,
+          "y": 4973341.37468952,
+          "depth": -3,
+          "metres": 1733.3654410474842,
+          "lateral_offset_metres": 0.5770821106378426
+        },
+        {
+          "x": -8237487.751584575,
+          "y": 4973310.873681621,
+          "depth": -3,
+          "metres": 1760,
+          "lateral_offset_metres": 0.0
+        },
+        {
+          "x": -8237623.168583977,
+          "y": 4973062.491398348,
+          "depth": -3,
+          "metres": 1974.366972896361,
+          "lateral_offset_metres": 0.0
+        }
+      ],
+      "source_way_ids": [
+        819186630,
+        813712314,
+        701331871
+      ],
+      "source_length_metres": 1974.366972896361,
+      "source_projection_gaps_world_metres": [
+        0.14788311226228273,
+        0.30513604907839964
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 30.83286259084715,
+          "depth": -3
+        },
+        {
+          "start_metres": 30.83286259084715,
+          "end_metres": 258.7395197813635,
+          "depth": -3
+        },
+        {
+          "start_metres": 258.7395197813635,
+          "end_metres": 320.15048658034766,
+          "depth": -3
+        },
+        {
+          "start_metres": 320.15048658034766,
+          "end_metres": 491.12175063202034,
+          "depth": -3
+        },
+        {
+          "start_metres": 491.12175063202034,
+          "end_metres": 648.114604227025,
+          "depth": -3
+        },
+        {
+          "start_metres": 648.114604227025,
+          "end_metres": 671.2057805097372,
+          "depth": -3
+        },
+        {
+          "start_metres": 671.2057805097372,
+          "end_metres": 683.4877285277419,
+          "depth": -3
+        },
+        {
+          "start_metres": 683.4877285277419,
+          "end_metres": 737.8781295027661,
+          "depth": -3
+        },
+        {
+          "start_metres": 737.8781295027661,
+          "end_metres": 794.8094790743311,
+          "depth": -3
+        },
+        {
+          "start_metres": 794.8094790743311,
+          "end_metres": 804.3263464938298,
+          "depth": -3
+        },
+        {
+          "start_metres": 804.3263464938298,
+          "end_metres": 834.3731630940806,
+          "depth": -3
+        },
+        {
+          "start_metres": 834.3731630940806,
+          "end_metres": 1197.4509641258658,
+          "depth": -3
+        },
+        {
+          "start_metres": 1197.4509641258658,
+          "end_metres": 1278.9286934508,
+          "depth": -4
+        },
+        {
+          "start_metres": 1278.9286934508,
+          "end_metres": 1704.1925579979643,
+          "depth": -4
+        },
+        {
+          "start_metres": 1704.1925579979643,
+          "end_metres": 1733.3654410474842,
+          "depth": -4
+        },
+        {
+          "start_metres": 1733.3654410474842,
+          "end_metres": 1859.41240384035,
+          "depth": -4
+        },
+        {
+          "start_metres": 1859.41240384035,
+          "end_metres": 1914.7328034505013,
+          "depth": -4
+        },
+        {
+          "start_metres": 1914.7328034505013,
+          "end_metres": 1940.7394415859249,
+          "depth": -4
+        },
+        {
+          "start_metres": 1940.7394415859249,
+          "end_metres": 1953.4161688573429,
+          "depth": -4
+        },
+        {
+          "start_metres": 1953.4161688573429,
+          "end_metres": 1974.366972896361,
+          "depth": -4
+        }
+      ],
+      "offset_profile": [
+        [
+          0,
+          0
+        ],
+        [
+          1120,
+          0
+        ],
+        [
+          1180,
+          0.7
+        ],
+        [
+          1360,
+          0.7
+        ],
+        [
+          1510,
+          1.3
+        ],
+        [
+          1700,
+          1.3
+        ],
+        [
+          1760,
+          0
+        ],
+        [
+          1974.366972896361,
+          0
+        ]
+      ]
+    }
+  ],
+  "scale": 0.7575765388501281,
+  "source": "data/nyc_sixth_express_source.json",
+  "stage": "segmented_candidate_native_audit_pending",
+  "adaptation": "Local rise to -1 across Canarsie; independently offset ascent/descent to preserve PATH and local rail spacing. Source-sample screening is not native clearance proof.",
+  "pending": [
+    "Check source tunnel crossings and station approach curves.",
+    "Inspect native curves and layer transitions before building."
+  ]
+}

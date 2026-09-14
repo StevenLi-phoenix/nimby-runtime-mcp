@@ -1,0 +1,2498 @@
+{
+  "source_url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=-73.980,40.601,-73.968,40.626",
+  "source_sha256": "0957a6ae4ece918357d49731555fb026885c30859f38fa699af312478381b815",
+  "ways": [
+    {
+      "osm_way_id": 161238888,
+      "version": 25,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "B2",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217475,
+        1773258954,
+        3502067393,
+        1773258949,
+        1773258948,
+        8401183858,
+        8401183856,
+        7596858747,
+        1773258937,
+        7596858748,
+        1773258936,
+        2054217482
+      ],
+      "points": [
+        {
+          "x": -8234593.489356449,
+          "y": 4953684.381850411
+        },
+        {
+          "x": -8234589.515250629,
+          "y": 4953718.924653487
+        },
+        {
+          "x": -8234584.8843598105,
+          "y": 4953743.849502119
+        },
+        {
+          "x": -8234579.5076284055,
+          "y": 4953768.481179515
+        },
+        {
+          "x": -8234575.934272752,
+          "y": 4953791.485462707
+        },
+        {
+          "x": -8234567.173428825,
+          "y": 4953873.796960301
+        },
+        {
+          "x": -8234543.428981439,
+          "y": 4954096.953447235
+        },
+        {
+          "x": -8234541.98182806,
+          "y": 4954118.9468057845
+        },
+        {
+          "x": -8234541.98182806,
+          "y": 4954168.842588222
+        },
+        {
+          "x": -8234543.65162042,
+          "y": 4954197.46349844
+        },
+        {
+          "x": -8234546.256496505,
+          "y": 4954223.562557059
+        },
+        {
+          "x": -8234551.343797234,
+          "y": 4954259.118970681
+        }
+      ]
+    },
+    {
+      "osm_way_id": 194911400,
+      "version": 8,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217475,
+        2054217474
+      ],
+      "points": [
+        {
+          "x": -8234593.489356449,
+          "y": 4953684.381850411
+        },
+        {
+          "x": -8234605.033187645,
+          "y": 4953623.55103861
+        }
+      ]
+    },
+    {
+      "osm_way_id": 194911402,
+      "version": 12,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217482,
+        4262897972,
+        2054217480
+      ],
+      "points": [
+        {
+          "x": -8234551.343797234,
+          "y": 4954259.118970681
+        },
+        {
+          "x": -8234550.5645608,
+          "y": 4954232.418657916
+        },
+        {
+          "x": -8234551.577568166,
+          "y": 4954169.370432118
+        }
+      ]
+    },
+    {
+      "osm_way_id": 194911405,
+      "version": 9,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217487,
+        3650922653,
+        2054217485
+      ],
+      "points": [
+        {
+          "x": -8234574.765418098,
+          "y": 4954384.0879584495
+        },
+        {
+          "x": -8234571.281118034,
+          "y": 4954343.105931278
+        },
+        {
+          "x": -8234567.974929159,
+          "y": 4954304.1328422455
+        }
+      ]
+    },
+    {
+      "osm_way_id": 194911407,
+      "version": 9,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217484,
+        3650922653,
+        2054217486
+      ],
+      "points": [
+        {
+          "x": -8234563.143663258,
+          "y": 4954304.997931709
+        },
+        {
+          "x": -8234571.281118034,
+          "y": 4954343.105931278
+        },
+        {
+          "x": -8234579.863850776,
+          "y": 4954383.310837916
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044447,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Avenue I",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898313,
+        4262898314,
+        4262898339,
+        4262898338,
+        4262898313
+      ],
+      "points": [
+        {
+          "x": -8234979.745725604,
+          "y": 4957112.058216617
+        },
+        {
+          "x": -8234974.858799958,
+          "y": 4957112.688886249
+        },
+        {
+          "x": -8235009.623876933,
+          "y": 4957355.426377313
+        },
+        {
+          "x": -8235014.833629101,
+          "y": 4957354.825026249
+        },
+        {
+          "x": -8234979.745725604,
+          "y": 4957112.058216617
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044448,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Avenue I",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898340,
+        4262898315,
+        4262898316,
+        4262898341,
+        4262898340
+      ],
+      "points": [
+        {
+          "x": -8234995.241398722,
+          "y": 4957357.523772782
+        },
+        {
+          "x": -8234960.164627173,
+          "y": 4957114.654229095
+        },
+        {
+          "x": -8234955.6339238975,
+          "y": 4957115.314232379
+        },
+        {
+          "x": -8234990.087306296,
+          "y": 4957358.491801613
+        },
+        {
+          "x": -8234995.241398722,
+          "y": 4957357.523772782
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044449,
+      "version": 15,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Avenue N",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898226,
+        11504739036,
+        4262898227,
+        4262898219,
+        4262898218,
+        4262898226
+      ],
+      "points": [
+        {
+          "x": -8234778.7583849775,
+          "y": 4955855.947543947
+        },
+        {
+          "x": -8234776.142376942,
+          "y": 4955856.32883018
+        },
+        {
+          "x": -8234774.261077548,
+          "y": 4955856.607462438
+        },
+        {
+          "x": -8234738.549784902,
+          "y": 4955614.229723441
+        },
+        {
+          "x": -8234743.993308002,
+          "y": 4955613.437840848
+        },
+        {
+          "x": -8234778.7583849775,
+          "y": 4955855.947543947
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044450,
+      "version": 15,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Avenue N",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898225,
+        4262898217,
+        4262898216,
+        4262898224,
+        11504739028,
+        4262898225
+      ],
+      "points": [
+        {
+          "x": -8234793.675196742,
+          "y": 4955853.718486266
+        },
+        {
+          "x": -8234758.5316335,
+          "y": 4955611.487463624
+        },
+        {
+          "x": -8234763.752517616,
+          "y": 4955610.563600868
+        },
+        {
+          "x": -8234797.994392986,
+          "y": 4955853.05856797
+        },
+        {
+          "x": -8234796.3023367245,
+          "y": 4955853.322535285
+        },
+        {
+          "x": -8234793.675196742,
+          "y": 4955853.718486266
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044451,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Avenue P",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898300,
+        4262898299,
+        4262898156,
+        4262898158,
+        4262898300
+      ],
+      "points": [
+        {
+          "x": -8234664.57798327,
+          "y": 4954957.810345013
+        },
+        {
+          "x": -8234668.963971207,
+          "y": 4954957.062505998
+        },
+        {
+          "x": -8234633.909463557,
+          "y": 4954713.915207268
+        },
+        {
+          "x": -8234629.445551975,
+          "y": 4954714.487069965
+        },
+        {
+          "x": -8234664.57798327,
+          "y": 4954957.810345013
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044452,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Avenue P",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898301,
+        4262898302,
+        4262898160,
+        4262898159,
+        4262898301
+      ],
+      "points": [
+        {
+          "x": -8234649.82815074,
+          "y": 4954959.760592125
+        },
+        {
+          "x": -8234645.542350343,
+          "y": 4954960.405786745
+        },
+        {
+          "x": -8234610.543502439,
+          "y": 4954717.698299591
+        },
+        {
+          "x": -8234614.862698681,
+          "y": 4954716.891826298
+        },
+        {
+          "x": -8234649.82815074,
+          "y": 4954959.760592125
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044484,
+      "version": 15,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Bay Parkway",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898244,
+        4262898252,
+        4262898251,
+        11481077247,
+        11481077262,
+        4262898243,
+        4262898244
+      ],
+      "points": [
+        {
+          "x": -8234879.469128297,
+          "y": 4956450.698783505
+        },
+        {
+          "x": -8234914.378920609,
+          "y": 4956692.877225713
+        },
+        {
+          "x": -8234918.809436345,
+          "y": 4956692.495906922
+        },
+        {
+          "x": -8234909.035585051,
+          "y": 4956625.046712657
+        },
+        {
+          "x": -8234903.00206865,
+          "y": 4956583.410009808
+        },
+        {
+          "x": -8234883.677005049,
+          "y": 4956449.980162022
+        },
+        {
+          "x": -8234879.469128297,
+          "y": 4956450.698783505
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044485,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Bay Parkway",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898245,
+        4262898246,
+        4262898254,
+        4262898253,
+        4262898245
+      ],
+      "points": [
+        {
+          "x": -8234865.064386189,
+          "y": 4956453.367949479
+        },
+        {
+          "x": -8234860.400099525,
+          "y": 4956454.042573962
+        },
+        {
+          "x": -8234895.332155735,
+          "y": 4956695.883778241
+        },
+        {
+          "x": -8234899.707011724,
+          "y": 4956695.165138773
+        },
+        {
+          "x": -8234865.064386189,
+          "y": 4956453.367949479
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044494,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Kings Highway",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898129,
+        4262898141,
+        4262898145,
+        4262898148,
+        4262897965,
+        4262897967,
+        4262898150,
+        4262898146,
+        4262898143,
+        4262898130,
+        4262898129
+      ],
+      "points": [
+        {
+          "x": -8234569.210575508,
+          "y": 4953872.887923241
+        },
+        {
+          "x": -8234547.447615056,
+          "y": 4954079.30014715
+        },
+        {
+          "x": -8234545.955933881,
+          "y": 4954094.314247525
+        },
+        {
+          "x": -8234544.809343125,
+          "y": 4954107.363630796
+        },
+        {
+          "x": -8234544.241613722,
+          "y": 4954118.932143529
+        },
+        {
+          "x": -8234550.308525969,
+          "y": 4954119.4013357125
+        },
+        {
+          "x": -8234550.998706813,
+          "y": 4954108.800530243
+        },
+        {
+          "x": -8234552.022846129,
+          "y": 4954097.979802869
+        },
+        {
+          "x": -8234553.347548068,
+          "y": 4954085.2676628055
+        },
+        {
+          "x": -8234575.566918432,
+          "y": 4953873.782298413
+        },
+        {
+          "x": -8234569.210575508,
+          "y": 4953872.887923241
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044495,
+      "version": 14,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Kings Highway",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262897969,
+        4262897968,
+        4262898151,
+        4262898147,
+        4262898142,
+        4262898131,
+        4262898132,
+        4262898144,
+        4262898149,
+        4262897969
+      ],
+      "points": [
+        {
+          "x": -8234560.984065138,
+          "y": 4954120.662289826
+        },
+        {
+          "x": -8234555.061868228,
+          "y": 4954120.075799519
+        },
+        {
+          "x": -8234555.607333732,
+          "y": 4954109.768238148
+        },
+        {
+          "x": -8234556.520153555,
+          "y": 4954098.492980727
+        },
+        {
+          "x": -8234557.956174987,
+          "y": 4954085.209013987
+        },
+        {
+          "x": -8234580.064225859,
+          "y": 4953874.324788309
+        },
+        {
+          "x": -8234586.932638442,
+          "y": 4953875.189839828
+        },
+        {
+          "x": -8234564.535156893,
+          "y": 4954086.118070738
+        },
+        {
+          "x": -8234562.186315638,
+          "y": 4954108.463298721
+        },
+        {
+          "x": -8234560.984065138,
+          "y": 4954120.662289826
+        }
+      ]
+    },
+    {
+      "osm_way_id": 607486143,
+      "version": 6,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        1773274905,
+        7450462460,
+        5757179803
+      ],
+      "points": [
+        {
+          "x": -8234595.326128048,
+          "y": 4953780.562453437
+        },
+        {
+          "x": -8234596.094232533,
+          "y": 4953735.873543659
+        },
+        {
+          "x": -8234596.695357783,
+          "y": 4953701.286695959
+        }
+      ]
+    },
+    {
+      "osm_way_id": 607486144,
+      "version": 6,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217478,
+        7450462460,
+        5757179804
+      ],
+      "points": [
+        {
+          "x": -8234587.812062419,
+          "y": 4953779.492145801
+        },
+        {
+          "x": -8234596.094232533,
+          "y": 4953735.873543659
+        },
+        {
+          "x": -8234602.584158847,
+          "y": 4953701.726544889
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282260,
+      "version": 8,
+      "tags": {
+        "bridge": "yes",
+        "bridge:structure": "beam",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "B2",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217469,
+        8401193902,
+        7653979360,
+        3502067091,
+        2054217475
+      ],
+      "points": [
+        {
+          "x": -8234752.242082268,
+          "y": 4952187.428972254
+        },
+        {
+          "x": -8234684.303797038,
+          "y": 4952825.806525052
+        },
+        {
+          "x": -8234658.377487633,
+          "y": 4953068.628430561
+        },
+        {
+          "x": -8234633.1858868655,
+          "y": 4953307.409903628
+        },
+        {
+          "x": -8234593.489356449,
+          "y": 4953684.381850411
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282262,
+      "version": 8,
+      "tags": {
+        "bridge": "yes",
+        "bridge:structure": "beam",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "B1",
+        "voltage": "625"
+      },
+      "node_ids": [
+        5757179804,
+        1773274902,
+        1773274907,
+        8401193903,
+        7653979359,
+        2054217471
+      ],
+      "points": [
+        {
+          "x": -8234602.584158847,
+          "y": 4953701.726544889
+        },
+        {
+          "x": -8234617.656817901,
+          "y": 4953552.135062429
+        },
+        {
+          "x": -8234643.338224426,
+          "y": 4953310.239485031
+        },
+        {
+          "x": -8234668.663408582,
+          "y": 4953069.9772136025
+        },
+        {
+          "x": -8234694.66764163,
+          "y": 4952826.524880814
+        },
+        {
+          "x": -8234753.778291242,
+          "y": 4952272.16047583
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282264,
+      "version": 6,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "B3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217474,
+        5757179803
+      ],
+      "points": [
+        {
+          "x": -8234605.033187645,
+          "y": 4953623.55103861
+        },
+        {
+          "x": -8234596.695357783,
+          "y": 4953701.286695959
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282266,
+      "version": 5,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "B1",
+        "voltage": "625"
+      },
+      "node_ids": [
+        1773274905,
+        5757179804
+      ],
+      "points": [
+        {
+          "x": -8234595.326128048,
+          "y": 4953780.562453437
+        },
+        {
+          "x": -8234602.584158847,
+          "y": 4953701.726544889
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282267,
+      "version": 6,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "B3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        5757179803,
+        2054217478
+      ],
+      "points": [
+        {
+          "x": -8234596.695357783,
+          "y": 4953701.286695959
+        },
+        {
+          "x": -8234587.812062419,
+          "y": 4953779.492145801
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282268,
+      "version": 7,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "B1",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217485,
+        3502073191,
+        1773274909,
+        1773274912,
+        7596858746,
+        1773274903,
+        1773274919,
+        3502067394,
+        1773274905
+      ],
+      "points": [
+        {
+          "x": -8234567.974929159,
+          "y": 4954304.1328422455
+        },
+        {
+          "x": -8234562.074996147,
+          "y": 4954262.051464162
+        },
+        {
+          "x": -8234559.51464786,
+          "y": 4954222.462876222
+        },
+        {
+          "x": -8234559.236349132,
+          "y": 4954169.443743774
+        },
+        {
+          "x": -8234563.444225884,
+          "y": 4954120.750263373
+        },
+        {
+          "x": -8234589.114500462,
+          "y": 4953875.937596287
+        },
+        {
+          "x": -8234593.990294158,
+          "y": 4953828.5064907065
+        },
+        {
+          "x": -8234595.481975336,
+          "y": 4953804.387824904
+        },
+        {
+          "x": -8234595.326128048,
+          "y": 4953780.562453437
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282269,
+      "version": 8,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "B3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217478,
+        8401183857,
+        2054217479,
+        2054217480
+      ],
+      "points": [
+        {
+          "x": -8234587.812062419,
+          "y": 4953779.492145801
+        },
+        {
+          "x": -8234577.848967994,
+          "y": 4953875.277811171
+        },
+        {
+          "x": -8234552.568311634,
+          "y": 4954118.433626855
+        },
+        {
+          "x": -8234551.577568166,
+          "y": 4954169.370432118
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282270,
+      "version": 12,
+      "tags": {
+        "bridge": "yes",
+        "bridge:structure": "beam",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "B2",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217482,
+        13994225121,
+        3502076793,
+        8401183387,
+        7653979354,
+        1773258963,
+        1773258965,
+        7653979352,
+        8401183191,
+        7653979350,
+        1773258964,
+        7653979348,
+        5716057093,
+        1773258959,
+        1773258951,
+        1773258966,
+        1773258943,
+        8401056339,
+        7653979346,
+        3502193426,
+        1773258957,
+        1773258941,
+        5755278479
+      ],
+      "points": [
+        {
+          "x": -8234551.343797234,
+          "y": 4954259.118970681
+        },
+        {
+          "x": -8234570.880367868,
+          "y": 4954395.466183155
+        },
+        {
+          "x": -8234607.281841358,
+          "y": 4954649.602861234
+        },
+        {
+          "x": -8234616.888713414,
+          "y": 4954716.437268655
+        },
+        {
+          "x": -8234651.854165471,
+          "y": 4954959.511312399
+        },
+        {
+          "x": -8234664.9676014865,
+          "y": 4955050.660134495
+        },
+        {
+          "x": -8234745.963662989,
+          "y": 4955613.701801707
+        },
+        {
+          "x": -8234781.029302589,
+          "y": 4955855.478268603
+        },
+        {
+          "x": -8234867.457755241,
+          "y": 4956453.778590462
+        },
+        {
+          "x": -8234901.866609845,
+          "y": 4956694.739821563
+        },
+        {
+          "x": -8234937.8562012175,
+          "y": 4956940.766913502
+        },
+        {
+          "x": -8234997.033642523,
+          "y": 4957357.083759711
+        },
+        {
+          "x": -8235012.451392,
+          "y": 4957455.075158937
+        },
+        {
+          "x": -8235034.303408042,
+          "y": 4957605.708962532
+        },
+        {
+          "x": -8235036.98620777,
+          "y": 4957631.597089013
+        },
+        {
+          "x": -8235037.720916409,
+          "y": 4957675.673065165
+        },
+        {
+          "x": -8235040.615223169,
+          "y": 4957700.109282495
+        },
+        {
+          "x": -8235050.27775497,
+          "y": 4957766.187114249
+        },
+        {
+          "x": -8235085.8999920245,
+          "y": 4958009.938229689
+        },
+        {
+          "x": -8235090.90936911,
+          "y": 4958037.264900285
+        },
+        {
+          "x": -8235097.633066353,
+          "y": 4958062.4941002475
+        },
+        {
+          "x": -8235101.963394546,
+          "y": 4958086.227209295
+        },
+        {
+          "x": -8235174.58823034,
+          "y": 4958588.4350405205
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282271,
+      "version": 6,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "B3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217480,
+        2054217483,
+        2054217484
+      ],
+      "points": [
+        {
+          "x": -8234551.577568166,
+          "y": 4954169.370432118
+        },
+        {
+          "x": -8234556.887507875,
+          "y": 4954261.68490243
+        },
+        {
+          "x": -8234563.143663258,
+          "y": 4954304.997931709
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282272,
+      "version": 11,
+      "tags": {
+        "bridge": "yes",
+        "bridge:structure": "beam",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "B1",
+        "voltage": "625"
+      },
+      "node_ids": [
+        5755278482,
+        1773274891,
+        1773274908,
+        3502193427,
+        1773274896,
+        7653979345,
+        1773274906,
+        1773274916,
+        1773274895,
+        8401168314,
+        7653979349,
+        1773274890,
+        1773274900,
+        8401183190,
+        7653979351,
+        1773274911,
+        1773274918,
+        1773274897,
+        1773274898,
+        8401183262,
+        7653979353,
+        1773274921,
+        8401183386,
+        7653979355,
+        2054217486
+      ],
+      "points": [
+        {
+          "x": -8235164.024010662,
+          "y": 4958440.734536118
+        },
+        {
+          "x": -8235154.773360978,
+          "y": 4958369.987531589
+        },
+        {
+          "x": -8235117.6371788485,
+          "y": 4958118.321270229
+        },
+        {
+          "x": -8235114.353253871,
+          "y": 4958066.07313155
+        },
+        {
+          "x": -8235112.2604474425,
+          "y": 4958042.032040647
+        },
+        {
+          "x": -8235072.118639064,
+          "y": 4957762.901546711
+        },
+        {
+          "x": -8235067.231713419,
+          "y": 4957731.806051378
+        },
+        {
+          "x": -8235063.279871494,
+          "y": 4957708.161806845
+        },
+        {
+          "x": -8235050.455866155,
+          "y": 4957653.877066815
+        },
+        {
+          "x": -8235007.853897028,
+          "y": 4957355.499712814
+        },
+        {
+          "x": -8234972.877313022,
+          "y": 4957113.084888133
+        },
+        {
+          "x": -8234969.804895075,
+          "y": 4957089.764804439
+        },
+        {
+          "x": -8234937.266207917,
+          "y": 4956861.054925697
+        },
+        {
+          "x": -8234912.19705859,
+          "y": 4956692.701232423
+        },
+        {
+          "x": -8234877.443113564,
+          "y": 4956451.974703413
+        },
+        {
+          "x": -8234875.595210018,
+          "y": 4956438.115582289
+        },
+        {
+          "x": -8234851.283033228,
+          "y": 4956264.694904113
+        },
+        {
+          "x": -8234818.443783443,
+          "y": 4956042.544933722
+        },
+        {
+          "x": -8234792.450682342,
+          "y": 4955868.266029751
+        },
+        {
+          "x": -8234790.435799561,
+          "y": 4955853.9091293365
+        },
+        {
+          "x": -8234756.5278826635,
+          "y": 4955612.411326471
+        },
+        {
+          "x": -8234675.565217011,
+          "y": 4955049.76565191
+        },
+        {
+          "x": -8234662.384989301,
+          "y": 4954957.825008523
+        },
+        {
+          "x": -8234627.419537243,
+          "y": 4954714.868311782
+        },
+        {
+          "x": -8234579.863850776,
+          "y": 4954383.310837916
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282273,
+      "version": 5,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "B1",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217486,
+        2054217485
+      ],
+      "points": [
+        {
+          "x": -8234579.863850776,
+          "y": 4954383.310837916
+        },
+        {
+          "x": -8234567.974929159,
+          "y": 4954304.1328422455
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282274,
+      "version": 10,
+      "tags": {
+        "bridge": "yes",
+        "bridge:structure": "beam",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "B3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217487,
+        13994225122,
+        5488347272,
+        5488347270,
+        5488347271,
+        4262898272,
+        7653979347,
+        4262898394,
+        2054217553,
+        5755278484
+      ],
+      "points": [
+        {
+          "x": -8234574.765418098,
+          "y": 4954384.0879584495
+        },
+        {
+          "x": -8234587.377916404,
+          "y": 4954471.389778444
+        },
+        {
+          "x": -8234619.872075767,
+          "y": 4954696.275458861
+        },
+        {
+          "x": -8234626.907467585,
+          "y": 4954747.875111572
+        },
+        {
+          "x": -8234629.334232485,
+          "y": 4954765.148372301
+        },
+        {
+          "x": -8235057.814084496,
+          "y": 4957741.164024964
+        },
+        {
+          "x": -8235061.465363795,
+          "y": 4957764.32431466
+        },
+        {
+          "x": -8235096.575531191,
+          "y": 4958008.57409837
+        },
+        {
+          "x": -8235109.65557136,
+          "y": 4958103.139651517
+        },
+        {
+          "x": -8235158.647279256,
+          "y": 4958441.52664729
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813282275,
+      "version": 6,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "name": "IND Culver Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "B3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2054217484,
+        2054217487
+      ],
+      "points": [
+        {
+          "x": -8234563.143663258,
+          "y": 4954304.997931709
+        },
+        {
+          "x": -8234574.765418098,
+          "y": 4954384.0879584495
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813334637,
+      "version": 4,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        7597323569,
+        7597323568
+      ],
+      "points": [
+        {
+          "x": -8235415.249837484,
+          "y": 4953794.344507409
+        },
+        {
+          "x": -8235418.711873649,
+          "y": 4953851.613547778
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813334666,
+      "version": 8,
+      "tags": {
+        "cutting": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "35 mph",
+        "name": "BMT Sea Beach Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "E3",
+        "tunnel": "no",
+        "voltage": "625"
+      },
+      "node_ids": [
+        3756287292,
+        7597323569
+      ],
+      "points": [
+        {
+          "x": -8235425.190668012,
+          "y": 4953863.2697298555
+        },
+        {
+          "x": -8235415.249837484,
+          "y": 4953794.344507409
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813335196,
+      "version": 8,
+      "tags": {
+        "cutting": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "35 mph",
+        "name": "BMT Sea Beach Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "E3",
+        "tunnel": "no",
+        "voltage": "625"
+      },
+      "node_ids": [
+        7597323569,
+        7597341019
+      ],
+      "points": [
+        {
+          "x": -8235415.249837484,
+          "y": 4953794.344507409
+        },
+        {
+          "x": -8235348.424747161,
+          "y": 4953331.395396751
+        }
+      ]
+    },
+    {
+      "osm_way_id": 1536086667,
+      "version": 2,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "voltage": "625"
+      },
+      "node_ids": [
+        13994225121,
+        13994225122
+      ],
+      "points": [
+        {
+          "x": -8234570.880367868,
+          "y": 4954395.466183155
+        },
+        {
+          "x": -8234587.377916404,
+          "y": 4954471.389778444
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "plan_index": 36,
+      "name": "Bay Parkway",
+      "center": {
+        "x": -8234889.573176591,
+        "y": 4956572.844990908
+      },
+      "scale": 0.7590441230245842,
+      "southbound_tangent": {
+        "x": 0.14288961876819978,
+        "y": -0.9897386305728794
+      },
+      "cross_section": [
+        {
+          "osm_way_id": 813282272,
+          "track_ref": "1",
+          "offset_metres": -3.9967599852045095,
+          "depth": 2,
+          "x": -8234894.784662504,
+          "y": 4956572.092603144
+        },
+        {
+          "osm_way_id": 813282274,
+          "track_ref": "3-4",
+          "offset_metres": -0.02181388958941091,
+          "depth": 2,
+          "x": -8234889.601620325,
+          "y": 4956572.840884456
+        },
+        {
+          "osm_way_id": 813282270,
+          "track_ref": "2",
+          "offset_metres": 3.841978954319481,
+          "depth": 2,
+          "x": -8234884.563513946,
+          "y": 4956573.568241232
+        }
+      ],
+      "platform_footprints": [
+        {
+          "osm_way_id": 427044484,
+          "version": 15,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Coney Island",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Bay Parkway",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898244,
+            4262898252,
+            4262898251,
+            11481077247,
+            11481077262,
+            4262898243,
+            4262898244
+          ],
+          "points": [
+            {
+              "x": -8234879.469128297,
+              "y": 4956450.698783505
+            },
+            {
+              "x": -8234914.378920609,
+              "y": 4956692.877225713
+            },
+            {
+              "x": -8234918.809436345,
+              "y": 4956692.495906922
+            },
+            {
+              "x": -8234909.035585051,
+              "y": 4956625.046712657
+            },
+            {
+              "x": -8234903.00206865,
+              "y": 4956583.410009808
+            },
+            {
+              "x": -8234883.677005049,
+              "y": 4956449.980162022
+            },
+            {
+              "x": -8234879.469128297,
+              "y": 4956450.698783505
+            }
+          ]
+        },
+        {
+          "osm_way_id": 427044485,
+          "version": 14,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Manhattan",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Bay Parkway",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898245,
+            4262898246,
+            4262898254,
+            4262898253,
+            4262898245
+          ],
+          "points": [
+            {
+              "x": -8234865.064386189,
+              "y": 4956453.367949479
+            },
+            {
+              "x": -8234860.400099525,
+              "y": 4956454.042573962
+            },
+            {
+              "x": -8234895.332155735,
+              "y": 4956695.883778241
+            },
+            {
+              "x": -8234899.707011724,
+              "y": 4956695.165138773
+            },
+            {
+              "x": -8234865.064386189,
+              "y": 4956453.367949479
+            }
+          ]
+        }
+      ],
+      "layout": "two_side_platforms"
+    },
+    {
+      "plan_index": 37,
+      "name": "Avenue N",
+      "center": {
+        "x": -8234768.1323289,
+        "y": 4955729.767623235
+      },
+      "scale": 0.7591091699993463,
+      "southbound_tangent": {
+        "x": 0.13904287034530782,
+        "y": -0.9902863627285483
+      },
+      "cross_section": [
+        {
+          "osm_way_id": 813282272,
+          "track_ref": "1",
+          "offset_metres": -3.6633329446619536,
+          "depth": 2,
+          "x": -8234772.911284023,
+          "y": 4955729.09662577
+        },
+        {
+          "osm_way_id": 813282274,
+          "track_ref": "3-4",
+          "offset_metres": -0.06428144772364199,
+          "depth": 2,
+          "x": -8234768.216186457,
+          "y": 4955729.755849069
+        },
+        {
+          "osm_way_id": 813282270,
+          "track_ref": "2",
+          "offset_metres": 4.00814808474405,
+          "depth": 2,
+          "x": -8234762.903549503,
+          "y": 4955730.501779053
+        }
+      ],
+      "platform_footprints": [
+        {
+          "osm_way_id": 427044449,
+          "version": 15,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Manhattan",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Avenue N",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898226,
+            11504739036,
+            4262898227,
+            4262898219,
+            4262898218,
+            4262898226
+          ],
+          "points": [
+            {
+              "x": -8234778.7583849775,
+              "y": 4955855.947543947
+            },
+            {
+              "x": -8234776.142376942,
+              "y": 4955856.32883018
+            },
+            {
+              "x": -8234774.261077548,
+              "y": 4955856.607462438
+            },
+            {
+              "x": -8234738.549784902,
+              "y": 4955614.229723441
+            },
+            {
+              "x": -8234743.993308002,
+              "y": 4955613.437840848
+            },
+            {
+              "x": -8234778.7583849775,
+              "y": 4955855.947543947
+            }
+          ]
+        },
+        {
+          "osm_way_id": 427044450,
+          "version": 15,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Coney Island",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Avenue N",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898225,
+            4262898217,
+            4262898216,
+            4262898224,
+            11504739028,
+            4262898225
+          ],
+          "points": [
+            {
+              "x": -8234793.675196742,
+              "y": 4955853.718486266
+            },
+            {
+              "x": -8234758.5316335,
+              "y": 4955611.487463624
+            },
+            {
+              "x": -8234763.752517616,
+              "y": 4955610.563600868
+            },
+            {
+              "x": -8234797.994392986,
+              "y": 4955853.05856797
+            },
+            {
+              "x": -8234796.3023367245,
+              "y": 4955853.322535285
+            },
+            {
+              "x": -8234793.675196742,
+              "y": 4955853.718486266
+            }
+          ]
+        }
+      ],
+      "layout": "two_side_platforms"
+    },
+    {
+      "plan_index": 38,
+      "name": "Avenue P",
+      "center": {
+        "x": -8234639.673456775,
+        "y": 4954837.006168077
+      },
+      "scale": 0.7591787068526304,
+      "southbound_tangent": {
+        "x": 0.1424487616234858,
+        "y": -0.9898021773626967
+      },
+      "cross_section": [
+        {
+          "osm_way_id": 813282272,
+          "track_ref": "1",
+          "offset_metres": -4.000439161859858,
+          "depth": 2,
+          "x": -8234644.889150204,
+          "y": 4954836.255544279
+        },
+        {
+          "osm_way_id": 813282274,
+          "track_ref": "3-4",
+          "offset_metres": -0.005030813347090307,
+          "depth": 2,
+          "x": -8234639.68001585,
+          "y": 4954837.005224118
+        },
+        {
+          "osm_way_id": 813282270,
+          "track_ref": "2",
+          "offset_metres": 4.088816813725961,
+          "depth": 2,
+          "x": -8234634.342538312,
+          "y": 4954837.773374647
+        }
+      ],
+      "platform_footprints": [
+        {
+          "osm_way_id": 427044451,
+          "version": 14,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Coney Island",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Avenue P",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898300,
+            4262898299,
+            4262898156,
+            4262898158,
+            4262898300
+          ],
+          "points": [
+            {
+              "x": -8234664.57798327,
+              "y": 4954957.810345013
+            },
+            {
+              "x": -8234668.963971207,
+              "y": 4954957.062505998
+            },
+            {
+              "x": -8234633.909463557,
+              "y": 4954713.915207268
+            },
+            {
+              "x": -8234629.445551975,
+              "y": 4954714.487069965
+            },
+            {
+              "x": -8234664.57798327,
+              "y": 4954957.810345013
+            }
+          ]
+        },
+        {
+          "osm_way_id": 427044452,
+          "version": 14,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Manhattan",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Avenue P",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898301,
+            4262898302,
+            4262898160,
+            4262898159,
+            4262898301
+          ],
+          "points": [
+            {
+              "x": -8234649.82815074,
+              "y": 4954959.760592125
+            },
+            {
+              "x": -8234645.542350343,
+              "y": 4954960.405786745
+            },
+            {
+              "x": -8234610.543502439,
+              "y": 4954717.698299591
+            },
+            {
+              "x": -8234614.862698681,
+              "y": 4954716.891826298
+            },
+            {
+              "x": -8234649.82815074,
+              "y": 4954959.760592125
+            }
+          ]
+        }
+      ],
+      "layout": "two_side_platforms"
+    },
+    {
+      "plan_index": 39,
+      "name": "Kings Highway",
+      "center": {
+        "x": -8234565.098937539,
+        "y": 4953996.132988205
+      },
+      "scale": 0.7592437006614161,
+      "southbound_tangent": {
+        "x": -0.10428506967392369,
+        "y": -0.9945474469541937
+      },
+      "cross_section": [
+        {
+          "osm_way_id": 813282268,
+          "track_ref": "1",
+          "offset_metres": -8.617440276288963,
+          "depth": 2,
+          "x": -8234576.387082859,
+          "y": 4953997.316627081
+        },
+        {
+          "osm_way_id": 813282269,
+          "track_ref": "3-4",
+          "offset_metres": -0.13958915709878106,
+          "depth": 2,
+          "x": -8234565.281787973,
+          "y": 4953996.152161318
+        },
+        {
+          "osm_way_id": 161238888,
+          "track_ref": "2",
+          "offset_metres": 8.261316228789473,
+          "depth": 2,
+          "x": -8234554.277285734,
+          "y": 4953994.998264351
+        }
+      ],
+      "platform_footprints": [
+        {
+          "osm_way_id": 427044494,
+          "version": 14,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Manhattan",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Kings Highway",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262898129,
+            4262898141,
+            4262898145,
+            4262898148,
+            4262897965,
+            4262897967,
+            4262898150,
+            4262898146,
+            4262898143,
+            4262898130,
+            4262898129
+          ],
+          "points": [
+            {
+              "x": -8234569.210575508,
+              "y": 4953872.887923241
+            },
+            {
+              "x": -8234547.447615056,
+              "y": 4954079.30014715
+            },
+            {
+              "x": -8234545.955933881,
+              "y": 4954094.314247525
+            },
+            {
+              "x": -8234544.809343125,
+              "y": 4954107.363630796
+            },
+            {
+              "x": -8234544.241613722,
+              "y": 4954118.932143529
+            },
+            {
+              "x": -8234550.308525969,
+              "y": 4954119.4013357125
+            },
+            {
+              "x": -8234550.998706813,
+              "y": 4954108.800530243
+            },
+            {
+              "x": -8234552.022846129,
+              "y": 4954097.979802869
+            },
+            {
+              "x": -8234553.347548068,
+              "y": 4954085.2676628055
+            },
+            {
+              "x": -8234575.566918432,
+              "y": 4953873.782298413
+            },
+            {
+              "x": -8234569.210575508,
+              "y": 4953872.887923241
+            }
+          ]
+        },
+        {
+          "osm_way_id": 427044495,
+          "version": 14,
+          "tags": {
+            "area": "yes",
+            "bench": "yes",
+            "bin": "yes",
+            "bridge": "yes",
+            "destination": "Coney Island",
+            "layer": "2",
+            "level": "2",
+            "lit": "yes",
+            "name": "Kings Highway",
+            "network": "NYC Subway",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "public_transport": "platform",
+            "railway": "platform",
+            "shelter": "yes",
+            "source:geometry": "bing",
+            "subway": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "no"
+          },
+          "node_ids": [
+            4262897969,
+            4262897968,
+            4262898151,
+            4262898147,
+            4262898142,
+            4262898131,
+            4262898132,
+            4262898144,
+            4262898149,
+            4262897969
+          ],
+          "points": [
+            {
+              "x": -8234560.984065138,
+              "y": 4954120.662289826
+            },
+            {
+              "x": -8234555.061868228,
+              "y": 4954120.075799519
+            },
+            {
+              "x": -8234555.607333732,
+              "y": 4954109.768238148
+            },
+            {
+              "x": -8234556.520153555,
+              "y": 4954098.492980727
+            },
+            {
+              "x": -8234557.956174987,
+              "y": 4954085.209013987
+            },
+            {
+              "x": -8234580.064225859,
+              "y": 4953874.324788309
+            },
+            {
+              "x": -8234586.932638442,
+              "y": 4953875.189839828
+            },
+            {
+              "x": -8234564.535156893,
+              "y": 4954086.118070738
+            },
+            {
+              "x": -8234562.186315638,
+              "y": 4954108.463298721
+            },
+            {
+              "x": -8234560.984065138,
+              "y": 4954120.662289826
+            }
+          ]
+        }
+      ],
+      "layout": "two_islands_shared_center_track"
+    }
+  ],
+  "operator_reference": "https://www.mta.info/maps/subway-line-maps/f-line",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

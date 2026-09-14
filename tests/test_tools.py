@@ -11,6 +11,64 @@ import server
 
 
 class ValidationTests(unittest.TestCase):
+    def test_single_platform_retains_label_and_rejects_non_boolean_mode(self):
+        with patch.object(server, 'request') as request:
+            for mode in [0, 1, 'false', None]:
+                with self.assertRaises(ValueError):
+                    server.create_platform(0, 0, 100, 0, dual_track=mode)
+            request.assert_not_called()
+        created={'nodes':[{'id':'1','station_id':'3'},{'id':'2','station_id':'3'}]}
+        with patch.object(server, 'request', return_value=created) as request, patch.object(
+                server, 'set_station_label_name_and_pax', return_value={'station':{'id':'3'}}) as label:
+            result=server.create_platform(0,0,100,0,dual_track=False)
+            self.assertIs(request.call_args.args[1]['dual_track'], False)
+            label.assert_called_once_with('3')
+            self.assertEqual(result['stations'],[{'id':'3'}])
+
+    def test_platform_building_offsets_reject_track_overlap_and_ambiguous_scope(self):
+        with patch.object(server, 'request') as request:
+            for buildings, platforms, lo, hi in [([], ['2'], -4, -2), (['1'], [], -4, -2),
+                                                (['1', '1'], ['2'], -4, -2), (['1'], ['2'], -2, 2),
+                                                (['1'], ['2'], -4, -1), (['1'], ['2'], 2, 1),
+                                                (['1'], ['2'], float('nan'), 3), (['1'], ['2'], True, 3)]:
+                with self.assertRaises(ValueError):
+                    server.set_blueprint_platform_building_offsets(buildings, platforms, lo, hi)
+            request.assert_not_called()
+
+    def test_parallel_offset_rejects_invalid_scope_and_distance(self):
+        with patch.object(server, 'request') as request:
+            for ids, offset, protected in [([], 5, ['2']), (['1'], 5, []),
+                                          (['1'], 5, ['1']), (['1'], -5, ['2']),
+                                          (['1'], float('nan'), ['2']), (['1'], True, ['2'])]:
+                with self.assertRaises(ValueError):
+                    server.set_blueprint_parallel_offset(ids, offset, protected)
+            request.assert_not_called()
+
+    def test_platform_spacing_rejects_invalid_values_before_native_dispatch(self):
+        with patch.object(server, 'request') as request:
+            for spacing in [True, float('nan'), float('inf'), -5, 0, 2.99, 30.01]:
+                with self.assertRaises(ValueError):
+                    server.create_platform(0, 0, 100, 0, track_spacing_metres=spacing)
+            request.assert_not_called()
+
+    def test_blueprint_discard_requires_disjoint_explicit_scope(self):
+        with patch.object(server, 'request') as request:
+            for selected, protected in [([], ['1']), (['1'], []), (['1'], ['1']), (['0'], ['2'])]:
+                with self.assertRaises(ValueError):
+                    server.discard_isolated_blueprint_platform(selected, protected)
+            request.assert_not_called()
+
+    def test_one_way_signal_removal_requires_explicit_valid_scope(self):
+        with patch.object(server, "request") as request:
+            for signals, parents in [([], ['1']), (['1'], []), (['0'], ['1']),
+                                     (['1'], ['01']), (['1'] * 101, ['2'])]:
+                with self.assertRaises(ValueError):
+                    server.remove_one_way_signals(signals, parents)
+            request.assert_not_called()
+            server.remove_one_way_signals(['2251800242290689'], ['281475765043201'])
+            request.assert_called_once_with('delete_one_way_signals', {
+                'ids': ['2251800242290689'], 'node_ids': ['281475765043201']})
+
     def test_tram_type_edit_validates_scope_and_preserves_uint64(self):
         with patch.object(server, "request") as request:
             for ids in [[], ["0"], ["01"], ["18446744073709551616"], ["1"] * 5001]:

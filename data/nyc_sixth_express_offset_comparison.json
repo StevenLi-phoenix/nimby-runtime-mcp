@@ -1,0 +1,282 @@
+[
+  {
+    "ref": "3",
+    "offset_metres": 0,
+    "minima": {
+      "PATH": 2.474591281422141,
+      "IND Sixth Avenue Line": 4.678925430609832
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 0.5,
+    "minima": {
+      "PATH": 2.974591272007737,
+      "IND Sixth Avenue Line": 4.1789258626686525
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1,
+    "minima": {
+      "PATH": 3.47459126225236,
+      "IND Sixth Avenue Line": 3.678926295067507
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.25,
+    "minima": {
+      "PATH": 3.724591257854005,
+      "IND Sixth Avenue Line": 3.428926510787825
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.5,
+    "minima": {
+      "PATH": 3.974591253455645,
+      "IND Sixth Avenue Line": 3.178926726508128
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.75,
+    "minima": {
+      "PATH": 4.224591248439613,
+      "IND Sixth Avenue Line": 2.9289269428466316
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 2,
+    "minima": {
+      "PATH": 4.474591243700268,
+      "IND Sixth Avenue Line": 2.678927158906996
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 0,
+    "minima": {
+      "PATH": 2.225171245142386,
+      "IND Sixth Avenue Line": 4.39196242918583
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 0.5,
+    "minima": {
+      "PATH": 2.725169969705189,
+      "IND Sixth Avenue Line": 3.891963076280143
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1,
+    "minima": {
+      "PATH": 3.2251686933093833,
+      "IND Sixth Avenue Line": 3.3919637239919727
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.25,
+    "minima": {
+      "PATH": 3.4751680558996574,
+      "IND Sixth Avenue Line": 3.1419640472303714
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.5,
+    "minima": {
+      "PATH": 3.725167417872186,
+      "IND Sixth Avenue Line": 2.8919643710862863
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.75,
+    "minima": {
+      "PATH": 3.97516678046246,
+      "IND Sixth Avenue Line": 2.6419646949422018
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 2,
+    "minima": {
+      "PATH": 4.225166142434996,
+      "IND Sixth Avenue Line": 2.3919650181806
+    },
+    "worst": {
+      "IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  }
+]

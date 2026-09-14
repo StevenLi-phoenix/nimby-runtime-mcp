@@ -1,0 +1,125 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475836674049",
+      "end_node_id": "281475837657089",
+      "points": [
+        {
+          "x": -8234872.194490714,
+          "y": 4956415.619872024,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8234857.805451454,
+          "y": 4956311.219828718,
+          "depth": 2,
+          "chainage_metres": 80
+        },
+        {
+          "x": -8234842.741884476,
+          "y": 4956206.915997627,
+          "depth": 2,
+          "chainage_metres": 160
+        },
+        {
+          "x": -8234794.891661471,
+          "y": 4955885.642477914,
+          "depth": 2,
+          "chainage_metres": 406.5719380882303
+        }
+      ],
+      "source_length_metres": 406.5719380882303,
+      "source_projection_gaps_world_metres": [
+        0.244610562070807,
+        0.14901031928496866
+      ],
+      "source_way_ids": [
+        813282272
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475836608513",
+      "end_node_id": "281475837591553",
+      "points": [
+        {
+          "x": -8234861.973378574,
+          "y": 4956417.095504855,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8234847.087446251,
+          "y": 4956312.765277702,
+          "depth": 2,
+          "chainage_metres": 80
+        },
+        {
+          "x": -8234832.020039416,
+          "y": 4956208.4612657465,
+          "depth": 2,
+          "chainage_metres": 160
+        },
+        {
+          "x": -8234784.883646292,
+          "y": 4955887.047670603,
+          "depth": 2,
+          "chainage_metres": 406.5972306264898
+        }
+      ],
+      "source_length_metres": 406.5972306264898,
+      "source_projection_gaps_world_metres": [
+        0.18335821465894542,
+        0.6988122914872561
+      ],
+      "source_way_ids": [
+        813282270
+      ]
+    },
+    {
+      "track_ref": "3-4",
+      "start_node_id": "281475836870658",
+      "end_node_id": "281475837853698",
+      "points": [
+        {
+          "x": -8234867.011689474,
+          "y": 4956416.369564719,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8234852.053524846,
+          "y": 4956312.049812603,
+          "depth": 2,
+          "chainage_metres": 80
+        },
+        {
+          "x": -8234837.035058198,
+          "y": 4956207.738742634,
+          "depth": 2,
+          "chainage_metres": 160
+        },
+        {
+          "x": -8234790.196087506,
+          "y": 4955886.300346519,
+          "depth": 2,
+          "chainage_metres": 406.58341413749974
+        }
+      ],
+      "source_length_metres": 406.58341413749974,
+      "source_projection_gaps_world_metres": [
+        0.06092383206206307,
+        0.5533082000377204
+      ],
+      "source_way_ids": [
+        813282274
+      ]
+    }
+  ],
+  "scale": 0.7591091699993463,
+  "source": "data/nyc_mid_culver_source.json",
+  "stage": "candidate_native_audit_pending",
+  "attribution": "\u00a9 OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

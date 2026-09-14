@@ -1,0 +1,204 @@
+{
+  "source": "data/nyc_parsons_sutphin_source.json",
+  "scale": 0.7580508973591681,
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475900637185",
+      "end_node_id": "281475896508417",
+      "points": [
+        {
+          "x": -8215911.5815991815,
+          "y": 4969255.633641327,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8216015.880475668,
+          "y": 4969216.499663523,
+          "source_node_id": 7647540625,
+          "depth": -2,
+          "metres": 84.4464446200615
+        },
+        {
+          "x": -8216078.638647663,
+          "y": 4969190.421257804,
+          "depth": -2,
+          "metres": 135.96419595891481
+        },
+        {
+          "x": -8216157.167173382,
+          "y": 4969157.789670728,
+          "source_node_id": 7647540615,
+          "depth": -2,
+          "metres": 200.4277221005185
+        },
+        {
+          "x": -8216245.489161453,
+          "y": 4969124.686580034,
+          "depth": -2,
+          "metres": 271.92839191782963
+        },
+        {
+          "x": -8216413.412847817,
+          "y": 4969061.664839112,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 407.8925878767444
+        }
+      ],
+      "source_way_ids": [
+        818901096
+      ],
+      "source_length_metres": 407.8925878767444,
+      "source_projection_gaps_world_metres": [
+        0.08907152109378354,
+        0.07858667061539357
+      ]
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475900571649",
+      "end_node_id": "281475896705026",
+      "points": [
+        {
+          "x": -8215907.940072481,
+          "y": 4969245.91679856,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8216075.834497326,
+          "y": 4969182.902511444,
+          "depth": -2,
+          "metres": 135.94146265090185
+        },
+        {
+          "x": -8216243.7560373945,
+          "y": 4969119.960493738,
+          "depth": -2,
+          "metres": 271.8829253018037
+        },
+        {
+          "x": -8216411.644315223,
+          "y": 4969056.929724861,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 407.8243879527056
+        }
+      ],
+      "source_way_ids": [
+        333765219
+      ],
+      "source_length_metres": 407.8243879527056,
+      "source_projection_gaps_world_metres": [
+        0.0013920330352448676,
+        0.1019246224697951
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475901161474",
+      "end_node_id": "281475896836098",
+      "points": [
+        {
+          "x": -8215906.158183849,
+          "y": 4969241.162383352,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8216074.071133079,
+          "y": 4969178.192440551,
+          "depth": -2,
+          "metres": 135.9427971980336
+        },
+        {
+          "x": -8216241.996938834,
+          "y": 4969115.256787966,
+          "depth": -2,
+          "metres": 271.8855943960672
+        },
+        {
+          "x": -8216409.882488202,
+          "y": 4969052.2137376,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 407.82839159410076
+        }
+      ],
+      "source_way_ids": [
+        818901119
+      ],
+      "source_length_metres": 407.82839159410076,
+      "source_projection_gaps_world_metres": [
+        0.02292680052656702,
+        0.10579657433179833
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475901095938",
+      "end_node_id": "281475896442881",
+      "points": [
+        {
+          "x": -8215902.575991413,
+          "y": 4969231.603864762,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8216006.540770392,
+          "y": 4969192.622070151,
+          "source_node_id": 7647540626,
+          "depth": -2,
+          "metres": 84.16842062504044
+        },
+        {
+          "x": -8216071.296041682,
+          "y": 4969170.810952899,
+          "depth": -2,
+          "metres": 135.965933579787
+        },
+        {
+          "x": -8216151.634594691,
+          "y": 4969143.751015311,
+          "source_node_id": 7647540616,
+          "depth": -2,
+          "metres": 200.22845858026108
+        },
+        {
+          "x": -8216240.206647116,
+          "y": 4969110.553071788,
+          "depth": -2,
+          "metres": 271.931867159574
+        },
+        {
+          "x": -8216408.128471634,
+          "y": 4969047.519834828,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 407.897800739361
+        }
+      ],
+      "source_way_ids": [
+        818901073
+      ],
+      "source_length_metres": 407.897800739361,
+      "source_projection_gaps_world_metres": [
+        0.012735918554288218,
+        0.08800078593713515
+      ]
+    }
+  ],
+  "stage": "four_tracks_built_operations_pending",
+  "pending": [
+    "Source crossover 906711103 remains unbuilt; audit attachment before creation.",
+    "Continue 169th Street and Jamaica extension and operational verification."
+  ],
+  "native_verification": "work/nyc-parsons-sutphin-built.json"
+}

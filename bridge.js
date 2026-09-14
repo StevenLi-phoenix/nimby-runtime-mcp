@@ -7,6 +7,7 @@ const speedFactory = native(0x3092a0, 'pointer', ['pointer']);
 const trackFactory = native(0x31bd20, 'pointer', ['pointer']);
 const footprintFactory = native(0x2fd000, 'pointer', ['pointer']);
 const platformFactory = native(0x31bde0, 'pointer', ['pointer']);
+const parallelOffsetFactory = native(0x31a7a0, 'pointer', ['pointer']);
 const buildFactory = native(0x31cab0, 'pointer', ['pointer']);
 const stationDeleteFactory = native(0x2ff800, 'pointer', ['pointer']);
 const stationFactory = native(0x2ff5e0, 'pointer', ['pointer']);
@@ -69,8 +70,8 @@ function line(db,id) {
   const count=end.sub(begin).toUInt32()/0x158;
   if(!Number.isInteger(count)||count>1000)throw Error('Invalid stop vector');
   const stops=[];
-  for(let i=0;i<count;i++) {const s=begin.add(i*0x158);stops.push({index:i,node_id:s.add(0x78).readU64().toString(),position:s.add(0x80).readDouble(),stop_id:s.add(0x108).readU64().toString()});}
-  return {id:p.readU64().toString(),name:readString(p.add(0x58)),code:readString(p.add(0x78)),color:p.add(0xb8).readU32(),base_fare:p.add(0x1d0).readDouble(),fare_per_km:p.add(0x1d8).readDouble(),service:p.add(0xfc).readS32(),reference_train:p.add(0x1f8).readU64().toString(),stop_count:count,stops};
+  for(let i=0;i<count;i++) {const s=begin.add(i*0x158);stops.push({index:i,node_id:s.add(0x78).readU64().toString(),position:s.add(0x80).readDouble(),stop_id:s.add(0x108).readU64().toString(),stop_time_mode:s.add(0xdc).readS32(),stop_time_seconds:s.add(0xe0).readS32()});}
+  return {id:p.readU64().toString(),name:readString(p.add(0x58)),code:readString(p.add(0x78)),color:p.add(0xb8).readU32(),base_fare:p.add(0x1d0).readDouble(),fare_per_km:p.add(0x1d8).readDouble(),service:p.add(0xfc).readS32(),reference_train:p.add(0x1f8).readU64().toString(),default_stop_seconds:p.add(0x200).readS32(),stop_count:count,stops};
 }
 function station(db,id) {
   const p=findStation(db.add(0x80),uint64(id));
@@ -101,7 +102,9 @@ function node(db, id) {
     }),building_tapes:readIdSet(p.add(0x140)).map(id=>{
       const t=findTape(db.add(0x428).readPointer().add(0x380),uint64(id));
       if(t.isNull())throw Error('Missing attached building tape');
-      return {id,node_id:t.add(0x40).readU64().toString()};
+      return {id,node_id:t.add(0x40).readU64().toString(),name:readString(t.add(0x10)),
+        type:t.add(0x30).readS32(),position:t.add(0x48).readDouble(),
+        native_style_bytes:[0x50,0x51,0x52,0x53].map(o=>t.add(o).readU8())};
     })};
 }
 function network(db, ids) {
@@ -115,6 +118,8 @@ function network(db, ids) {
     const count=end.sub(begin).toUInt32()/8;
     if(!Number.isInteger(count)||count>1000)throw Error('Invalid branch vector');
     n.branch_parent=p.add(0x3f0).readU64().toString();n.branches=[];
+    n.structure_parent=p.add(0x478).readU64().toString();
+    n.parallel_offset_metres=p.add(0x48c).readFloat();
     n.branch_position=p.add(0x3f8).readDouble();
     const curveBegin=p.add(0x1b0).readPointer(),curveEnd=p.add(0x1b8).readPointer();
     const curveCount=curveEnd.sub(curveBegin).toUInt32()/16;
@@ -239,6 +244,11 @@ function buildingDetails(db,id) {
   if(b.isNull())return null;
   return {id:b.readU64().toString(),type:b.add(8).readS32(),depth:b.add(0x1c).readS32(),blueprint:b.add(0x24).readU8()!==0,x:b.add(0x28).readDouble(),y:b.add(0x30).readDouble(),direction_x:b.add(0x3c).readFloat(),direction_y:-b.add(0x38).readFloat(),width:b.add(0x40).readFloat(),height:b.add(0x44).readFloat(),node_id:b.add(0xa8).readU64().toString()};
 }
+function attachedBuildingGeometry(db,id) {
+  const details=buildingDetails(db,id);if(!details)return null;
+  const b=findBuilding(db.add(0x428).readPointer().add(0x100),uint64(id));
+  return {...details,geometry:[0xb0,0xb4,0xb8,0xbc].map(o=>b.add(o).readFloat())};
+}
 Interceptor.attach(main.base.add(0x347520), {
   onEnter(args) {this.owner=args[0];this.output=args[1];},
   onLeave() {
@@ -254,6 +264,7 @@ Interceptor.attach(main.base.add(0x347520), {
       const state={pid:Process.id,thread:Process.getCurrentThreadId(),speed:sim.add(0x2118).readS32(),cash:sim.readDouble(),simulation_time:sim.add(0x2108).readU64().toNumber()};
       if(active) {
         const j=active;active=null;currentJob=j;
+        if(operationsComplete(j,db,sim,this.output))return;
         if(j.kind==='set_speed') finish(j,{...state,requested:j.args.speed,verified:state.speed===j.args.speed});
         else if(j.kind==='delete_empty_stations') {
           const after=stationInventory(db);finish(j,{deleted_ids:j.args.ids,stations:after.stations,verified:j.args.ids.every(id=>!station(db,id))&&j.beforeStations.filter(s=>!j.args.ids.includes(s.id)).every(s=>after.stations.some(a=>a.id===s.id&&a.track_count===s.track_count))});
@@ -262,6 +273,17 @@ Interceptor.attach(main.base.add(0x347520), {
           const nodes=j.args.ids.map(id=>node(db,id));
           const preserved=nodes.every((n,i)=>n&&['x','y','depth','track_type','previous','next','blueprint'].every(k=>n[k]===j.beforeNodes[i][k]));
           finish(j,{nodes,station:station(db,j.args.station_id),verified:preserved&&nodes.every(n=>n.station_id===j.args.station_id)});
+        }
+        else if(j.kind==='platform_building_offsets') {
+          const buildings=j.args.building_ids.map(id=>attachedBuildingGeometry(db,id));
+          const nodes=j.args.ids.map(id=>node(db,id)), selected=new Set(j.args.building_ids);
+          const unchanged=n=>({...n,buildings:n.buildings.filter(b=>!selected.has(b.id))});
+          const preserved=nodes.every((n,i)=>n&&JSON.stringify(unchanged(n))===JSON.stringify(unchanged(j.beforeNodes[i])));
+          const verified=preserved&&buildings.every((b,i)=>b&&['type','depth','blueprint','node_id'].every(k=>b[k]===j.beforeBuildings[i][k])&&
+            b.geometry.slice(0,2).every((v,k)=>v===j.beforeBuildings[i].geometry[k])&&
+            Math.abs(b.geometry[2]-j.args.offset_min)<.001&&Math.abs(b.geometry[3]-j.args.offset_max)<.001&&
+            Math.abs(b.height-(j.args.offset_max-j.args.offset_min))<.02&&Math.abs(b.width-j.beforeBuildings[i].width)<.02);
+          finish(j,{buildings,nodes,verified});
         }
         else if(j.kind==='attach_footprint') {
           const building=buildingDetails(db,j.args.building_id),platform=node(db,j.args.platform_id);
@@ -283,6 +305,13 @@ Interceptor.attach(main.base.add(0x347520), {
           const afterOK=afterInsert&&afterInsert.id!==j.before.next&&afterInsert.previous===j.before.id&&afterInsert.next===j.before.next&&next&&next.previous===afterInsert.id;
           finish(j,{edge,previous,next,new_nodes:added,recalculated,verified:intact&&added.length>0&&!!(beforeOK||afterOK)});
         }
+        else if(j.kind==='parallel_offset') {
+          const nodes=j.args.ids.map(id=>node(db,id));
+          const offsets=j.args.ids.map(id=>findNode(db.add(0x428).readPointer(),uint64(id)).add(0x48c).readFloat());
+          const preserved=j.before.every((n,i)=>nodes[i]&&nodes[i].previous===n.previous&&nodes[i].next===n.next&&nodes[i].depth===n.depth&&nodes[i].track_type===n.track_type&&nodes[i].blueprint===n.blueprint&&JSON.stringify(nodes[i].building_tapes)===JSON.stringify(n.building_tapes));
+          const protectedNodes=j.protectedBefore.map(n=>node(db,n.id));
+          finish(j,{nodes,offsets,protected_count:protectedNodes.length,verified:preserved&&offsets.every(v=>Math.abs(v-j.args.offset)<0.001)&&JSON.stringify(protectedNodes)===JSON.stringify(j.protectedBefore)});
+        }
         else if(j.kind==='edit_geometry') {
           const after=network(db,j.args.points.map(p=>p.id)),byId=new Map(after.nodes.map(n=>[n.id,n]));
           const preserved=j.beforeNetwork.nodes.every(n=>{const a=byId.get(n.id);return a&&a.previous===n.previous&&a.next===n.next&&a.station_id===n.station_id&&a.depth===n.depth&&a.blueprint===n.blueprint&&a.track_type===n.track_type&&(n.station_id==='0'||Math.hypot(a.x-n.x,a.y-n.y)<0.1);});
@@ -292,6 +321,20 @@ Interceptor.attach(main.base.add(0x347520), {
         else if(j.kind==='edit_kind'||j.kind==='rebp') {
           const nodes=j.args.ids.map(id=>node(db,id));
           finish(j,{nodes,verified:nodes.every(n=>n&&(j.kind==='rebp'?n.blueprint:n.track_type===j.args.track_type))});
+        }
+        else if(j.kind==='delete_one_way_signals') {
+          const nodes=j.parents.map(n=>node(db,n.id));
+          const expected=j.parents.map(n=>({...n,building_tapes:n.building_tapes.filter(t=>!j.args.ids.includes(t.id))}));
+          const missing=j.args.ids.every(id=>findTape(db.add(0x428).readPointer().add(0x380),uint64(id)).isNull());
+          finish(j,{removed_signal_ids:j.args.ids,before:j.parents,nodes,verified:missing&&JSON.stringify(nodes)===JSON.stringify(expected)});
+        }
+        else if(j.kind==='discard_blueprint_platform') {
+          const remaining=j.args.ids.filter(id=>node(db,id)!==null);
+          const remainingBuildings=j.buildingIds.filter(id=>buildingDetails(db,id)!==null);
+          const protectedNodes=j.protectedBefore.map(n=>node(db,n.id));
+          finish(j,{removed_node_ids:j.args.ids,remaining,remaining_buildings:remainingBuildings,
+            station_ids:j.stationIds,protected_count:protectedNodes.length,
+            verified:remaining.length===0&&remainingBuildings.length===0&&JSON.stringify(protectedNodes)===JSON.stringify(j.protectedBefore)});
         }
         else if(j.kind==='delete_branches') {
           const remaining=j.args.ids.filter(id=>node(db,id)!==null);
@@ -326,12 +369,12 @@ Interceptor.attach(main.base.add(0x347520), {
         else if(j.kind==='purchase') {
           const trains=j.trainIds.map(id=>train(db,id));finish(j,{trains,verified:trains.length===j.args.count&&trains.every(t=>t&&t.cars===6)});
         }
-        else if(j.kind==='line_meta'||j.kind==='line_service') {
+        else if(j.kind==='line_meta'||j.kind==='line_service'||j.kind==='line_dwell') {
           const l=line(db,j.args.id);
           const matches=l!==null&&(j.kind==='line_meta'
             ?l.name===j.args.name&&l.code===j.args.code&&(j.args.color==null||l.color===j.args.color)&&(j.args.base_fare==null||l.base_fare===j.args.base_fare)&&(j.args.fare_per_km==null||l.fare_per_km===j.args.fare_per_km)
             :l.service===j.args.service&&(!j.args.reference_train||l.reference_train===j.args.reference_train));
-          finish(j,{line:l,verified:matches});
+          finish(j,{line:l,verified:j.kind==='line_dwell'?l!==null&&l.default_stop_seconds===j.args.seconds&&JSON.stringify({...l,default_stop_seconds:j.before.default_stop_seconds,stops:l.stops.map((s,i)=>({...s,stop_time_seconds:j.before.stops[i].stop_time_seconds}))})===JSON.stringify(j.before):matches});
         }
         else if(j.kind==='rename_train') {
           const t=train(db,j.args.id);finish(j,{train:t,verified:t!==null&&t.name===j.args.name&&t.serial===j.args.serial});
@@ -354,6 +397,28 @@ Interceptor.attach(main.base.add(0x347520), {
           const buildings=(j.args.building_ids||[]).map(id=>buildingDetails(db,id));
           finish(j,{code:j.code,nodes,buildings,protected_count:protectedNodes.length,verified:buildings.every(b=>b&&!b.blueprint)&&j.code===0&&nodes.every(n=>n!==null&&!n.blueprint&&n.buildings.every(b=>!b.blueprint))&&preserved});
         }
+        else if(j.kind==='create_platform') {
+          const ids=[...new Set(j.ids.map(x=>uint64(x).toString()))].filter(x=>x!=='0');
+          const nodes=ids.map(id=>node(db,id));
+          const platforms=nodes.filter(n=>n&&n.station_id!=='0');
+          const a=j.args.start,b=j.args.end,dx=b.x-a.x,dy=b.y-a.y,length=Math.hypot(dx,dy);
+          const scale=1/Math.cosh((a.y+b.y)/2/6378137);
+          const offsets=platforms.map(n=>((n.x-a.x)*(-dy)+(n.y-a.y)*dx)/length*scale);
+          const measured=offsets.length?Math.max(...offsets)-Math.min(...offsets):null;
+          if(j.args.dual_track===false) {
+            finish(j,{...state,nodes,dual_track:false,platform_signed_offsets_metres:offsets,
+              verified:platforms.length===2&&nodes.every(n=>n!==null)&&
+                offsets.every(x=>Math.abs(x)<0.05)&&platforms[0].station_id===platforms[1].station_id});
+            return;
+          }
+          const expected=j.args.track_spacing_metres??5;
+          const side='right',target=-expected;
+          const offsetsOK=offsets.length===4&&offsets.filter(x=>Math.abs(x)<0.05).length===2&&
+            offsets.filter(x=>Math.abs(x-target)<0.05).length===2;
+          finish(j,{...state,nodes,requested_track_spacing_metres:expected,
+            measured_track_spacing_metres:measured,paired_side:side,platform_signed_offsets_metres:offsets,
+            verified:platforms.length===4&&nodes.every(n=>n!==null)&&Math.abs(measured-expected)<0.05&&offsetsOK});
+        }
         else {
           const ids=[...new Set(j.ids.map(x=>uint64(x).toString()))].filter(x=>x!=='0');
           const nodes=ids.map(id=>node(db,id));
@@ -365,6 +430,8 @@ Interceptor.attach(main.base.add(0x347520), {
       const j=pending.shift();currentJob=j;
       if(j.kind==='station_inventory') {finish(j,stationInventory(db));return;}
       if(j.kind==='status') {finish(j,state);return;}
+      if(operationsRead(j,db,sim))return;
+      if(operationsPrepare(j,db,sim)){active=j;enqueue(this.output,j.command);return;}
       if(j.kind==='get_node') {finish(j,node(db,j.args.id));return;}
       if(j.kind==='build_checks') {
         const blocked=[];
@@ -385,6 +452,11 @@ Interceptor.attach(main.base.add(0x347520), {
       if(j.kind==='get_station') {finish(j,station(db,j.args.id));return;}
       if(j.kind==='get_line') {finish(j,line(db,j.args.id));return;}
       if(j.kind==='get_train') {finish(j,train(db,j.args.id));return;}
+      if(j.kind==='platform_building_geometry') {
+        const nodes=j.args.ids.map(id=>node(db,id));
+        if(nodes.some(n=>!n||n.station_id==='0'))throw Error('Expected platform nodes');
+        finish(j,{nodes,buildings:nodes.flatMap(n=>n.buildings.map(b=>attachedBuildingGeometry(db,b.id)))});return;
+      }
       if(j.kind==='building_catalog') {
         const catalog=db.add(0x428).readPointer().add(0x408).readPointer();
         const begin=catalog.add(0x108).readPointer(),end=catalog.add(0x110).readPointer();
@@ -420,6 +492,22 @@ Interceptor.attach(main.base.add(0x347520), {
         const size=j.args.ids.length*16,entries=allocate(uint64(size));
         j.args.ids.forEach((id,i)=>{entries.add(i*16).writeU64(uint64(id));entries.add(i*16+8).writeU64(uint64(j.args.station_id));});
         j.command.add(0xc8).writePointer(entries);j.command.add(0xd0).writePointer(entries.add(size));j.command.add(0xd8).writePointer(entries.add(size));
+      } else if(j.kind==='platform_building_offsets') {
+        if(state.speed!==0)throw Error('Pause before platform building edits');
+        const lo=j.args.offset_min,hi=j.args.offset_max;
+        if(!Number.isFinite(lo)||!Number.isFinite(hi)||lo>=hi||lo< -30||hi>30||!(hi<=-1.5||lo>=1.5))throw Error('Invalid lateral offsets');
+        j.beforeNodes=j.args.ids.map(id=>node(db,id));
+        if(j.beforeNodes.some(n=>!n||!n.blueprint||n.station_id==='0'))throw Error('Expected blueprint platforms');
+        j.beforeBuildings=j.args.building_ids.map(id=>attachedBuildingGeometry(db,id));
+        if(j.beforeBuildings.some(b=>!b||!b.blueprint||![13,27].includes(b.type)||!j.args.ids.includes(b.node_id)))throw Error('Expected attached blueprint platform surfaces or roofs');
+        if(j.beforeBuildings.some(b=>!j.beforeNodes.find(n=>n.id===b.node_id).buildings.some(a=>a.id===b.id)))throw Error('Attachment mismatch');
+        editFactory(holder);j.command=holder.readPointer();
+        const size=j.beforeBuildings.length*0xe8,entries=allocate(uint64(size));entries.writeByteArray(new Uint8Array(size));
+        j.beforeBuildings.forEach((b,i)=>{const entry=entries.add(i*0xe8);
+          copyBuilding(entry,findBuilding(db.add(0x428).readPointer().add(0x100),uint64(b.id)));
+          entry.add(0xb8).writeFloat(lo);entry.add(0xbc).writeFloat(hi);
+        });
+        j.command.add(0x98).writePointer(entries);j.command.add(0xa0).writePointer(entries.add(size));j.command.add(0xa8).writePointer(entries.add(size));
       } else if(j.kind==='attach_footprint') {
         if(state.speed!==0)throw Error('Pause before attaching footprint');
         const b=buildingDetails(db,j.args.building_id),n=node(db,j.args.platform_id);
@@ -444,7 +532,9 @@ Interceptor.attach(main.base.add(0x347520), {
         c.add(0x40).writeS32(1);c.add(0x44).writeS32(j.args.depth);c.add(0x48).writeU64(uint64(0));
       } else if(j.kind==='split_edge') {
         const n=node(db,j.args.id),p=n&&node(db,n.previous);
-        if(!n||!p||!n.blueprint||!p.blueprint||n.station_id!=='0')throw Error('Split requires a blueprint corridor control outside platforms');
+        // A new blueprint approach may terminate at an existing built endpoint.
+        // Split still targets a blueprint control and preserves the existing network.
+        if(!n||!p||!n.blueprint||n.station_id!=='0')throw Error('Split requires a blueprint corridor control outside platforms');
         const raw=findNode(db.add(0x428).readPointer(),uint64(n.id));
         if(raw.add(0x3f0).readU64().toString()!=='0')throw Error('Cannot split a branch edge');
         const sample=Memory.alloc(16);pointOnTrack(raw,sample,j.args.position,0);
@@ -469,6 +559,23 @@ Interceptor.attach(main.base.add(0x347520), {
         const ids=Memory.alloc(j.args.ids.length*8);
         j.args.ids.forEach((id,i)=>ids.add(i*8).writeU64(uint64(id)));
         constructIdSet(j.command.add(0x20),ids,ids.add(j.args.ids.length*8));
+      } else if(j.kind==='parallel_offset') {
+        if(state.speed!==0)throw Error('Pause before changing parallel offsets');
+        if(!Number.isFinite(j.args.offset)||j.args.offset<3||j.args.offset>30)throw Error('Invalid parallel offset');
+        j.before=j.args.ids.map(id=>node(db,id));
+        for(const n of j.before) {
+          if(!n||!n.blueprint||n.station_id!=='0'||n.buildings.length)throw Error('Expected non-platform blueprint controls');
+          const p=findNode(db.add(0x428).readPointer(),uint64(n.id));
+          const parent=p.add(0x478).readU64().toString();
+          if(parent==='0'||!j.args.protected_ids.includes(parent)||readIdSet(p.add(0x498)).length)throw Error('Expected secondary control with protected primary and no structure children');
+        }
+        j.protectedBefore=j.args.protected_ids.map(id=>node(db,id));
+        if(j.protectedBefore.some(n=>!n)||j.args.protected_ids.some(id=>j.args.ids.includes(id)))throw Error('Invalid protected scope');
+        parallelOffsetFactory(holder);j.command=holder.readPointer();
+        const ids=Memory.alloc(j.args.ids.length*8);
+        j.args.ids.forEach((id,i)=>ids.add(i*8).writeU64(uint64(id)));
+        constructIdSet(j.command.add(0x20),ids,ids.add(j.args.ids.length*8));
+        j.command.add(0x50).writeFloat(j.args.offset);j.command.add(0x54).writeU8(1);
       } else if(j.kind==='edit_geometry') {
         if(j.args.tangent_only&&state.speed!==0)throw Error('Pause before setting tangents');
         j.beforeNetwork=network(db,j.args.points.map(p=>p.id));
@@ -485,6 +592,48 @@ Interceptor.attach(main.base.add(0x347520), {
         entries.writeByteArray(new Uint8Array(size));
         j.args.ids.forEach((id,i)=>{entries.add(i*16).writeU64(uint64(id));entries.add(i*16+8).writeU32(j.args.track_type);});
         j.command.add(0x188).writePointer(entries);j.command.add(0x190).writePointer(entries.add(size));j.command.add(0x198).writePointer(entries.add(size));
+      } else if(j.kind==='delete_one_way_signals') {
+        if(state.speed!==0)throw Error('Pause before removing one-way signals');
+        const parents=new Set();
+        for(const id of j.args.ids) {
+          const t=findTape(db.add(0x428).readPointer().add(0x380),uint64(id));
+          if(t.isNull()||t.add(0x30).readS32()!==0)throw Error('Expected existing one-way signal');
+          const parent=t.add(0x40).readU64().toString();
+          if(!j.args.node_ids.includes(parent))throw Error('Signal is outside explicit parent scope');
+          parents.add(parent);
+        }
+        j.parents=[...parents].map(id=>node(db,id));
+        if(j.parents.some(n=>!n||n.blueprint))throw Error('Expected built signal parent tracks');
+        deleteFactory(holder);j.command=holder.readPointer();
+        const ids=Memory.alloc(j.args.ids.length*8);
+        j.args.ids.forEach((id,i)=>ids.add(i*8).writeU64(uint64(id)));
+        // tn::Delete's +0xe0 set removes track-attached signals only (1.19.10).
+        constructIdSet(j.command.add(0xe0),ids,ids.add(j.args.ids.length*8));
+      } else if(j.kind==='discard_blueprint_platform') {
+        if(state.speed!==0)throw Error('Pause before discarding blueprints');
+        const selected=j.args.ids.map(id=>node(db,id));
+        if(selected.every(n=>n===null)&&(j.args.building_ids||[]).length) {
+          const buildings=j.args.building_ids.map(id=>buildingDetails(db,id));
+          if(buildings.some(b=>!b||!b.blueprint||(b.node_id!=='0'&&!j.args.ids.includes(b.node_id))))throw Error('Expected recorded detached blueprint buildings');
+          j.stationIds=[];j.buildingIds=j.args.building_ids;
+        } else {
+          const before=network(db,[j.args.ids[0]]);
+          if(before.count!==j.args.ids.length||before.nodes.some(n=>!j.args.ids.includes(n.id)||!n.blueprint||n.buildings.some(b=>!b.blueprint)))throw Error('Select the entire isolated blueprint network');
+          j.stationIds=[...new Set(before.nodes.map(n=>n.station_id).filter(id=>id!=='0'))];
+          if(j.stationIds.length!==1)throw Error('Expected exactly one blueprint station');
+          j.buildingIds=[...new Set(before.nodes.flatMap(n=>n.buildings.map(b=>b.id)))];
+          if((j.args.building_ids||[]).some(id=>!j.buildingIds.includes(id)))throw Error('Building outside blueprint scope');
+        }
+        j.protectedBefore=j.args.protected_ids.map(id=>node(db,id));
+        if(j.protectedBefore.some(n=>!n)||j.args.protected_ids.some(id=>j.args.ids.includes(id)))throw Error('Invalid protected nodes');
+        deleteFactory(holder);j.command=holder.readPointer();
+        // tn::Delete +0xb0 calls 3a9360 -> findBuilding; +0x50 edits track nodes.
+        for(const [offset,values] of [[0x20,selected.some(Boolean)?j.args.ids:[]],[0xb0,j.buildingIds]]) {
+          if(!values.length)continue;
+          const ids=Memory.alloc(values.length*8);
+          values.forEach((id,i)=>ids.add(i*8).writeU64(uint64(id)));
+          constructIdSet(j.command.add(offset),ids,ids.add(values.length*8));
+        }
       } else if(j.kind==='delete_branches') {
         const parents=new Set();
         for(const id of j.args.ids) {
@@ -532,11 +681,13 @@ Interceptor.attach(main.base.add(0x347520), {
         j.command.add(0xba).writeU8(1);j.command.add(0xbc).writeFloat(5);
         j.ids=[j.args.start.id,j.args.end.id].filter(Boolean);
       } else if(j.kind==='create_platform') {
+        const spacing=j.args.track_spacing_metres??5;
+        if(!Number.isFinite(spacing)||spacing<3||spacing>30)throw Error('Invalid platform spacing');
         platformFactory(holder);j.command=holder.readPointer();j.ids=[];
         j.command.add(0x20).writeDouble(j.args.start.x);j.command.add(0x28).writeDouble(j.args.start.y);
         j.command.add(0x30).writeDouble(j.args.end.x);j.command.add(0x38).writeDouble(j.args.end.y);
         j.command.add(0x50).writeU32(3);j.command.add(0x54).writeS32(j.args.depth??-1);
-        j.command.add(0x5b).writeU8(1);j.command.add(0x5c).writeFloat(5);
+        j.command.add(0x5b).writeU8(j.args.dual_track===false?0:1);j.command.add(0x5c).writeFloat(spacing);
       } else if(j.kind==='build'||j.kind==='build_selected') {
         if(j.args.ids.some(id=>node(db,id)===null))throw Error('Verification node not found; construction not submitted');
         buildFactory(holder);j.command=holder.readPointer();
@@ -564,16 +715,17 @@ Interceptor.attach(main.base.add(0x347520), {
         c.add(0x20).writeU64(uint64(j.args.id));writeString(c.add(0x28),j.args.name);writeString(c.add(0x48),j.args.code);writeString(c.add(0x68),readString(p.add(0x98)));
         c.add(0x88).writeDouble(j.args.base_fare??p.add(0x1d0).readDouble());c.add(0x90).writeDouble(j.args.fare_per_km??p.add(0x1d8).readDouble());
         c.add(0x98).writeU32(j.args.color??p.add(0xb8).readU32());c.add(0x9c).writeU32(p.add(0xc0).readU32());
-      } else if(j.kind==='line_service') {
+      } else if(j.kind==='line_service'||j.kind==='line_dwell') {
         const p=findLine(db.add(0x180),uint64(j.args.id));
         if(p.isNull()){finish(j,null,'Line not found');return;}
         if(j.args.reference_train&&!train(db,j.args.reference_train))throw Error('Reference train not found');
+        if(j.kind==='line_dwell'){if(state.speed!==0)throw Error('Pause before editing dwell');j.before=line(db,j.args.id);}
         serviceFactory(holder);j.command=holder.readPointer();const c=j.command;
         c.add(0x20).writeU64(uint64(j.args.id));
         for(const [to,from] of [[0x28,0xfc],[0x2c,0x100],[0x30,0x104],[0x34,0x108],[0x38,0x10c],[0x3c,0x110],[0x40,0x190],[0x48,0x1e4],[0x50,0x1ec],[0x58,0x1f4],[0x68,0x200],[0x6c,0x204],[0x70,0x208],[0x74,0x20c],[0x78,0x210],[0x7c,0x214]])c.add(to).writeU32(p.add(from).readU32());
         for(const [to,from] of [[0x44,0x1e3],[0x4c,0x1e8],[0x54,0x1f0],[0x80,0xbc],[0x81,0xc4],[0x82,0x1e0],[0x83,0x1e1]])c.add(to).writeU8(p.add(from).readU8());
         c.add(0x60).writeU64(j.args.reference_train?uint64(j.args.reference_train):p.add(0x1f8).readU64());
-        c.add(0x28).writeS32(j.args.service);
+        if(j.kind==='line_dwell')c.add(0x68).writeS32(j.args.seconds);else c.add(0x28).writeS32(j.args.service);
       } else if(j.kind==='remove_stop') {
         if(state.speed!==0)throw Error('Pause before removing a stop');
         const l=line(db,j.args.line_id);

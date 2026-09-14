@@ -1,0 +1,110 @@
+{
+  "name": "York Street",
+  "plan_index": 23,
+  "center": {
+    "x": -8236164.001026732,
+    "y": 4968437.923175679
+  },
+  "scale": 0.7581244958703126,
+  "southbound_axis": {
+    "x": -0.04321596367027115,
+    "y": -0.9990657538340756
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818168015,
+      "track_ref": "1",
+      "line_name": "IND Culver Line",
+      "offset_metres": -4.7474136504260205,
+      "x": -8236170.257226635,
+      "y": 4968438.193796213
+    },
+    {
+      "source_way_id": 818608013,
+      "track_ref": "2",
+      "line_name": "IND Culver Line",
+      "offset_metres": 4.7442402431439055,
+      "x": -8236157.749008784,
+      "y": 4968437.652736041
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 904599540,
+      "tracks": [
+        {
+          "source_way_id": 818168015,
+          "track_ref": "1",
+          "line_name": "IND Culver Line",
+          "offset_metres": -4.7474136504260205,
+          "x": -8236170.257226635,
+          "y": 4968438.193796213,
+          "points": [
+            {
+              "x": -8236163.416772766,
+              "y": 4968596.331267186,
+              "depth": -2
+            },
+            {
+              "x": -8236166.266961878,
+              "y": 4968530.440654281,
+              "depth": -2
+            },
+            {
+              "x": -8236174.247491391,
+              "y": 4968345.946938145,
+              "depth": -2
+            },
+            {
+              "x": -8236177.0976805035,
+              "y": 4968280.056325239,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818608013,
+          "track_ref": "2",
+          "line_name": "IND Culver Line",
+          "offset_metres": 4.7442402431439055,
+          "x": -8236157.749008784,
+          "y": 4968437.652736041,
+          "points": [
+            {
+              "x": -8236150.908554915,
+              "y": 4968595.790207014,
+              "depth": -2
+            },
+            {
+              "x": -8236153.758744027,
+              "y": 4968529.899594109,
+              "depth": -2
+            },
+            {
+              "x": -8236161.739273541,
+              "y": 4968345.405877973,
+              "depth": -2
+            },
+            {
+              "x": -8236164.589462653,
+              "y": 4968279.515265067,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.491653893569925,
+      "island_width_metres": 6.441653893569925
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_york_street_source.json",
+  "reserved_other_services": [],
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Verify island platform buildings.",
+    "Connect F south to Jay Street and north to East Broadway.",
+    "Verify Rutgers Street Tunnel source geometry before crossing the river."
+  ]
+}

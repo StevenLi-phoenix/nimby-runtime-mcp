@@ -1,0 +1,43 @@
+{
+  "tracks": [
+    {
+      "track_ref": "3",
+      "source_way_id": 333765219,
+      "offset": -1.8960695071443705,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8216411.644315223,
+          "y": 4969056.929724861,
+          "depth": -2
+        },
+        {
+          "x": -8216708.21586424,
+          "y": 4968946.13473331,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 818901119,
+      "offset": 1.9203348190907341,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8216409.882488202,
+          "y": 4969052.2137376,
+          "depth": -2
+        },
+        {
+          "x": -8216706.454037219,
+          "y": 4968941.418746049,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "source": "data/nyc_sutphin_source.json",
+  "stage": "station_and_express_built_adjacent_corridors_and_operations_pending",
+  "native_verification": "work/nyc-sutphin-all-built.json"
+}

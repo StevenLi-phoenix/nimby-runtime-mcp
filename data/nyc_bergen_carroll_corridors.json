@@ -1,0 +1,114 @@
+{
+  "from_station": "Bergen Street",
+  "to_station": "Carroll Street",
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475811835905",
+      "end_node_id": "281475810787330",
+      "points": [
+        {
+          "x": -8236704.38349378,
+          "y": 4966009.109317213,
+          "depth": -1,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236959.740980547,
+          "y": 4965524.080359376,
+          "source_node_id": 7644670878,
+          "depth": -1,
+          "reason": "source_geometry"
+        },
+        {
+          "x": -8236987.303686467,
+          "y": 4965470.32475422,
+          "source_node_id": 7644660172,
+          "depth": -2,
+          "reason": "source_geometry"
+        },
+        {
+          "x": -8237012.928658202,
+          "y": 4965417.58367057,
+          "depth": -2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475811770369",
+      "end_node_id": "281475810721794",
+      "points": [
+        {
+          "x": -8236699.92894112,
+          "y": 4966006.82037457,
+          "depth": -1,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236973.900819776,
+          "y": 4965463.44018276,
+          "source_node_id": 7644660181,
+          "depth": -1,
+          "reason": "source_geometry"
+        },
+        {
+          "x": -8237000.285561821,
+          "y": 4965409.600425109,
+          "depth": -2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475812032514",
+      "end_node_id": "281475810983939",
+      "points": [
+        {
+          "x": -8236704.117613552,
+          "y": 4966008.974127099,
+          "depth": -2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8237008.798195273,
+          "y": 4965414.975569507,
+          "depth": -2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475812098050",
+      "end_node_id": "281475811311619",
+      "points": [
+        {
+          "x": -8236699.583929363,
+          "y": 4966006.644523239,
+          "depth": -2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8237004.54796755,
+          "y": 4965412.2918420965,
+          "depth": -2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+  "limitations": [
+    "Independent tracks; do not use dual extension that resets spacing.",
+    "Depth transitions and native curves require inspection before construction.",
+    "Bergen northern G/F merge and both onward corridors remain separate work."
+  ]
+}

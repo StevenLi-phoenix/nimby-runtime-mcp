@@ -1,0 +1,214 @@
+[
+  {
+    "ref": "1",
+    "segments": [
+      {
+        "start_metres": 0.0,
+        "end_metres": 255.68763918122127,
+        "depth": -2,
+        "source_way_id": 818901096
+      },
+      {
+        "start_metres": 255.68763918122127,
+        "end_metres": 646.6982986835486,
+        "depth": -1,
+        "source_way_id": 824397095
+      },
+      {
+        "start_metres": 646.6982986835486,
+        "end_metres": 926.8516112641312,
+        "depth": -2,
+        "source_way_id": 824397094
+      }
+    ],
+    "crossings": [
+      {
+        "way": 818900579,
+        "tags": {
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "-2",
+          "level": "-2",
+          "name": "IND Archer Avenue Line",
+          "operator": "New York City Transit Authority",
+          "railway": "subway",
+          "railway:preferred_direction": "forward",
+          "railway:track_ref": "1A",
+          "railway:track_ref:signals": "D1A",
+          "tunnel": "yes",
+          "voltage": "625"
+        },
+        "chainage": 757.1295329446295
+      }
+    ]
+  },
+  {
+    "ref": "3",
+    "segments": [
+      {
+        "start_metres": 0.0,
+        "end_metres": 255.95387616147485,
+        "depth": -2,
+        "source_way_id": 333765219
+      },
+      {
+        "start_metres": 255.95387616147485,
+        "end_metres": 654.0323633069713,
+        "depth": -1,
+        "source_way_id": 824397096
+      },
+      {
+        "start_metres": 654.0323633069713,
+        "end_metres": 934.101115045216,
+        "depth": -2,
+        "source_way_id": 824397093
+      }
+    ],
+    "crossings": [
+      {
+        "way": 818900578,
+        "tags": {
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "-2",
+          "level": "-2",
+          "name": "IND Archer Avenue Line",
+          "operator": "New York City Transit Authority",
+          "railway": "subway",
+          "railway:preferred_direction": "forward",
+          "railway:track_ref": "1A",
+          "railway:track_ref:signals": "D1A",
+          "tunnel": "yes",
+          "voltage": "625"
+        },
+        "chainage": 544.513213648962
+      },
+      {
+        "way": 818900996,
+        "tags": {
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "-2",
+          "level": "-2",
+          "operator": "New York City Transit Authority",
+          "railway": "subway",
+          "railway:preferred_direction": "forward",
+          "service": "crossover",
+          "tunnel": "yes",
+          "voltage": "625"
+        },
+        "chainage": 763.9469132775672
+      }
+    ]
+  },
+  {
+    "ref": "4",
+    "segments": [
+      {
+        "start_metres": 0.0,
+        "end_metres": 256.2157908615901,
+        "depth": -2,
+        "source_way_id": 818901119
+      },
+      {
+        "start_metres": 256.2157908615901,
+        "end_metres": 659.6127539558481,
+        "depth": -1,
+        "source_way_id": 824397097
+      },
+      {
+        "start_metres": 659.6127539558481,
+        "end_metres": 939.8158106684498,
+        "depth": -2,
+        "source_way_id": 824397092
+      }
+    ],
+    "crossings": [
+      {
+        "way": 818900578,
+        "tags": {
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "-2",
+          "level": "-2",
+          "name": "IND Archer Avenue Line",
+          "operator": "New York City Transit Authority",
+          "railway": "subway",
+          "railway:preferred_direction": "forward",
+          "railway:track_ref": "1A",
+          "railway:track_ref:signals": "D1A",
+          "tunnel": "yes",
+          "voltage": "625"
+        },
+        "chainage": 536.5371260645445
+      }
+    ]
+  },
+  {
+    "ref": "2",
+    "segments": [
+      {
+        "start_metres": 0.0,
+        "end_metres": 256.47739014307797,
+        "depth": -2,
+        "source_way_id": 818901073
+      },
+      {
+        "start_metres": 256.47739014307797,
+        "end_metres": 666.7713533546892,
+        "depth": -1,
+        "source_way_id": 824397098
+      },
+      {
+        "start_metres": 666.7713533546892,
+        "end_metres": 947.0074713740132,
+        "depth": -2,
+        "source_way_id": 824397091
+      }
+    ],
+    "crossings": [
+      {
+        "way": 818900578,
+        "tags": {
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "-2",
+          "level": "-2",
+          "name": "IND Archer Avenue Line",
+          "operator": "New York City Transit Authority",
+          "railway": "subway",
+          "railway:preferred_direction": "forward",
+          "railway:track_ref": "1A",
+          "railway:track_ref:signals": "D1A",
+          "tunnel": "yes",
+          "voltage": "625"
+        },
+        "chainage": 528.1659877890556
+      },
+      {
+        "way": 818900992,
+        "tags": {
+          "electrified": "rail",
+          "frequency": "0",
+          "gauge": "1435",
+          "layer": "-2",
+          "level": "-2",
+          "name": "IND Archer Avenue Line",
+          "operator": "New York City Transit Authority",
+          "railway": "subway",
+          "railway:preferred_direction": "forward",
+          "railway:track_ref": "2A",
+          "railway:track_ref:signals": "D2A",
+          "tunnel": "yes",
+          "voltage": "625"
+        },
+        "chainage": 545.4637295089823
+      }
+    ]
+  }
+]

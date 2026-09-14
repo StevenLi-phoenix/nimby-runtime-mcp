@@ -1,0 +1,135 @@
+{
+  "name": "9th Avenue",
+  "plan_index": 23,
+  "center": {
+    "x": -8237010.071691207,
+    "y": 4960309.56055071
+  },
+  "scale": 0.7587518709577206,
+  "southbound_axis": {
+    "x": 0.7830830357633111,
+    "y": -0.6219171641784111
+  },
+  "depth": -1,
+  "platform_length_metres": 140,
+  "tracks": [
+    {
+      "track_ref": "2",
+      "source_way_id": 225541885,
+      "offset_metres": -9.690151730426114,
+      "points": [
+        {
+          "x": -8237141.86238564,
+          "y": 4960397.918640928,
+          "depth": -1
+        },
+        {
+          "x": -8237090.2590179425,
+          "y": 4960356.9357328145,
+          "depth": -1
+        },
+        {
+          "x": -8236945.76958839,
+          "y": 4960242.183590095,
+          "depth": -1
+        },
+        {
+          "x": -8236894.166220693,
+          "y": 4960201.200681981,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "3-4",
+      "source_way_id": 46341525,
+      "offset_metres": -0.2448243333138162,
+      "points": [
+        {
+          "x": -8237134.120445943,
+          "y": 4960407.666854982,
+          "depth": -1
+        },
+        {
+          "x": -8237082.517078246,
+          "y": 4960366.683946868,
+          "depth": -1
+        },
+        {
+          "x": -8236938.027648694,
+          "y": 4960251.9318041485,
+          "depth": -1
+        },
+        {
+          "x": -8236886.424280996,
+          "y": 4960210.948896035,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "1",
+      "source_way_id": 299892108,
+      "offset_metres": 9.152695764174526,
+      "points": [
+        {
+          "x": -8237126.41769189,
+          "y": 4960417.365728683,
+          "depth": -1
+        },
+        {
+          "x": -8237074.814324193,
+          "y": 4960376.382820569,
+          "depth": -1
+        },
+        {
+          "x": -8236930.324894641,
+          "y": 4960261.630677849,
+          "depth": -1
+        },
+        {
+          "x": -8236878.721526943,
+          "y": 4960220.647769735,
+          "depth": -1
+        }
+      ]
+    }
+  ],
+  "islands": [
+    {
+      "track_refs": [
+        "2",
+        "3-4"
+      ],
+      "island_width_metres": 6.395327397112298,
+      "offset_min": -8.165151730426114,
+      "offset_max": -1.7698243333138162
+    },
+    {
+      "track_refs": [
+        "3-4",
+        "1"
+      ],
+      "island_width_metres": 6.347520097488343,
+      "offset_min": 1.2801756666861837,
+      "offset_max": 7.6276957641745256
+    }
+  ],
+  "source_platform_way_ids": [
+    299892115,
+    299892131
+  ],
+  "excluded_yard_way_ids": [
+    225541876,
+    46640044,
+    225541875,
+    299892070
+  ],
+  "source": "data/nyc_ninth_avenue_source.json",
+  "stage": "candidate_native_platform_geometry_pending",
+  "pending": [
+    "Create three physical platform tracks with two island footprints; do not duplicate the middle track.",
+    "Audit native station geometry and both approaches before selected construction.",
+    "Preserve yard and private platform infrastructure as deferred work."
+  ]
+}

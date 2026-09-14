@@ -1,0 +1,98 @@
+{
+  "name": "5th Avenue/53rd Street",
+  "plan_index": 12,
+  "scale": 0.7574450782636722,
+  "platforms": [
+    {
+      "source_platform_way": 908245242,
+      "source_track_way": 759735516,
+      "track_ref": "3",
+      "depth": -2,
+      "center": {
+        "x": -8234861.334724641,
+        "y": 4977023.174000544
+      },
+      "axis": {
+        "x": -0.8738315655560145,
+        "y": 0.4862287476465421
+      },
+      "source_side_bounds_metres": [
+        1.532161903413799,
+        5.193187751867201
+      ],
+      "points": [
+        {
+          "x": -8234722.895924422,
+          "y": 4976946.142079164,
+          "depth": -2
+        },
+        {
+          "x": -8234780.578757847,
+          "y": 4976978.238713073,
+          "depth": -2
+        },
+        {
+          "x": -8234942.090691436,
+          "y": 4977068.1092880145,
+          "depth": -2
+        },
+        {
+          "x": -8234999.773524861,
+          "y": 4977100.205921923,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "source_platform_way": 908245243,
+      "source_track_way": 819186609,
+      "track_ref": "4",
+      "depth": -3,
+      "center": {
+        "x": -8234861.039254255,
+        "y": 4977022.8244153075
+      },
+      "axis": {
+        "x": -0.8737418786277963,
+        "y": 0.4863898945619341
+      },
+      "source_side_bounds_metres": [
+        1.5280618365528196,
+        5.20431546863048
+      ],
+      "points": [
+        {
+          "x": -8234722.614662896,
+          "y": 4976945.7669638535,
+          "depth": -3
+        },
+        {
+          "x": -8234780.291575962,
+          "y": 4976977.874235293,
+          "depth": -3
+        },
+        {
+          "x": -8234941.786932548,
+          "y": 4977067.774595322,
+          "depth": -3
+        },
+        {
+          "x": -8234999.463845613,
+          "y": 4977099.8818667615,
+          "depth": -3
+        }
+      ]
+    }
+  ],
+  "center": {
+    "x": -8234861.186989448,
+    "y": 4977022.999207925
+  },
+  "platform_length_metres": 140,
+  "source": "data/nyc_rockefeller_source.json",
+  "pending": [
+    "Create separate single-track platforms and unify station ownership.",
+    "Verify side-building placement and both native layers before building.",
+    "Connect the Sixth Avenue junction and Lexington Avenue approaches."
+  ]
+}

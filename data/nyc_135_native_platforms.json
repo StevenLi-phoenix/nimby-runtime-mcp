@@ -1,0 +1,209 @@
+{
+  "name": "135th Street",
+  "center": {
+    "x": -8231823.8665284235,
+    "y": 4985495.003282081
+  },
+  "scale": 0.7567927379998277,
+  "southbound_axis": {
+    "x": -0.33388637314218444,
+    "y": -0.9426133299661945
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 813746959,
+      "depth": -1,
+      "offset_metres": -10.00342399653135,
+      "role": "local",
+      "points": [
+        {
+          "x": -8231783.383840847,
+          "y": 4985648.881088653,
+          "depth": -1
+        },
+        {
+          "x": -8231805.443141655,
+          "y": 4985586.604240407,
+          "depth": -1
+        },
+        {
+          "x": -8231867.209183919,
+          "y": 4985412.229065317,
+          "depth": -1
+        },
+        {
+          "x": -8231889.2684847275,
+          "y": 4985349.952217071,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "3",
+      "source_way_id": 813746961,
+      "depth": -1,
+      "offset_metres": -2.003002400477194,
+      "role": "express",
+      "points": [
+        {
+          "x": -8231773.419020014,
+          "y": 4985645.351414521,
+          "depth": -1
+        },
+        {
+          "x": -8231795.478320822,
+          "y": 4985583.074566276,
+          "depth": -1
+        },
+        {
+          "x": -8231857.244363086,
+          "y": 4985408.699391185,
+          "depth": -1
+        },
+        {
+          "x": -8231879.3036638945,
+          "y": 4985346.42254294,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 813746962,
+      "depth": -1,
+      "offset_metres": 2.0006359804730844,
+      "role": "express",
+      "points": [
+        {
+          "x": -8231768.432340416,
+          "y": 4985643.585065254,
+          "depth": -1
+        },
+        {
+          "x": -8231790.491641224,
+          "y": 4985581.308217009,
+          "depth": -1
+        },
+        {
+          "x": -8231852.257683489,
+          "y": 4985406.933041918,
+          "depth": -1
+        },
+        {
+          "x": -8231874.316984297,
+          "y": 4985344.656193673,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 813746964,
+      "depth": -1,
+      "offset_metres": 9.88037476263544,
+      "role": "local",
+      "points": [
+        {
+          "x": -8231758.617834489,
+          "y": 4985640.108634693,
+          "depth": -1
+        },
+        {
+          "x": -8231780.677135297,
+          "y": 4985577.831786447,
+          "depth": -1
+        },
+        {
+          "x": -8231842.443177561,
+          "y": 4985403.456611357,
+          "depth": -1
+        },
+        {
+          "x": -8231864.5024783695,
+          "y": 4985341.179763111,
+          "depth": -1
+        }
+      ]
+    }
+  ],
+  "platforms": [
+    {
+      "track_ref": "1",
+      "platform_way": 685340797,
+      "source_lateral_bounds_metres": [
+        -15.006964281602441,
+        -11.648234169882512
+      ],
+      "track_offset_metres": -10.00342399653135,
+      "native_lateral_bounds_metres": [
+        -15.006964281602441,
+        -11.648234169882512
+      ],
+      "native_width_metres": 3.358730111719929
+    },
+    {
+      "track_ref": "2",
+      "platform_way": 685340796,
+      "source_lateral_bounds_metres": [
+        11.65228061545973,
+        15.001876349803622
+      ],
+      "track_offset_metres": 9.88037476263544,
+      "native_lateral_bounds_metres": [
+        11.65228061545973,
+        15.001876349803622
+      ],
+      "native_width_metres": 3.3495957343438914
+    }
+  ],
+  "deferred_source_tracks": [
+    {
+      "way": 813746960,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line layup tracks",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "5",
+        "railway:track_ref:signals": "A5",
+        "service": "siding",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": -5.998699718249686,
+      "x": -8231831.338130664,
+      "y": 4985497.649824512
+    },
+    {
+      "way": 813746963,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line layup tracks",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "6",
+        "railway:track_ref:signals": "A6",
+        "service": "siding",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": 5.99841185581242,
+      "x": -8231816.395284726,
+      "y": 4985492.356866651
+    }
+  ],
+  "deferred_reason": "Existing scope excludes new layup/yard tracks; preserve space without constructing.",
+  "source": "data/nyc_harlem_source.json",
+  "stage": "native_blueprint_pending"
+}

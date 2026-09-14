@@ -1,0 +1,293 @@
+{
+  "to_station": "Fort Hamilton Parkway",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475821338625",
+      "end_node_id": "281475822387201",
+      "from_station": "15th Street–Prospect Park",
+      "source_length_metres": 927.2941106383993,
+      "source_projection_gaps_world_metres": [
+        8.196336783182057,
+        7.122988881207758
+      ],
+      "source_way_ids": [
+        814347385
+      ],
+      "points": [
+        {
+          "x": -8235447.0628256565,
+          "y": 4962216.424137479,
+          "depth": -2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8235460.178383969,
+          "y": 4962092.03540321,
+          "source_node_id": 7606978470,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235447.165135495,
+          "y": 4962042.612836403,
+          "source_node_id": 7606978472,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235420.170158978,
+          "y": 4961999.2068805,
+          "source_node_id": 7606978474,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235079.098371137,
+          "y": 4961722.678187968,
+          "source_node_id": 7606999400,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235050.366810563,
+          "y": 4961684.115932256,
+          "source_node_id": 7606978476,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235037.487145478,
+          "y": 4961637.776862442,
+          "depth": -2,
+          "reason": "paired_source_curve"
+        },
+        {
+          "x": -8234965.314639265,
+          "y": 4961183.81038076,
+          "depth": -2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475821273089",
+      "end_node_id": "281475822321665",
+      "from_station": "15th Street–Prospect Park",
+      "source_length_metres": 924.4104062921931,
+      "source_projection_gaps_world_metres": [
+        7.715210298217957,
+        7.141269343278378
+      ],
+      "source_way_ids": [
+        46340211
+      ],
+      "points": [
+        {
+          "x": -8235440.46182361,
+          "y": 4962212.694419454,
+          "depth": -2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8235454.968631799,
+          "y": 4962092.57834847,
+          "source_node_id": 591991960,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235442.333869596,
+          "y": 4962044.63786541,
+          "source_node_id": 7606986871,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235416.129261462,
+          "y": 4962002.552565994,
+          "source_node_id": 7606986865,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235075.491619635,
+          "y": 4961726.478662032,
+          "source_node_id": 591991920,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235045.724787797,
+          "y": 4961686.566421158,
+          "source_node_id": 591991929,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235032.333053054,
+          "y": 4961638.613252825,
+          "source_node_id": 591991978,
+          "depth": -2,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234960.277413834,
+          "y": 4961184.264074872,
+          "depth": -2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475818913793",
+      "end_node_id": "281475822583810",
+      "from_station": "7th Avenue",
+      "source_length_metres": 1637.8610286564262,
+      "source_projection_gaps_world_metres": [
+        2.4385355388557675,
+        7.106162277275788
+      ],
+      "source_way_ids": [
+        97047837
+      ],
+      "points": [
+        {
+          "x": -8235291.94006727,
+          "y": 4963139.559125911,
+          "depth": -3,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8234957.459563547,
+          "y": 4962919.284124961,
+          "source_node_id": 7606999341,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234920.568284299,
+          "y": 4962857.221902797,
+          "source_node_id": 7606999344,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234917.907748468,
+          "y": 4962808.397158509,
+          "source_node_id": 7606978454,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234978.866301625,
+          "y": 4962098.315961043,
+          "source_node_id": 7606999347,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235028.960072482,
+          "y": 4961757.39608694,
+          "source_node_id": 7606978452,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235028.537058418,
+          "y": 4961583.015457888,
+          "source_node_id": 7606999311,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234965.429982053,
+          "y": 4961183.79890817,
+          "depth": -3,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475819503618",
+      "end_node_id": "281475822911490",
+      "from_station": "7th Avenue",
+      "source_length_metres": 1641.548523725568,
+      "source_projection_gaps_world_metres": [
+        2.3989449744316915,
+        7.099725208984743
+      ],
+      "source_way_ids": [
+        814347384
+      ],
+      "points": [
+        {
+          "x": -8235289.356361006,
+          "y": 4963143.748655168,
+          "depth": -3,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8234953.89733984,
+          "y": 4962923.129089956,
+          "source_node_id": 7606999408,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234915.480983568,
+          "y": 4962858.513333063,
+          "source_node_id": 7606999410,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234912.68686435,
+          "y": 4962808.074302579,
+          "source_node_id": 3783772560,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234973.678813355,
+          "y": 4962097.7289928505,
+          "source_node_id": 7606986860,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235023.739188364,
+          "y": 4961757.205328917,
+          "source_node_id": 591991938,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235023.327306248,
+          "y": 4961583.235559382,
+          "source_node_id": 7606999312,
+          "depth": -3,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234960.2350466475,
+          "y": 4961184.266806945,
+          "depth": -3,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "adaptations": [
+    "Local tracks remain at -2, express bypass at -3.",
+    "Express tracks bypass 15th Street and have no Fort Hamilton platforms."
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

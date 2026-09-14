@@ -1,0 +1,49 @@
+{
+  "scope": "Restricted built physical graph for 75 Avenue to Forest Hills; does not model turnout direction or native route selection.",
+  "paths": [
+    {
+      "from_ref": "1",
+      "to_ref": "3",
+      "from_platform": "281475888971777",
+      "to_platform": "281475883073537",
+      "native_path": [
+        "281475888971777",
+        "281475889299457",
+        "281475890413569",
+        "281475890479105",
+        "281475889430530",
+        "281475889823746",
+        "281475889889281",
+        "281475883335681",
+        "281475883073537"
+      ],
+      "source_crossovers": [
+        818901020
+      ]
+    },
+    {
+      "from_ref": "2",
+      "to_ref": "4",
+      "from_platform": "281475888840705",
+      "to_platform": "281475883728898",
+      "native_path": [
+        "281475888840705",
+        "281475888906241",
+        "281475889233921",
+        "281475890741249",
+        "281475890675713",
+        "281475889561602",
+        "281475889954817",
+        "281475890020353",
+        "281475883925506",
+        "281475883794434",
+        "281475883728898"
+      ],
+      "source_crossovers": [
+        818901022
+      ]
+    }
+  ],
+  "operations_proven": false,
+  "next_action": "Validate these platform pairs with native operating-line paths and live trains."
+}

@@ -1,0 +1,43 @@
+{
+  "tracks": [
+    {
+      "track_ref": "3",
+      "source_way_id": 818901150,
+      "offset": -2.8733970200334458,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8219393.967763241,
+          "y": 4970824.835837861,
+          "depth": -2
+        },
+        {
+          "x": -8219662.964125175,
+          "y": 4970991.905958875,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 818901124,
+      "offset": 0.9364836210220864,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8219396.619918323,
+          "y": 4970820.565654394,
+          "depth": -2
+        },
+        {
+          "x": -8219665.616280257,
+          "y": 4970987.635775409,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "source": "data/nyc_forest_hills_source.json",
+  "stage": "built_adjacent_corridors_and_operations_pending",
+  "native_verification": "work/nyc-seventy_fifth-all-built.json"
+}

@@ -1,0 +1,149 @@
+{
+  "station": "Smith–9th Streets",
+  "plan_index": 15,
+  "source": "data/nyc_culver_cross_sections.json",
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "platform_length_metres": 140,
+  "track_spacing_metres": 16.160529936418364,
+  "primary_ref": "2",
+  "secondary_ref": "1",
+  "paired_side": "right",
+  "source_depth": 4,
+  "native_depth": 3,
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 426568715,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8237328.812491591,
+          "y": 4964432.470481387,
+          "depth": 3
+        },
+        {
+          "x": -8237281.686997065,
+          "y": 4964386.370177833,
+          "depth": 3
+        },
+        {
+          "x": -8237215.71130473,
+          "y": 4964321.829752858,
+          "depth": 3
+        },
+        {
+          "x": -8237149.735612394,
+          "y": 4964257.289327882,
+          "depth": 3
+        },
+        {
+          "x": -8237102.6101178685,
+          "y": 4964211.189024328,
+          "depth": 3
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 426568716,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8237313.912384878,
+          "y": 4964447.701940688,
+          "depth": 3
+        },
+        {
+          "x": -8237266.786890352,
+          "y": 4964401.601637134,
+          "depth": 3
+        },
+        {
+          "x": -8237200.811198017,
+          "y": 4964337.061212159,
+          "depth": 3
+        },
+        {
+          "x": -8237134.835505681,
+          "y": 4964272.520787183,
+          "depth": 3
+        },
+        {
+          "x": -8237087.710011155,
+          "y": 4964226.420483629,
+          "depth": 3
+        }
+      ]
+    },
+    {
+      "track_ref": "3",
+      "source_way_id": 426568714,
+      "role": "express_no_platform",
+      "points": [
+        {
+          "x": -8237324.4853305835,
+          "y": 4964436.893870967,
+          "depth": 3
+        },
+        {
+          "x": -8237277.359836058,
+          "y": 4964390.793567413,
+          "depth": 3
+        },
+        {
+          "x": -8237211.384143722,
+          "y": 4964326.253142438,
+          "depth": 3
+        },
+        {
+          "x": -8237145.408451387,
+          "y": 4964261.712717462,
+          "depth": 3
+        },
+        {
+          "x": -8237098.282956861,
+          "y": 4964215.612413908,
+          "depth": 3
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 46341911,
+      "role": "express_no_platform",
+      "points": [
+        {
+          "x": -8237317.9068792695,
+          "y": 4964443.618615654,
+          "depth": 3
+        },
+        {
+          "x": -8237270.781384744,
+          "y": 4964397.5183121,
+          "depth": 3
+        },
+        {
+          "x": -8237204.805692408,
+          "y": 4964332.977887125,
+          "depth": 3
+        },
+        {
+          "x": -8237138.830000073,
+          "y": 4964268.437462149,
+          "depth": 3
+        },
+        {
+          "x": -8237091.704505547,
+          "y": 4964222.337158595,
+          "depth": 3
+        }
+      ]
+    }
+  ],
+  "adaptations": [
+    "Source +4 mapped to highest supported native +3.",
+    "Straight parallel station span; retain source bends in onward approaches."
+  ],
+  "stage": "candidate_station_span_native_and_corridor_audit_pending",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

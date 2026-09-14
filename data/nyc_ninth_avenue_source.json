@@ -1,0 +1,7423 @@
+{
+  "source_url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=-73.999,40.642,-73.987,40.650",
+  "fetched_at": "2026-09-13T11:53:45.632916+00:00",
+  "sha256": "584001f9fb7fac3d61ca9ea0cc071164a7bfe3ef645f6de24c4577d950209953",
+  "attribution": "© OpenStreetMap contributors, ODbL",
+  "ways": [
+    {
+      "osm_way_id": 46340146,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "D3",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111507,
+        2343111506
+      ],
+      "points": [
+        {
+          "x": -8237223.712889064,
+          "y": 4960476.33433575
+        },
+        {
+          "x": -8237201.126164383,
+          "y": 4960458.420115671
+        }
+      ]
+    },
+    {
+      "osm_way_id": 46341525,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "D3-4",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735462,
+        8401217853,
+        3039735447,
+        3039735438,
+        4262898544,
+        4262898541,
+        4262898538
+      ],
+      "points": [
+        {
+          "x": -8237117.669942136,
+          "y": 4960391.678563785
+        },
+        {
+          "x": -8237107.573264321,
+          "y": 4960384.166683149
+        },
+        {
+          "x": -8237099.558260984,
+          "y": 4960378.195329024
+        },
+        {
+          "x": -8237081.390920086,
+          "y": 4960365.0789030185
+        },
+        {
+          "x": -8237053.104637476,
+          "y": 4960343.2622467745
+        },
+        {
+          "x": -8236913.242829244,
+          "y": 4960232.389782662
+        },
+        {
+          "x": -8236906.585923694,
+          "y": 4960226.8880059
+        }
+      ]
+    },
+    {
+      "osm_way_id": 46640043,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "maxspeed": "15 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "4",
+        "railway:track_ref:signals": "D4",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735528,
+        2343111515,
+        3039735684
+      ],
+      "points": [
+        {
+          "x": -8237276.84568202,
+          "y": 4960526.306526666
+        },
+        {
+          "x": -8237364.50978102,
+          "y": 4960596.746328142
+        },
+        {
+          "x": -8237390.87023644,
+          "y": 4960617.653886011
+        }
+      ]
+    },
+    {
+      "osm_way_id": 46640044,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        595932936,
+        3039735448,
+        4262898547,
+        3039735427,
+        3039735419,
+        595932944,
+        3039735334,
+        595932952,
+        3039735327,
+        3039735321,
+        3039735313,
+        595932955,
+        595932958
+      ],
+      "points": [
+        {
+          "x": -8237114.074322583,
+          "y": 4960396.138745638
+        },
+        {
+          "x": -8237092.155514845,
+          "y": 4960378.239343905
+        },
+        {
+          "x": -8237076.893612657,
+          "y": 4960364.139920172
+        },
+        {
+          "x": -8237064.659600619,
+          "y": 4960353.899144384
+        },
+        {
+          "x": -8237053.060109679,
+          "y": 4960343.320933077
+        },
+        {
+          "x": -8236920.534255889,
+          "y": 4960237.788862593
+        },
+        {
+          "x": -8236906.508000049,
+          "y": 4960226.961362906
+        },
+        {
+          "x": -8236897.713760277,
+          "y": 4960222.354544175
+        },
+        {
+          "x": -8236890.9677991355,
+          "y": 4960219.757707819
+        },
+        {
+          "x": -8236885.891630354,
+          "y": 4960218.349254492
+        },
+        {
+          "x": -8236874.514778396,
+          "y": 4960215.121549716
+        },
+        {
+          "x": -8236862.881891608,
+          "y": 4960213.331641158
+        },
+        {
+          "x": -8236848.132059077,
+          "y": 4960211.893846
+        }
+      ]
+    },
+    {
+      "osm_way_id": 46640045,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        595932958,
+        595932967,
+        3039735305
+      ],
+      "points": [
+        {
+          "x": -8236848.132059077,
+          "y": 4960211.893846
+        },
+        {
+          "x": -8236824.777229909,
+          "y": 4960211.321662268
+        },
+        {
+          "x": -8236805.507826054,
+          "y": 4960210.500065179
+        }
+      ]
+    },
+    {
+      "osm_way_id": 46696284,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "maxspeed": "35 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "D3-4",
+        "voltage": "625"
+      },
+      "node_ids": [
+        4262898311,
+        4262897385,
+        8401206629,
+        4262898355,
+        591991378,
+        4262898280,
+        4262898287,
+        4262898411,
+        3487827703,
+        3487827704,
+        4262898380,
+        3487827705,
+        4262898432,
+        591991345,
+        591991540,
+        4262898454,
+        4262898512,
+        591991442,
+        3487827709,
+        3487827706,
+        4262898521,
+        4262898524,
+        4262898527,
+        4262898530,
+        4262898533,
+        4262898536,
+        2343111452
+      ],
+      "points": [
+        {
+          "x": -8237360.736050284,
+          "y": 4957110.048874095
+        },
+        {
+          "x": -8237323.510812563,
+          "y": 4957280.477785014
+        },
+        {
+          "x": -8237270.845561467,
+          "y": 4957522.1487174295
+        },
+        {
+          "x": -8237251.609553458,
+          "y": 4957610.402555456
+        },
+        {
+          "x": -8237205.690263505,
+          "y": 4957821.953924212
+        },
+        {
+          "x": -8237188.135179807,
+          "y": 4957902.509803114
+        },
+        {
+          "x": -8237170.70254755,
+          "y": 4957982.7583157215
+        },
+        {
+          "x": -8237135.581248205,
+          "y": 4958143.477337579
+        },
+        {
+          "x": -8237129.169245535,
+          "y": 4958178.490583763
+        },
+        {
+          "x": -8237123.8927016705,
+          "y": 4958212.213137356
+        },
+        {
+          "x": -8237121.365749229,
+          "y": 4958232.0448107375
+        },
+        {
+          "x": -8237119.061435771,
+          "y": 4958251.93519804
+        },
+        {
+          "x": -8237065.160538329,
+          "y": 4958809.322521552
+        },
+        {
+          "x": -8237041.46061874,
+          "y": 4959056.224233788
+        },
+        {
+          "x": -8237012.461891387,
+          "y": 4959357.690114653
+        },
+        {
+          "x": -8237010.079654284,
+          "y": 4959402.067262703
+        },
+        {
+          "x": -8237003.47840848,
+          "y": 4959829.506513568
+        },
+        {
+          "x": -8237002.699172044,
+          "y": 4959839.702728476
+        },
+        {
+          "x": -8237002.098046793,
+          "y": 4959846.803408153
+        },
+        {
+          "x": -8237000.995983834,
+          "y": 4959855.415189792
+        },
+        {
+          "x": -8236999.23713588,
+          "y": 4959863.352119613
+        },
+        {
+          "x": -8236996.23150963,
+          "y": 4959874.311255096
+        },
+        {
+          "x": -8236991.01062551,
+          "y": 4959887.647087108
+        },
+        {
+          "x": -8236983.485427934,
+          "y": 4959901.731153836
+        },
+        {
+          "x": -8236974.5353408735,
+          "y": 4959914.524198672
+        },
+        {
+          "x": -8236962.49057197,
+          "y": 4959930.163425267
+        },
+        {
+          "x": -8236953.484825164,
+          "y": 4959940.345074019
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541873,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        592078792,
+        3039735244,
+        2343111465,
+        3039735248,
+        3039735253,
+        2343111471,
+        3039735275,
+        3039735304,
+        3039735323,
+        4262898540
+      ],
+      "points": [
+        {
+          "x": -8236831.033385294,
+          "y": 4960123.557876895
+        },
+        {
+          "x": -8236831.3784757145,
+          "y": 4960137.8330094125
+        },
+        {
+          "x": -8236834.617872895,
+          "y": 4960153.208509445
+        },
+        {
+          "x": -8236837.3452004185,
+          "y": 4960164.754821617
+        },
+        {
+          "x": -8236842.744195724,
+          "y": 4960177.122741632
+        },
+        {
+          "x": -8236849.189594241,
+          "y": 4960189.564033986
+        },
+        {
+          "x": -8236856.70365987,
+          "y": 4960199.892666066
+        },
+        {
+          "x": -8236865.809594216,
+          "y": 4960210.35335142
+        },
+        {
+          "x": -8236874.737417378,
+          "y": 4960218.774724745
+        },
+        {
+          "x": -8236896.322266642,
+          "y": 4960235.192022145
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541875,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111480,
+        3039735324,
+        2343111482,
+        3039735328,
+        2343111485,
+        3039735337,
+        3039735350,
+        4262898542,
+        4262898548,
+        3039735451,
+        3039735456,
+        3039735464,
+        2343111504
+      ],
+      "points": [
+        {
+          "x": -8236847.820364504,
+          "y": 4960218.158526453
+        },
+        {
+          "x": -8236853.497658534,
+          "y": 4960218.789396134
+        },
+        {
+          "x": -8236860.176827981,
+          "y": 4960219.699022261
+        },
+        {
+          "x": -8236870.184450204,
+          "y": 4960222.325201387
+        },
+        {
+          "x": -8236879.5352874305,
+          "y": 4960225.758308124
+        },
+        {
+          "x": -8236888.051228476,
+          "y": 4960230.071700341
+        },
+        {
+          "x": -8236896.300002744,
+          "y": 4960235.294722037
+        },
+        {
+          "x": -8236932.612420642,
+          "y": 4960263.375847103
+        },
+        {
+          "x": -8237071.516881254,
+          "y": 4960373.192305398
+        },
+        {
+          "x": -8237080.912246276,
+          "y": 4960379.867894679
+        },
+        {
+          "x": -8237088.648950887,
+          "y": 4960384.988294813
+        },
+        {
+          "x": -8237103.287463926,
+          "y": 4960394.53953546
+        },
+        {
+          "x": -8237111.313599211,
+          "y": 4960399.806659863
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541876,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111502,
+        3039735444,
+        4262898546,
+        3039735420,
+        4262898543,
+        4262898539,
+        2343111483,
+        3039735326,
+        3039735315,
+        3039735307,
+        3039735295,
+        2343111473
+      ],
+      "points": [
+        {
+          "x": -8237121.1319783,
+          "y": 4960387.262398884
+        },
+        {
+          "x": -8237107.918354742,
+          "y": 4960375.87721219
+        },
+        {
+          "x": -8237084.697108962,
+          "y": 4960354.6914103255
+        },
+        {
+          "x": -8237071.884235571,
+          "y": 4960343.849109788
+        },
+        {
+          "x": -8237060.841342085,
+          "y": 4960333.8137570685
+        },
+        {
+          "x": -8236937.265575356,
+          "y": 4960234.942608128
+        },
+        {
+          "x": -8236921.736506391,
+          "y": 4960224.17379717
+        },
+        {
+          "x": -8236911.984918998,
+          "y": 4960219.258880575
+        },
+        {
+          "x": -8236901.598810506,
+          "y": 4960215.3562918445
+        },
+        {
+          "x": -8236890.077243209,
+          "y": 4960212.011217026
+        },
+        {
+          "x": -8236873.023097219,
+          "y": 4960208.255344905
+        },
+        {
+          "x": -8236849.1116705965,
+          "y": 4960205.174357133
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541877,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111479,
+        3039735317
+      ],
+      "points": [
+        {
+          "x": -8236793.58550859,
+          "y": 4960215.532348445
+        },
+        {
+          "x": -8236803.459547423,
+          "y": 4960215.913804425
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541878,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "D3",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736178,
+        3039736153,
+        3039735701,
+        3039735680
+      ],
+      "points": [
+        {
+          "x": -8237521.960068798,
+          "y": 4960713.697178079
+        },
+        {
+          "x": -8237493.562466696,
+          "y": 4960690.544584276
+        },
+        {
+          "x": -8237438.292339519,
+          "y": 4960647.159294516
+        },
+        {
+          "x": -8237393.987182181,
+          "y": 4960613.134915335
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541880,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735532,
+        2343111516,
+        3039735671,
+        3039735676,
+        3039735679,
+        3039735682,
+        3039735684
+      ],
+      "points": [
+        {
+          "x": -8237273.428173653,
+          "y": 4960530.091864496
+        },
+        {
+          "x": -8237360.9364253655,
+          "y": 4960600.913164183
+        },
+        {
+          "x": -8237368.339171505,
+          "y": 4960606.253759449
+        },
+        {
+          "x": -8237376.4320984855,
+          "y": 4960610.655351143
+        },
+        {
+          "x": -8237380.684503033,
+          "y": 4960612.606724096
+        },
+        {
+          "x": -8237385.137282664,
+          "y": 4960614.558097436
+        },
+        {
+          "x": -8237390.87023644,
+          "y": 4960617.653886011
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541881,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735680,
+        3039735673,
+        3039735669,
+        3039735664,
+        3039735659,
+        2343111513,
+        3039735520
+      ],
+      "points": [
+        {
+          "x": -8237393.987182181,
+          "y": 4960613.134915335
+        },
+        {
+          "x": -8237388.643846625,
+          "y": 4960607.251453395
+        },
+        {
+          "x": -8237385.994442744,
+          "y": 4960603.950260587
+        },
+        {
+          "x": -8237381.797697941,
+          "y": 4960598.1548359
+        },
+        {
+          "x": -8237377.445105852,
+          "y": 4960593.22505963
+        },
+        {
+          "x": -8237371.5897006355,
+          "y": 4960587.723080114
+        },
+        {
+          "x": -8237283.958997482,
+          "y": 4960518.060950877
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541882,
+      "tags": {
+        "bridge": "yes",
+        "layer": "2",
+        "level": "2",
+        "maxspeed": "25 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "D3-4"
+      },
+      "node_ids": [
+        2343111461,
+        2343111459,
+        3039734930,
+        3039734918,
+        2343111457,
+        3039734908,
+        2343111455,
+        2343111452
+      ],
+      "points": [
+        {
+          "x": -8236842.17646632,
+          "y": 4960123.308465723
+        },
+        {
+          "x": -8236842.510424792,
+          "y": 4960110.485805661
+        },
+        {
+          "x": -8236843.968710122,
+          "y": 4960097.927244122
+        },
+        {
+          "x": -8236848.499413397,
+          "y": 4960081.246095579
+        },
+        {
+          "x": -8236853.05238057,
+          "y": 4960069.18639111
+        },
+        {
+          "x": -8236858.985709431,
+          "y": 4960056.701238268
+        },
+        {
+          "x": -8236865.731670572,
+          "y": 4960046.079334628
+        },
+        {
+          "x": -8236953.484825164,
+          "y": 4959940.345074019
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541883,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "27",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        2343111454,
+        3039734917,
+        3039735233,
+        3039735234,
+        3039735239,
+        3039735245,
+        2343111475
+      ],
+      "points": [
+        {
+          "x": -8236486.666540523,
+          "y": 4960018.556334065
+        },
+        {
+          "x": -8236561.65134952,
+          "y": 4960079.749635092
+        },
+        {
+          "x": -8236590.739132466,
+          "y": 4960102.079196677
+        },
+        {
+          "x": -8236598.531496821,
+          "y": 4960107.610245754
+        },
+        {
+          "x": -8236617.7897687275,
+          "y": 4960120.917053018
+        },
+        {
+          "x": -8236649.337712419,
+          "y": 4960145.711483037
+        },
+        {
+          "x": -8236697.839614558,
+          "y": 4960184.047609952
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541884,
+      "tags": {
+        "bridge": "yes",
+        "layer": "2",
+        "level": "2",
+        "maxspeed": "25 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1"
+      },
+      "node_ids": [
+        2343111462,
+        2343111460,
+        3039734923,
+        3039734916,
+        2343111458,
+        3039734906,
+        3039734902,
+        2343111456,
+        2343111453
+      ],
+      "points": [
+        {
+          "x": -8236855.612728859,
+          "y": 4960123.015040818
+        },
+        {
+          "x": -8236855.044999457,
+          "y": 4960100.597404221
+        },
+        {
+          "x": -8236856.358569447,
+          "y": 4960088.87511337
+        },
+        {
+          "x": -8236859.21948036,
+          "y": 4960077.666327738
+        },
+        {
+          "x": -8236863.204718131,
+          "y": 4960066.340185653
+        },
+        {
+          "x": -8236868.514657842,
+          "y": 4960054.793989524
+        },
+        {
+          "x": -8236875.672501101,
+          "y": 4960042.881028886
+        },
+        {
+          "x": -8236882.462990039,
+          "y": 4960034.283753485
+        },
+        {
+          "x": -8236957.703833865,
+          "y": 4959943.851436772
+        }
+      ]
+    },
+    {
+      "osm_way_id": 225541885,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735455,
+        8401217851,
+        8401217852,
+        2343111497,
+        12648334375,
+        12648334377,
+        2343111495,
+        3039735320
+      ],
+      "points": [
+        {
+          "x": -8237124.182132347,
+          "y": 4960383.403758096
+        },
+        {
+          "x": -8237113.729232161,
+          "y": 4960375.891883812
+        },
+        {
+          "x": -8237080.366780771,
+          "y": 4960350.554022235
+        },
+        {
+          "x": -8237061.030585219,
+          "y": 4960333.711056147
+        },
+        {
+          "x": -8237034.358435225,
+          "y": 4960312.540017044
+        },
+        {
+          "x": -8237011.137189448,
+          "y": 4960294.097922576
+        },
+        {
+          "x": -8236922.549138674,
+          "y": 4960223.762998078
+        },
+        {
+          "x": -8236914.300364404,
+          "y": 4960217.630356518
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278634,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011152,
+        3039736288,
+        3039736298,
+        3039736311,
+        3039736333,
+        3039736367,
+        3039736422,
+        2379011193
+      ],
+      "points": [
+        {
+          "x": -8237526.145681652,
+          "y": 4960813.130708133
+        },
+        {
+          "x": -8237537.411214121,
+          "y": 4960820.598901006
+        },
+        {
+          "x": -8237545.504141102,
+          "y": 4960826.130355981
+        },
+        {
+          "x": -8237554.921770023,
+          "y": 4960833.202406413
+        },
+        {
+          "x": -8237569.782922043,
+          "y": 4960845.8939620145
+        },
+        {
+          "x": -8237611.8282937175,
+          "y": 4960879.229548263
+        },
+        {
+          "x": -8237665.462024381,
+          "y": 4960921.808882042
+        },
+        {
+          "x": -8237772.851937149,
+          "y": 4961007.569680486
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278635,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011210,
+        3039736402,
+        3039736340,
+        3039736300,
+        3039736274,
+        3039736265,
+        2379011142
+      ],
+      "points": [
+        {
+          "x": -8237770.302720809,
+          "y": 4961026.027791466
+        },
+        {
+          "x": -8237618.329351978,
+          "y": 4960905.243709161
+        },
+        {
+          "x": -8237551.971803515,
+          "y": 4960852.012324758
+        },
+        {
+          "x": -8237521.69290202,
+          "y": 4960827.6709474465
+        },
+        {
+          "x": -8237502.857644177,
+          "y": 4960812.602506102
+        },
+        {
+          "x": -8237493.005869243,
+          "y": 4960804.782184927
+        },
+        {
+          "x": -8237477.93321019,
+          "y": 4960790.241979605
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278636,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011156,
+        3039736303,
+        3039736314,
+        3039736331,
+        3039736342,
+        3039736381,
+        2379011209
+      ],
+      "points": [
+        {
+          "x": -8237494.87603669,
+          "y": 4960810.020185473
+        },
+        {
+          "x": -8237512.9543219935,
+          "y": 4960828.419234815
+        },
+        {
+          "x": -8237519.789338728,
+          "y": 4960834.434880455
+        },
+        {
+          "x": -8237531.088267043,
+          "y": 4960843.120892392
+        },
+        {
+          "x": -8237545.359425763,
+          "y": 4960853.875711768
+        },
+        {
+          "x": -8237590.555139025,
+          "y": 4960889.823010972
+        },
+        {
+          "x": -8237764.146752969,
+          "y": 4961026.966837785
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278637,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011171,
+        3039736327,
+        3039736332,
+        3039736339,
+        3039736354,
+        2379011206
+      ],
+      "points": [
+        {
+          "x": -8237511.562828359,
+          "y": 4960829.989171248
+        },
+        {
+          "x": -8237522.138179983,
+          "y": 4960841.28685207
+        },
+        {
+          "x": -8237527.158689018,
+          "y": 4960845.805928048
+        },
+        {
+          "x": -8237534.52803931,
+          "y": 4960851.645516332
+        },
+        {
+          "x": -8237553.062734526,
+          "y": 4960866.06843397
+        },
+        {
+          "x": -8237752.03519237,
+          "y": 4961024.340442832
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278639,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011178,
+        3039736348,
+        3039736357,
+        3039736364,
+        3039736388,
+        3039736470,
+        2379011204
+      ],
+      "points": [
+        {
+          "x": -8237528.672634093,
+          "y": 4960850.471729461
+        },
+        {
+          "x": -8237538.123658862,
+          "y": 4960860.610318185
+        },
+        {
+          "x": -8237545.593196694,
+          "y": 4960867.520997559
+        },
+        {
+          "x": -8237556.046096878,
+          "y": 4960876.119004604
+        },
+        {
+          "x": -8237582.4733439945,
+          "y": 4960896.396245668
+        },
+        {
+          "x": -8237705.225346493,
+          "y": 4960994.54044663
+        },
+        {
+          "x": -8237737.741769752,
+          "y": 4961020.02670069
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278643,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111520,
+        3039736146,
+        3039736137
+      ],
+      "points": [
+        {
+          "x": -8237426.570397138,
+          "y": 4960693.49367588
+        },
+        {
+          "x": -8237422.663083011,
+          "y": 4960677.486428143
+        },
+        {
+          "x": -8237421.405172764,
+          "y": 4960672.600628136
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278647,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011150,
+        3039736271,
+        3039736279,
+        3039736289,
+        3039736299,
+        2379011158,
+        3039736334,
+        3039736416,
+        3039736455,
+        2379011202
+      ],
+      "points": [
+        {
+          "x": -8237499.751830386,
+          "y": 4960804.151277485
+        },
+        {
+          "x": -8237510.560952941,
+          "y": 4960810.768471493
+        },
+        {
+          "x": -8237520.935929483,
+          "y": 4960816.299920915
+        },
+        {
+          "x": -8237528.527918757,
+          "y": 4960820.907019102
+        },
+        {
+          "x": -8237536.732165226,
+          "y": 4960826.585197243
+        },
+        {
+          "x": -8237546.116398301,
+          "y": 4960833.803971107
+        },
+        {
+          "x": -8237565.59730919,
+          "y": 4960849.327287399
+        },
+        {
+          "x": -8237651.380108794,
+          "y": 4960917.715271609
+        },
+        {
+          "x": -8237713.785815333,
+          "y": 4960966.736002183
+        },
+        {
+          "x": -8237775.13398671,
+          "y": 4961016.255846023
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278653,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011138,
+        3039736250,
+        2379011140,
+        3039736259,
+        2379011150,
+        3039736281,
+        3039736304,
+        3039736413,
+        2379011208
+      ],
+      "points": [
+        {
+          "x": -8237460.311334798,
+          "y": 4960769.979630607
+        },
+        {
+          "x": -8237476.519452657,
+          "y": 4960785.414812279
+        },
+        {
+          "x": -8237479.513946959,
+          "y": 4960787.879748488
+        },
+        {
+          "x": -8237490.14495833,
+          "y": 4960796.228257285
+        },
+        {
+          "x": -8237499.751830386,
+          "y": 4960804.151277485
+        },
+        {
+          "x": -8237516.071267735,
+          "y": 4960816.564022028
+        },
+        {
+          "x": -8237530.698648825,
+          "y": 4960828.580630138
+        },
+        {
+          "x": -8237640.05891658,
+          "y": 4960915.529078924
+        },
+        {
+          "x": -8237778.673946517,
+          "y": 4961026.306570831
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278654,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011144,
+        3039736268,
+        2379011152,
+        3039736280,
+        3039736283,
+        3039736294,
+        2379011163,
+        3039736316,
+        3039736361,
+        3039736417,
+        3039736450,
+        2379011199
+      ],
+      "points": [
+        {
+          "x": -8237498.338072853,
+          "y": 4960798.385078815
+        },
+        {
+          "x": -8237516.917295866,
+          "y": 4960808.20082362
+        },
+        {
+          "x": -8237526.145681652,
+          "y": 4960813.130708133
+        },
+        {
+          "x": -8237532.902774744,
+          "y": 4960816.299920915
+        },
+        {
+          "x": -8237539.559680293,
+          "y": 4960819.263722686
+        },
+        {
+          "x": -8237549.500510822,
+          "y": 4960825.10329514
+        },
+        {
+          "x": -8237558.82908415,
+          "y": 4960831.074921825
+        },
+        {
+          "x": -8237564.962788092,
+          "y": 4960835.6526823435
+        },
+        {
+          "x": -8237610.893209993,
+          "y": 4960872.069430379
+        },
+        {
+          "x": -8237667.922185128,
+          "y": 4960917.906013276
+        },
+        {
+          "x": -8237722.824957985,
+          "y": 4960961.219140272
+        },
+        {
+          "x": -8237792.588882865,
+          "y": 4961016.24117344
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278656,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        2379011133,
+        3039736174,
+        3039736184,
+        2379011135
+      ],
+      "points": [
+        {
+          "x": -8237447.042051495,
+          "y": 4960691.718351974
+        },
+        {
+          "x": -8237461.546981146,
+          "y": 4960711.687096469
+        },
+        {
+          "x": -8237467.78087263,
+          "y": 4960720.372999513
+        },
+        {
+          "x": -8237473.669673692,
+          "y": 4960728.031859601
+        }
+      ]
+    },
+    {
+      "osm_way_id": 229278658,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011144,
+        3039736264,
+        3039736267,
+        2379011146,
+        2379011154,
+        3039736285,
+        3039736290,
+        3039736297,
+        3039736310,
+        2379011167
+      ],
+      "points": [
+        {
+          "x": -8237498.338072853,
+          "y": 4960798.385078815
+        },
+        {
+          "x": -8237512.431120386,
+          "y": 4960804.400706005
+        },
+        {
+          "x": -8237519.377456612,
+          "y": 4960806.572201603
+        },
+        {
+          "x": -8237525.7449314855,
+          "y": 4960808.494269058
+        },
+        {
+          "x": -8237551.771428433,
+          "y": 4960815.155482849
+        },
+        {
+          "x": -8237568.424824256,
+          "y": 4960819.806597365
+        },
+        {
+          "x": -8237578.454710376,
+          "y": 4960822.638349559
+        },
+        {
+          "x": -8237589.308360729,
+          "y": 4960826.115683682
+        },
+        {
+          "x": -8237601.486713022,
+          "y": 4960831.911243298
+        },
+        {
+          "x": -8237613.498086077,
+          "y": 4960840.025032527
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891984,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735689,
+        3039735687,
+        3039735686,
+        3039735683,
+        3039735675,
+        3039735666,
+        3039735655,
+        3039735647,
+        3039735643,
+        3039735524
+      ],
+      "points": [
+        {
+          "x": -8237273.350250009,
+          "y": 4960629.538201967
+        },
+        {
+          "x": -8237268.196157587,
+          "y": 4960624.681769877
+        },
+        {
+          "x": -8237263.67658626,
+          "y": 4960619.869356167
+        },
+        {
+          "x": -8237259.769272132,
+          "y": 4960615.086288783
+        },
+        {
+          "x": -8237254.258957339,
+          "y": 4960609.305529479
+        },
+        {
+          "x": -8237245.999051122,
+          "y": 4960601.764137958
+        },
+        {
+          "x": -8237231.082239356,
+          "y": 4960589.0142110335
+        },
+        {
+          "x": -8237208.506646623,
+          "y": 4960571.627973797
+        },
+        {
+          "x": -8237186.6323666815,
+          "y": 4960554.095048522
+        },
+        {
+          "x": -8237144.709446449,
+          "y": 4960521.186052629
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891985,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736227,
+        3039736249,
+        3039736276
+      ],
+      "points": [
+        {
+          "x": -8237444.604154646,
+          "y": 4960773.911784843
+        },
+        {
+          "x": -8237447.10884319,
+          "y": 4960785.018661876
+        },
+        {
+          "x": -8237457.773250407,
+          "y": 4960820.070698571
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891987,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736432,
+        3039736406,
+        2343111527,
+        2379011180,
+        3039736293,
+        3039736238,
+        3039736224,
+        3039736195,
+        2343111523,
+        3039736176,
+        2379011133
+      ],
+      "points": [
+        {
+          "x": -8237750.510115345,
+          "y": 4960942.95189363
+        },
+        {
+          "x": -8237710.000952647,
+          "y": 4960910.452418604
+        },
+        {
+          "x": -8237666.486163696,
+          "y": 4960875.91359138
+        },
+        {
+          "x": -8237658.1928616315,
+          "y": 4960869.120284986
+        },
+        {
+          "x": -8237601.553504716,
+          "y": 4960824.51640328
+        },
+        {
+          "x": -8237535.785949554,
+          "y": 4960772.943418352
+        },
+        {
+          "x": -8237521.481394988,
+          "y": 4960761.073600536
+        },
+        {
+          "x": -8237493.952084916,
+          "y": 4960738.214338035
+        },
+        {
+          "x": -8237474.91645199,
+          "y": 4960722.6178371925
+        },
+        {
+          "x": -8237464.953357564,
+          "y": 4960712.46471923
+        },
+        {
+          "x": -8237447.042051495,
+          "y": 4960691.718351974
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891988,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735489,
+        3039735471,
+        3039735431,
+        3039735418,
+        3039735408,
+        3039735402,
+        3039735397,
+        3039735393,
+        3039735388,
+        3039735382,
+        3039735374,
+        3039735373,
+        3039735369,
+        2343111491
+      ],
+      "points": [
+        {
+          "x": -8237084.674845064,
+          "y": 4960473.326622474
+        },
+        {
+          "x": -8237005.5378190605,
+          "y": 4960411.910786571
+        },
+        {
+          "x": -8236939.64781246,
+          "y": 4960357.361640444
+        },
+        {
+          "x": -8236919.810679199,
+          "y": 4960342.293922878
+        },
+        {
+          "x": -8236895.042092499,
+          "y": 4960321.871113877
+        },
+        {
+          "x": -8236879.6800027685,
+          "y": 4960309.414981885
+        },
+        {
+          "x": -8236863.316037622,
+          "y": 4960296.22529049
+        },
+        {
+          "x": -8236851.7276786305,
+          "y": 4960287.8185220435
+        },
+        {
+          "x": -8236841.731188357,
+          "y": 4960281.891241124
+        },
+        {
+          "x": -8236821.014631121,
+          "y": 4960271.885294839
+        },
+        {
+          "x": -8236797.982628475,
+          "y": 4960260.573599553
+        },
+        {
+          "x": -8236793.0066472385,
+          "y": 4960258.343539246
+        },
+        {
+          "x": -8236789.110465059,
+          "y": 4960256.348222565
+        },
+        {
+          "x": -8236783.867317043,
+          "y": 4960253.237876776
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891989,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735354,
+        3039735358,
+        3039735360,
+        3039735362,
+        3039735365,
+        3039735368,
+        3039735378,
+        3039735386,
+        3039735391,
+        3039735399,
+        3039735401,
+        3039735405,
+        3039735411,
+        3039735416,
+        3039735424
+      ],
+      "points": [
+        {
+          "x": -8236760.189661351,
+          "y": 4960236.1603354495
+        },
+        {
+          "x": -8236768.64994265,
+          "y": 4960241.427374662
+        },
+        {
+          "x": -8236771.733492546,
+          "y": 4960243.1586026475
+        },
+        {
+          "x": -8236776.965508614,
+          "y": 4960245.462016639
+        },
+        {
+          "x": -8236785.626164999,
+          "y": 4960248.689731416
+        },
+        {
+          "x": -8236800.119962699,
+          "y": 4960255.643993241
+        },
+        {
+          "x": -8236823.44139602,
+          "y": 4960266.941011377
+        },
+        {
+          "x": -8236847.052260017,
+          "y": 4960278.238042539
+        },
+        {
+          "x": -8236865.453371844,
+          "y": 4960286.938232572
+        },
+        {
+          "x": -8236884.566928416,
+          "y": 4960297.369667906
+        },
+        {
+          "x": -8236899.205441454,
+          "y": 4960306.495348999
+        },
+        {
+          "x": -8236914.556399234,
+          "y": 4960316.04651308
+        },
+        {
+          "x": -8236928.604918972,
+          "y": 4960326.052504493
+        },
+        {
+          "x": -8236941.061569992,
+          "y": 4960335.897118925
+        },
+        {
+          "x": -8236955.121221679,
+          "y": 4960347.913137136
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891990,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736301,
+        3039736323,
+        3039736329,
+        3039736336,
+        3039736345,
+        3039736350,
+        3039736362,
+        3039736384,
+        3039736404,
+        3039736421,
+        3039736434,
+        3039736443,
+        3039736452,
+        3039736459,
+        3039736476
+      ],
+      "points": [
+        {
+          "x": -8237459.866056835,
+          "y": 4960827.172089231
+        },
+        {
+          "x": -8237462.32621758,
+          "y": 4960837.794840242
+        },
+        {
+          "x": -8237462.470932919,
+          "y": 4960842.8127735965
+        },
+        {
+          "x": -8237462.804891391,
+          "y": 4960850.178282766
+        },
+        {
+          "x": -8237464.207516975,
+          "y": 4960857.646503897
+        },
+        {
+          "x": -8237465.988628829,
+          "y": 4960864.337095837
+        },
+        {
+          "x": -8237469.127838467,
+          "y": 4960875.033249033
+        },
+        {
+          "x": -8237473.914576571,
+          "y": 4960891.392957247
+        },
+        {
+          "x": -8237479.558474755,
+          "y": 4960906.9016924305
+        },
+        {
+          "x": -8237485.135581245,
+          "y": 4960919.857447463
+        },
+        {
+          "x": -8237498.9058022555,
+          "y": 4960944.918005286
+        },
+        {
+          "x": -8237506.2194928,
+          "y": 4960954.455119669
+        },
+        {
+          "x": -8237513.611106989,
+          "y": 4960962.422285424
+        },
+        {
+          "x": -8237522.583457949,
+          "y": 4960970.38945766
+        },
+        {
+          "x": -8237589.074589798,
+          "y": 4961024.721930323
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891991,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        2343111519,
+        3039735705,
+        3039735711,
+        3039735728,
+        3039736151,
+        3039736158,
+        3039736165,
+        3039736168
+      ],
+      "points": [
+        {
+          "x": -8237288.957242619,
+          "y": 4960642.053429299
+        },
+        {
+          "x": -8237302.059546686,
+          "y": 4960651.340824048
+        },
+        {
+          "x": -8237311.844529926,
+          "y": 4960656.828167267
+        },
+        {
+          "x": -8237332.661274704,
+          "y": 4960668.4337615855
+        },
+        {
+          "x": -8237358.899278685,
+          "y": 4960682.328214341
+        },
+        {
+          "x": -8237376.565681875,
+          "y": 4960691.160812302
+        },
+        {
+          "x": -8237392.272862024,
+          "y": 4960698.614240034
+        },
+        {
+          "x": -8237403.6608459335,
+          "y": 4960705.818247424
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891992,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735524,
+        3039735504
+      ],
+      "points": [
+        {
+          "x": -8237144.709446449,
+          "y": 4960521.186052629
+        },
+        {
+          "x": -8237106.838555681,
+          "y": 4960490.419249244
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891994,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111510,
+        3039735493
+      ],
+      "points": [
+        {
+          "x": -8237287.4432975445,
+          "y": 4960513.483338848
+        },
+        {
+          "x": -8237242.781917837,
+          "y": 4960478.769850593
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891995,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111509,
+        3039735634
+      ],
+      "points": [
+        {
+          "x": -8237228.488495221,
+          "y": 4960500.953604042
+        },
+        {
+          "x": -8237271.357631124,
+          "y": 4960535.109640158
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891997,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "27",
+        "service": "yard",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        3039735280,
+        3039735314
+      ],
+      "points": [
+        {
+          "x": -8236720.481998986,
+          "y": 4960202.298769417
+        },
+        {
+          "x": -8236734.909004991,
+          "y": 4960215.268263543
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891998,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111518,
+        3039735693
+      ],
+      "points": [
+        {
+          "x": -8237392.562292701,
+          "y": 4960632.355227121
+        },
+        {
+          "x": -8237399.041087064,
+          "y": 4960640.307458757
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299891999,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "27",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735354,
+        2343111491,
+        3039735377,
+        3039735381,
+        3039735385,
+        3039735389,
+        3039735394,
+        3039735398,
+        2343111492,
+        3039735409,
+        3039735422,
+        3039735460,
+        3039735472,
+        3039735491,
+        3039735497,
+        3039735505,
+        3039735521,
+        3039735689,
+        2343111519
+      ],
+      "points": [
+        {
+          "x": -8236760.189661351,
+          "y": 4960236.1603354495
+        },
+        {
+          "x": -8236783.867317043,
+          "y": 4960253.237876776
+        },
+        {
+          "x": -8236802.457672005,
+          "y": 4960266.104738157
+        },
+        {
+          "x": -8236810.561730934,
+          "y": 4960271.327779072
+        },
+        {
+          "x": -8236820.380110024,
+          "y": 4960276.051992636
+        },
+        {
+          "x": -8236833.860900358,
+          "y": 4960283.534447355
+        },
+        {
+          "x": -8236842.265521912,
+          "y": 4960288.449396215
+        },
+        {
+          "x": -8236855.301034285,
+          "y": 4960297.164266822
+        },
+        {
+          "x": -8236872.455367817,
+          "y": 4960310.8381198365
+        },
+        {
+          "x": -8236887.750665851,
+          "y": 4960323.528998361
+        },
+        {
+          "x": -8236915.636198295,
+          "y": 4960346.959484356
+        },
+        {
+          "x": -8236969.904450056,
+          "y": 4960390.666220159
+        },
+        {
+          "x": -8236997.778850551,
+          "y": 4960412.996490788
+        },
+        {
+          "x": -8237081.758274406,
+          "y": 4960478.080277053
+        },
+        {
+          "x": -8237091.075715786,
+          "y": 4960485.430840068
+        },
+        {
+          "x": -8237102.274456559,
+          "y": 4960494.248588605
+        },
+        {
+          "x": -8237133.265802795,
+          "y": 4960518.750527234
+        },
+        {
+          "x": -8237273.350250009,
+          "y": 4960629.538201967
+        },
+        {
+          "x": -8237288.957242619,
+          "y": 4960642.053429299
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892000,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        2343111532,
+        3039736393,
+        3039736382,
+        3039736371,
+        3039736366,
+        3039736360,
+        3039736355,
+        3039736346,
+        3039736335,
+        3039736324,
+        3039736282,
+        3039736262,
+        3039736256,
+        3039736251,
+        3039736247,
+        3039736242,
+        3039736239,
+        3039736232,
+        3039736225,
+        3039736216,
+        3039736208,
+        3039736200,
+        3039736194
+      ],
+      "points": [
+        {
+          "x": -8237795.772620304,
+          "y": 4960918.5369280465
+        },
+        {
+          "x": -8237772.384395286,
+          "y": 4960899.095968341
+        },
+        {
+          "x": -8237760.0724596055,
+          "y": 4960890.116458853
+        },
+        {
+          "x": -8237750.075969332,
+          "y": 4960884.467588639
+        },
+        {
+          "x": -8237738.921756353,
+          "y": 4960878.8187216865
+        },
+        {
+          "x": -8237724.294375263,
+          "y": 4960871.86401724
+        },
+        {
+          "x": -8237713.674495843,
+          "y": 4960866.405898219
+        },
+        {
+          "x": -8237701.49614355,
+          "y": 4960858.438810596
+        },
+        {
+          "x": -8237690.052499896,
+          "y": 4960850.031559421
+        },
+        {
+          "x": -8237675.13568813,
+          "y": 4960837.868201821
+        },
+        {
+          "x": -8237650.222386091,
+          "y": 4960817.004190561
+        },
+        {
+          "x": -8237630.808266896,
+          "y": 4960801.656992657
+        },
+        {
+          "x": -8237618.474067316,
+          "y": 4960793.059050997
+        },
+        {
+          "x": -8237609.056438395,
+          "y": 4960786.691297026
+        },
+        {
+          "x": -8237601.954254882,
+          "y": 4960782.920532224
+        },
+        {
+          "x": -8237592.102479946,
+          "y": 4960778.430829725
+        },
+        {
+          "x": -8237581.382412984,
+          "y": 4960773.35424049
+        },
+        {
+          "x": -8237571.964784063,
+          "y": 4960767.8521597525
+        },
+        {
+          "x": -8237562.413571753,
+          "y": 4960761.190978146
+        },
+        {
+          "x": -8237551.760296483,
+          "y": 4960754.162996295
+        },
+        {
+          "x": -8237540.171937493,
+          "y": 4960747.340430017
+        },
+        {
+          "x": -8237529.596585868,
+          "y": 4960742.131807347
+        },
+        {
+          "x": -8237519.600095594,
+          "y": 4960737.78884521
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892005,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735711,
+        3039735724,
+        3039736133,
+        3039736156,
+        3039736171,
+        3039736182,
+        3039736189,
+        3039736198,
+        3039736213,
+        3039736222,
+        3039736236,
+        3039736246,
+        3039736255,
+        3039736263,
+        3039736276
+      ],
+      "points": [
+        {
+          "x": -8237311.844529926,
+          "y": 4960656.828167267
+        },
+        {
+          "x": -8237327.173223808,
+          "y": 4960666.731802518
+        },
+        {
+          "x": -8237333.262399956,
+          "y": 4960671.823008537
+        },
+        {
+          "x": -8237354.936304812,
+          "y": 4960689.44417719
+        },
+        {
+          "x": -8237376.665869414,
+          "y": 4960706.830623634
+        },
+        {
+          "x": -8237390.692125255,
+          "y": 4960718.37758867
+        },
+        {
+          "x": -8237401.545775607,
+          "y": 4960728.413335548
+        },
+        {
+          "x": -8237412.410557909,
+          "y": 4960740.092375565
+        },
+        {
+          "x": -8237421.260457426,
+          "y": 4960750.55363806
+        },
+        {
+          "x": -8237427.639064249,
+          "y": 4960759.547691752
+        },
+        {
+          "x": -8237435.320109114,
+          "y": 4960772.283168531
+        },
+        {
+          "x": -8237440.5298612835,
+          "y": 4960781.996181538
+        },
+        {
+          "x": -8237446.040176079,
+          "y": 4960791.899943402
+        },
+        {
+          "x": -8237450.014281899,
+          "y": 4960800.556573083
+        },
+        {
+          "x": -8237457.773250407,
+          "y": 4960820.070698571
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892009,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        2343111522,
+        3039736202,
+        3039736227
+      ],
+      "points": [
+        {
+          "x": -8237430.744878042,
+          "y": 4960713.9025879
+        },
+        {
+          "x": -8237437.379519694,
+          "y": 4960743.173531659
+        },
+        {
+          "x": -8237444.604154646,
+          "y": 4960773.911784843
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892012,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735484,
+        3039735477
+      ],
+      "points": [
+        {
+          "x": -8237094.237189324,
+          "y": 4960462.146740247
+        },
+        {
+          "x": -8237056.600069487,
+          "y": 4960431.424137494
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892016,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736137,
+        3039735721,
+        3039735708
+      ],
+      "points": [
+        {
+          "x": -8237421.405172764,
+          "y": 4960672.600628136
+        },
+        {
+          "x": -8237419.245574642,
+          "y": 4960663.562638149
+        },
+        {
+          "x": -8237416.38466373,
+          "y": 4960654.2752318075
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892019,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736186,
+        3039736202,
+        2343111524
+      ],
+      "points": [
+        {
+          "x": -8237419.100859306,
+          "y": 4960720.871852286
+        },
+        {
+          "x": -8237437.379519694,
+          "y": 4960743.173531659
+        },
+        {
+          "x": -8237455.869687115,
+          "y": 4960764.536240588
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892020,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "pavement",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735349,
+        3039735352,
+        3039735356
+      ],
+      "points": [
+        {
+          "x": -8236792.294202497,
+          "y": 4960235.089322252
+        },
+        {
+          "x": -8236798.895448301,
+          "y": 4960237.275363014
+        },
+        {
+          "x": -8236806.5319653675,
+          "y": 4960239.7988469135
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892024,
+      "tags": {
+        "electrified": "no",
+        "embedded": "plastic",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735506,
+        3039735487,
+        3039735484
+      ],
+      "points": [
+        {
+          "x": -8237134.790879819,
+          "y": 4960494.527352831
+        },
+        {
+          "x": -8237105.74762467,
+          "y": 4960471.345933745
+        },
+        {
+          "x": -8237094.237189324,
+          "y": 4960462.146740247
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892028,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735668,
+        2343111517,
+        2343111518
+      ],
+      "points": [
+        {
+          "x": -8237356.695152767,
+          "y": 4960602.57109592
+        },
+        {
+          "x": -8237382.499010732,
+          "y": 4960623.185226333
+        },
+        {
+          "x": -8237392.562292701,
+          "y": 4960632.355227121
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892031,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "pavement",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735310,
+        3039735316,
+        3039735319
+      ],
+      "points": [
+        {
+          "x": -8236738.037082683,
+          "y": 4960213.272955636
+        },
+        {
+          "x": -8236741.699493931,
+          "y": 4960215.532348445
+        },
+        {
+          "x": -8236745.617940006,
+          "y": 4960217.571670969
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892034,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "layer": "1",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        7597355602,
+        3039735658,
+        3039735668
+      ],
+      "points": [
+        {
+          "x": -8237272.615541371,
+          "y": 4960536.107326849
+        },
+        {
+          "x": -8237343.5928487005,
+          "y": 4960592.095319587
+        },
+        {
+          "x": -8237356.695152767,
+          "y": 4960602.57109592
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892038,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735504,
+        3039735495,
+        3039735489
+      ],
+      "points": [
+        {
+          "x": -8237106.838555681,
+          "y": 4960490.419249244
+        },
+        {
+          "x": -8237095.261328639,
+          "y": 4960481.498801679
+        },
+        {
+          "x": -8237084.674845064,
+          "y": 4960473.326622474
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892042,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735319,
+        3039735335,
+        3039735339,
+        3039735349
+      ],
+      "points": [
+        {
+          "x": -8236745.617940006,
+          "y": 4960217.571670969
+        },
+        {
+          "x": -8236767.614671388,
+          "y": 4960227.606904554
+        },
+        {
+          "x": -8236778.568509281,
+          "y": 4960231.304098466
+        },
+        {
+          "x": -8236792.294202497,
+          "y": 4960235.089322252
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892048,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735280,
+        3039735292,
+        3039735302,
+        3039735310
+      ],
+      "points": [
+        {
+          "x": -8236720.481998986,
+          "y": 4960202.298769417
+        },
+        {
+          "x": -8236728.719641305,
+          "y": 4960207.697832758
+        },
+        {
+          "x": -8236732.459976194,
+          "y": 4960210.001238408
+        },
+        {
+          "x": -8236738.037082683,
+          "y": 4960213.272955636
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892052,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "layer": "1",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735652,
+        3039735650,
+        2343111512,
+        7597355601
+      ],
+      "points": [
+        {
+          "x": -8237373.10364571,
+          "y": 4960583.101419715
+        },
+        {
+          "x": -8237368.918032857,
+          "y": 4960579.022622821
+        },
+        {
+          "x": -8237353.656130669,
+          "y": 4960566.037974965
+        },
+        {
+          "x": -8237288.734603637,
+          "y": 4960514.510367002
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892059,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735708,
+        3039735696,
+        3039735691,
+        2379011129
+      ],
+      "points": [
+        {
+          "x": -8237416.38466373,
+          "y": 4960654.2752318075
+        },
+        {
+          "x": -8237412.466217654,
+          "y": 4960643.2858792795
+        },
+        {
+          "x": -8237409.6275706375,
+          "y": 4960635.318973212
+        },
+        {
+          "x": -8237403.104248479,
+          "y": 4960622.5103146145
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892060,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "pavement",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "27",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        3039735314,
+        3039735325,
+        3039735332,
+        3039735340
+      ],
+      "points": [
+        {
+          "x": -8236734.909004991,
+          "y": 4960215.268263543
+        },
+        {
+          "x": -8236739.6734791985,
+          "y": 4960219.112166684
+        },
+        {
+          "x": -8236745.306245431,
+          "y": 4960223.909712038
+        },
+        {
+          "x": -8236754.924249436,
+          "y": 4960231.890954774
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892063,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735693,
+        3039735704,
+        3039735714,
+        3039735727,
+        3039736141
+      ],
+      "points": [
+        {
+          "x": -8237399.041087064,
+          "y": 4960640.307458757
+        },
+        {
+          "x": -8237405.909499647,
+          "y": 4960649.741572192
+        },
+        {
+          "x": -8237412.154523079,
+          "y": 4960659.879953064
+        },
+        {
+          "x": -8237417.10824042,
+          "y": 4960668.404417462
+        },
+        {
+          "x": -8237419.868963793,
+          "y": 4960674.552013431
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892068,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111524,
+        2379011138,
+        2379011142,
+        2379011156,
+        2379011171,
+        2379011178,
+        2379011183,
+        3039736383,
+        2343111530,
+        3039736403,
+        3039736415,
+        3039736438,
+        3039736463,
+        3039736471,
+        2343111543,
+        3039736479,
+        2343111545,
+        3039736483,
+        3039736484,
+        3039736482,
+        2343111547,
+        3039736480,
+        3039736477,
+        2343111544,
+        3039736474,
+        2343111542,
+        2343111541,
+        3039736466,
+        2343111539,
+        2343111538,
+        3039736444,
+        3039736436,
+        3039736431,
+        3039736429,
+        3039736426,
+        2343111537,
+        2343111532
+      ],
+      "points": [
+        {
+          "x": -8237455.869687115,
+          "y": 4960764.536240588
+        },
+        {
+          "x": -8237460.311334798,
+          "y": 4960769.979630607
+        },
+        {
+          "x": -8237477.93321019,
+          "y": 4960790.241979605
+        },
+        {
+          "x": -8237494.87603669,
+          "y": 4960810.020185473
+        },
+        {
+          "x": -8237511.562828359,
+          "y": 4960829.989171248
+        },
+        {
+          "x": -8237528.672634093,
+          "y": 4960850.471729461
+        },
+        {
+          "x": -8237545.9494190635,
+          "y": 4960871.203760744
+        },
+        {
+          "x": -8237561.2558490485,
+          "y": 4960890.571303092
+        },
+        {
+          "x": -8237567.578796126,
+          "y": 4960896.807072985
+        },
+        {
+          "x": -8237576.896237505,
+          "y": 4960905.581174759
+        },
+        {
+          "x": -8237590.811173853,
+          "y": 4960916.644183857
+        },
+        {
+          "x": -8237631.721086721,
+          "y": 4960948.586125106
+        },
+        {
+          "x": -8237668.189351905,
+          "y": 4960977.887115537
+        },
+        {
+          "x": -8237695.6407383345,
+          "y": 4961000.013309642
+        },
+        {
+          "x": -8237720.364797239,
+          "y": 4961018.896911396
+        },
+        {
+          "x": -8237735.637831376,
+          "y": 4961028.522133455
+        },
+        {
+          "x": -8237746.580537321,
+          "y": 4961033.818944139
+        },
+        {
+          "x": -8237755.096478366,
+          "y": 4961035.887782333
+        },
+        {
+          "x": -8237764.313732204,
+          "y": 4961036.2986155
+        },
+        {
+          "x": -8237773.942868159,
+          "y": 4961035.682365756
+        },
+        {
+          "x": -8237780.8558085365,
+          "y": 4961034.59659249
+        },
+        {
+          "x": -8237789.104582805,
+          "y": 4961031.383291224
+        },
+        {
+          "x": -8237799.5574829895,
+          "y": 4961025.030054847
+        },
+        {
+          "x": -8237807.127208364,
+          "y": 4961019.161017974
+        },
+        {
+          "x": -8237814.9195727175,
+          "y": 4961010.489522434
+        },
+        {
+          "x": -8237819.917817856,
+          "y": 4961001.612618713
+        },
+        {
+          "x": -8237823.457777664,
+          "y": 4960992.677032848
+        },
+        {
+          "x": -8237825.160965873,
+          "y": 4960983.85883541
+        },
+        {
+          "x": -8237825.205493668,
+          "y": 4960974.937938271
+        },
+        {
+          "x": -8237823.61362495,
+          "y": 4960961.409882786
+        },
+        {
+          "x": -8237821.765721402,
+          "y": 4960954.528482126
+        },
+        {
+          "x": -8237818.871414643,
+          "y": 4960946.840099903
+        },
+        {
+          "x": -8237816.411253895,
+          "y": 4960941.7780958135
+        },
+        {
+          "x": -8237813.0716691725,
+          "y": 4960936.701421884
+        },
+        {
+          "x": -8237808.585493693,
+          "y": 4960931.345973911
+        },
+        {
+          "x": -8237802.3182063615,
+          "y": 4960924.655336181
+        },
+        {
+          "x": -8237795.772620304,
+          "y": 4960918.5369280465
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892069,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735643,
+        3039735642,
+        3039735639,
+        3039735530,
+        3039735518,
+        3039735515,
+        3039735511
+      ],
+      "points": [
+        {
+          "x": -8237186.6323666815,
+          "y": 4960554.095048522
+        },
+        {
+          "x": -8237181.122051888,
+          "y": 4960548.299653346
+        },
+        {
+          "x": -8237173.7304377,
+          "y": 4960539.320465574
+        },
+        {
+          "x": -8237166.060524783,
+          "y": 4960528.888772472
+        },
+        {
+          "x": -8237157.655903228,
+          "y": 4960517.44473375
+        },
+        {
+          "x": -8237152.590866396,
+          "y": 4960511.2238772875
+        },
+        {
+          "x": -8237145.911696951,
+          "y": 4960503.638545863
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892070,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735418,
+        3039735425,
+        3039735426,
+        3039735429,
+        3039735432,
+        3039735452,
+        3039735466
+      ],
+      "points": [
+        {
+          "x": -8236919.810679199,
+          "y": 4960342.293922878
+        },
+        {
+          "x": -8236931.243190903,
+          "y": 4960349.39496702
+        },
+        {
+          "x": -8236937.109728068,
+          "y": 4960352.50534335
+        },
+        {
+          "x": -8236943.243432011,
+          "y": 4960355.777108197
+        },
+        {
+          "x": -8236949.622038835,
+          "y": 4960358.814128561
+        },
+        {
+          "x": -8236980.769232358,
+          "y": 4960381.555132251
+        },
+        {
+          "x": -8236999.515434607,
+          "y": 4960396.314805485
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892071,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        2379011135,
+        3039736223,
+        2379011167,
+        2379011176,
+        3039736370,
+        3039736410,
+        3039736437
+      ],
+      "points": [
+        {
+          "x": -8237473.669673692,
+          "y": 4960728.031859601
+        },
+        {
+          "x": -8237513.121301229,
+          "y": 4960759.753102535
+        },
+        {
+          "x": -8237613.498086077,
+          "y": 4960840.025032527
+        },
+        {
+          "x": -8237620.166123576,
+          "y": 4960845.776583393
+        },
+        {
+          "x": -8237665.295045143,
+          "y": 4960882.20804147
+        },
+        {
+          "x": -8237705.882131486,
+          "y": 4960913.8417493375
+        },
+        {
+          "x": -8237746.825440201,
+          "y": 4960947.060187095
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892072,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039735484,
+        3039735483,
+        3039735482,
+        3039735480,
+        3039735479,
+        3039735478
+      ],
+      "points": [
+        {
+          "x": -8237094.237189324,
+          "y": 4960462.146740247
+        },
+        {
+          "x": -8237083.327879227,
+          "y": 4960455.559125326
+        },
+        {
+          "x": -8237075.791549698,
+          "y": 4960451.3630076675
+        },
+        {
+          "x": -8237066.9639140805,
+          "y": 4960446.28658801
+        },
+        {
+          "x": -8237058.8487232,
+          "y": 4960441.356888203
+        },
+        {
+          "x": -8237052.303137142,
+          "y": 4960436.823327177
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892073,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011129,
+        3039735678,
+        3039735665,
+        3039735656,
+        3039735652
+      ],
+      "points": [
+        {
+          "x": -8237403.104248479,
+          "y": 4960622.5103146145
+        },
+        {
+          "x": -8237395.489995309,
+          "y": 4960611.315590069
+        },
+        {
+          "x": -8237386.88499867,
+          "y": 4960598.4336030865
+        },
+        {
+          "x": -8237379.348669142,
+          "y": 4960589.160930462
+        },
+        {
+          "x": -8237373.10364571,
+          "y": 4960583.101419715
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892074,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736168,
+        3039736154,
+        3039736134,
+        3039735702,
+        3039735681,
+        3039735645,
+        3039735511,
+        3039735506
+      ],
+      "points": [
+        {
+          "x": -8237403.6608459335,
+          "y": 4960705.818247424
+        },
+        {
+          "x": -8237378.892259232,
+          "y": 4960687.844919111
+        },
+        {
+          "x": -8237357.251750221,
+          "y": 4960671.881696808
+        },
+        {
+          "x": -8237325.09154933,
+          "y": 4960647.29134279
+        },
+        {
+          "x": -8237281.45430894,
+          "y": 4960613.487042844
+        },
+        {
+          "x": -8237209.230223313,
+          "y": 4960555.5475658225
+        },
+        {
+          "x": -8237145.911696951,
+          "y": 4960503.638545863
+        },
+        {
+          "x": -8237134.790879819,
+          "y": 4960494.527352831
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892075,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735356,
+        3039735363,
+        3039735372,
+        3039735383,
+        3039735392,
+        3039735400,
+        3039735404,
+        3039735415
+      ],
+      "points": [
+        {
+          "x": -8236806.5319653675,
+          "y": 4960239.7988469135
+        },
+        {
+          "x": -8236821.9831106905,
+          "y": 4960246.210259515
+        },
+        {
+          "x": -8236847.631121368,
+          "y": 4960258.255510563
+        },
+        {
+          "x": -8236873.991576789,
+          "y": 4960272.017338054
+        },
+        {
+          "x": -8236901.810317538,
+          "y": 4960287.510420718
+        },
+        {
+          "x": -8236923.974028156,
+          "y": 4960302.284623709
+        },
+        {
+          "x": -8236941.6404313445,
+          "y": 4960315.034177274
+        },
+        {
+          "x": -8236966.420149994,
+          "y": 4960334.5913498225
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892076,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        2343111519,
+        3039736139,
+        3039736175,
+        3039736185,
+        3039736192,
+        3039736210,
+        3039736220,
+        3039736230
+      ],
+      "points": [
+        {
+          "x": -8237288.957242619,
+          "y": 4960642.053429299
+        },
+        {
+          "x": -8237328.575849392,
+          "y": 4960673.715705398
+        },
+        {
+          "x": -8237374.784570021,
+          "y": 4960711.965866889
+        },
+        {
+          "x": -8237389.345159416,
+          "y": 4960723.043329359
+        },
+        {
+          "x": -8237402.2582203485,
+          "y": 4960735.529331888
+        },
+        {
+          "x": -8237412.900363668,
+          "y": 4960748.0300225215
+        },
+        {
+          "x": -8237419.4570816755,
+          "y": 4960757.244156819
+        },
+        {
+          "x": -8237424.789285285,
+          "y": 4960766.267561074
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892090,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "D3-4",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        4262898538,
+        3039735322,
+        3039735300,
+        592078799,
+        3039735270,
+        592078797,
+        3039735255,
+        3039735251,
+        3039735249,
+        3039735247,
+        592078794,
+        3039735243,
+        2343111461
+      ],
+      "points": [
+        {
+          "x": -8236906.585923694,
+          "y": 4960226.8880059
+        },
+        {
+          "x": -8236895.487370461,
+          "y": 4960218.349254492
+        },
+        {
+          "x": -8236884.422213076,
+          "y": 4960209.942552906
+        },
+        {
+          "x": -8236877.653988035,
+          "y": 4960203.487149953
+        },
+        {
+          "x": -8236871.66499943,
+          "y": 4960197.427877876
+        },
+        {
+          "x": -8236867.301275393,
+          "y": 4960191.383280893
+        },
+        {
+          "x": -8236860.956064418,
+          "y": 4960181.934937742
+        },
+        {
+          "x": -8236856.648000124,
+          "y": 4960174.555259916
+        },
+        {
+          "x": -8236852.395595575,
+          "y": 4960166.383336885
+        },
+        {
+          "x": -8236849.479024916,
+          "y": 4960158.475504032
+        },
+        {
+          "x": -8236846.5401903605,
+          "y": 4960149.716743006
+        },
+        {
+          "x": -8236843.74607114,
+          "y": 4960135.529620745
+        },
+        {
+          "x": -8236842.17646632,
+          "y": 4960123.308465723
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892091,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "4",
+        "railway:track_ref:signals": "D4",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735717,
+        3039736181
+      ],
+      "points": [
+        {
+          "x": -8237445.839800994,
+          "y": 4960661.097733233
+        },
+        {
+          "x": -8237518.78746331,
+          "y": 4960717.70267039
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892092,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735520,
+        2343111508
+      ],
+      "points": [
+        {
+          "x": -8237283.958997482,
+          "y": 4960518.060950877
+        },
+        {
+          "x": -8237254.993665977,
+          "y": 4960494.82078887
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892093,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735469,
+        3039735488
+      ],
+      "points": [
+        {
+          "x": -8237107.050062713,
+          "y": 4960403.665307119
+        },
+        {
+          "x": -8237194.74755756,
+          "y": 4960473.077202387
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892095,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735513,
+        3039735532
+      ],
+      "points": [
+        {
+          "x": -8237246.310745696,
+          "y": 4960508.21615329
+        },
+        {
+          "x": -8237273.428173653,
+          "y": 4960530.091864496
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892096,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "D3",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735525,
+        2343111507
+      ],
+      "points": [
+        {
+          "x": -8237280.764128096,
+          "y": 4960522.301112651
+        },
+        {
+          "x": -8237223.712889064,
+          "y": 4960476.33433575
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892097,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735493,
+        3039735485
+      ],
+      "points": [
+        {
+          "x": -8237242.781917837,
+          "y": 4960478.769850593
+        },
+        {
+          "x": -8237227.464355906,
+          "y": 4960466.548267158
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892098,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735485,
+        3039735474,
+        3039735455
+      ],
+      "points": [
+        {
+          "x": -8237227.464355906,
+          "y": 4960466.548267158
+        },
+        {
+          "x": -8237177.248133608,
+          "y": 4960426.435758373
+        },
+        {
+          "x": -8237124.182132347,
+          "y": 4960383.403758096
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892099,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "4",
+        "railway:track_ref:signals": "D4",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735684,
+        3039735698,
+        3039735717
+      ],
+      "points": [
+        {
+          "x": -8237390.87023644,
+          "y": 4960617.653886011
+        },
+        {
+          "x": -8237426.548133238,
+          "y": 4960645.926844046
+        },
+        {
+          "x": -8237445.839800994,
+          "y": 4960661.097733233
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892100,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "15 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735688,
+        3039735719,
+        3039736187
+      ],
+      "points": [
+        {
+          "x": -8237388.844221707,
+          "y": 4960626.427737632
+        },
+        {
+          "x": -8237432.804288621,
+          "y": 4960662.11010482
+        },
+        {
+          "x": -8237512.175085558,
+          "y": 4960726.021775049
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892101,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736169,
+        3039735694,
+        3039735672
+      ],
+      "points": [
+        {
+          "x": -8237528.828481381,
+          "y": 4960705.040625191
+        },
+        {
+          "x": -8237449.190517667,
+          "y": 4960640.806307453
+        },
+        {
+          "x": -8237406.165534476,
+          "y": 4960606.913998079
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892102,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "maxspeed": "10 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "D3-4",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111506,
+        3039735476,
+        3039735462
+      ],
+      "points": [
+        {
+          "x": -8237201.126164383,
+          "y": 4960458.420115671
+        },
+        {
+          "x": -8237164.824878436,
+          "y": 4960430.030325424
+        },
+        {
+          "x": -8237117.669942136,
+          "y": 4960391.678563785
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892103,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "maxspeed": "15 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "D3",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735680,
+        2343111514,
+        3039735525
+      ],
+      "points": [
+        {
+          "x": -8237393.987182181,
+          "y": 4960613.134915335
+        },
+        {
+          "x": -8237367.78257405,
+          "y": 4960593.004980392
+        },
+        {
+          "x": -8237280.764128096,
+          "y": 4960522.301112651
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892104,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "4",
+        "railway:track_ref:signals": "D4",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735499,
+        3039735508,
+        3039735528
+      ],
+      "points": [
+        {
+          "x": -8237228.076613104,
+          "y": 4960487.000721501
+        },
+        {
+          "x": -8237243.204931904,
+          "y": 4960498.987581535
+        },
+        {
+          "x": -8237276.84568202,
+          "y": 4960526.306526666
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892105,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735514,
+        3039735512,
+        3039735507,
+        3039735502,
+        3039735493
+      ],
+      "points": [
+        {
+          "x": -8237290.549111337,
+          "y": 4960509.404570958
+        },
+        {
+          "x": -8237282.467316305,
+          "y": 4960503.917310358
+        },
+        {
+          "x": -8237269.287088597,
+          "y": 4960495.378317362
+        },
+        {
+          "x": -8237259.435313661,
+          "y": 4960489.729674883
+        },
+        {
+          "x": -8237242.781917837,
+          "y": 4960478.769850593
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892106,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "4",
+        "railway:track_ref:signals": "D4",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736181,
+        3039736214,
+        3039736248
+      ],
+      "points": [
+        {
+          "x": -8237518.78746331,
+          "y": 4960717.70267039
+        },
+        {
+          "x": -8237561.923765994,
+          "y": 4960751.243230792
+        },
+        {
+          "x": -8237602.343873101,
+          "y": 4960784.094310996
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892108,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        4262898540,
+        2343111489,
+        8401217850,
+        3039735443,
+        3039735469
+      ],
+      "points": [
+        {
+          "x": -8236896.322266642,
+          "y": 4960235.192022145
+        },
+        {
+          "x": -8236932.8239276735,
+          "y": 4960263.243804005
+        },
+        {
+          "x": -8237070.837832359,
+          "y": 4960373.588439143
+        },
+        {
+          "x": -8237098.144503451,
+          "y": 4960396.080059018
+        },
+        {
+          "x": -8237107.050062713,
+          "y": 4960403.665307119
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892109,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "15 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735488,
+        2343111509,
+        3039735516,
+        3039735519,
+        3039735527,
+        3039735633,
+        3039735638
+      ],
+      "points": [
+        {
+          "x": -8237194.74755756,
+          "y": 4960473.077202387
+        },
+        {
+          "x": -8237228.488495221,
+          "y": 4960500.953604042
+        },
+        {
+          "x": -8237239.932138874,
+          "y": 4960511.487970172
+        },
+        {
+          "x": -8237245.609432904,
+          "y": 4960517.928904345
+        },
+        {
+          "x": -8237251.052956003,
+          "y": 4960524.531233071
+        },
+        {
+          "x": -8237257.320243336,
+          "y": 4960531.294956671
+        },
+        {
+          "x": -8237266.559761072,
+          "y": 4960539.041700071
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892110,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735672,
+        3039735661,
+        3039735653,
+        3039735648,
+        3039735637,
+        3039735517,
+        3039735514
+      ],
+      "points": [
+        {
+          "x": -8237406.165534476,
+          "y": 4960606.913998079
+        },
+        {
+          "x": -8237395.868481576,
+          "y": 4960597.157142882
+        },
+        {
+          "x": -8237382.832969206,
+          "y": 4960583.394858403
+        },
+        {
+          "x": -8237370.131415305,
+          "y": 4960571.65731763
+        },
+        {
+          "x": -8237327.807744907,
+          "y": 4960537.105013647
+        },
+        {
+          "x": -8237295.068682663,
+          "y": 4960512.470982629
+        },
+        {
+          "x": -8237290.549111337,
+          "y": 4960509.404570958
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892111,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "maxspeed": "10 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736187,
+        3039736221,
+        3039736228,
+        3039736233,
+        3039736237,
+        3039736241,
+        3039736243,
+        3039736248
+      ],
+      "points": [
+        {
+          "x": -8237512.175085558,
+          "y": 4960726.021775049
+        },
+        {
+          "x": -8237553.808575113,
+          "y": 4960759.224903384
+        },
+        {
+          "x": -8237561.066605914,
+          "y": 4960764.022713384
+        },
+        {
+          "x": -8237570.339519498,
+          "y": 4960768.541753701
+        },
+        {
+          "x": -8237579.37866215,
+          "y": 4960772.415218493
+        },
+        {
+          "x": -8237586.380658121,
+          "y": 4960775.100234756
+        },
+        {
+          "x": -8237593.894723749,
+          "y": 4960778.782963178
+        },
+        {
+          "x": -8237602.343873101,
+          "y": 4960784.094310996
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892112,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "maxspeed": "10 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736245,
+        3039736235,
+        3039736231,
+        3039736226,
+        3039736218,
+        3039736211,
+        3039736201,
+        3039736169
+      ],
+      "points": [
+        {
+          "x": -8237605.605534181,
+          "y": 4960780.162152667
+        },
+        {
+          "x": -8237597.401287708,
+          "y": 4960772.063085268
+        },
+        {
+          "x": -8237593.460577735,
+          "y": 4960767.250599114
+        },
+        {
+          "x": -8237588.941006409,
+          "y": 4960761.425733367
+        },
+        {
+          "x": -8237584.710865759,
+          "y": 4960755.5861988915
+        },
+        {
+          "x": -8237579.3230024045,
+          "y": 4960748.734287257
+        },
+        {
+          "x": -8237572.610437109,
+          "y": 4960742.175823867
+        },
+        {
+          "x": -8237528.828481381,
+          "y": 4960705.040625191
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892113,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735638,
+        3039735651,
+        3039735657,
+        3039735660,
+        3039735663,
+        3039735667,
+        3039735674,
+        3039735688
+      ],
+      "points": [
+        {
+          "x": -8237266.559761072,
+          "y": 4960539.041700071
+        },
+        {
+          "x": -8237322.431013501,
+          "y": 4960582.76396523
+        },
+        {
+          "x": -8237333.0286290245,
+          "y": 4960589.923871551
+        },
+        {
+          "x": -8237341.188347699,
+          "y": 4960594.618894932
+        },
+        {
+          "x": -8237348.346190957,
+          "y": 4960598.022788292
+        },
+        {
+          "x": -8237355.804596841,
+          "y": 4960602.218968802
+        },
+        {
+          "x": -8237363.619225094,
+          "y": 4960607.471532955
+        },
+        {
+          "x": -8237388.844221707,
+          "y": 4960626.427737632
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892114,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735320,
+        2343111477,
+        3039735262,
+        2343111469,
+        2343111466,
+        3039735246,
+        2343111463,
+        2343111462
+      ],
+      "points": [
+        {
+          "x": -8236914.300364404,
+          "y": 4960217.630356518
+        },
+        {
+          "x": -8236896.767544606,
+          "y": 4960203.516492683
+        },
+        {
+          "x": -8236884.26636579,
+          "y": 4960191.779407278
+        },
+        {
+          "x": -8236873.535166876,
+          "y": 4960177.328140198
+        },
+        {
+          "x": -8236866.199212433,
+          "y": 4960165.180289546
+        },
+        {
+          "x": -8236861.145307551,
+          "y": 4960152.695014303
+        },
+        {
+          "x": -8236856.915166901,
+          "y": 4960136.879377097
+        },
+        {
+          "x": -8236855.612728859,
+          "y": 4960123.015040818
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892115,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "covered": "yes",
+        "destination": "Manhattan",
+        "level": "-1",
+        "lit": "yes",
+        "name": "9th Avenue",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "platform:carlengths": "8",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "start_date": "1916-06-24",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        3039735457,
+        3039735436,
+        3039735376,
+        3039735341,
+        3039735355,
+        3039735379,
+        2562029591,
+        2562029603,
+        3039735442,
+        3039735463,
+        3039735457
+      ],
+      "points": [
+        {
+          "x": -8237106.660444495,
+          "y": 4960386.895607869
+        },
+        {
+          "x": -8237076.292487408,
+          "y": 4960364.990873371
+        },
+        {
+          "x": -8236948.375260536,
+          "y": 4960263.361175647
+        },
+        {
+          "x": -8236911.383793746,
+          "y": 4960234.385094461
+        },
+        {
+          "x": -8236906.686111235,
+          "y": 4960240.062932476
+        },
+        {
+          "x": -8236943.287959808,
+          "y": 4960269.493845847
+        },
+        {
+          "x": -8236996.253773527,
+          "y": 4960311.718411462
+        },
+        {
+          "x": -8237019.686526338,
+          "y": 4960330.219225339
+        },
+        {
+          "x": -8237071.639332692,
+          "y": 4960371.666457058
+        },
+        {
+          "x": -8237100.2929696245,
+          "y": 4960394.774281893
+        },
+        {
+          "x": -8237106.660444495,
+          "y": 4960386.895607869
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892116,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111473,
+        3039735286
+      ],
+      "points": [
+        {
+          "x": -8236849.1116705965,
+          "y": 4960205.174357133
+        },
+        {
+          "x": -8236829.241141491,
+          "y": 4960204.734216103
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892117,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111508,
+        3039735492
+      ],
+      "points": [
+        {
+          "x": -8237254.993665977,
+          "y": 4960494.82078887
+        },
+        {
+          "x": -8237235.434831445,
+          "y": 4960478.711163483
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892118,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111504,
+        3039735496
+      ],
+      "points": [
+        {
+          "x": -8237111.313599211,
+          "y": 4960399.806659863
+        },
+        {
+          "x": -8237215.508642593,
+          "y": 4960483.479492459
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892119,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "27",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        2343111475,
+        3039735280
+      ],
+      "points": [
+        {
+          "x": -8236697.839614558,
+          "y": 4960184.047609952
+        },
+        {
+          "x": -8236720.481998986,
+          "y": 4960202.298769417
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892120,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735499,
+        3039735494
+      ],
+      "points": [
+        {
+          "x": -8237228.076613104,
+          "y": 4960487.000721501
+        },
+        {
+          "x": -8237218.436345201,
+          "y": 4960479.356721728
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892121,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735496,
+        3039735513
+      ],
+      "points": [
+        {
+          "x": -8237215.508642593,
+          "y": 4960483.479492459
+        },
+        {
+          "x": -8237246.310745696,
+          "y": 4960508.21615329
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892122,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735494,
+        595932936
+      ],
+      "points": [
+        {
+          "x": -8237218.436345201,
+          "y": 4960479.356721728
+        },
+        {
+          "x": -8237114.074322583,
+          "y": 4960396.138745638
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892123,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735492,
+        2343111505,
+        2343111502
+      ],
+      "points": [
+        {
+          "x": -8237235.434831445,
+          "y": 4960478.711163483
+        },
+        {
+          "x": -8237224.480993551,
+          "y": 4960469.688024231
+        },
+        {
+          "x": -8237121.1319783,
+          "y": 4960387.262398884
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892124,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735317,
+        3039735318,
+        2343111480
+      ],
+      "points": [
+        {
+          "x": -8236803.459547423,
+          "y": 4960215.913804425
+        },
+        {
+          "x": -8236828.962842763,
+          "y": 4960217.131529383
+        },
+        {
+          "x": -8236847.820364504,
+          "y": 4960218.158526453
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892125,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        3039735277,
+        3039735267,
+        595932973
+      ],
+      "points": [
+        {
+          "x": -8236732.070357977,
+          "y": 4960200.479520487
+        },
+        {
+          "x": -8236723.187062611,
+          "y": 4960196.180812656
+        },
+        {
+          "x": -8236710.040230748,
+          "y": 4960187.39267522
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892126,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        3039735287,
+        3039735284,
+        3039735279,
+        3039735277
+      ],
+      "points": [
+        {
+          "x": -8236747.74414228,
+          "y": 4960205.394427658
+        },
+        {
+          "x": -8236742.601181805,
+          "y": 4960204.103347326
+        },
+        {
+          "x": -8236736.712380743,
+          "y": 4960202.122713055
+        },
+        {
+          "x": -8236732.070357977,
+          "y": 4960200.479520487
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892127,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        2343111475,
+        3039735252,
+        3039735250,
+        595932976
+      ],
+      "points": [
+        {
+          "x": -8236697.839614558,
+          "y": 4960184.047609952
+        },
+        {
+          "x": -8236689.0008469885,
+          "y": 4960174.863357688
+        },
+        {
+          "x": -8236680.39585035,
+          "y": 4960166.471364743
+        },
+        {
+          "x": -8236671.134068717,
+          "y": 4960157.272457665
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892128,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        3039735305,
+        3039735299,
+        3039735297,
+        3039735294,
+        3039735293,
+        595932970,
+        3039735287
+      ],
+      "points": [
+        {
+          "x": -8236805.507826054,
+          "y": 4960210.500065179
+        },
+        {
+          "x": -8236791.4147785185,
+          "y": 4960209.8985387795
+        },
+        {
+          "x": -8236776.865321072,
+          "y": 4960209.282341046
+        },
+        {
+          "x": -8236766.61279597,
+          "y": 4960208.1526452955
+        },
+        {
+          "x": -8236763.96339209,
+          "y": 4960207.859217853
+        },
+        {
+          "x": -8236752.252581658,
+          "y": 4960206.348066647
+        },
+        {
+          "x": -8236747.74414228,
+          "y": 4960205.394427658
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892130,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        595932976,
+        3039735242,
+        3039735236,
+        3039734931,
+        3039734919,
+        3039734907,
+        595932979
+      ],
+      "points": [
+        {
+          "x": -8236671.134068717,
+          "y": 4960157.272457665
+        },
+        {
+          "x": -8236631.125843724,
+          "y": 4960125.509152774
+        },
+        {
+          "x": -8236613.069822319,
+          "y": 4960111.908914702
+        },
+        {
+          "x": -8236595.459078876,
+          "y": 4960099.614433109
+        },
+        {
+          "x": -8236574.564410455,
+          "y": 4960082.405119055
+        },
+        {
+          "x": -8236540.344798983,
+          "y": 4960056.598540248
+        },
+        {
+          "x": -8236489.048777625,
+          "y": 4960015.108628891
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892131,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "covered": "yes",
+        "destination": "Coney Island",
+        "level": "-1",
+        "lit": "yes",
+        "name": "9th Avenue",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "platform:carlengths": "8",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "2",
+        "start_date": "1916-06-24",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        3039735453,
+        3039735445,
+        3039735428,
+        2562029593,
+        2562029579,
+        3039735366,
+        3039735329,
+        3039735336,
+        3039735371,
+        3039735434,
+        3039735453
+      ],
+      "points": [
+        {
+          "x": -8237109.443431766,
+          "y": 4960383.183683573
+        },
+        {
+          "x": -8237113.2616903,
+          "y": 4960378.708835993
+        },
+        {
+          "x": -8237083.806553037,
+          "y": 4960356.055868483
+        },
+        {
+          "x": -8237032.454871934,
+          "y": 4960314.227243015
+        },
+        {
+          "x": -8237009.15570251,
+          "y": 4960295.521058302
+        },
+        {
+          "x": -8236955.6889510825,
+          "y": 4960253.722034315
+        },
+        {
+          "x": -8236919.031442763,
+          "y": 4960224.4672251055
+        },
+        {
+          "x": -8236914.356024152,
+          "y": 4960230.717242199
+        },
+        {
+          "x": -8236950.991268571,
+          "y": 4960259.781341227
+        },
+        {
+          "x": -8237079.465092896,
+          "y": 4960361.939179486
+        },
+        {
+          "x": -8237109.443431766,
+          "y": 4960383.183683573
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892156,
+      "tags": {
+        "access": "private",
+        "area": "yes",
+        "public_transport": "no",
+        "railway": "platform"
+      },
+      "node_ids": [
+        2562029602,
+        2562029597,
+        2562029589,
+        2562029581,
+        2562029575,
+        2562029571,
+        2562029570,
+        2562029568,
+        2562029565,
+        3039735367,
+        2562029566,
+        2562029567,
+        2562029569,
+        2562029573,
+        2562029576,
+        2562029580,
+        2562029588,
+        2562029595,
+        2562029601,
+        2562029609,
+        2562029602
+      ],
+      "points": [
+        {
+          "x": -8236953.17313059,
+          "y": 4960326.5953518255
+        },
+        {
+          "x": -8236943.120980572,
+          "y": 4960318.907462661
+        },
+        {
+          "x": -8236928.983405242,
+          "y": 4960308.402646765
+        },
+        {
+          "x": -8236914.500739489,
+          "y": 4960298.3820018815
+        },
+        {
+          "x": -8236899.706379162,
+          "y": 4960288.845526529
+        },
+        {
+          "x": -8236884.667115957,
+          "y": 4960280.160006286
+        },
+        {
+          "x": -8236868.915408009,
+          "y": 4960271.562522549
+        },
+        {
+          "x": -8236853.408602941,
+          "y": 4960263.610590388
+        },
+        {
+          "x": -8236821.459909084,
+          "y": 4960248.733745719
+        },
+        {
+          "x": -8236818.944088592,
+          "y": 4960254.440934938
+        },
+        {
+          "x": -8236817.352219873,
+          "y": 4960258.064781743
+        },
+        {
+          "x": -8236816.428268099,
+          "y": 4960260.177470383
+        },
+        {
+          "x": -8236831.723566135,
+          "y": 4960267.381155202
+        },
+        {
+          "x": -8236861.768696699,
+          "y": 4960282.11131337
+        },
+        {
+          "x": -8236876.27362635,
+          "y": 4960289.7845021505
+        },
+        {
+          "x": -8236890.756292102,
+          "y": 4960298.103243242
+        },
+        {
+          "x": -8236904.849339637,
+          "y": 4960307.067538293
+        },
+        {
+          "x": -8236918.664088445,
+          "y": 4960316.486659117
+        },
+        {
+          "x": -8236932.156010729,
+          "y": 4960326.331263932
+        },
+        {
+          "x": -8236945.347370388,
+          "y": 4960336.616025583
+        },
+        {
+          "x": -8236953.17313059,
+          "y": 4960326.5953518255
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892157,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "10 mph",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735499,
+        3039735509,
+        3039735513
+      ],
+      "points": [
+        {
+          "x": -8237228.076613104,
+          "y": 4960487.000721501
+        },
+        {
+          "x": -8237241.802306319,
+          "y": 4960502.024646319
+        },
+        {
+          "x": -8237246.310745696,
+          "y": 4960508.21615329
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892158,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "10 mph",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111508,
+        3039735510,
+        2343111510
+      ],
+      "points": [
+        {
+          "x": -8237254.993665977,
+          "y": 4960494.82078887
+        },
+        {
+          "x": -8237271.75838129,
+          "y": 4960503.286422304
+        },
+        {
+          "x": -8237287.4432975445,
+          "y": 4960513.483338848
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892159,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "10 mph",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111506,
+        3039735486,
+        3039735490,
+        3039735499
+      ],
+      "points": [
+        {
+          "x": -8237201.126164383,
+          "y": 4960458.420115671
+        },
+        {
+          "x": -8237214.050357265,
+          "y": 4960470.14284894
+        },
+        {
+          "x": -8237220.317644595,
+          "y": 4960476.994565617
+        },
+        {
+          "x": -8237228.076613104,
+          "y": 4960487.000721501
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892160,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "10 mph",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735513,
+        3039735522,
+        3039735526,
+        3039735634
+      ],
+      "points": [
+        {
+          "x": -8237246.310745696,
+          "y": 4960508.21615329
+        },
+        {
+          "x": -8237255.09385352,
+          "y": 4960519.1613387065
+        },
+        {
+          "x": -8237259.802667981,
+          "y": 4960524.413858302
+        },
+        {
+          "x": -8237271.357631124,
+          "y": 4960535.109640158
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892164,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "10 mph",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111508,
+        3039735501,
+        3039735498,
+        2343111507
+      ],
+      "points": [
+        {
+          "x": -8237254.993665977,
+          "y": 4960494.82078887
+        },
+        {
+          "x": -8237244.730008927,
+          "y": 4960489.494926176
+        },
+        {
+          "x": -8237237.371790585,
+          "y": 4960485.694932252
+        },
+        {
+          "x": -8237223.712889064,
+          "y": 4960476.33433575
+        }
+      ]
+    },
+    {
+      "osm_way_id": 299892169,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "crossover",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736153,
+        3039736143,
+        3039735730,
+        3039735717
+      ],
+      "points": [
+        {
+          "x": -8237493.562466696,
+          "y": 4960690.544584276
+        },
+        {
+          "x": -8237471.732714552,
+          "y": 4960676.430038746
+        },
+        {
+          "x": -8237460.021904122,
+          "y": 4960670.165065077
+        },
+        {
+          "x": -8237445.839800994,
+          "y": 4960661.097733233
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044465,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "voltage": "625"
+      },
+      "node_ids": [
+        591991452,
+        592078860,
+        3039734905,
+        3039734911,
+        3039734913,
+        3039734920,
+        3039734924,
+        592078864,
+        3039735237,
+        592078792
+      ],
+      "points": [
+        {
+          "x": -8236949.655434681,
+          "y": 4959936.9414092805
+        },
+        {
+          "x": -8236868.715032926,
+          "y": 4960033.975660137
+        },
+        {
+          "x": -8236853.976332345,
+          "y": 4960053.60562704
+        },
+        {
+          "x": -8236846.117176294,
+          "y": 4960065.988077819
+        },
+        {
+          "x": -8236842.06514683,
+          "y": 4960073.851822464
+        },
+        {
+          "x": -8236838.246888295,
+          "y": 4960082.918610508
+        },
+        {
+          "x": -8236836.154081869,
+          "y": 4960089.447289947
+        },
+        {
+          "x": -8236832.680913756,
+          "y": 4960102.812757386
+        },
+        {
+          "x": -8236831.144704783,
+          "y": 4960112.084969442
+        },
+        {
+          "x": -8236831.033385294,
+          "y": 4960123.557876895
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044476,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "maxspeed": "35 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "voltage": "625"
+      },
+      "node_ids": [
+        2343111453,
+        4262898537,
+        4262898534,
+        4262898531,
+        4262898528,
+        4262898525,
+        4262898522,
+        4262898519,
+        4262898517,
+        4262898515,
+        4262898513,
+        8401211424,
+        4262897350,
+        8401211423,
+        4262898450,
+        4262898448,
+        8401170676,
+        4262897381,
+        8401198279,
+        4262898381,
+        4262898373,
+        4262898365,
+        8401198281,
+        4262897383,
+        4262898288,
+        4262898281,
+        4262898278,
+        4262898267,
+        4262898265,
+        4262898358,
+        4262898356,
+        4262898353,
+        4262898351,
+        4262898349,
+        4262898346,
+        4262898327,
+        4262898325,
+        4262898324,
+        4262898322,
+        4262898320,
+        4262898318,
+        4262898312
+      ],
+      "points": [
+        {
+          "x": -8236957.703833865,
+          "y": 4959943.851436772
+        },
+        {
+          "x": -8236966.509205587,
+          "y": 4959933.493732842
+        },
+        {
+          "x": -8236979.322078979,
+          "y": 4959917.869171864
+        },
+        {
+          "x": -8236988.6840481525,
+          "y": 4959904.8854007255
+        },
+        {
+          "x": -8236996.754711236,
+          "y": 4959890.537253314
+        },
+        {
+          "x": -8237002.27615798,
+          "y": 4959876.409190065
+        },
+        {
+          "x": -8237005.3485759245,
+          "y": 4959865.156635057
+        },
+        {
+          "x": -8237007.018368288,
+          "y": 4959856.735565842
+        },
+        {
+          "x": -8237008.031375653,
+          "y": 4959847.9770747125
+        },
+        {
+          "x": -8237008.521181412,
+          "y": 4959840.289561314
+        },
+        {
+          "x": -8237008.688160649,
+          "y": 4959829.741246452
+        },
+        {
+          "x": -8237011.31530063,
+          "y": 4959659.92814479
+        },
+        {
+          "x": -8237015.133559166,
+          "y": 4959412.673797615
+        },
+        {
+          "x": -8237015.990719246,
+          "y": 4959385.02054601
+        },
+        {
+          "x": -8237017.660511606,
+          "y": 4959358.086207319
+        },
+        {
+          "x": -8237046.648107009,
+          "y": 4959056.723001788
+        },
+        {
+          "x": -8237054.974804922,
+          "y": 4958970.069777344
+        },
+        {
+          "x": -8237078.396425784,
+          "y": 4958726.690833205
+        },
+        {
+          "x": -8237123.614402944,
+          "y": 4958258.990721238
+        },
+        {
+          "x": -8237126.542105553,
+          "y": 4958232.675552489
+        },
+        {
+          "x": -8237129.057926043,
+          "y": 4958212.946556515
+        },
+        {
+          "x": -8237134.3122060085,
+          "y": 4958179.370683731
+        },
+        {
+          "x": -8237140.668548934,
+          "y": 4958144.577458616
+        },
+        {
+          "x": -8237168.40936604,
+          "y": 4958017.682978832
+        },
+        {
+          "x": -8237175.800980228,
+          "y": 4957983.858418707
+        },
+        {
+          "x": -8237193.233612485,
+          "y": 4957903.624565012
+        },
+        {
+          "x": -8237210.788696183,
+          "y": 4957823.054009136
+        },
+        {
+          "x": -8237242.993424871,
+          "y": 4957674.352983135
+        },
+        {
+          "x": -8237247.846954669,
+          "y": 4957654.023742283
+        },
+        {
+          "x": -8237252.277470402,
+          "y": 4957636.554709711
+        },
+        {
+          "x": -8237258.967771798,
+          "y": 4957611.95730861
+        },
+        {
+          "x": -8237265.747128789,
+          "y": 4957588.797379178
+        },
+        {
+          "x": -8237269.84368605,
+          "y": 4957572.985881862
+        },
+        {
+          "x": -8237275.687959317,
+          "y": 4957547.904616578
+        },
+        {
+          "x": -8237281.187142162,
+          "y": 4957524.319485361
+        },
+        {
+          "x": -8237333.640886224,
+          "y": 4957283.763190745
+        },
+        {
+          "x": -8237340.82099338,
+          "y": 4957249.178483922
+        },
+        {
+          "x": -8237344.294161493,
+          "y": 4957230.199481266
+        },
+        {
+          "x": -8237348.3907187525,
+          "y": 4957205.1190936575
+        },
+        {
+          "x": -8237352.609727455,
+          "y": 4957175.506718681
+        },
+        {
+          "x": -8237359.511535885,
+          "y": 4957138.546376245
+        },
+        {
+          "x": -8237365.756559317,
+          "y": 4957111.442213755
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044478,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "2",
+        "level": "2",
+        "maxspeed": "35 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "voltage": "625"
+      },
+      "node_ids": [
+        4262898258,
+        4262898317,
+        4262898319,
+        4262898321,
+        4262898323,
+        4262898326,
+        4262898332,
+        4262898342,
+        4262898348,
+        4262898350,
+        4262898352,
+        4262898354,
+        4262898357,
+        4262898359,
+        4262898266,
+        4262898277,
+        4262898279,
+        13124867917,
+        4262898286,
+        8401198280,
+        8401198282,
+        8401198283,
+        8401198284,
+        4262898379,
+        8401170677,
+        4262897380,
+        4262898447,
+        4262898449,
+        4262898453,
+        8401211422,
+        4262897349,
+        4262898511,
+        4262898514,
+        4262898516,
+        4262898518,
+        4262898520,
+        4262898523,
+        4262898526,
+        4262898529,
+        4262898532,
+        4262898535,
+        591991452
+      ],
+      "points": [
+        {
+          "x": -8237375.085132646,
+          "y": 4957017.648896905
+        },
+        {
+          "x": -8237349.092031547,
+          "y": 4957136.874364053
+        },
+        {
+          "x": -8237339.652138726,
+          "y": 4957174.2160377065
+        },
+        {
+          "x": -8237331.703927083,
+          "y": 4957201.599044397
+        },
+        {
+          "x": -8237325.09154933,
+          "y": 4957226.400751764
+        },
+        {
+          "x": -8237315.818635749,
+          "y": 4957266.030813087
+        },
+        {
+          "x": -8237313.269419408,
+          "y": 4957278.952418447
+        },
+        {
+          "x": -8237260.325869586,
+          "y": 4957520.13929079
+        },
+        {
+          "x": -8237255.5613953825,
+          "y": 4957543.973757433
+        },
+        {
+          "x": -8237251.041824056,
+          "y": 4957568.057628177
+        },
+        {
+          "x": -8237248.2031770395,
+          "y": 4957583.194415243
+        },
+        {
+          "x": -8237243.850584949,
+          "y": 4957608.789132636
+        },
+        {
+          "x": -8237240.177041752,
+          "y": 4957632.917165287
+        },
+        {
+          "x": -8237236.993304318,
+          "y": 4957650.972893037
+        },
+        {
+          "x": -8237233.019198497,
+          "y": 4957671.41946814
+        },
+        {
+          "x": -8237200.692018368,
+          "y": 4957820.853839407
+        },
+        {
+          "x": -8237183.148066619,
+          "y": 4957901.4243771825
+        },
+        {
+          "x": -8237173.474402871,
+          "y": 4957945.9122710675
+        },
+        {
+          "x": -8237165.704302412,
+          "y": 4957981.658212856
+        },
+        {
+          "x": -8237160.394362702,
+          "y": 4958005.97784897
+        },
+        {
+          "x": -8237130.7722462015,
+          "y": 4958143.301318225
+        },
+        {
+          "x": -8237124.260055991,
+          "y": 4958176.525027455
+        },
+        {
+          "x": -8237118.8054009415,
+          "y": 4958212.286479268
+        },
+        {
+          "x": -8237114.408281055,
+          "y": 4958247.7693613665
+        },
+        {
+          "x": -8237071.171790831,
+          "y": 4958694.272058377
+        },
+        {
+          "x": -8237047.716774121,
+          "y": 4958937.532841119
+        },
+        {
+          "x": -8237036.373318009,
+          "y": 4959055.725465807
+        },
+        {
+          "x": -8237007.363458709,
+          "y": 4959357.308692104
+        },
+        {
+          "x": -8237005.760458042,
+          "y": 4959383.274799589
+        },
+        {
+          "x": -8237004.970089655,
+          "y": 4959411.954958787
+        },
+        {
+          "x": -8237001.496921544,
+          "y": 4959626.15659433
+        },
+        {
+          "x": -8236998.368843852,
+          "y": 4959829.2717806855
+        },
+        {
+          "x": -8236997.600739366,
+          "y": 4959839.291945513
+        },
+        {
+          "x": -8236996.6767875925,
+          "y": 4959846.759395661
+        },
+        {
+          "x": -8236995.207370315,
+          "y": 4959855.459202327
+        },
+        {
+          "x": -8236993.771348883,
+          "y": 4959863.044031644
+        },
+        {
+          "x": -8236991.211000594,
+          "y": 4959872.858838848
+        },
+        {
+          "x": -8236985.778609443,
+          "y": 4959885.255731956
+        },
+        {
+          "x": -8236978.69868983,
+          "y": 4959899.222427969
+        },
+        {
+          "x": -8236970.416519714,
+          "y": 4959911.501987029
+        },
+        {
+          "x": -8236958.5498619955,
+          "y": 4959926.906473578
+        },
+        {
+          "x": -8236949.655434681,
+          "y": 4959936.9414092805
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823549,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "27",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735340,
+        3039735354
+      ],
+      "points": [
+        {
+          "x": -8236754.924249436,
+          "y": 4960231.890954774
+        },
+        {
+          "x": -8236760.189661351,
+          "y": 4960236.1603354495
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823550,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "end_date:electrified:contact_line": "1961-12-27",
+        "frequency": "0",
+        "gauge": "1435",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "service": "yard",
+        "start_date": "1888-06-15",
+        "voltage": "600",
+        "was:electrified": "contact_line",
+        "was:electrified:contact_line": "trolley"
+      },
+      "node_ids": [
+        595932973,
+        595932976
+      ],
+      "points": [
+        {
+          "x": -8236710.040230748,
+          "y": 4960187.39267522
+        },
+        {
+          "x": -8236671.134068717,
+          "y": 4960157.272457665
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823551,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011146,
+        3039736275,
+        3039736278,
+        2379011161
+      ],
+      "points": [
+        {
+          "x": -8237525.7449314855,
+          "y": 4960808.494269058
+        },
+        {
+          "x": -8237539.359305209,
+          "y": 4960813.321447762
+        },
+        {
+          "x": -8237544.825092207,
+          "y": 4960816.079836661
+        },
+        {
+          "x": -8237547.407704394,
+          "y": 4960817.370997688
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823552,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011140,
+        3039736254,
+        3039736257,
+        2379011144
+      ],
+      "points": [
+        {
+          "x": -8237479.513946959,
+          "y": 4960787.879748488
+        },
+        {
+          "x": -8237486.248776153,
+          "y": 4960792.237405092
+        },
+        {
+          "x": -8237491.057778154,
+          "y": 4960794.893082289
+        },
+        {
+          "x": -8237498.338072853,
+          "y": 4960798.385078815
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823553,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2379011133,
+        3039736135
+      ],
+      "points": [
+        {
+          "x": -8237447.042051495,
+          "y": 4960691.718351974
+        },
+        {
+          "x": -8237434.295969798,
+          "y": 4960671.896368875
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823554,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111520,
+        3039736166,
+        2343111522
+      ],
+      "points": [
+        {
+          "x": -8237426.570397138,
+          "y": 4960693.49367588
+        },
+        {
+          "x": -8237427.806043486,
+          "y": 4960699.56792706
+        },
+        {
+          "x": -8237430.744878042,
+          "y": 4960713.9025879
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823555,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736168,
+        3039736172,
+        3039736180,
+        3039736186
+      ],
+      "points": [
+        {
+          "x": -8237403.6608459335,
+          "y": 4960705.818247424
+        },
+        {
+          "x": -8237409.015313439,
+          "y": 4960710.014474133
+        },
+        {
+          "x": -8237415.249204923,
+          "y": 4960716.675620921
+        },
+        {
+          "x": -8237419.100859306,
+          "y": 4960720.871852286
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823557,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736276,
+        3039736301,
+        3039736330,
+        3039736338,
+        3039736352,
+        3039736363,
+        3039736399,
+        3039736409,
+        3039736423,
+        3039736472
+      ],
+      "points": [
+        {
+          "x": -8237457.773250407,
+          "y": 4960820.070698571
+        },
+        {
+          "x": -8237459.866056835,
+          "y": 4960827.172089231
+        },
+        {
+          "x": -8237464.686190786,
+          "y": 4960843.018186127
+        },
+        {
+          "x": -8237466.945976449,
+          "y": 4960850.794520837
+        },
+        {
+          "x": -8237473.057416494,
+          "y": 4960865.393505508
+        },
+        {
+          "x": -8237479.6252664495,
+          "y": 4960878.701342666
+        },
+        {
+          "x": -8237493.028133141,
+          "y": 4960903.394984784
+        },
+        {
+          "x": -8237501.020872579,
+          "y": 4960913.636335317
+        },
+        {
+          "x": -8237513.310544365,
+          "y": 4960926.958910497
+        },
+        {
+          "x": -8237608.544368737,
+          "y": 4961002.3902645
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823558,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        2343111522,
+        3039736191,
+        3039736193,
+        3039736205,
+        2343111524
+      ],
+      "points": [
+        {
+          "x": -8237430.744878042,
+          "y": 4960713.9025879
+        },
+        {
+          "x": -8237435.988026059,
+          "y": 4960730.834240939
+        },
+        {
+          "x": -8237437.9138532495,
+          "y": 4960735.6907256795
+        },
+        {
+          "x": -8237443.413036094,
+          "y": 4960746.254688725
+        },
+        {
+          "x": -8237455.869687115,
+          "y": 4960764.536240588
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823559,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736141,
+        3039736147,
+        2343111520
+      ],
+      "points": [
+        {
+          "x": -8237419.868963793,
+          "y": 4960674.552013431
+        },
+        {
+          "x": -8237421.182533783,
+          "y": 4960677.633148902
+        },
+        {
+          "x": -8237426.570397138,
+          "y": 4960693.49367588
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823560,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "node_ids": [
+        3039736186,
+        3039736196,
+        3039736209,
+        3039736217,
+        3039736227
+      ],
+      "points": [
+        {
+          "x": -8237419.100859306,
+          "y": 4960720.871852286
+        },
+        {
+          "x": -8237430.956385076,
+          "y": 4960738.287698872
+        },
+        {
+          "x": -8237435.442560553,
+          "y": 4960747.560512724
+        },
+        {
+          "x": -8237438.492714602,
+          "y": 4960754.808572706
+        },
+        {
+          "x": -8237444.604154646,
+          "y": 4960773.911784843
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823561,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "tunnel": "building_passage"
+      },
+      "node_ids": [
+        3039735478,
+        3039735470
+      ],
+      "points": [
+        {
+          "x": -8237052.303137142,
+          "y": 4960436.823327177
+        },
+        {
+          "x": -8237012.985092993,
+          "y": 4960405.6753254905
+        }
+      ]
+    },
+    {
+      "osm_way_id": 800823562,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "tunnel": "building_passage"
+      },
+      "node_ids": [
+        3039735477,
+        3039735468
+      ],
+      "points": [
+        {
+          "x": -8237056.600069487,
+          "y": 4960431.424137494
+        },
+        {
+          "x": -8237017.181837795,
+          "y": 4960399.601256634
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813334671,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "down",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        7597355601,
+        2343111510
+      ],
+      "points": [
+        {
+          "x": -8237288.734603637,
+          "y": 4960514.510367002
+        },
+        {
+          "x": -8237287.4432975445,
+          "y": 4960513.483338848
+        }
+      ]
+    },
+    {
+      "osm_way_id": 813334672,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "incline": "up",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039735634,
+        7597355602
+      ],
+      "points": [
+        {
+          "x": -8237271.357631124,
+          "y": 4960535.109640158
+        },
+        {
+          "x": -8237272.615541371,
+          "y": 4960536.107326849
+        }
+      ]
+    },
+    {
+      "osm_way_id": 819639302,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "D3",
+        "start_date": "1916-06-24",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736245,
+        3039736207,
+        3039736178
+      ],
+      "points": [
+        {
+          "x": -8237605.605534181,
+          "y": 4960780.162152667
+        },
+        {
+          "x": -8237565.163163175,
+          "y": 4960747.281741295
+        },
+        {
+          "x": -8237521.960068798,
+          "y": 4960713.697178079
+        }
+      ]
+    },
+    {
+      "osm_way_id": 824316073,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard",
+        "voltage": "600"
+      },
+      "node_ids": [
+        3039736135,
+        3039735699,
+        2379011129
+      ],
+      "points": [
+        {
+          "x": -8237434.295969798,
+          "y": 4960671.896368875
+        },
+        {
+          "x": -8237418.31049092,
+          "y": 4960646.381676941
+        },
+        {
+          "x": -8237403.104248479,
+          "y": 4960622.5103146145
+        }
+      ]
+    }
+  ]
+}

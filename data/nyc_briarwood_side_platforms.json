@@ -1,0 +1,181 @@
+{
+  "name": "Briarwood",
+  "plan_index": 4,
+  "center": {
+    "x": -8217662.395736581,
+    "y": 4969524.47625313
+  },
+  "scale": 0.7580221876687526,
+  "southbound_axis": {
+    "x": -0.4113731944282226,
+    "y": 0.911467001545267
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "x": -8217655.572329797,
+      "y": 4969527.555867247,
+      "source_way_id": 818901097,
+      "points": [
+        {
+          "x": -8217590.449192065,
+          "y": 4969383.26452332,
+          "depth": -2
+        },
+        {
+          "x": -8217617.583832786,
+          "y": 4969443.385916623,
+          "depth": -2
+        },
+        {
+          "x": -8217693.560826807,
+          "y": 4969611.725817871,
+          "depth": -2
+        },
+        {
+          "x": -8217720.695467529,
+          "y": 4969671.847211175,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "x": -8217669.328813131,
+      "y": 4969521.347141661,
+      "source_way_id": 818901075,
+      "points": [
+        {
+          "x": -8217604.205675399,
+          "y": 4969377.055797733,
+          "depth": -2
+        },
+        {
+          "x": -8217631.340316121,
+          "y": 4969437.177191037,
+          "depth": -2
+        },
+        {
+          "x": -8217707.317310141,
+          "y": 4969605.517092285,
+          "depth": -2
+        },
+        {
+          "x": -8217734.451950863,
+          "y": 4969665.638485588,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "track_spacing_metres": 11.440589263286011,
+  "platform_type": "two side platforms",
+  "platform_length_metres": 140,
+  "depth": -2,
+  "source_platforms": [
+    {
+      "osm_way_id": 906716436,
+      "tags": {
+        "area": "yes",
+        "covered": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "location": "underground",
+        "name": "Briarwood",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes"
+      },
+      "node_ids": [
+        8419657459,
+        8419657464,
+        8419657465,
+        8419657463,
+        8419657459
+      ],
+      "points": [
+        {
+          "x": -8217721.695824788,
+          "y": 4969632.413812172
+        },
+        {
+          "x": -8217726.337847554,
+          "y": 4969630.44595413
+        },
+        {
+          "x": -8217625.404465251,
+          "y": 4969406.964472785
+        },
+        {
+          "x": -8217620.762442485,
+          "y": 4969408.873545163
+        },
+        {
+          "x": -8217721.695824788,
+          "y": 4969632.413812172
+        }
+      ]
+    },
+    {
+      "osm_way_id": 906716437,
+      "tags": {
+        "area": "yes",
+        "covered": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "location": "underground",
+        "name": "Briarwood",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes"
+      },
+      "node_ids": [
+        8419657460,
+        8419657466,
+        8419657467,
+        8419657461,
+        8419657460
+      ],
+      "points": [
+        {
+          "x": -8217703.906970158,
+          "y": 4969639.536286758
+        },
+        {
+          "x": -8217699.142495954,
+          "y": 4969641.416033491
+        },
+        {
+          "x": -8217598.387224835,
+          "y": 4969418.551079337
+        },
+        {
+          "x": -8217603.084907348,
+          "y": 4969416.6273198845
+        },
+        {
+          "x": -8217703.906970158,
+          "y": 4969639.536286758
+        }
+      ]
+    }
+  ],
+  "reserved_express_track_refs": [
+    "3",
+    "4"
+  ],
+  "reserved_express_depth": -2,
+  "source": "data/nyc_briarwood_source.json",
+  "stage": "built_adjacent_corridors_and_operations_pending",
+  "native_verification": "work/nyc-briarwood-all-built.json"
+}

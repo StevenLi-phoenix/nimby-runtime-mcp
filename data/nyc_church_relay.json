@@ -1,0 +1,176 @@
+{
+  "station": "Church Avenue",
+  "through_tracks": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475825008641",
+      "points": [
+        {
+          "x": -8235367.414946542,
+          "y": 4959815.4187783245,
+          "depth": -2,
+          "metres": 0
+        },
+        {
+          "x": -8235351.093234555,
+          "y": 4959711.256663704,
+          "depth": -2,
+          "metres": 80
+        },
+        {
+          "x": -8235335.175663529,
+          "y": 4959607.032826711,
+          "depth": -2,
+          "metres": 160
+        },
+        {
+          "x": -8235320.348608155,
+          "y": 4959489.2403565245,
+          "depth": -2,
+          "metres": 250.16034283119197
+        }
+      ],
+      "source_way_ids": [
+        46341913
+      ],
+      "source_projection_gaps_world_metres": [
+        0.4088270639809955,
+        0.7190535811128543
+      ]
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475824943105",
+      "points": [
+        {
+          "x": -8235359.841639389,
+          "y": 4959816.494819936,
+          "depth": -2,
+          "metres": 0
+        },
+        {
+          "x": -8235344.417208981,
+          "y": 4959712.196247141,
+          "depth": -2,
+          "metres": 80
+        },
+        {
+          "x": -8235329.346980414,
+          "y": 4959607.846520376,
+          "depth": -2,
+          "metres": 160
+        },
+        {
+          "x": -8235315.150829877,
+          "y": 4959490.243779335,
+          "depth": -2,
+          "metres": 249.943749487137
+        }
+      ],
+      "source_way_ids": [
+        814347382
+      ],
+      "source_projection_gaps_world_metres": [
+        0.3578766186761291,
+        1.657585253026389
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475825532930",
+      "points": [
+        {
+          "x": -8235354.662771955,
+          "y": 4959817.230639075,
+          "depth": -2,
+          "metres": 0
+        },
+        {
+          "x": -8235339.246189912,
+          "y": 4959712.930921563,
+          "depth": -2,
+          "metres": 80
+        },
+        {
+          "x": -8235324.179266541,
+          "y": 4959608.580717514,
+          "depth": -2,
+          "metres": 160
+        },
+        {
+          "x": -8235309.937758281,
+          "y": 4959490.979452406,
+          "depth": -2,
+          "metres": 249.94458517288302
+        }
+      ],
+      "source_way_ids": [
+        206583270
+      ],
+      "source_projection_gaps_world_metres": [
+        0.3532846988216906,
+        1.6234023355663159
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475825467394",
+      "points": [
+        {
+          "x": -8235347.192488685,
+          "y": 4959818.292042698,
+          "depth": -2,
+          "metres": 0
+        },
+        {
+          "x": -8235332.758201349,
+          "y": 4959713.852389394,
+          "depth": -2,
+          "metres": 80
+        },
+        {
+          "x": -8235318.434982749,
+          "y": 4959609.397505958,
+          "depth": -2,
+          "metres": 160
+        },
+        {
+          "x": -8235304.741972049,
+          "y": 4959491.964968309,
+          "depth": -2,
+          "metres": 249.75654013913694
+        }
+      ],
+      "source_way_ids": [
+        194911403
+      ],
+      "source_projection_gaps_world_metres": [
+        0.1121080770629338,
+        3.899163559982461
+      ]
+    }
+  ],
+  "scale": 0.7587805012131916,
+  "southbound_tangent": {
+    "x": 0.1406706364366855,
+    "y": -0.9900564489181907
+  },
+  "relay": {
+    "arrival_ref": "1",
+    "departure_ref": "2",
+    "branch_metres": 60,
+    "lower_control_metres": [
+      140,
+      260,
+      450
+    ],
+    "depth": -3,
+    "outward_offset_metres": 3,
+    "crossover_arrival_metres": 290,
+    "crossover_departure_metres": 230
+  },
+  "reference": "https://www.mta.info/document/10191",
+  "source_limitation": "MTA confirms tail tracks south of Church; the OSM snapshot contains only four through tracks. Lower relay shape is a game adaptation, not surveyed tail-track geometry.",
+  "scope": "Four short through-track continuations and two G reversal tracks. No depot, yard storage fan, or yard links.",
+  "stage": "native_through_tracks_and_relay_pending"
+}

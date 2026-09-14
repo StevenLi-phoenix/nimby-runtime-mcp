@@ -1,0 +1,193 @@
+{
+  "name": "Parsons Boulevard",
+  "plan_index": 2,
+  "center": {
+    "x": -8215758.828849844,
+    "y": 4969299.127285923
+  },
+  "scale": 0.7580508973591681,
+  "southbound_axis": {
+    "x": -0.9364016905045768,
+    "y": -0.3509300129942874
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818901096,
+      "track_ref": "1",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -9.762198804644658,
+      "x": -8215763.348135508,
+      "y": 4969311.186290794
+    },
+    {
+      "source_way_id": 333765219,
+      "track_ref": "3",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -1.8960467431464543,
+      "x": -8215759.706600547,
+      "y": 4969301.469425985
+    },
+    {
+      "source_way_id": 818901119,
+      "track_ref": "4",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 1.9528218133754702,
+      "x": -8215757.924815845,
+      "y": 4969296.715013009
+    },
+    {
+      "source_way_id": 818901073,
+      "track_ref": "2",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 9.690816138904868,
+      "x": -8215754.342609876,
+      "y": 4969287.156458309
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 906711098,
+      "tracks": [
+        {
+          "source_way_id": 818901096,
+          "track_ref": "1",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -9.762198804644658,
+          "x": -8215763.348135508,
+          "y": 4969311.186290794,
+          "points": [
+            {
+              "x": -8215615.115077211,
+              "y": 4969366.738763202,
+              "depth": -2
+            },
+            {
+              "x": -8215676.878851501,
+              "y": 4969343.591899699,
+              "depth": -2
+            },
+            {
+              "x": -8215849.817419514,
+              "y": 4969278.7806818895,
+              "depth": -2
+            },
+            {
+              "x": -8215911.581193805,
+              "y": 4969255.633818386,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 333765219,
+          "track_ref": "3",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -1.8960467431464543,
+          "x": -8215759.706600547,
+          "y": 4969301.469425985,
+          "points": [
+            {
+              "x": -8215611.47354225,
+              "y": 4969357.021898393,
+              "depth": -2
+            },
+            {
+              "x": -8215673.23731654,
+              "y": 4969333.875034889,
+              "depth": -2
+            },
+            {
+              "x": -8215846.175884553,
+              "y": 4969269.06381708,
+              "depth": -2
+            },
+            {
+              "x": -8215907.939658844,
+              "y": 4969245.916953577,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.8661520614982035,
+      "island_width_metres": 4.816152061498204
+    },
+    {
+      "platform_way_id": 906711097,
+      "tracks": [
+        {
+          "source_way_id": 818901119,
+          "track_ref": "4",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 1.9528218133754702,
+          "x": -8215757.924815845,
+          "y": 4969296.715013009,
+          "points": [
+            {
+              "x": -8215609.691757548,
+              "y": 4969352.2674854165,
+              "depth": -2
+            },
+            {
+              "x": -8215671.455531838,
+              "y": 4969329.120621913,
+              "depth": -2
+            },
+            {
+              "x": -8215844.394099851,
+              "y": 4969264.309404104,
+              "depth": -2
+            },
+            {
+              "x": -8215906.157874142,
+              "y": 4969241.162540601,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901073,
+          "track_ref": "2",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 9.690816138904868,
+          "x": -8215754.342609876,
+          "y": 4969287.156458309,
+          "points": [
+            {
+              "x": -8215606.109551579,
+              "y": 4969342.708930717,
+              "depth": -2
+            },
+            {
+              "x": -8215667.873325869,
+              "y": 4969319.5620672135,
+              "depth": -2
+            },
+            {
+              "x": -8215840.811893882,
+              "y": 4969254.750849404,
+              "depth": -2
+            },
+            {
+              "x": -8215902.575668173,
+              "y": 4969231.603985901,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.737994325529398,
+      "island_width_metres": 4.687994325529398
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_parsons_source.json",
+  "stage": "two_islands_built_approaches_and_operations_pending",
+  "pending": [
+    "Connect four tracks toward Sutphin Boulevard and 169th Street.",
+    "Complete operational validation."
+  ],
+  "native_station_id": "562949986516993",
+  "native_verification": "work/nyc-parsons-built.json"
+}

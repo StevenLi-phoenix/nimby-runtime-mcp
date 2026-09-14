@@ -1,0 +1,112 @@
+[
+  {
+    "ref": "3",
+    "node": "281475877175297",
+    "platform_node": "281475876913153",
+    "options": [
+      {
+        "lead_length_metres": 0,
+        "projection_gap_world_metres": 14.427688991712524,
+        "point": {
+          "x": -8230548.603623595,
+          "y": 4975460.246638964
+        }
+      },
+      {
+        "lead_length_metres": 3,
+        "projection_gap_world_metres": 15.767840323068919,
+        "point": {
+          "x": -8230545.125756422,
+          "y": 4975462.1400786815
+        }
+      },
+      {
+        "lead_length_metres": 10,
+        "projection_gap_world_metres": 18.948670874479884,
+        "point": {
+          "x": -8230537.010733018,
+          "y": 4975466.558104689
+        }
+      },
+      {
+        "lead_length_metres": 20,
+        "projection_gap_world_metres": 23.492714517989764,
+        "point": {
+          "x": -8230525.41784244,
+          "y": 4975472.8695704155
+        }
+      },
+      {
+        "lead_length_metres": 30,
+        "projection_gap_world_metres": 28.036758162199327,
+        "point": {
+          "x": -8230513.824951863,
+          "y": 4975479.181036141
+        }
+      },
+      {
+        "lead_length_metres": 50,
+        "projection_gap_world_metres": 37.9171130397149,
+        "point": {
+          "x": -8230490.639170708,
+          "y": 4975491.803967591
+        }
+      }
+    ]
+  },
+  {
+    "ref": "4",
+    "node": "281475877765122",
+    "platform_node": "281475877634050",
+    "options": [
+      {
+        "lead_length_metres": 0,
+        "projection_gap_world_metres": 14.103009537851777,
+        "point": {
+          "x": -8230546.209662495,
+          "y": 4975455.849414882
+        }
+      },
+      {
+        "lead_length_metres": 3,
+        "projection_gap_world_metres": 15.463576237221492,
+        "point": {
+          "x": -8230542.731796718,
+          "y": 4975457.742857164
+        }
+      },
+      {
+        "lead_length_metres": 10,
+        "projection_gap_world_metres": 18.638231868617996,
+        "point": {
+          "x": -8230534.616776571,
+          "y": 4975462.160889154
+        }
+      },
+      {
+        "lead_length_metres": 20,
+        "projection_gap_world_metres": 23.17345419868497,
+        "point": {
+          "x": -8230523.023890646,
+          "y": 4975468.472363426
+        }
+      },
+      {
+        "lead_length_metres": 30,
+        "projection_gap_world_metres": 27.708676529367096,
+        "point": {
+          "x": -8230511.431004722,
+          "y": 4975474.783837698
+        }
+      },
+      {
+        "lead_length_metres": 50,
+        "projection_gap_world_metres": 37.30043629225592,
+        "point": {
+          "x": -8230488.245232873,
+          "y": 4975487.4067862425
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "from_station": "7th Avenue",
+  "to_station": "15th Street–Prospect Park",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475818979329",
+      "end_node_id": "281475821207553",
+      "points": [
+        {
+          "x": -8235298.08005569,
+          "y": 4963129.602580857,
+          "depth": -3,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8235174.203746018,
+          "y": 4963053.293082095,
+          "depth": -3,
+          "chainage_metres": 110.37099039525376,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235084.419442797,
+          "y": 4962997.974129206,
+          "depth": -2,
+          "chainage_metres": 190.37099039525376,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235056.700889587,
+          "y": 4962971.675571766,
+          "source_node_id": 7606978461,
+          "depth": -2,
+          "chainage_metres": 219.487816977497,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235041.0938969795,
+          "y": 4962936.982716801,
+          "source_node_id": 7606978463,
+          "depth": -2,
+          "chainage_metres": 248.4846680723348,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235044.878759667,
+          "y": 4962880.482349037,
+          "source_node_id": 7606978466,
+          "depth": -2,
+          "chainage_metres": 291.996285877027,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235291.428114657,
+          "y": 4962491.873020376,
+          "depth": -2,
+          "chainage_metres": 641.1849984044419,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 641.1849984044419,
+      "source_projection_gaps_world_metres": [
+        0.012446303433300788,
+        4.960788141602325
+      ],
+      "source_way_ids": [
+        426568717,
+        814347385
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475819438082",
+      "end_node_id": "281475821142017",
+      "points": [
+        {
+          "x": -8235283.118820692,
+          "y": 4963153.863389382,
+          "depth": -3,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8235164.073054526,
+          "y": 4963069.16814319,
+          "depth": -3,
+          "chainage_metres": 110.7659256562848,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235076.103876836,
+          "y": 4963011.006029833,
+          "depth": -2,
+          "chainage_metres": 190.7659256562848,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235036.919416076,
+          "y": 4962966.010824778,
+          "source_node_id": 7606986829,
+          "depth": -2,
+          "chainage_metres": 236.61233850978908,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235027.902537321,
+          "y": 4962926.944705561,
+          "source_node_id": 4226062127,
+          "depth": -2,
+          "chainage_metres": 267.1725735682831,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235034.470387277,
+          "y": 4962887.394454442,
+          "source_node_id": 4226062126,
+          "depth": -2,
+          "chainage_metres": 297.73148221816615,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235284.826926862,
+          "y": 4962488.1431974,
+          "depth": -2,
+          "chainage_metres": 655.285848527026,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 655.285848527026,
+      "source_projection_gaps_world_metres": [
+        4.993622026722321,
+        4.712609275646844
+      ],
+      "source_way_ids": [
+        426568718,
+        46340211
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "adaptations": [
+    "Preserve the local route bend; B3/B4 follow a separate express bypass.",
+    "Transition from -3 to source -2 over 80m before the source layer boundary."
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

@@ -1,0 +1,192 @@
+{
+  "name": "47th-50th Streets-Rockefeller Center",
+  "plan_index": 13,
+  "center": {
+    "x": -8235567.121417311,
+    "y": 4976804.713523088
+  },
+  "scale": 0.7574749090592919,
+  "southbound_axis": {
+    "x": -0.4827029495649682,
+    "y": -0.8757841414876611
+  },
+  "cross_section": [
+    {
+      "source_way_id": 819186625,
+      "track_ref": "3",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -9.530455387301007,
+      "x": -8235578.140424792,
+      "y": 4976810.78683175
+    },
+    {
+      "source_way_id": 46340246,
+      "track_ref": "1",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -1.9101621776334607,
+      "x": -8235569.329925768,
+      "y": 4976805.93077914
+    },
+    {
+      "source_way_id": 819186629,
+      "track_ref": "4",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 1.8981263803531399,
+      "x": -8235564.92682451,
+      "y": 4976803.50393688
+    },
+    {
+      "source_way_id": 819186627,
+      "track_ref": "2",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 9.522103381148698,
+      "x": -8235556.112066328,
+      "y": 4976798.645536765
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 907921873,
+      "tracks": [
+        {
+          "source_way_id": 819186625,
+          "track_ref": "3",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -9.530455387301007,
+          "x": -8235578.140424792,
+          "y": 4976810.78683175,
+          "points": [
+            {
+              "x": -8235501.6700978475,
+              "y": 4976949.529509192,
+              "depth": -2
+            },
+            {
+              "x": -8235533.532734075,
+              "y": 4976891.720060258,
+              "depth": -2
+            },
+            {
+              "x": -8235622.748115509,
+              "y": 4976729.853603241,
+              "depth": -2
+            },
+            {
+              "x": -8235654.610751736,
+              "y": 4976672.044154307,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 46340246,
+          "track_ref": "1",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -1.9101621776334607,
+          "x": -8235569.329925768,
+          "y": 4976805.93077914,
+          "points": [
+            {
+              "x": -8235492.859598824,
+              "y": 4976944.673456583,
+              "depth": -2
+            },
+            {
+              "x": -8235524.722235051,
+              "y": 4976886.864007649,
+              "depth": -2
+            },
+            {
+              "x": -8235613.937616485,
+              "y": 4976724.997550632,
+              "depth": -2
+            },
+            {
+              "x": -8235645.800252712,
+              "y": 4976667.188101698,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.620293209667547,
+      "island_width_metres": 4.570293209667547
+    },
+    {
+      "platform_way_id": 907921874,
+      "tracks": [
+        {
+          "source_way_id": 819186629,
+          "track_ref": "4",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 1.8981263803531399,
+          "x": -8235564.92682451,
+          "y": 4976803.50393688,
+          "points": [
+            {
+              "x": -8235488.456497566,
+              "y": 4976942.246614323,
+              "depth": -2
+            },
+            {
+              "x": -8235520.319133793,
+              "y": 4976884.437165389,
+              "depth": -2
+            },
+            {
+              "x": -8235609.534515227,
+              "y": 4976722.570708372,
+              "depth": -2
+            },
+            {
+              "x": -8235641.397151454,
+              "y": 4976664.761259438,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 819186627,
+          "track_ref": "2",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 9.522103381148698,
+          "x": -8235556.112066328,
+          "y": 4976798.645536765,
+          "points": [
+            {
+              "x": -8235479.641739383,
+              "y": 4976937.388214208,
+              "depth": -2
+            },
+            {
+              "x": -8235511.5043756105,
+              "y": 4976879.578765274,
+              "depth": -2
+            },
+            {
+              "x": -8235600.719757045,
+              "y": 4976717.712308257,
+              "depth": -2
+            },
+            {
+              "x": -8235632.582393272,
+              "y": 4976659.902859323,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.623977000795558,
+      "island_width_metres": 4.5739770007955585
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_rockefeller_source.json",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Sixth Avenue south to Bryant Park and retain the northern route splits.",
+    "Verify the northern junction layers against source geometry."
+  ]
+}

@@ -1,0 +1,514 @@
+[
+  {
+    "ref": "3",
+    "offset_metres": 0.7,
+    "minima": {
+      "up_PATH": 3.2538858434407953,
+      "up_IND Sixth Avenue Line": 4.222720041518161,
+      "down_PATH": 3.1745912682162643,
+      "down_IND Sixth Avenue Line": 3.978926035516942
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 0.8,
+    "minima": {
+      "up_PATH": 3.3538858414539905,
+      "up_IND Sixth Avenue Line": 4.1227200416646355,
+      "down_PATH": 3.274591266661516,
+      "down_IND Sixth Avenue Line": 3.8789261216010322
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 0.9,
+    "minima": {
+      "up_PATH": 3.4538858388495015,
+      "up_IND Sixth Avenue Line": 4.022720042428842,
+      "down_PATH": 3.3745912647657765,
+      "down_IND Sixth Avenue Line": 3.7789262080251835
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.0,
+    "minima": {
+      "up_PATH": 3.5538858372036777,
+      "up_IND Sixth Avenue Line": 3.9227200422344195,
+      "down_PATH": 3.47459126225236,
+      "down_IND Sixth Avenue Line": 3.678926295067507
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.1,
+    "minima": {
+      "up_PATH": 3.653885835216873,
+      "up_IND Sixth Avenue Line": 3.822720042380897,
+      "down_PATH": 3.5745912606976114,
+      "down_IND Sixth Avenue Line": 3.5789263811515974
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.2,
+    "minima": {
+      "up_PATH": 3.7538858332300635,
+      "up_IND Sixth Avenue Line": 3.7227200425273725,
+      "down_PATH": 3.674591258801872,
+      "down_IND Sixth Avenue Line": 3.4789264675757487
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.3,
+    "minima": {
+      "up_PATH": 3.8538858315842446,
+      "up_IND Sixth Avenue Line": 3.62272004233295,
+      "down_PATH": 3.7745912569061386,
+      "down_IND Sixth Avenue Line": 3.3789265539998863
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "3",
+    "offset_metres": 1.4,
+    "minima": {
+      "up_PATH": 3.9538858289797605,
+      "up_IND Sixth Avenue Line": 3.5227200430971557,
+      "down_PATH": 3.8745912550103996,
+      "down_IND Sixth Avenue Line": 3.2789266404240234
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 813712316,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 552266808,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1632,
+        "source_way": 813712316,
+        "depth": -2.2444444444444445
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 1547121836,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 0.7,
+    "minima": {
+      "up_PATH": 3.7023913299405637,
+      "up_IND Sixth Avenue Line": 3.691963335556634,
+      "down_PATH": 2.9251694590914967,
+      "down_IND Sixth Avenue Line": 4.157274096280592
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 0.8,
+    "minima": {
+      "up_PATH": 3.80239108099906,
+      "up_IND Sixth Avenue Line": 3.5919634647154823,
+      "down_PATH": 3.0251692039230815,
+      "down_IND Sixth Avenue Line": 4.057274145811808
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 0.9,
+    "minima": {
+      "up_PATH": 3.90239083171665,
+      "up_IND Sixth Avenue Line": 3.491963594215609,
+      "down_PATH": 3.125168949095537,
+      "down_IND Sixth Avenue Line": 3.9572741956846884
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.0,
+    "minima": {
+      "up_PATH": 4.002390582157418,
+      "up_IND Sixth Avenue Line": 3.3919637239919727,
+      "down_PATH": 3.2251686933093833,
+      "down_IND Sixth Avenue Line": 3.857274245833231
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.1,
+    "minima": {
+      "up_PATH": 4.102390332875008,
+      "up_IND Sixth Avenue Line": 3.2919638534921,
+      "down_PATH": 3.325168438481839,
+      "down_IND Sixth Avenue Line": 3.7572742957061114
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.2,
+    "minima": {
+      "up_PATH": 4.202390083933495,
+      "up_IND Sixth Avenue Line": 3.1919639826509476,
+      "down_PATH": 3.4251681836543004,
+      "down_IND Sixth Avenue Line": 3.6572743452373415
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.3,
+    "minima": {
+      "up_PATH": 4.302389834374264,
+      "up_IND Sixth Avenue Line": 3.0919641124273123,
+      "down_PATH": 3.5251679284858852,
+      "down_IND Sixth Avenue Line": 3.5572743951102286
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  },
+  {
+    "ref": "4",
+    "offset_metres": 1.4,
+    "minima": {
+      "up_PATH": 4.4023895850918535,
+      "up_IND Sixth Avenue Line": 2.991964241927438,
+      "down_PATH": 3.6251676730406026,
+      "down_IND Sixth Avenue Line": 3.4572744452587507
+    },
+    "worst": {
+      "up_IND Sixth Avenue Line": {
+        "metres": 1240,
+        "source_way": 554387915,
+        "depth": -2.25
+      },
+      "up_PATH": {
+        "metres": 1284,
+        "source_way": 591434572,
+        "depth": -1.76
+      },
+      "down_IND Sixth Avenue Line": {
+        "metres": 1586,
+        "source_way": 554387915,
+        "depth": -1.76
+      },
+      "down_PATH": {
+        "metres": 1632,
+        "source_way": 591434572,
+        "depth": -2.2444444444444445
+      }
+    }
+  }
+]

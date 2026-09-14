@@ -1,0 +1,192 @@
+{
+  "name": "71st Street",
+  "plan_index": 28,
+  "center": {
+    "x": -8237517.67719839,
+    "y": 4956386.313065285
+  },
+  "scale": 0.7590581979194653,
+  "southbound_axis": {
+    "x": -0.21223644002274358,
+    "y": -0.9772183448577255
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 813334676,
+      "offset_metres": -3.753374380745683,
+      "points": [
+        {
+          "x": -8237488.956730627,
+          "y": 4956541.851605706,
+          "depth": 2
+        },
+        {
+          "x": -8237502.936978823,
+          "y": 4956477.481156409,
+          "depth": 2
+        },
+        {
+          "x": -8237542.081673767,
+          "y": 4956297.243898377,
+          "depth": 2
+        },
+        {
+          "x": -8237556.061921963,
+          "y": 4956232.87344908,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 813334677,
+      "offset_metres": 4.090040513948731,
+      "points": [
+        {
+          "x": -8237478.8590478115,
+          "y": 4956539.658547968,
+          "depth": 2
+        },
+        {
+          "x": -8237492.839296007,
+          "y": 4956475.288098671,
+          "depth": 2
+        },
+        {
+          "x": -8237531.983990951,
+          "y": 4956295.050840639,
+          "depth": 2
+        },
+        {
+          "x": -8237545.964239147,
+          "y": 4956230.680391341,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "source_platform_way_ids": [
+    427044443,
+    427044444
+  ],
+  "source": "data/nyc_west_end_71_source.json",
+  "layout": "two_side_platforms_with_center_express_track",
+  "depth": 2,
+  "stage": "candidate_native_creation_pending",
+  "track_spacing_metres": 7.843414894694414,
+  "source_platforms": [
+    {
+      "osm_way_id": 427044443,
+      "tags": {
+        "area": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "name": "71st Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898247,
+        4262898248,
+        4262898240,
+        4262898239,
+        9090235336,
+        4262898247
+      ],
+      "points": [
+        {
+          "x": -8237479.24678018,
+          "y": 4956505.56348956
+        },
+        {
+          "x": -8237483.944462691,
+          "y": 4956506.5900975205
+        },
+        {
+          "x": -8237536.509526244,
+          "y": 4956265.824145113
+        },
+        {
+          "x": -8237531.9454271225,
+          "y": 4956264.533583981
+        },
+        {
+          "x": -8237503.135942905,
+          "y": 4956396.274354604
+        },
+        {
+          "x": -8237479.24678018,
+          "y": 4956505.56348956
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044444,
+      "tags": {
+        "area": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "name": "71st Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "D",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898249,
+        4262898250,
+        9775912291,
+        9775912280,
+        4262898242,
+        4262898241,
+        4262898249
+      ],
+      "points": [
+        {
+          "x": -8237498.326940903,
+          "y": 4956509.977904554
+        },
+        {
+          "x": -8237502.84651223,
+          "y": 4956510.975181304
+        },
+        {
+          "x": -8237520.36820008,
+          "y": 4956431.149364792
+        },
+        {
+          "x": -8237524.375701749,
+          "y": 4956412.890565586
+        },
+        {
+          "x": -8237555.534027222,
+          "y": 4956270.971725856
+        },
+        {
+          "x": -8237550.135031918,
+          "y": 4956269.593171202
+        },
+        {
+          "x": -8237498.326940903,
+          "y": 4956509.977904554
+        }
+      ]
+    }
+  ]
+}

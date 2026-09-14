@@ -1,0 +1,204 @@
+[
+  {
+    "way": 222266009,
+    "distance": 18.995225825813446,
+    "tags": {
+      "hgv": "local",
+      "highway": "secondary",
+      "lanes": "2",
+      "name": "39th Street",
+      "oneway": "no",
+      "parking:both": "lane",
+      "parking:both:orientation": "parallel",
+      "sidewalk:both": "separate",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1066278131,
+    "distance": 0.20528185191635268,
+    "tags": {
+      "highway": "residential",
+      "lanes": "2",
+      "name": "10th Avenue",
+      "oneway": "no",
+      "parking:both": "lane",
+      "parking:both:orientation": "parallel",
+      "sidewalk:both": "separate",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1066278134,
+    "distance": 20.23093189593629,
+    "tags": {
+      "cycleway:both": "no",
+      "hgv": "local",
+      "highway": "secondary",
+      "lanes": "2",
+      "name": "39th Street",
+      "oneway": "no",
+      "sidewalk:both": "separate",
+      "smoothness": "good",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1066278135,
+    "distance": 14.39271580639595,
+    "tags": {
+      "hgv": "local",
+      "highway": "secondary",
+      "lanes": "2",
+      "name": "39th Street",
+      "oneway": "no",
+      "sidewalk:both": "separate",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1066278136,
+    "distance": 16.920936649853697,
+    "tags": {
+      "highway": "residential",
+      "lanes": "2",
+      "name": "10th Avenue",
+      "oneway": "no",
+      "parking:both": "lane",
+      "parking:both:orientation": "parallel",
+      "sidewalk:both": "separate",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1217432928,
+    "distance": 27.240906023743406,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway"
+    }
+  },
+  {
+    "way": 1217432929,
+    "distance": 8.45503573283458,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway"
+    }
+  },
+  {
+    "way": 1217432934,
+    "distance": 13.0370274270593,
+    "tags": {
+      "crossing": "traffic_signals",
+      "crossing:island": "no",
+      "crossing:markings": "zebra",
+      "crossing:signals": "yes",
+      "footway": "crossing",
+      "highway": "footway",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1217432935,
+    "distance": 25.958698890892663,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway",
+      "surface": "concrete"
+    }
+  },
+  {
+    "way": 1217432936,
+    "distance": 11.984599518830091,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway"
+    }
+  },
+  {
+    "way": 1217432937,
+    "distance": 0.5535254156483163,
+    "tags": {
+      "crossing": "traffic_signals",
+      "crossing:island": "no",
+      "crossing:markings": "zebra",
+      "crossing:signals": "yes",
+      "footway": "crossing",
+      "highway": "footway",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1217432938,
+    "distance": 25.78974882645606,
+    "tags": {
+      "crossing": "traffic_signals",
+      "crossing:island": "no",
+      "crossing:markings": "zebra",
+      "crossing:signals": "yes",
+      "footway": "crossing",
+      "highway": "footway",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1217432939,
+    "distance": 14.007142985278136,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway",
+      "surface": "concrete"
+    }
+  },
+  {
+    "way": 1217432940,
+    "distance": 11.720546775590146,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway",
+      "surface": "concrete"
+    }
+  },
+  {
+    "way": 1228520649,
+    "distance": 28.516162826581926,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway",
+      "lit": "yes",
+      "smoothness": "good",
+      "surface": "concrete"
+    }
+  },
+  {
+    "way": 1228521465,
+    "distance": 14.514196983390075,
+    "tags": {
+      "crossing": "traffic_signals",
+      "crossing:island": "no",
+      "crossing:markings": "zebra",
+      "crossing:signals": "yes",
+      "footway": "crossing",
+      "highway": "footway",
+      "surface": "asphalt"
+    }
+  },
+  {
+    "way": 1228521466,
+    "distance": 27.370906598255313,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway"
+    }
+  },
+  {
+    "way": 1228521467,
+    "distance": 29.760181565021465,
+    "tags": {
+      "footway": "sidewalk",
+      "highway": "footway",
+      "surface": "concrete"
+    }
+  }
+]

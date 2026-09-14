@@ -1,0 +1,168 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475831037953",
+      "end_node_id": "281475833659393",
+      "points": [
+        {
+          "x": -8235196.336345624,
+          "y": 4958667.553618852,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8235174.359937377,
+          "y": 4958510.972080458,
+          "depth": 2,
+          "chainage_metres": 120
+        },
+        {
+          "x": -8235152.4710429525,
+          "y": 4958354.3850723,
+          "depth": 2,
+          "chainage_metres": 240
+        },
+        {
+          "x": -8235129.389379338,
+          "y": 4958197.964146542,
+          "depth": 2,
+          "chainage_metres": 360
+        },
+        {
+          "x": -8235117.6371788485,
+          "y": 4958118.321270229,
+          "source_node_id": 1773274908,
+          "depth": 2,
+          "chainage_metres": 421.09889141230934
+        },
+        {
+          "x": -8235111.98814096,
+          "y": 4958040.134135297,
+          "depth": 2,
+          "chainage_metres": 480.60043427541774
+        }
+      ],
+      "source_length_metres": 480.60043427541774,
+      "source_projection_gaps_world_metres": [
+        0.5478770232475253,
+        0.0006252080530137755
+      ],
+      "source_way_ids": [
+        820304820,
+        813282276,
+        813282272
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475830972417",
+      "end_node_id": "281475833593857",
+      "points": [
+        {
+          "x": -8235185.888822511,
+          "y": 4958669.117937854,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8235163.6184204295,
+          "y": 4958512.577733805,
+          "depth": 2,
+          "chainage_metres": 120
+        },
+        {
+          "x": -8235140.988668597,
+          "y": 4958356.090790126,
+          "depth": 2,
+          "chainage_metres": 240
+        },
+        {
+          "x": -8235118.358916766,
+          "y": 4958199.603846445,
+          "depth": 2,
+          "chainage_metres": 360
+        },
+        {
+          "x": -8235101.963394546,
+          "y": 4958086.227209295,
+          "source_node_id": 1773258941,
+          "depth": 2,
+          "chainage_metres": 446.94141592943754
+        },
+        {
+          "x": -8235090.401635777,
+          "y": 4958043.238494632,
+          "depth": 2,
+          "chainage_metres": 480.78519225701234
+        }
+      ],
+      "source_length_metres": 480.78519225701234,
+      "source_projection_gaps_world_metres": [
+        0.583697619635353,
+        2.0289081219960745
+      ],
+      "source_way_ids": [
+        813282278,
+        813282270
+      ]
+    },
+    {
+      "track_ref": "3-4",
+      "start_node_id": "281475831234562",
+      "end_node_id": "281475833200641",
+      "points": [
+        {
+          "x": -8235190.7664277535,
+          "y": 4958668.389012359,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8235169.0204339465,
+          "y": 4958511.775112573,
+          "depth": 2,
+          "chainage_metres": 120
+        },
+        {
+          "x": -8235146.166410652,
+          "y": 4958355.3209644705,
+          "depth": 2,
+          "chainage_metres": 240
+        },
+        {
+          "x": -8235123.510755719,
+          "y": 4958198.837768856,
+          "depth": 2,
+          "chainage_metres": 360
+        },
+        {
+          "x": -8235101.341954794,
+          "y": 4958041.66370347,
+          "depth": 2,
+          "chainage_metres": 480.46782460545353
+        }
+      ],
+      "source_length_metres": 480.46782460545353,
+      "source_projection_gaps_world_metres": [
+        0.8914307735223325,
+        0.18777518773678148
+      ],
+      "source_way_ids": [
+        813282279,
+        813282281,
+        813282277,
+        813282274
+      ]
+    }
+  ],
+  "scale": 0.7589425521490429,
+  "source": "data/nyc_south_culver_source.json",
+  "crossover_source_way_ids": [
+    607227787,
+    607227790,
+    607227793
+  ],
+  "stage": "candidate_native_audit_pending",
+  "attribution": "\u00a9 OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

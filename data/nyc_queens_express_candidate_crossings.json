@@ -1,0 +1,872 @@
+[
+  {
+    "ref": "3",
+    "segment_metres": [
+      0.0,
+      193.57545429036324
+    ],
+    "depths": [
+      -3,
+      -2
+    ],
+    "source_way": 818901061,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8225720.798044143 4975145.406100394)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      0.0,
+      193.57545429036324
+    ],
+    "depths": [
+      -3,
+      -2
+    ],
+    "source_way": 818901062,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8225771.625832278 4975174.000954252)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      1350.8927731188442,
+      1387.863647009422
+    ],
+    "depths": [
+      -3,
+      -3
+    ],
+    "source_way": 818901072,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-1",
+      "level": "-1",
+      "maxspeed": "50 mph",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8227264.322136409 4976007.713948708)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      2363.0458731976923,
+      3002.3193979407934
+    ],
+    "depths": [
+      -3,
+      -3
+    ],
+    "source_way": 818901071,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "50 mph",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8229220.766627049 4975895.740668854)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3040.1391375476396,
+      3537.2488031218495
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637895,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8229949.919306787 4975833.640489242)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3647.401591177191,
+      3702.47175207244
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 1547324910,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT Astoria Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "G2",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230274.788258512 4975767.410731925)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3702.47175207244,
+      3757.5508850300757
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 220086611,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "35 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:bidirectional": "regular",
+      "railway:preferred_direction": "both",
+      "railway:track_ref": "3-4",
+      "railway:track_ref:signals": "G3-4",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230300.688395447 4975749.5049435925)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3785.0932370393425,
+      3829.225557914748
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818927669,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND 63rd Street Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "T2",
+      "start_date": "1970",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230397.749168739 4975664.075008179)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3829.225557914748,
+      4012.765738282634
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 220086626,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230460.1807255605 4975579.419752711)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3829.225557914748,
+      4012.765738282634
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 813459270,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3-4",
+      "railway:track_ref:signals": "G3-4",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230417.9779591 4975637.687196598)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3829.225557914748,
+      4012.765738282634
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 813459271,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT Astoria Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "G2",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230463.02087344 4975575.498489461)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3829.225557914748,
+      4012.765738282634
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637867,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230468.560227357 4975567.850554964)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3829.225557914748,
+      4012.765738282634
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637868,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230493.997949984 4975532.729846059)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      3829.225557914748,
+      4012.765738282634
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637881,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230421.45795429 4975632.882525211)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      973.3811654634237,
+      1350.8316487589332
+    ],
+    "depths": [
+      -3,
+      -3
+    ],
+    "source_way": 818901072,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-1",
+      "level": "-1",
+      "maxspeed": "50 mph",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8226924.10383806 4975815.485381149)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      2360.2204750036444,
+      2999.3824025559534
+    ],
+    "depths": [
+      -3,
+      -3
+    ],
+    "source_way": 818901071,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "50 mph",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8229233.760160794 4975886.6768164)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3037.9727523549222,
+      3507.6698061998572
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637884,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "50 mph",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:bidirectional": "regular",
+      "railway:preferred_direction": "both",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230032.596235259 4975826.9761789)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3037.9727523549222,
+      3507.6698061998572
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637894,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "50 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8229927.2634908855 4975829.331061161)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3507.6698061998572,
+      3562.240844556862
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637884,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "50 mph",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:bidirectional": "regular",
+      "railway:preferred_direction": "both",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230032.596235259 4975826.9761789)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3562.240844556862,
+      3616.1359415047664
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818927669,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND 63rd Street Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "T2",
+      "start_date": "1970",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "MULTIPOINT ((-8230107.836406534 4975816.324007451), (-8230169.04483638 4975802.455408768))"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3616.1359415047664,
+      3670.0288830467016
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818927669,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND 63rd Street Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "T2",
+      "start_date": "1970",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "MULTIPOINT ((-8230177.609492184 4975799.779447419), (-8230235.029301811 4975777.012200963))"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3696.9802509114625,
+      3750.873960999301
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818927669,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND 63rd Street Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "T2",
+      "start_date": "1970",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "MULTIPOINT ((-8230274.990128292 4975755.459481547), (-8230324.305160714 4975721.052077323))"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3750.873960999301,
+      3799.0214377568573
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 813459271,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT Astoria Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "G2",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230369.004838961 4975680.444080307)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3750.873960999301,
+      3799.0214377568573
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818927669,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND 63rd Street Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "T2",
+      "start_date": "1970",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230334.493562922 4975712.648972978)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3799.0214377568573,
+      3861.605441270183
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 220086626,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230422.246403046 4975625.404463294)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3799.0214377568573,
+      3861.605441270183
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637879,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230432.466978137 4975614.69713236)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3861.605441270183,
+      4006.1380447506053
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 220086626,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230440.256813847 4975603.6088392865)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3861.605441270183,
+      4006.1380447506053
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 813459271,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT Astoria Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "G2",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230451.403305053 4975587.742578965)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3861.605441270183,
+      4006.1380447506053
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637866,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230510.32341159 4975503.8738770345)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3861.605441270183,
+      4006.1380447506053
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637868,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230479.840953921 4975547.263550045)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      3861.605441270183,
+      4006.1380447506053
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818637879,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8230432.466978137 4975614.69713236)"
+  }
+]

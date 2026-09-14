@@ -1,0 +1,143 @@
+{
+  "section": "Hoyt–Bergen G/F merge",
+  "tracks": [
+    {
+      "track_ref": "1",
+      "g_start_node_id": "281475808559105",
+      "bergen_endpoint_id": "281475811704833",
+      "source_junction_node_id": 7644660141,
+      "source_junction": {
+        "x": -8236551.732782892,
+        "y": 4966305.889345868
+      },
+      "f_stub_start": {
+        "x": -8236483.828447319,
+        "y": 4966448.660075734,
+        "depth": -1
+      },
+      "g_candidate_points": [
+        {
+          "x": -8236232.699151325,
+          "y": 4966641.900756152,
+          "depth": -2
+        },
+        {
+          "osm_node_id": 4163765890,
+          "x": -8236319.175234675,
+          "y": 4966640.977854834,
+          "latitude": 40.6894365,
+          "longitude": -73.988114,
+          "chainage": 13638.16900765636,
+          "depth": -2
+        },
+        {
+          "osm_node_id": 4163765286,
+          "x": -8236351.413359209,
+          "y": 4966629.453262084,
+          "latitude": 40.689358,
+          "longitude": -73.9884036,
+          "chainage": 13672.463986992654,
+          "depth": -1
+        },
+        {
+          "osm_node_id": 591992287,
+          "x": -8236392.646098599,
+          "y": 4966599.0783177065,
+          "latitude": 40.6891511,
+          "longitude": -73.988774,
+          "chainage": 13723.908335933593,
+          "depth": -1
+        },
+        {
+          "osm_node_id": 7644671295,
+          "x": -8236424.160646442,
+          "y": 4966553.523418416,
+          "latitude": 40.6888408,
+          "longitude": -73.9890571,
+          "chainage": 13779.426967100251,
+          "depth": -1
+        },
+        {
+          "x": -8236551.732782892,
+          "y": 4966305.889345868,
+          "depth": -1
+        }
+      ],
+      "status": "native_branch_position_pending"
+    },
+    {
+      "track_ref": "2",
+      "g_start_node_id": "281475808493569",
+      "bergen_endpoint_id": "281475811639297",
+      "source_junction_node_id": 7644660142,
+      "source_junction": {
+        "x": -8236547.213211565,
+        "y": 4966303.687268762
+      },
+      "f_stub_start": {
+        "x": -8236470.3796425965,
+        "y": 4966441.858039144,
+        "depth": -1
+      },
+      "g_candidate_points": [
+        {
+          "x": -8236235.738918834,
+          "y": 4966636.0491055725,
+          "depth": -2
+        },
+        {
+          "osm_node_id": 7644671200,
+          "x": -8236318.03977587,
+          "y": 4966636.074395875,
+          "latitude": 40.6894031,
+          "longitude": -73.9881038,
+          "chainage": 8561.098195637156,
+          "depth": -2
+        },
+        {
+          "osm_node_id": 7644671203,
+          "x": -8236363.569447603,
+          "y": 4966616.739523286,
+          "latitude": 40.6892714,
+          "longitude": -73.9885128,
+          "chainage": 8511.407843539582,
+          "depth": -1
+        },
+        {
+          "osm_node_id": 7644671205,
+          "x": -8236388.994819302,
+          "y": 4966595.598931838,
+          "latitude": 40.6891274,
+          "longitude": -73.9887412,
+          "chainage": 8478.285107134649,
+          "depth": -1
+        },
+        {
+          "osm_node_id": 7644660169,
+          "x": -8236419.685602913,
+          "y": 4966551.218519386,
+          "latitude": 40.6888251,
+          "longitude": -73.9890169,
+          "chainage": 8424.203241642575,
+          "depth": -1
+        },
+        {
+          "x": -8236547.213211565,
+          "y": 4966303.687268762,
+          "depth": -1
+        }
+      ],
+      "status": "native_branch_position_pending"
+    }
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+  "adaptations": [
+    "Preserve existing Hoyt platforms; connect its primary to B2 and secondary to B1.",
+    "F interfaces extend only 120 actual metres upstream of the source merge; not depots.",
+    "Native branch positions must be sampled before connecting G."
+  ],
+  "pending": [
+    "Continue F mainline north to Jay Street.",
+    "Verify operational directions and junction signals."
+  ]
+}

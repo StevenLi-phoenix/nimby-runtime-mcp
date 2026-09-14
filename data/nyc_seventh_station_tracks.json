@@ -1,0 +1,78 @@
+[
+  {
+    "way": 46340266,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:cbtc": "yes",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3",
+      "railway:track_ref:signals": "D3",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  },
+  {
+    "way": 819186596,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "25 mph",
+      "name": "IND Sixth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "B4",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  },
+  {
+    "way": 819186610,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND Queens Boulevard Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:cbtc": "yes",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "D4",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  },
+  {
+    "way": 819186623,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "25 mph",
+      "name": "IND Sixth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3",
+      "railway:track_ref:signals": "B3",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  }
+]

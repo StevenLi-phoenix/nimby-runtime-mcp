@@ -1,0 +1,440 @@
+{
+  "source_files": [
+    "data/nyc_bridge_west_source.json",
+    "data/nyc_bridge_east_source.json",
+    "data/nyc_dekalb_approaches_source.json",
+    "data/nyc_atlantic_source.json"
+  ],
+  "crossings": [
+    {
+      "ref": "3",
+      "way": 818168015,
+      "name": "IND Culver Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 2011.8484842086843,
+      "candidate_depth": 1.992316268491456,
+      "control_depths": [
+        2,
+        1
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818608013,
+      "name": "IND Culver Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 2034.5517479113723,
+      "candidate_depth": 1.765283631464577,
+      "control_depths": [
+        2,
+        1
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 817912127,
+      "name": "BMT Brighton Line",
+      "service": null,
+      "source_depth": "-3",
+      "metres": 2356.5270132104984,
+      "candidate_depth": -2.0,
+      "control_depths": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 813712310,
+      "name": "BMT Broadway Line",
+      "service": null,
+      "source_depth": "-3",
+      "metres": 3039.7499985311424,
+      "candidate_depth": -2.0,
+      "control_depths": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 817912138,
+      "name": null,
+      "service": "crossover",
+      "source_depth": "-2",
+      "metres": 2976.641638097469,
+      "candidate_depth": -2.0,
+      "control_depths": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 817912151,
+      "name": "BMT Brighton Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3610.708019678683,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 817912153,
+      "name": "BMT Brighton Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3595.4748865111083,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818568883,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3753.7952864358604,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818608050,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3749.98978367181,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818608051,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3746.185188019171,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818608054,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3742.3686438362383,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818616356,
+      "name": "IND Crosstown Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3738.5650796119844,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 818616360,
+      "name": "IND Crosstown Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3734.7539341140105,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 803113088,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3943.136910332766,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 803113089,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3949.856716858843,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 803113090,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3963.1169690019196,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "3",
+      "way": 803113091,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3968.49431573075,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818168015,
+      "name": "IND Culver Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 2002.2635231285306,
+      "candidate_depth": 2.0,
+      "control_depths": [
+        2,
+        2
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818608013,
+      "name": "IND Culver Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 2024.762095437049,
+      "candidate_depth": 1.8339400093207394,
+      "control_depths": [
+        2,
+        1
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 817912127,
+      "name": "BMT Brighton Line",
+      "service": null,
+      "source_depth": "-3",
+      "metres": 2381.5449998483377,
+      "candidate_depth": -2.0,
+      "control_depths": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 813712310,
+      "name": "BMT Broadway Line",
+      "service": null,
+      "source_depth": "-3",
+      "metres": 3045.535158880075,
+      "candidate_depth": -2.0,
+      "control_depths": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 817912151,
+      "name": "BMT Brighton Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3613.22083293357,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 817912153,
+      "name": "BMT Brighton Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3605.0539528658096,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818568883,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3752.098783158635,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818608050,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3748.2940519248805,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818608051,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3744.490185004773,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818608054,
+      "name": "IND Fulton Street Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3740.6744262500074,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818616356,
+      "name": "IND Crosstown Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3736.871762929518,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 818616360,
+      "name": "IND Crosstown Line",
+      "service": null,
+      "source_depth": "-2",
+      "metres": 3733.060378951166,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 803113088,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3948.190106509172,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 803113089,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3954.9116606509942,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 803113090,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3967.17707354756,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    },
+    {
+      "ref": "4",
+      "way": 803113091,
+      "name": "IRT Eastern Parkway Line",
+      "service": null,
+      "source_depth": "-1",
+      "metres": 3972.6297552983533,
+      "candidate_depth": -3.0,
+      "control_depths": [
+        -3,
+        -3
+      ]
+    }
+  ],
+  "stage": "linear_candidate_crossings_not_native_verification"
+}

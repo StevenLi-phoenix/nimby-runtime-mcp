@@ -1,0 +1,121 @@
+[
+  {
+    "ref": "3",
+    "segment_metres": [
+      0.0,
+      236.4865754664167
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 1110917216,
+    "tags": {
+      "electrified": "rail",
+      "gauge": "1435",
+      "layer": "-2",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "tunnel": "yes"
+    },
+    "hit": "POINT (-8220459.5045270175 4971454.182516179)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      0.0,
+      236.4865754664167
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 1110917217,
+    "tags": {
+      "electrified": "rail",
+      "gauge": "1435",
+      "layer": "-2",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "tunnel": "yes"
+    },
+    "hit": "POINT (-8220483.439268737 4971468.218243589)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      0.0,
+      236.6081191949548
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 1110917215,
+    "tags": {
+      "electrified": "rail",
+      "gauge": "1435",
+      "layer": "-2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "tunnel": "yes"
+    },
+    "hit": "POINT (-8220466.186520058 4971452.068134566)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      4245.425768268275,
+      4725.635150323229
+    ],
+    "depths": [
+      -3,
+      -3
+    ],
+    "source_way": 818901055,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8225322.732845536 4974915.91323903)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      4245.425768268275,
+      4725.635150323229
+    ],
+    "depths": [
+      -3,
+      -3
+    ],
+    "source_way": 818901056,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8225374.092806637 4974944.831259283)"
+  }
+]

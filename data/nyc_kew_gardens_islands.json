@@ -1,0 +1,193 @@
+{
+  "name": "Kew Gardens-Union Turnpike",
+  "plan_index": 5,
+  "center": {
+    "x": -8218813.014746893,
+    "y": 4970287.8236493785
+  },
+  "scale": 0.757965568779597,
+  "southbound_axis": {
+    "x": -0.876637917911881,
+    "y": 0.48115066338842594
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818901100,
+      "track_ref": "1",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -6.761399383490605,
+      "x": -8218808.722663014,
+      "y": 4970295.643660368
+    },
+    {
+      "source_way_id": 818901150,
+      "track_ref": "3",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 0.8928193497249167,
+      "x": -8218813.581501691,
+      "y": 4970286.791044036
+    },
+    {
+      "source_way_id": 818901124,
+      "track_ref": "4",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 4.702038110228077,
+      "x": -8218815.999564211,
+      "y": 4970282.385427553
+    },
+    {
+      "source_way_id": 818901047,
+      "track_ref": "2",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 12.325100150731213,
+      "x": -8218820.838624861,
+      "y": 4970273.568846022
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 906721628,
+      "tracks": [
+        {
+          "source_way_id": 818901100,
+          "track_ref": "1",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -6.761399383490605,
+          "x": -8218808.722663014,
+          "y": 4970295.643660368,
+          "points": [
+            {
+              "x": -8218669.934630308,
+              "y": 4970219.46859123,
+              "depth": -2
+            },
+            {
+              "x": -8218727.7629772695,
+              "y": 4970251.208203371,
+              "depth": -2
+            },
+            {
+              "x": -8218889.682348759,
+              "y": 4970340.079117366,
+              "depth": -2
+            },
+            {
+              "x": -8218947.51069572,
+              "y": 4970371.818729507,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901150,
+          "track_ref": "3",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 0.8928193497249167,
+          "x": -8218813.581501691,
+          "y": 4970286.791044036,
+          "points": [
+            {
+              "x": -8218674.793468985,
+              "y": 4970210.6159748975,
+              "depth": -2
+            },
+            {
+              "x": -8218732.621815946,
+              "y": 4970242.355587038,
+              "depth": -2
+            },
+            {
+              "x": -8218894.541187435,
+              "y": 4970331.226501034,
+              "depth": -2
+            },
+            {
+              "x": -8218952.369534397,
+              "y": 4970362.966113174,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.654218733215522,
+      "island_width_metres": 4.604218733215522
+    },
+    {
+      "platform_way_id": 906721629,
+      "tracks": [
+        {
+          "source_way_id": 818901124,
+          "track_ref": "4",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 4.702038110228077,
+          "x": -8218815.999564211,
+          "y": 4970282.385427553,
+          "points": [
+            {
+              "x": -8218677.211531505,
+              "y": 4970206.210358415,
+              "depth": -2
+            },
+            {
+              "x": -8218735.039878466,
+              "y": 4970237.9499705555,
+              "depth": -2
+            },
+            {
+              "x": -8218896.959249956,
+              "y": 4970326.820884551,
+              "depth": -2
+            },
+            {
+              "x": -8218954.787596917,
+              "y": 4970358.560496692,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901047,
+          "track_ref": "2",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 12.325100150731213,
+          "x": -8218820.838624861,
+          "y": 4970273.568846022,
+          "points": [
+            {
+              "x": -8218682.050592155,
+              "y": 4970197.393776883,
+              "depth": -2
+            },
+            {
+              "x": -8218739.878939116,
+              "y": 4970229.133389024,
+              "depth": -2
+            },
+            {
+              "x": -8218901.798310606,
+              "y": 4970318.0043030195,
+              "depth": -2
+            },
+            {
+              "x": -8218959.626657567,
+              "y": 4970349.74391516,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.623062040503136,
+      "island_width_metres": 4.573062040503136
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_kew_gardens_source.json",
+  "stage": "built_adjacent_corridors_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Queens Boulevard express and local tracks in both directions.",
+    "Preserve nearby yard access as deferred work."
+  ],
+  "native_verification": "work/nyc-kew_gardens-built.json"
+}

@@ -1,0 +1,882 @@
+{
+  "source_plan_sha256": "b05af3beb6030b8598d165d753adeea46716b8b0262e1bd172a668cd16c8fd06",
+  "projection": "EPSG:3857, R=6378137",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+  "tolerance_world_metres": 8,
+  "corridors": [
+    {
+      "index": 0,
+      "from_station": "8th Avenue",
+      "to_station": "6th Avenue",
+      "start_node_id": "281475765174273",
+      "end_node_id": "281475766091777",
+      "points": [
+        {
+          "x": -8237867.5880479,
+          "y": 4974003.159919807,
+          "depth": -3,
+          "chainage": 158.32917628034406,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8237424.37417357,
+          "y": 4973754.369565906,
+          "depth": -3,
+          "chainage": 666.6619667752688,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": true,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 1,
+      "from_station": "6th Avenue",
+      "to_station": "Union Square",
+      "start_node_id": "281475766222849",
+      "end_node_id": "281475767140353",
+      "points": [
+        {
+          "x": -8237147.785093995,
+          "y": 4973600.014093068,
+          "depth": -3,
+          "chainage": 983.3298173280795,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8236753.700398024,
+          "y": 4973379.52019737,
+          "depth": -3,
+          "chainage": 1434.960172388362,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": true,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 2,
+      "from_station": "Union Square",
+      "to_station": "3rd Avenue",
+      "start_node_id": "281475767271425",
+      "end_node_id": "281475768188929",
+      "points": [
+        {
+          "x": -8236475.890150828,
+          "y": 4973227.399302413,
+          "depth": -3,
+          "chainage": 1751.8346483426394,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8236346.192475091,
+          "y": 4973150.049751151,
+          "depth": -1,
+          "chainage": 1902.6668572384938,
+          "source_node_id": 7560956393,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8236234.334064867,
+          "y": 4973093.416450197,
+          "depth": -1,
+          "chainage": 2027.9765842579125,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 3,
+      "from_station": "3rd Avenue",
+      "to_station": "1st Avenue",
+      "start_node_id": "281475768320001",
+      "end_node_id": "281475769237505",
+      "points": [
+        {
+          "x": -8235957.54732276,
+          "y": 4972939.459603814,
+          "depth": -1,
+          "chainage": 2344.6844913295163,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8235710.536438475,
+          "y": 4972801.14632098,
+          "depth": -2,
+          "chainage": 2627.7829587334627,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 4,
+      "from_station": "1st Avenue",
+      "to_station": "Bedford Avenue",
+      "start_node_id": "281475769368577",
+      "end_node_id": "281475770286081",
+      "points": [
+        {
+          "x": -8235433.950992226,
+          "y": 4972646.847188452,
+          "depth": -2,
+          "chainage": 2944.4959712391774,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8234622.766382528,
+          "y": 4972187.585691362,
+          "depth": -2,
+          "chainage": 3876.72386586461,
+          "source_node_id": 7618745563,
+          "reason": "geometry"
+        },
+        {
+          "x": -8232981.797365632,
+          "y": 4970843.935383567,
+          "depth": -2,
+          "chainage": 5997.657696901356,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 5,
+      "from_station": "Bedford Avenue",
+      "to_station": "Lorimer Street",
+      "start_node_id": "281475770417153",
+      "end_node_id": "281475771334657",
+      "points": [
+        {
+          "x": -8232731.679276044,
+          "y": 4970649.751327237,
+          "depth": -2,
+          "chainage": 6314.765046893686,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8232299.183519252,
+          "y": 4970284.413417052,
+          "depth": -2,
+          "chainage": 6880.871922519021,
+          "source_node_id": 7618718539,
+          "reason": "geometry"
+        },
+        {
+          "x": -8232249.933317847,
+          "y": 4970259.536202758,
+          "depth": -2,
+          "chainage": 6935.739601860969,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 6,
+      "from_station": "Lorimer Street",
+      "to_station": "Graham Avenue",
+      "start_node_id": "281475771465729",
+      "end_node_id": "281475772383233",
+      "points": [
+        {
+          "x": -8231934.124839821,
+          "y": 4970256.742446219,
+          "depth": -2,
+          "chainage": 7251.535905722552,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8231826.131343124,
+          "y": 4970277.172980919,
+          "depth": -1,
+          "chainage": 7361.188355666766,
+          "source_node_id": 7618718545,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8231604.759862604,
+          "y": 4970308.919480954,
+          "depth": -1,
+          "chainage": 7584.801104223267,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 7,
+      "from_station": "Graham Avenue",
+      "to_station": "Grand Street",
+      "start_node_id": "281475772514305",
+      "end_node_id": "281475773431809",
+      "points": [
+        {
+          "x": -8231290.552550148,
+          "y": 4970348.055864182,
+          "depth": -1,
+          "chainage": 7901.412401213556,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8231230.226976958,
+          "y": 4970343.820443387,
+          "depth": -1,
+          "chainage": 7961.864647434247,
+          "source_node_id": 7618780358,
+          "reason": "geometry"
+        },
+        {
+          "x": -8231180.322449236,
+          "y": 4970306.692845445,
+          "depth": -1,
+          "chainage": 8025.137394158539,
+          "source_node_id": 7618780355,
+          "reason": "geometry"
+        },
+        {
+          "x": -8231086.080999109,
+          "y": 4970102.68573169,
+          "depth": -1,
+          "chainage": 8249.445638212474,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 8,
+      "from_station": "Grand Street",
+      "to_station": "Montrose Avenue",
+      "start_node_id": "281475773562881",
+      "end_node_id": "281475774480385",
+      "points": [
+        {
+          "x": -8231001.675299632,
+          "y": 4969798.329444578,
+          "depth": -1,
+          "chainage": 8564.94770938719,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8230986.782382543,
+          "y": 4969631.635480211,
+          "depth": -2,
+          "chainage": 8732.202261826134,
+          "source_node_id": 7618718542,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8230966.977094278,
+          "y": 4969496.484380965,
+          "depth": -2,
+          "chainage": 8868.764267851175,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 9,
+      "from_station": "Montrose Avenue",
+      "to_station": "Morgan Avenue",
+      "start_node_id": "281475774611457",
+      "end_node_id": "281475775528961",
+      "points": [
+        {
+          "x": -8230927.561964295,
+          "y": 4969182.34245271,
+          "depth": -2,
+          "chainage": 9185.373653725945,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8230918.39881935,
+          "y": 4969095.3794845715,
+          "depth": -2,
+          "chainage": 9272.844067936363,
+          "source_node_id": 7618780352,
+          "reason": "geometry"
+        },
+        {
+          "x": -8230900.086763114,
+          "y": 4969050.488451058,
+          "depth": -2,
+          "chainage": 9321.537377491612,
+          "source_node_id": 7618780349,
+          "reason": "geometry"
+        },
+        {
+          "x": -8230815.38376257,
+          "y": 4968991.309549359,
+          "depth": -2,
+          "chainage": 9426.619835674452,
+          "source_node_id": 7618780344,
+          "reason": "geometry"
+        },
+        {
+          "x": -8230597.409067646,
+          "y": 4969036.5086881295,
+          "depth": -2,
+          "chainage": 9650.18596317658,
+          "source_node_id": 7618780340,
+          "reason": "geometry"
+        },
+        {
+          "x": -8230321.913986244,
+          "y": 4969072.936641271,
+          "depth": -2,
+          "chainage": 9928.081291959039,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 10,
+      "from_station": "Morgan Avenue",
+      "to_station": "Jefferson Street",
+      "start_node_id": "281475775660033",
+      "end_node_id": "281475776577537",
+      "points": [
+        {
+          "x": -8230011.380345901,
+          "y": 4969134.460136311,
+          "depth": -2,
+          "chainage": 10244.904328564828,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8229311.8804560155,
+          "y": 4969282.067893504,
+          "depth": -2,
+          "chainage": 10959.807306011362,
+          "source_node_id": 7618780334,
+          "reason": "geometry"
+        },
+        {
+          "x": -8229236.116410583,
+          "y": 4969280.481915449,
+          "depth": -2,
+          "chainage": 11036.030551805934,
+          "source_node_id": 7618780332,
+          "reason": "geometry"
+        },
+        {
+          "x": -8229178.386833234,
+          "y": 4969258.307424023,
+          "depth": -2,
+          "chainage": 11097.593582876903,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 11,
+      "from_station": "Jefferson Street",
+      "to_station": "DeKalb Avenue",
+      "start_node_id": "281475776708609",
+      "end_node_id": "281475777626113",
+      "points": [
+        {
+          "x": -8228932.291413787,
+          "y": 4969059.137306333,
+          "depth": -2,
+          "chainage": 11413.817018496437,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8228691.407848906,
+          "y": 4968859.935573513,
+          "depth": -2,
+          "chainage": 11726.392610865547,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 12,
+      "from_station": "DeKalb Avenue",
+      "to_station": "Myrtle–Wyckoff Avenues",
+      "start_node_id": "281475777757185",
+      "end_node_id": "281475778674689",
+      "points": [
+        {
+          "x": -8228447.262000352,
+          "y": 4968658.39346399,
+          "depth": -2,
+          "chainage": 12042.961711765003,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8228250.159680625,
+          "y": 4968490.28565429,
+          "depth": -2,
+          "chainage": 12301.998175943501,
+          "source_node_id": 7618780326,
+          "reason": "geometry"
+        },
+        {
+          "x": -8227870.632476067,
+          "y": 4968215.680163594,
+          "depth": -2,
+          "chainage": 12770.414273657336,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 13,
+      "from_station": "Myrtle–Wyckoff Avenues",
+      "to_station": "Halsey Street",
+      "start_node_id": "281475778805761",
+      "end_node_id": "281475779723265",
+      "points": [
+        {
+          "x": -8227614.074642884,
+          "y": 4968030.231063065,
+          "depth": -2,
+          "chainage": 13087.19406242446,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8227544.97297035,
+          "y": 4967974.119852828,
+          "depth": -1,
+          "chainage": 13175.972245242507,
+          "source_node_id": 7618718541,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8227111.989669327,
+          "y": 4967656.908474588,
+          "depth": -1,
+          "chainage": 13712.709911874888,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 14,
+      "from_station": "Halsey Street",
+      "to_station": "Wilson Avenue",
+      "start_node_id": "281475779854337",
+      "end_node_id": "281475789160449",
+      "points": [
+        {
+          "x": -8226858.616527549,
+          "y": 4967467.161732356,
+          "depth": -1,
+          "chainage": 14029.235317164123,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226682.547479327,
+          "y": 4967321.275863534,
+          "depth": -1,
+          "chainage": 14257.794946678263,
+          "source_node_id": 7618780317,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226625.485108348,
+          "y": 4967241.875716171,
+          "depth": -1,
+          "chainage": 14356.237502455946,
+          "source_node_id": 7618780314,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226607.351163296,
+          "y": 4967142.406211683,
+          "depth": -1,
+          "chainage": 14458.237059157318,
+          "source_node_id": 7618780311,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226618.427452629,
+          "y": 4967070.862203041,
+          "depth": -1,
+          "chainage": 14530.752582813797,
+          "source_node_id": 7618780309,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226645.444693046,
+          "y": 4967003.70850395,
+          "depth": 1,
+          "chainage": 14603.257023855214,
+          "source_node_id": 7618780300,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226878.098248117,
+          "y": 4966677.267149569,
+          "depth": 0,
+          "chainage": 15004.351445926664,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [
+        "Wilson_directional_layers_require_single_track_paths"
+      ],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 15,
+      "from_station": "Wilson Avenue",
+      "to_station": "Bushwick Avenue–Aberdeen Street",
+      "start_node_id": "281475789291521",
+      "end_node_id": "281475780771841",
+      "points": [
+        {
+          "x": -8227047.011672873,
+          "y": 4966409.594335898,
+          "depth": 0,
+          "chainage": 15320.86952408975,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8227121.201932797,
+          "y": 4966206.576161332,
+          "depth": 1,
+          "chainage": 15537.720664155857,
+          "source_node_id": 591994187,
+          "reason": "geometry"
+        },
+        {
+          "x": -8227151.547625988,
+          "y": 4965963.39890971,
+          "depth": -1,
+          "chainage": 15783.026366966691,
+          "source_node_id": 592159579,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8227152.77476505,
+          "y": 4965804.670514449,
+          "depth": -2,
+          "chainage": 15941.743285535496,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [
+        "Wilson_directional_layers_require_single_track_paths"
+      ],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 16,
+      "from_station": "Bushwick Avenue–Aberdeen Street",
+      "to_station": "Broadway Junction",
+      "start_node_id": "281475780902913",
+      "end_node_id": "281475781820417",
+      "points": [
+        {
+          "x": -8227022.993253358,
+          "y": 4965517.013291104,
+          "depth": -2,
+          "chainage": 16257.255073399845,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226965.154270603,
+          "y": 4965427.38800704,
+          "depth": 1,
+          "chainage": 16364.152289771106,
+          "source_node_id": 7607533646,
+          "reason": "open_air_viaduct_approach_game_adaptation"
+        },
+        {
+          "x": -8226943.691872779,
+          "y": 4965372.341170892,
+          "depth": 2,
+          "chainage": 16423.261935959206,
+          "source_node_id": 7596229333,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226908.048488179,
+          "y": 4965233.396840605,
+          "depth": 2,
+          "chainage": 16566.67229692741,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [
+        "Untagged portal-to-viaduct approach uses depth 1; original source tags remain in the source plan."
+      ],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 17,
+      "from_station": "Broadway Junction",
+      "to_station": "Atlantic Avenue",
+      "start_node_id": "281475781951489",
+      "end_node_id": "281475782868993",
+      "points": [
+        {
+          "x": -8226837.48083026,
+          "y": 4964924.938202557,
+          "depth": 2,
+          "chainage": 16882.921316755135,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226828.401381223,
+          "y": 4964730.521992691,
+          "depth": 2,
+          "chainage": 17076.868232292447,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 18,
+      "from_station": "Atlantic Avenue",
+      "to_station": "Sutter Avenue",
+      "start_node_id": "281475783000065",
+      "end_node_id": "281475783917569",
+      "points": [
+        {
+          "x": -8226882.385124139,
+          "y": 4964418.870696073,
+          "depth": 2,
+          "chainage": 17393.511810675,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226803.6296894625,
+          "y": 4964005.620183719,
+          "depth": 2,
+          "chainage": 17814.329879552584,
+          "source_node_id": 1247862692,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226759.4952851,
+          "y": 4963849.839366066,
+          "depth": 2,
+          "chainage": 17976.31778874691,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 19,
+      "from_station": "Sutter Avenue",
+      "to_station": "Livonia Avenue",
+      "start_node_id": "281475784048641",
+      "end_node_id": "281475784966145",
+      "points": [
+        {
+          "x": -8226699.620115476,
+          "y": 4963539.133700268,
+          "depth": 2,
+          "chainage": 18292.74094363071,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226604.668740113,
+          "y": 4963072.1826030575,
+          "depth": 2,
+          "chainage": 18769.310091032145,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 20,
+      "from_station": "Livonia Avenue",
+      "to_station": "New Lots Avenue",
+      "start_node_id": "281475785097217",
+      "end_node_id": "281475786014721",
+      "points": [
+        {
+          "x": -8226544.655649534,
+          "y": 4962761.529087357,
+          "depth": 2,
+          "chainage": 19085.693823648613,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226454.948674227,
+          "y": 4962286.424719627,
+          "depth": 2,
+          "chainage": 19569.221111537896,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 21,
+      "from_station": "New Lots Avenue",
+      "to_station": "East 105th Street",
+      "start_node_id": "281475786145793",
+      "end_node_id": "281475787063297",
+      "points": [
+        {
+          "x": -8226394.1581807025,
+          "y": 4961975.949246258,
+          "depth": 2,
+          "chainage": 19885.608934304462,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226382.585979435,
+          "y": 4961907.699890704,
+          "depth": 1,
+          "chainage": 19954.78709118368,
+          "source_node_id": 1013731495,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226341.709462415,
+          "y": 4961697.2341254875,
+          "depth": 1,
+          "chainage": 20169.18571107821,
+          "source_node_id": 1013719982,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226295.211311112,
+          "y": 4961453.743367973,
+          "depth": 0,
+          "chainage": 20417.085600645227,
+          "source_node_id": 2054217614,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226291.070226055,
+          "y": 4961360.612762394,
+          "depth": 0,
+          "chainage": 20510.500551908724,
+          "source_node_id": 10074107235,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226312.131873712,
+          "y": 4961258.136371713,
+          "depth": 0,
+          "chainage": 20615.39268060983,
+          "source_node_id": 2054217609,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226377.690075233,
+          "y": 4961105.306566208,
+          "depth": 0,
+          "chainage": 20781.68176749706,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [
+        "Bridge/embankment/bridge sequence stays at depth 1; descent toward explicit level 0 starts after the final bridge."
+      ],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    },
+    {
+      "index": 22,
+      "from_station": "East 105th Street",
+      "to_station": "Canarsie–Rockaway Parkway",
+      "start_node_id": "281475787194369",
+      "end_node_id": "281475788111873",
+      "points": [
+        {
+          "x": -8226509.065031481,
+          "y": 4960817.543412107,
+          "depth": 0,
+          "chainage": 21098.034677596665,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226704.773424161,
+          "y": 4960390.953483959,
+          "depth": 0,
+          "chainage": 21567.448249375804,
+          "reason": "live_endpoint"
+        }
+      ],
+      "issues": [],
+      "adaptations": [],
+      "already_connected": false,
+      "status": "candidate_requires_curve_review"
+    }
+  ],
+  "limitations": [
+    "Depth transition candidates require native grade and crossing review.",
+    "Source ways are simplified only between layer boundaries.",
+    "Endpoint IDs are seeds; inspect live free endpoints before each operation."
+  ]
+}

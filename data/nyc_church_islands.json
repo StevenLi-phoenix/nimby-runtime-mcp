@@ -1,0 +1,58 @@
+{
+  "station": "Church Avenue",
+  "plan_index": 20,
+  "depth": -2,
+  "islands": [
+    {
+      "primary_ref": "3",
+      "secondary_ref": "1",
+      "spacing_metres": 5.804214323621547,
+      "start": {
+        "x": -8235395.066018258,
+        "y": 4960064.408132491
+      },
+      "end": {
+        "x": -8235369.111359342,
+        "y": 4959881.736196895
+      },
+      "surface_offsets": [
+        -2.9021071618107737,
+        -1.525
+      ],
+      "roof_offsets": [
+        -2.9021071618107737,
+        -1.525
+      ]
+    },
+    {
+      "primary_ref": "2",
+      "secondary_ref": "4",
+      "spacing_metres": 5.725255610165762,
+      "start": {
+        "x": -8235382.416869256,
+        "y": 4960066.205367226
+      },
+      "end": {
+        "x": -8235356.4622103395,
+        "y": 4959883.533431631
+      },
+      "surface_offsets": [
+        -2.862627805082881,
+        -1.525
+      ],
+      "roof_offsets": [
+        -2.862627805082881,
+        -1.525
+      ]
+    }
+  ],
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "platform_length_metres": 140,
+  "layout": "Four platform tracks, two islands; B1/B3 and B4/B2 share an island.",
+  "adaptations": [
+    "Existing native surface and roof buildings form two meeting halves per island.",
+    "No footprint extensions or external walk links are used for station membership."
+  ],
+  "stage": "native_layout_pending",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

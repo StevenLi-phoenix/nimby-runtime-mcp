@@ -3,12 +3,14 @@
 import atexit
 import math
 import re
+from typing import Literal
 
 from mcp.server.fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 
 from runtime_connection import RuntimeConnection
 from track_tangents import calculate_tangents
+from result_output import network_view
 
 mcp = FastMCP("NIMBY Rails Runtime")
 runtime = RuntimeConnection()
@@ -67,11 +69,13 @@ def get_track_node(node_id: str) -> dict | None:
 
 
 @mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
-def get_track_network(seed_node_ids: list[str]) -> dict:
-    """Read current connected tracks including branches, bounded to 5000 nodes."""
+def get_track_network(seed_node_ids: list[str], detail: Literal['summary', 'topology', 'geometry'] = 'geometry') -> dict:
+    """Read connected tracks (max 5000). Summary: counts/depth mismatches; topology: no curves; geometry: full legacy result. Summary is not a geometry audit."""
     if not seed_node_ids or any(not valid_id(i) for i in seed_node_ids):
         raise ValueError("Invalid seed IDs")
-    return request("get_network", {"ids": seed_node_ids})
+    if detail not in ('summary', 'topology', 'geometry'):
+        raise ValueError('Invalid network detail')
+    return network_view(request("get_network", {"ids": seed_node_ids}), detail)
 
 
 @mcp.tool()
@@ -166,6 +170,16 @@ def set_line_service(
 
 
 @mcp.tool()
+def set_line_default_stop_time(line_id: str, seconds: int = 10) -> dict:
+    """Set native default dwell seconds; pause first. Preserve individual overrides."""
+    if not valid_id(line_id):
+        raise ValueError("Invalid line ID")
+    if isinstance(seconds, bool) or not isinstance(seconds, int) or not 1 <= seconds <= 86400:
+        raise ValueError("Seconds must be an integer in 1..86400")
+    return request("line_dwell", {"id": line_id, "seconds": seconds})
+
+
+@mcp.tool()
 def purchase_six_car_trains(line_id: str, count: int = 1) -> dict:
     """Purchase built-in Kayou 231 six-car, 120m trains and assign auto-run to a line.
 
@@ -234,6 +248,22 @@ def remove_line_stop(line_id: str, stop_id: str) -> dict:
     if not valid_id(line_id) or not valid_id(stop_id):
         raise ValueError("Invalid line or stop ID")
     return request("remove_stop", {"line_id": line_id, "stop_id": stop_id})
+
+
+@mcp.tool()
+def remove_one_way_signals(signal_ids: list[str], parent_node_ids: list[str]) -> dict:
+    """Remove only explicit one-way signals through native Delete; pause first.
+
+    Require their built parent track IDs. Preserve tracks and all other signals.
+    """
+    if (not signal_ids or len(signal_ids) > 100 or not parent_node_ids
+            or len(parent_node_ids) > 100
+            or any(not valid_id(i) for i in signal_ids + parent_node_ids)):
+        raise ValueError("Invalid signal or parent scope")
+    return request("delete_one_way_signals", {
+        "ids": list(dict.fromkeys(signal_ids)),
+        "node_ids": list(dict.fromkeys(parent_node_ids)),
+    })
 
 
 @mcp.tool()
@@ -345,9 +375,13 @@ def connect_track_endpoints(
 
 @mcp.tool()
 def create_platform(
-    start_x: float, start_y: float, end_x: float, end_y: float, depth: int = -1
+    start_x: float, start_y: float, end_x: float, end_y: float, depth: int = -1,
+    track_spacing_metres: float = 5.0,
+    dual_track: bool = True,
 ) -> dict:
-    """Create Medium twin platforms with Name and pax labels, at depth -1, 0 or 1."""
+    """Create Medium platform track(s); dual spacing is 3..30 m right of start->end."""
+    if type(dual_track) is not bool:
+        raise ValueError("dual_track must be a boolean")
     values = [start_x, start_y, end_x, end_y]
     if not all(math.isfinite(x) and abs(x) <= 21_000_000 for x in values):
         raise ValueError("Invalid world coordinates")
@@ -355,12 +389,17 @@ def create_platform(
         raise ValueError("Platform must be 50..500 world metres")
     if depth not in [-1, 0, 1]:
         raise ValueError("Depth must be -1, 0 or 1")
+    if (isinstance(track_spacing_metres, bool) or
+            not math.isfinite(track_spacing_metres) or not 3 <= track_spacing_metres <= 30):
+        raise ValueError("Track spacing must be 3..30 actual metres")
     result = request(
         "create_platform",
         {
             "start": {"x": start_x, "y": start_y},
             "end": {"x": end_x, "y": end_y},
             "depth": depth,
+            "track_spacing_metres": track_spacing_metres,
+            **({"dual_track": False} if not dual_track else {}),
         },
     )
     station_ids = sorted({n["station_id"] for n in result["nodes"] if n["station_id"] != "0"})
@@ -374,6 +413,32 @@ def create_platform(
             f"Station IDs: {station_ids}; node IDs: {[n['id'] for n in result['nodes']]}"
         ) from exc
     return result
+
+
+@mcp.tool()
+def set_blueprint_parallel_offset(node_ids: list[str], offset_metres: float,
+                                  protected_node_ids: list[str]) -> dict:
+    """Set 3..30 m native parallel offset on secondary blueprint controls; protect primaries/platforms."""
+    if (not node_ids or len(node_ids) > 100 or not protected_node_ids or len(protected_node_ids) > 5000 or
+            any(not valid_id(i) for i in node_ids + protected_node_ids) or set(node_ids) & set(protected_node_ids)):
+        raise ValueError('Explicit disjoint control and protected node lists required')
+    if isinstance(offset_metres, bool) or not math.isfinite(offset_metres) or not 3 <= offset_metres <= 30:
+        raise ValueError('Offset must be 3..30 actual metres')
+    return request('parallel_offset', {'ids': list(dict.fromkeys(node_ids)), 'offset': offset_metres,
+                   'protected_ids': list(dict.fromkeys(protected_node_ids))})
+
+
+@mcp.tool()
+def discard_isolated_blueprint_platform(node_ids: list[str], protected_node_ids: list[str],
+                                        remaining_building_ids: list[str] | None = None) -> dict:
+    """Discard an isolated blueprint platform; optional recorded orphan buildings allow interrupted cleanup."""
+    buildings = remaining_building_ids or []
+    if (not node_ids or len(node_ids) > 100 or not protected_node_ids or len(protected_node_ids) > 5000 or
+            len(buildings) > 500 or any(not valid_id(i) for i in node_ids + protected_node_ids + buildings) or set(node_ids) & set(protected_node_ids)):
+        raise ValueError('Explicit disjoint blueprint and protected node lists required')
+    return request('discard_blueprint_platform', {'ids': list(dict.fromkeys(node_ids)),
+                   'protected_ids': list(dict.fromkeys(protected_node_ids)),
+                   'building_ids': list(dict.fromkeys(buildings))})
 
 
 @mcp.tool()
@@ -606,6 +671,33 @@ def get_building_catalog() -> dict:
     return request("building_catalog")
 
 
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_platform_building_geometry(node_ids: list[str]) -> dict:
+    """Read attached building fractions and lateral offsets on explicit platforms."""
+    if not 1 <= len(node_ids) <= 100 or len(set(node_ids)) != len(node_ids) or any(not valid_id(i) for i in node_ids):
+        raise ValueError("Expected 1..100 unique platform node IDs")
+    return request("platform_building_geometry", {"ids": node_ids})
+
+
+@mcp.tool()
+def set_blueprint_platform_building_offsets(building_ids: list[str], platform_ids: list[str],
+                                            offset_min: float, offset_max: float) -> dict:
+    """Set lateral offsets of blueprint platform surfaces/roofs via native building Edit.
+
+    Preserves attachment, longitudinal fractions, tracks and other attached objects.
+    Offsets must stay on one side of the track, outside its 1.5m clearance.
+    """
+    for ids in (building_ids, platform_ids):
+        if not 1 <= len(ids) <= 100 or len(set(ids)) != len(ids) or any(not valid_id(i) for i in ids):
+            raise ValueError("Expected explicit unique building and platform IDs")
+    if (any(isinstance(x, bool) or not isinstance(x, (int, float)) or not math.isfinite(x)
+            for x in (offset_min, offset_max)) or not -30 <= offset_min < offset_max <= 30
+            or not (offset_max <= -1.5 or offset_min >= 1.5)):
+        raise ValueError("Expected ordered offsets on one side outside track clearance")
+    return request("platform_building_offsets", {"building_ids": building_ids, "ids": platform_ids,
+                                                 "offset_min": offset_min, "offset_max": offset_max})
+
+
 @mcp.tool()
 def create_platform_footprint_extension(start_x: float, start_y: float, end_x: float, end_y: float, depth: int, platform_ids: list[str]) -> dict:
     """Create a native footprint extension blueprint; preserve supplied platforms."""
@@ -652,6 +744,174 @@ def delete_empty_stations(station_ids: list[str]) -> dict:
     if not station_ids or len(station_ids)>100 or any(not valid_id(i) for i in station_ids):
         raise ValueError("Expected 1..100 station IDs")
     return request("delete_empty_stations", {"ids": list(dict.fromkeys(station_ids))})
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def list_schedules() -> dict:
+    """Read native schedules, order lists, shifts and train assignments, including autorun."""
+    return request("list_schedules")
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_schedule(schedule_id: str) -> dict | None:
+    """Read a native schedule; automatic line schedules are read-only."""
+    if not valid_id(schedule_id):
+        raise ValueError("Invalid schedule ID")
+    return request("get_schedule", {"id": schedule_id})
+
+
+def operation_ids(ids):
+    if ids is not None and (not ids or len(ids) > 1000 or any(not valid_id(i) for i in ids)):
+        raise ValueError("Expected 1..1000 native IDs, or omit to read all")
+    return None if ids is None else list(dict.fromkeys(ids))
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_station_waiting(station_ids: list[str] | None = None) -> dict:
+    """Read live station waiting and hall queues; station totals are not per-platform counts."""
+    return request("station_queues", {"ids": operation_ids(station_ids)})
+
+
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False))
+def get_train_operations(train_ids: list[str] | None = None) -> dict:
+    """Read actual onboard passenger counts and native orders modes with fleet metadata."""
+    return request("train_operations", {"ids": operation_ids(train_ids)})
+
+
+@mcp.tool()
+def create_schedule() -> dict:
+    """Create an unassigned native schedule with default shift and order list; pause first."""
+    return request("schedule_create")
+
+
+@mcp.tool()
+def rename_schedule(schedule_id: str, name: str) -> dict:
+    """Rename an independent schedule via native ScheduleBasics; preserve other settings."""
+    if not valid_id(schedule_id) or not name or "\x00" in name or len(name.encode("utf-8")) > 1024:
+        raise ValueError("Invalid schedule ID or name")
+    return request("schedule_name", {"id": schedule_id, "name": name})
+
+
+@mcp.tool()
+def delete_unassigned_schedule(schedule_id: str) -> dict:
+    """Delete an independent schedule only when no trains are assigned; pause first."""
+    if not valid_id(schedule_id):
+        raise ValueError("Invalid schedule ID")
+    return request("schedule_delete", {"id": schedule_id})
+
+
+@mcp.tool()
+def create_schedule_shift(schedule_id: str) -> dict:
+    """Create a native shift in an independent schedule and read back its ID; pause first."""
+    if not valid_id(schedule_id):
+        raise ValueError("Invalid schedule ID")
+    return request("shift_create", {"id": schedule_id})
+
+
+@mcp.tool()
+def append_schedule_order(schedule_id: str, order_list_id: str, line_id: str,
+                          start_time: int, days_mask: int = 127, repeat_count: int = 1,
+                          continue_into_next: bool = False) -> dict:
+    """Append native exact-departure line runs. Seconds since local midnight; Mon=1..Sun=64.
+
+    repeat_count=0 means Max. Uses first/last stops. Pause first; automatic schedules are protected.
+    """
+    if any(not valid_id(i) for i in [schedule_id, order_list_id, line_id]):
+        raise ValueError("Invalid native ID")
+    if type(continue_into_next) is not bool:
+        raise ValueError("Invalid continuation flag")
+    for v, low, high in [(start_time, 0, 86399), (days_mask, 1, 127), (repeat_count, 0, 1000)]:
+        if type(v) is not int or not low <= v <= high:
+            raise ValueError("Invalid time, days mask or repeat count")
+    return request("order_append", {"id": schedule_id, "order_list_id": order_list_id,
+        "line_id": line_id, "start_time": start_time, "days_mask": days_mask,
+        "repeat_count": repeat_count, "continue_into_next": continue_into_next})
+
+
+@mcp.tool()
+def edit_schedule_order(schedule_id: str, order_list_id: str, order_id: str, line_id: str,
+                        start_time: int, days_mask: int = 127, repeat_count: int = 1,
+                        continue_into_next: bool = False) -> dict:
+    """Edit one top-level native order, preserving its ID, stop selection and child orders.
+
+    Uses exact departure timing; same time/day/repeat meanings as append_schedule_order.
+    """
+    if any(not valid_id(i) for i in [schedule_id, order_list_id, order_id, line_id]):
+        raise ValueError("Invalid native ID")
+    if type(continue_into_next) is not bool:
+        raise ValueError("Invalid continuation flag")
+    for v, low, high in [(start_time, 0, 86399), (days_mask, 1, 127), (repeat_count, 0, 1000)]:
+        if type(v) is not int or not low <= v <= high:
+            raise ValueError("Invalid time, days mask or repeat count")
+    return request("order_edit", dict(id=schedule_id, order_list_id=order_list_id,
+        order_id=order_id, line_id=line_id, start_time=start_time, days_mask=days_mask,
+        repeat_count=repeat_count, continue_into_next=continue_into_next))
+
+
+@mcp.tool()
+def delete_schedule_order(schedule_id: str, order_list_id: str, order_id: str) -> dict:
+    """Delete one top-level native order and its children; pause and inspect the order first."""
+    if any(not valid_id(i) for i in [schedule_id, order_list_id, order_id]):
+        raise ValueError("Invalid native ID")
+    return request("order_delete", dict(id=schedule_id, order_list_id=order_list_id, order_id=order_id))
+
+
+@mcp.tool()
+def set_schedule_shift_instance(schedule_id: str, shift_id: str, instance_id: str,
+                                order_list_id: str, offset_seconds: int) -> dict:
+    """Set an existing shift instance's order list and departure offset using native commands.
+
+    Pause first. Offset is seconds in -86400..86400. Read IDs from get_schedule.
+    """
+    if any(not valid_id(i) for i in [schedule_id, shift_id, instance_id, order_list_id]):
+        raise ValueError("Invalid native ID")
+    if type(offset_seconds) is not int or not -86400 <= offset_seconds <= 86400:
+        raise ValueError("Invalid offset seconds")
+    return request("shift_instance", dict(id=schedule_id, shift_id=shift_id,
+        instance_id=instance_id, order_list_id=order_list_id, offset_seconds=offset_seconds))
+
+
+@mcp.tool()
+def set_train_schedule_shift(train_id: str, schedule_id: str, shift_id: str,
+                             assigned: bool = True) -> dict:
+    """Switch to manual schedules and allow/disallow this shift for a train; pause first.
+
+    Switching from autorun removes its automatic assignment. Snapshot it before editing.
+    Removing a shift leaves manual orders mode; use set_train_autorun to restore autorun.
+    """
+    if any(not valid_id(i) for i in [train_id, schedule_id, shift_id]) or type(assigned) is not bool:
+        raise ValueError("Invalid native ID or assigned flag")
+    return request("train_schedule", dict(train_id=train_id, id=schedule_id,
+        shift_id=shift_id, assigned=assigned))
+
+
+@mcp.tool()
+def set_train_autorun(train_id: str, line_id: str) -> dict:
+    """Switch a train to native autorun on an existing line; pause first and read back."""
+    if any(not valid_id(i) for i in [train_id, line_id]):
+        raise ValueError("Invalid native ID")
+    return request("train_autorun", dict(train_id=train_id, line_id=line_id))
+
+
+@mcp.tool()
+def reload_runtime_bridge() -> dict:
+    """Drain and reload the local adapter after development; does not change game state."""
+    close()
+    return request("status")
+
+
+@mcp.tool()
+def get_company_loans() -> dict:
+    """Read native loan principal, interest and full early repayment amount."""
+    return request("company_loans")
+
+
+@mcp.tool()
+def repay_company_loan(loan_index: int) -> dict:
+    """Repay one outstanding loan through the native command. Pause first; includes interest."""
+    if type(loan_index) is not int or not 0 <= loan_index < 10000:
+        raise ValueError("Invalid loan index")
+    return request("repay_loan", {"index": loan_index})
 
 
 if __name__ == "__main__":

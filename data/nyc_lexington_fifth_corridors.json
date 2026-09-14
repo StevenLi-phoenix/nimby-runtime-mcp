@@ -1,0 +1,125 @@
+{
+  "corridors": [
+    {
+      "track_ref": "3",
+      "start_node_id": "281475875143681",
+      "end_node_id": "281475873243137",
+      "points": [
+        {
+          "x": -8234379.242994704,
+          "y": 4976754.790792241,
+          "source_node_id": -1,
+          "depth": -3,
+          "metres": 0.0
+        },
+        {
+          "x": -8234618.859068401,
+          "y": 4976888.24954671,
+          "source_node_id": 7097084738,
+          "depth": -2,
+          "metres": 207.7560764147453
+        },
+        {
+          "x": -8234722.895924422,
+          "y": 4976946.142079164,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 297.9404549296172
+        }
+      ],
+      "source_way_ids": [
+        1546629369,
+        759735516
+      ],
+      "source_length_metres": 297.9404549296172,
+      "source_projection_gaps_world_metres": [
+        0.03148400845595702,
+        0.0005988783293846387
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 18.184543928265704,
+          "depth": -3
+        },
+        {
+          "start_metres": 18.184543928265704,
+          "end_metres": 207.7560764147453,
+          "depth": -3
+        },
+        {
+          "start_metres": 207.7560764147453,
+          "end_metres": 297.9404549296172,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475875078145",
+      "end_node_id": "281475873374209",
+      "points": [
+        {
+          "x": -8234384.573593046,
+          "y": 4976745.225501593,
+          "source_node_id": -1,
+          "depth": -3,
+          "metres": 0.0
+        },
+        {
+          "x": -8234537.183958007,
+          "y": 4976830.066612409,
+          "source_node_id": 7650173975,
+          "depth": -3,
+          "metres": 132.26071712319143
+        },
+        {
+          "x": -8234722.614662896,
+          "y": 4976945.7669638535,
+          "source_node_id": -2,
+          "depth": -3,
+          "metres": 297.8178906389889
+        }
+      ],
+      "source_way_ids": [
+        1546629370,
+        819186609
+      ],
+      "source_length_metres": 297.8178906389889,
+      "source_projection_gaps_world_metres": [
+        0.13673570776765073,
+        0.5067327988188494
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 18.183923584363487,
+          "depth": -3
+        },
+        {
+          "start_metres": 18.183923584363487,
+          "end_metres": 132.26071712319143,
+          "depth": -3
+        },
+        {
+          "start_metres": 132.26071712319143,
+          "end_metres": 207.67077063495782,
+          "depth": -3
+        },
+        {
+          "start_metres": 207.67077063495782,
+          "end_metres": 297.8178906389889,
+          "depth": -3
+        }
+      ]
+    }
+  ],
+  "scale": 0.7574718963107441,
+  "source": "data/nyc_lexington53_source.json",
+  "stage": "candidate_native_curves_and_crossing_audit_pending",
+  "adaptation": "Source stacked-track transition retained; original depths remain in source_layer_segments.",
+  "pending": [
+    "Check source tunnel crossings and station approach curves.",
+    "Inspect native curves and layer transitions before building."
+  ]
+}

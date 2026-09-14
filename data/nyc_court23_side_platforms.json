@@ -1,0 +1,177 @@
+{
+  "name": "Court Square-23rd Street",
+  "plan_index": 10,
+  "center": {
+    "x": -8231603.461877192,
+    "y": 4975212.928475685
+  },
+  "scale": 0.7575873878926208,
+  "southbound_axis": {
+    "x": -0.9686644446778399,
+    "y": 0.24837309358497744
+  },
+  "tracks": [
+    {
+      "track_ref": "3",
+      "x": -8231602.801512539,
+      "y": 4975215.503922769,
+      "source_way_id": 823180890,
+      "points": [
+        {
+          "x": -8231449.367420025,
+          "y": 4975176.162228719,
+          "depth": -2
+        },
+        {
+          "x": -8231513.298291906,
+          "y": 4975192.55460124,
+          "depth": -2
+        },
+        {
+          "x": -8231692.304733173,
+          "y": 4975238.453244298,
+          "depth": -2
+        },
+        {
+          "x": -8231756.235605054,
+          "y": 4975254.845616818,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "x": -8231604.048868808,
+      "y": 4975210.639186218,
+      "source_way_id": 823180891,
+      "points": [
+        {
+          "x": -8231450.614776294,
+          "y": 4975171.297492169,
+          "depth": -2
+        },
+        {
+          "x": -8231514.545648174,
+          "y": 4975187.6898646895,
+          "depth": -2
+        },
+        {
+          "x": -8231693.552089442,
+          "y": 4975233.588507747,
+          "depth": -2
+        },
+        {
+          "x": -8231757.482961322,
+          "y": 4975249.980880268,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "track_spacing_metres": 3.8046849726443535,
+  "platform_type": "two side platforms",
+  "platform_length_metres": 140,
+  "depth": -2,
+  "source_platforms": [
+    {
+      "osm_way_id": 721007405,
+      "tags": {
+        "area": "yes",
+        "destination": "Manhattan",
+        "layer": "-2",
+        "level": "-2",
+        "location": "underground",
+        "name": "Court Square-23rd Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        7644979896,
+        6764930972,
+        6764930969,
+        7644979894,
+        7644979896
+      ],
+      "points": [
+        {
+          "x": -8231477.36737847,
+          "y": 4975185.862267798
+        },
+        {
+          "x": -8231475.842301446,
+          "y": 4975191.783893021
+        },
+        {
+          "x": -8231725.34267616,
+          "y": 4975256.2166972095
+        },
+        {
+          "x": -8231726.8677531835,
+          "y": 4975250.295032937
+        },
+        {
+          "x": -8231477.36737847,
+          "y": 4975185.862267798
+        }
+      ]
+    },
+    {
+      "osm_way_id": 818637922,
+      "tags": {
+        "area": "yes",
+        "destination": "Forest Hills & Jamaica",
+        "gtfs:stop_id": "F09N",
+        "layer": "-2",
+        "level": "-2",
+        "location": "underground",
+        "name": "Court Square-23rd Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        7644979895,
+        6764930970,
+        6764930971,
+        7644979897,
+        7644979895
+      ],
+      "points": [
+        {
+          "x": -8231729.561684862,
+          "y": 4975239.950496515
+        },
+        {
+          "x": -8231731.075629936,
+          "y": 4975234.102311736
+        },
+        {
+          "x": -8231481.575255221,
+          "y": 4975169.684347204
+        },
+        {
+          "x": -8231480.061310146,
+          "y": 4975175.532493429
+        },
+        {
+          "x": -8231729.561684862,
+          "y": 4975239.950496515
+        }
+      ]
+    }
+  ],
+  "existing_interchange_station_id": "562949983109121",
+  "reserved_path_depth": -2,
+  "stage": "candidate_native_creation_pending"
+}

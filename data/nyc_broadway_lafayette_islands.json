@@ -1,0 +1,199 @@
+{
+  "name": "Broadway-Lafayette Street",
+  "plan_index": 19,
+  "center": {
+    "x": -8237201.532971734,
+    "y": 4971902.636605004
+  },
+  "scale": 0.7578506821108489,
+  "southbound_axis": {
+    "x": 0.958154904533238,
+    "y": -0.2862502033517208
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818168007,
+      "track_ref": "1",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -11.728543877147127,
+      "x": -8237205.962997528,
+      "y": 4971887.808140632
+    },
+    {
+      "source_way_id": 1547812308,
+      "track_ref": "3",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -1.4721001118781154,
+      "x": -8237202.089003372,
+      "y": 4971900.775420505
+    },
+    {
+      "source_way_id": 1547812309,
+      "track_ref": "4",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 2.336436958536437,
+      "x": -8237200.650468663,
+      "y": 4971905.590575468
+    },
+    {
+      "source_way_id": 818168006,
+      "track_ref": "2",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 12.127268909607352,
+      "x": -8237196.952342234,
+      "y": 4971917.96917969
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 907565476,
+      "tracks": [
+        {
+          "source_way_id": 818168007,
+          "track_ref": "1",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -11.728543877147127,
+          "x": -8237205.962997528,
+          "y": 4971887.808140632,
+          "points": [
+            {
+              "x": -8237357.679676364,
+              "y": 4971933.133724171,
+              "depth": -3
+            },
+            {
+              "x": -8237294.464393516,
+              "y": 4971914.248064363,
+              "depth": -3
+            },
+            {
+              "x": -8237117.4616015395,
+              "y": 4971861.3682169,
+              "depth": -3
+            },
+            {
+              "x": -8237054.246318691,
+              "y": 4971842.482557093,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 1547812308,
+          "track_ref": "3",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -1.4721001118781154,
+          "x": -8237202.089003372,
+          "y": 4971900.775420505,
+          "points": [
+            {
+              "x": -8237353.805682208,
+              "y": 4971946.101004044,
+              "depth": -3
+            },
+            {
+              "x": -8237290.59039936,
+              "y": 4971927.215344236,
+              "depth": -3
+            },
+            {
+              "x": -8237113.587607384,
+              "y": 4971874.335496773,
+              "depth": -3
+            },
+            {
+              "x": -8237050.372324536,
+              "y": 4971855.449836966,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 10.256443765269012,
+      "island_width_metres": 7.206443765269012
+    },
+    {
+      "platform_way_id": 907565477,
+      "tracks": [
+        {
+          "source_way_id": 1547812309,
+          "track_ref": "4",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 2.336436958536437,
+          "x": -8237200.650468663,
+          "y": 4971905.590575468,
+          "points": [
+            {
+              "x": -8237352.3671475,
+              "y": 4971950.916159007,
+              "depth": -3
+            },
+            {
+              "x": -8237289.151864652,
+              "y": 4971932.030499199,
+              "depth": -3
+            },
+            {
+              "x": -8237112.149072675,
+              "y": 4971879.150651736,
+              "depth": -3
+            },
+            {
+              "x": -8237048.933789827,
+              "y": 4971860.264991929,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 818168006,
+          "track_ref": "2",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 12.127268909607352,
+          "x": -8237196.952342234,
+          "y": 4971917.96917969,
+          "points": [
+            {
+              "x": -8237348.66902107,
+              "y": 4971963.294763229,
+              "depth": -3
+            },
+            {
+              "x": -8237285.453738222,
+              "y": 4971944.4091034215,
+              "depth": -3
+            },
+            {
+              "x": -8237108.450946245,
+              "y": 4971891.529255958,
+              "depth": -3
+            },
+            {
+              "x": -8237045.235663397,
+              "y": 4971872.643596151,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.790831951070915,
+      "island_width_metres": 6.740831951070915
+    }
+  ],
+  "depth": -3,
+  "platform_length_metres": 140,
+  "source": "data/nyc_broadway_lafayette_source.json",
+  "reserved_bleecker_platforms": {
+    "source_way_ids": [
+      907565474,
+      907565475
+    ],
+    "depth": -1
+  },
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect F south to 2nd Avenue and north to West 4th Street.",
+    "Preserve B/D tracks and Bleecker Street interchange for full network construction."
+  ]
+}

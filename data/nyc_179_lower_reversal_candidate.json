@@ -1,0 +1,102 @@
+{
+  "station": "Jamaica-179th Street",
+  "stage": "source_candidate_scope_confirmation_and_native_audit_pending",
+  "source": "data/nyc_179_source.json",
+  "arrival_track_ref": "2",
+  "departure_track_ref": "1",
+  "arrival_source_ways": [
+    818900559,
+    818900563,
+    818900555,
+    818900552,
+    818900547
+  ],
+  "return_source_ways": [
+    818900557,
+    818900564,
+    818900558
+  ],
+  "arrival_points": [
+    {
+      "x": -8213334.639220421,
+      "y": 4970113.772596444
+    },
+    {
+      "x": -8213273.758590907,
+      "y": 4970138.636419135
+    },
+    {
+      "x": -8213218.900345842,
+      "y": 4970161.209241446
+    },
+    {
+      "x": -8213155.759930667,
+      "y": 4970181.109202834
+    },
+    {
+      "x": -8213149.114157065,
+      "y": 4970183.209348723
+    },
+    {
+      "x": -8212948.527566605,
+      "y": 4970246.43423162
+    }
+  ],
+  "return_points": [
+    {
+      "x": -8213155.759930667,
+      "y": 4970181.109202834
+    },
+    {
+      "x": -8213188.10937469,
+      "y": 4970173.545744104
+    },
+    {
+      "x": -8213220.425422868,
+      "y": 4970165.996977532
+    },
+    {
+      "x": -8213278.534197061,
+      "y": 4970152.955542401
+    },
+    {
+      "x": -8213343.221953161,
+      "y": 4970137.843360614
+    }
+  ],
+  "crossover_way": 818900557,
+  "reversal_branch_source_node": 7647540594,
+  "clear_length_beyond_branch_metres": 164.7000276821846,
+  "train_length_metres": 120,
+  "clear_margin_metres": 44.70002768218461,
+  "depth": -2,
+  "excluded_yard_source_ways": [
+    818900541,
+    818900542,
+    818900543,
+    818900544,
+    818900545,
+    818900546,
+    818900548,
+    818900549,
+    818900550,
+    818900551,
+    818900553,
+    818900554,
+    818900556,
+    818900560,
+    818900561,
+    818900562,
+    818900565,
+    818900566,
+    818900567,
+    818900568,
+    818900569,
+    818900570
+  ],
+  "pending": [
+    "Confirm that source yard-tagged operational reversal tracks are allowed under the deferred-yard constraint.",
+    "Connect source approach to native platform endpoints, inspect curves and crossing clearance.",
+    "Verify native reversal route and train operation."
+  ]
+}

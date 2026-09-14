@@ -1,0 +1,149 @@
+{
+  "station": "4th Avenue",
+  "plan_index": 16,
+  "source": "data/nyc_culver_cross_sections.json",
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "platform_length_metres": 140,
+  "track_spacing_metres": 13.431371367974581,
+  "primary_ref": "2",
+  "secondary_ref": "1",
+  "paired_side": "right",
+  "source_depth": 2,
+  "native_depth": 2,
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 803113099,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8236638.203419563,
+          "y": 4963903.078221513,
+          "depth": 2
+        },
+        {
+          "x": -8236582.580223236,
+          "y": 4963867.697974737,
+          "depth": 2
+        },
+        {
+          "x": -8236504.707748378,
+          "y": 4963818.16562925,
+          "depth": 2
+        },
+        {
+          "x": -8236426.835273519,
+          "y": 4963768.633283763,
+          "depth": 2
+        },
+        {
+          "x": -8236371.212077192,
+          "y": 4963733.253036987,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 803113096,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8236628.699314893,
+          "y": 4963918.020137644,
+          "depth": 2
+        },
+        {
+          "x": -8236573.076118566,
+          "y": 4963882.639890868,
+          "depth": 2
+        },
+        {
+          "x": -8236495.203643708,
+          "y": 4963833.107545381,
+          "depth": 2
+        },
+        {
+          "x": -8236417.331168849,
+          "y": 4963783.575199895,
+          "depth": 2
+        },
+        {
+          "x": -8236361.707972522,
+          "y": 4963748.194953118,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "3",
+      "source_way_id": 813282249,
+      "role": "express_no_platform",
+      "points": [
+        {
+          "x": -8236634.949326203,
+          "y": 4963908.194157391,
+          "depth": 2
+        },
+        {
+          "x": -8236579.326129876,
+          "y": 4963872.813910615,
+          "depth": 2
+        },
+        {
+          "x": -8236501.453655018,
+          "y": 4963823.281565128,
+          "depth": 2
+        },
+        {
+          "x": -8236423.581180159,
+          "y": 4963773.749219641,
+          "depth": 2
+        },
+        {
+          "x": -8236367.957983832,
+          "y": 4963738.368972865,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 803113097,
+      "role": "express_no_platform",
+      "points": [
+        {
+          "x": -8236631.771872199,
+          "y": 4963913.189604399,
+          "depth": 2
+        },
+        {
+          "x": -8236576.148675872,
+          "y": 4963877.809357623,
+          "depth": 2
+        },
+        {
+          "x": -8236498.2762010135,
+          "y": 4963828.277012136,
+          "depth": 2
+        },
+        {
+          "x": -8236420.403726155,
+          "y": 4963778.744666649,
+          "depth": 2
+        },
+        {
+          "x": -8236364.780529828,
+          "y": 4963743.364419873,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "adaptations": [
+    "Source +2 retained; BMT Fourth Avenue tracks are separately underground at -1.",
+    "Straight parallel station span; retain source bends in onward approaches."
+  ],
+  "stage": "candidate_station_span_native_and_corridor_audit_pending",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

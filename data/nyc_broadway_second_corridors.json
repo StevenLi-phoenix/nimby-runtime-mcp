@@ -1,0 +1,197 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475859611649",
+      "end_node_id": "281475857645569",
+      "points": [
+        {
+          "x": -8237054.24582894,
+          "y": 4971842.482404354,
+          "source_node_id": -1,
+          "depth": -3,
+          "metres": 0.0
+        },
+        {
+          "x": -8236975.1142022265,
+          "y": 4971803.569618592,
+          "source_node_id": 7641133457,
+          "depth": -2,
+          "metres": 66.72752191548429
+        },
+        {
+          "x": -8236833.026004177,
+          "y": 4971736.941582092,
+          "source_node_id": 7641133456,
+          "depth": -2,
+          "metres": 185.66023209433868
+        },
+        {
+          "x": -8236783.088080606,
+          "y": 4971716.671237796,
+          "source_node_id": 7641133426,
+          "depth": -2,
+          "metres": 226.50474059442857
+        },
+        {
+          "x": -8236722.997819478,
+          "y": 4971685.428550316,
+          "source_node_id": 7641134766,
+          "depth": -2,
+          "metres": 277.83168520655266
+        },
+        {
+          "x": -8236686.540221281,
+          "y": 4971671.1484645875,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 307.50462042831185
+        }
+      ],
+      "source_way_ids": [
+        818168007,
+        818167990,
+        818168009
+      ],
+      "source_length_metres": 307.50462042831185,
+      "source_projection_gaps_world_metres": [
+        3.7118918970557337,
+        0.19097658543970114
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 17.86229184818906,
+          "depth": -3
+        },
+        {
+          "start_metres": 17.86229184818906,
+          "end_metres": 66.72752191548429,
+          "depth": -3
+        },
+        {
+          "start_metres": 66.72752191548429,
+          "end_metres": 185.66023209433868,
+          "depth": -2
+        },
+        {
+          "start_metres": 185.66023209433868,
+          "end_metres": 216.01022702730774,
+          "depth": -2
+        },
+        {
+          "start_metres": 216.01022702730774,
+          "end_metres": 226.50474059442857,
+          "depth": -2
+        },
+        {
+          "start_metres": 226.50474059442857,
+          "end_metres": 277.83168520655266,
+          "depth": -2
+        },
+        {
+          "start_metres": 277.83168520655266,
+          "end_metres": 307.50462042831185,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475860070402",
+      "end_node_id": "281475857580033",
+      "points": [
+        {
+          "x": -8237045.2350607,
+          "y": 4971872.643416094,
+          "source_node_id": -1,
+          "depth": -3,
+          "metres": 0.0
+        },
+        {
+          "x": -8237026.666258411,
+          "y": 4971843.993198927,
+          "source_node_id": 7641133443,
+          "depth": -3,
+          "metres": 22.58137760651624
+        },
+        {
+          "x": -8236966.676184823,
+          "y": 4971821.827777527,
+          "source_node_id": 7641133436,
+          "depth": -2,
+          "metres": 71.04896438952098
+        },
+        {
+          "x": -8236825.01100084,
+          "y": 4971755.3905696655,
+          "source_node_id": 7641133435,
+          "depth": -2,
+          "metres": 189.63002055247017
+        },
+        {
+          "x": -8236676.541092218,
+          "y": 4971695.9267716,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 310.8379836143419
+        }
+      ],
+      "source_way_ids": [
+        818168006,
+        818167993,
+        46695594
+      ],
+      "source_length_metres": 310.8379836143419,
+      "source_projection_gaps_world_metres": [
+        16.667263671005877,
+        0.13140367562695857
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 22.58137760651624,
+          "depth": -3
+        },
+        {
+          "start_metres": 22.58137760651624,
+          "end_metres": 71.04896438952098,
+          "depth": -3
+        },
+        {
+          "start_metres": 71.04896438952098,
+          "end_metres": 189.63002055247017,
+          "depth": -2
+        },
+        {
+          "start_metres": 189.63002055247017,
+          "end_metres": 219.7246586586065,
+          "depth": -2
+        },
+        {
+          "start_metres": 219.7246586586065,
+          "end_metres": 270.846866174558,
+          "depth": -2
+        },
+        {
+          "start_metres": 270.846866174558,
+          "end_metres": 282.0197899237463,
+          "depth": -2
+        },
+        {
+          "start_metres": 282.0197899237463,
+          "end_metres": 310.8379836143419,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "scale": 0.7578506821108489,
+  "source": "data/nyc_broadway_lafayette_source.json",
+  "stage": "candidate_native_curves_and_crossing_audit_pending",
+  "adaptation": "Source -3 to -2 transition retained; original depths remain in source_layer_segments.",
+  "pending": [
+    "Check source tunnel crossings and station approach curves.",
+    "Inspect native curves and layer transitions before building."
+  ]
+}

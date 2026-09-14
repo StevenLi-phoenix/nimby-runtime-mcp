@@ -1,0 +1,173 @@
+{
+  "source_line_id": "1125899908939777",
+  "source_line_code": "nyc-g",
+  "source_service": 2,
+  "shared_stations": [
+    {
+      "f_plan_index": 25,
+      "station_id": "562949983961089",
+      "to_coney_island": {
+        "index": 13,
+        "node_id": "281475811508225",
+        "position": 0.14284908771514893,
+        "stop_id": "2929",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 28,
+        "node_id": "281475811377155",
+        "position": 0.14284612238407135,
+        "stop_id": "2944",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 26,
+      "station_id": "562949983895554",
+      "to_coney_island": {
+        "index": 14,
+        "node_id": "281475810590722",
+        "position": 0.14284980297088623,
+        "stop_id": "2930",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 27,
+        "node_id": "281475810459650",
+        "position": 0.14284805953502655,
+        "stop_id": "2943",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 27,
+      "station_id": "562949984026625",
+      "to_coney_island": {
+        "index": 15,
+        "node_id": "281475813408769",
+        "position": 0.14284959435462952,
+        "stop_id": "2931",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 26,
+        "node_id": "281475813277697",
+        "position": 0.14284580945968628,
+        "stop_id": "2942",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 28,
+      "station_id": "562949984092161",
+      "to_coney_island": {
+        "index": 16,
+        "node_id": "281475816423425",
+        "position": 0.14285919070243835,
+        "stop_id": "2932",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 25,
+        "node_id": "281475816292353",
+        "position": 0.14285530149936676,
+        "stop_id": "2941",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 29,
+      "station_id": "562949984157697",
+      "to_coney_island": {
+        "index": 17,
+        "node_id": "281475818651649",
+        "position": 0.1428518295288086,
+        "stop_id": "2933",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 24,
+        "node_id": "281475819044866",
+        "position": 0.14284847676753998,
+        "stop_id": "2940",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 30,
+      "station_id": "562949984223234",
+      "to_coney_island": {
+        "index": 18,
+        "node_id": "281475821010945",
+        "position": 0.14284856617450714,
+        "stop_id": "2934",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 23,
+        "node_id": "281475820879873",
+        "position": 0.14284683763980865,
+        "stop_id": "2939",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 31,
+      "station_id": "562949984288769",
+      "to_coney_island": {
+        "index": 19,
+        "node_id": "281475822190593",
+        "position": 0.14285296201705933,
+        "stop_id": "2935",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 22,
+        "node_id": "281475822059521",
+        "position": 0.14284980297088623,
+        "stop_id": "2938",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    },
+    {
+      "f_plan_index": 32,
+      "station_id": "562949984354305",
+      "to_coney_island": {
+        "index": 20,
+        "node_id": "281475824680961",
+        "position": 0.14284805953502655,
+        "stop_id": "2936",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      },
+      "to_jamaica": {
+        "index": 21,
+        "node_id": "281475825074178",
+        "position": 0.14284540712833405,
+        "stop_id": "2937",
+        "stop_time_mode": 0,
+        "stop_time_seconds": 20
+      }
+    }
+  ],
+  "stage": "live_directed_platform_mapping_only",
+  "pending": [
+    "Map remaining F stations and configure native line.",
+    "Verify F boundary paths at Jay Street and Ditmas Avenue.",
+    "Verify terminal reversal and live F trains."
+  ]
+}

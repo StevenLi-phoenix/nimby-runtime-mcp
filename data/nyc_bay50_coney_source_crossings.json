@@ -1,0 +1,1704 @@
+[
+  {
+    "way": 702926823,
+    "layer": "2",
+    "other": 46340136,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      724567751
+    ],
+    "hit": "POINT (-8235810.556481242 4951676.504733094)"
+  },
+  {
+    "way": 702926823,
+    "layer": "2",
+    "other": 702926824,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      724567751
+    ],
+    "hit": "POINT (-8235810.556481242 4951676.504733094)"
+  },
+  {
+    "way": 46340136,
+    "layer": "2",
+    "other": 46340141,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      591987551
+    ],
+    "hit": "POINT (-8235749.898490706 4951568.5740383845)"
+  },
+  {
+    "way": 46340136,
+    "layer": "2",
+    "other": 702926823,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "35 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      724567751
+    ],
+    "hit": "POINT (-8235810.556481242 4951676.504733094)"
+  },
+  {
+    "way": 46340136,
+    "layer": "2",
+    "other": 702926824,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      724567751
+    ],
+    "hit": "POINT (-8235810.556481242 4951676.504733094)"
+  },
+  {
+    "way": 46340141,
+    "layer": "2",
+    "other": 46340136,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      591987551
+    ],
+    "hit": "POINT (-8235749.898490706 4951568.5740383845)"
+  },
+  {
+    "way": 46340141,
+    "layer": "2",
+    "other": 343766682,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "maxspeed": "30 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "tunnel": "no",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3505955846
+    ],
+    "hit": "POINT (-8235645.547600037 4951471.535639673)"
+  },
+  {
+    "way": 343766682,
+    "layer": null,
+    "other": 46340141,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3505955846
+    ],
+    "hit": "POINT (-8235645.547600037 4951471.535639673)"
+  },
+  {
+    "way": 343766682,
+    "layer": null,
+    "other": 46340143,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121430
+    ],
+    "hit": "POINT (-8235545.159683241 4950822.780931289)"
+  },
+  {
+    "way": 46340143,
+    "layer": "1",
+    "other": 343744068,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121501
+    ],
+    "hit": "POINT (-8235574.358785675 4950736.200489457)"
+  },
+  {
+    "way": 46340143,
+    "layer": "1",
+    "other": 343766682,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "maxspeed": "30 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "tunnel": "no",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121430
+    ],
+    "hit": "POINT (-8235545.159683241 4950822.780931289)"
+  },
+  {
+    "way": 343744068,
+    "layer": null,
+    "other": 46340143,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121501
+    ],
+    "hit": "POINT (-8235574.358785675 4950736.200489457)"
+  },
+  {
+    "way": 343744068,
+    "layer": null,
+    "other": 813297757,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3505688723
+    ],
+    "hit": "POINT (-8235587.082603473 4950663.369150694)"
+  },
+  {
+    "way": 813297757,
+    "layer": "2",
+    "other": 194911389,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      591987340
+    ],
+    "hit": "POINT (-8235586.715249153 4950654.0472474145)"
+  },
+  {
+    "way": 813297757,
+    "layer": "2",
+    "other": 343744068,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3505688723
+    ],
+    "hit": "POINT (-8235587.082603473 4950663.369150694)"
+  },
+  {
+    "way": 813297757,
+    "layer": "2",
+    "other": 427044475,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      591987340
+    ],
+    "hit": "POINT (-8235586.715249153 4950654.0472474145)"
+  },
+  {
+    "way": 427044475,
+    "layer": "2",
+    "other": 174484202,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1851633665
+    ],
+    "hit": "POINT (-8235578.043460822 4950445.493964343)"
+  },
+  {
+    "way": 427044475,
+    "layer": "2",
+    "other": 194911389,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      591987340
+    ],
+    "hit": "POINT (-8235586.715249153 4950654.0472474145)"
+  },
+  {
+    "way": 427044475,
+    "layer": "2",
+    "other": 813297757,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      591987340
+    ],
+    "hit": "POINT (-8235586.715249153 4950654.0472474145)"
+  },
+  {
+    "way": 427044475,
+    "layer": "2",
+    "other": 824316072,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1851633665
+    ],
+    "hit": "POINT (-8235578.043460822 4950445.493964343)"
+  },
+  {
+    "way": 824316072,
+    "layer": "2",
+    "other": 117618773,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1324677124
+    ],
+    "hit": "POINT (-8235586.16978365 4950408.910754882)"
+  },
+  {
+    "way": 824316072,
+    "layer": "2",
+    "other": 174484202,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1851633665
+    ],
+    "hit": "POINT (-8235578.043460822 4950445.493964343)"
+  },
+  {
+    "way": 824316072,
+    "layer": "2",
+    "other": 343745383,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "8",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1324677124
+    ],
+    "hit": "POINT (-8235586.16978365 4950408.910754882)"
+  },
+  {
+    "way": 824316072,
+    "layer": "2",
+    "other": 427044475,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1851633665
+    ],
+    "hit": "POINT (-8235578.043460822 4950445.493964343)"
+  },
+  {
+    "way": 343745383,
+    "layer": "2",
+    "other": 117618773,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1324677124
+    ],
+    "hit": "POINT (-8235586.16978365 4950408.910754882)"
+  },
+  {
+    "way": 343745383,
+    "layer": "2",
+    "other": 343782602,
+    "other_tags": {
+      "bridge": "yes",
+      "covered": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "8",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3506089811
+    ],
+    "hit": "POINT (-8235594.0957313925 4950247.746926828)"
+  },
+  {
+    "way": 343745383,
+    "layer": "2",
+    "other": 824316072,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1324677124
+    ],
+    "hit": "POINT (-8235586.16978365 4950408.910754882)"
+  },
+  {
+    "way": 343782602,
+    "layer": "2",
+    "other": 343745383,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "8",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3506089811
+    ],
+    "hit": "POINT (-8235594.0957313925 4950247.746926828)"
+  },
+  {
+    "way": 103320571,
+    "layer": "2",
+    "other": 58448892,
+    "other_tags": {
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "Coney Island Yard",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "14",
+      "railway:track_ref:signals": "D14",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135386
+    ],
+    "hit": "POINT (-8235808.641786 4951739.448973509)"
+  },
+  {
+    "way": 103320571,
+    "layer": "2",
+    "other": 103081437,
+    "other_tags": {
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "Coney Island Yard",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "15",
+      "railway:track_ref:signals": "D15",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135170
+    ],
+    "hit": "POINT (-8235857.12142424 4952074.22999906)"
+  },
+  {
+    "way": 103320571,
+    "layer": "2",
+    "other": 343765682,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135386
+    ],
+    "hit": "POINT (-8235808.641786 4951739.448973509)"
+  },
+  {
+    "way": 103320571,
+    "layer": "2",
+    "other": 702926822,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "35 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135386
+    ],
+    "hit": "POINT (-8235808.641786 4951739.448973509)"
+  },
+  {
+    "way": 702926822,
+    "layer": "2",
+    "other": 58448892,
+    "other_tags": {
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "Coney Island Yard",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "14",
+      "railway:track_ref:signals": "D14",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135386
+    ],
+    "hit": "POINT (-8235808.641786 4951739.448973509)"
+  },
+  {
+    "way": 702926822,
+    "layer": "2",
+    "other": 103320571,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "35 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135386
+    ],
+    "hit": "POINT (-8235808.641786 4951739.448973509)"
+  },
+  {
+    "way": 702926822,
+    "layer": "2",
+    "other": 194911398,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135244
+    ],
+    "hit": "POINT (-8235803.855047895 4951704.693265871)"
+  },
+  {
+    "way": 702926822,
+    "layer": "2",
+    "other": 343765681,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135244
+    ],
+    "hit": "POINT (-8235803.855047895 4951704.693265871)"
+  },
+  {
+    "way": 702926822,
+    "layer": "2",
+    "other": 343765682,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135386
+    ],
+    "hit": "POINT (-8235808.641786 4951739.448973509)"
+  },
+  {
+    "way": 343765681,
+    "layer": "2",
+    "other": 194911398,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "yard",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135244
+    ],
+    "hit": "POINT (-8235803.855047895 4951704.693265871)"
+  },
+  {
+    "way": 343765681,
+    "layer": "2",
+    "other": 343768187,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121435
+    ],
+    "hit": "POINT (-8235741.683112287 4951581.41484105)"
+  },
+  {
+    "way": 343765681,
+    "layer": "2",
+    "other": 702926822,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "35 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135244
+    ],
+    "hit": "POINT (-8235803.855047895 4951704.693265871)"
+  },
+  {
+    "way": 343768187,
+    "layer": "2",
+    "other": 103081450,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "maxspeed": "30 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "no",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121318
+    ],
+    "hit": "POINT (-8235633.113212916 4951480.433229283)"
+  },
+  {
+    "way": 343768187,
+    "layer": "2",
+    "other": 343765681,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121435
+    ],
+    "hit": "POINT (-8235741.683112287 4951581.41484105)"
+  },
+  {
+    "way": 103081450,
+    "layer": null,
+    "other": 103081435,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "name": "Stillwell Yard",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "11",
+      "service": "yard",
+      "tunnel": "no",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121272
+    ],
+    "hit": "POINT (-8235535.552811185 4950834.946519336)"
+  },
+  {
+    "way": 103081450,
+    "layer": null,
+    "other": 343744067,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121422
+    ],
+    "hit": "POINT (-8235540.295021493 4950821.109996278)"
+  },
+  {
+    "way": 103081450,
+    "layer": null,
+    "other": 343768187,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121318
+    ],
+    "hit": "POINT (-8235633.113212916 4951480.433229283)"
+  },
+  {
+    "way": 343744067,
+    "layer": "1",
+    "other": 103081450,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "maxspeed": "30 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "tunnel": "no",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121422
+    ],
+    "hit": "POINT (-8235540.295021493 4950821.109996278)"
+  },
+  {
+    "way": 343744067,
+    "layer": "1",
+    "other": 343745381,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121248
+    ],
+    "hit": "POINT (-8235569.750158755 4950734.617512367)"
+  },
+  {
+    "way": 343745381,
+    "layer": null,
+    "other": 343744067,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121248
+    ],
+    "hit": "POINT (-8235569.750158755 4950734.617512367)"
+  },
+  {
+    "way": 343745381,
+    "layer": null,
+    "other": 813297759,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121502
+    ],
+    "hit": "POINT (-8235581.561156731 4950663.823520422)"
+  },
+  {
+    "way": 813297759,
+    "layer": "2",
+    "other": 194911389,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135160
+    ],
+    "hit": "POINT (-8235578.566662427 4950594.715592759)"
+  },
+  {
+    "way": 813297759,
+    "layer": "2",
+    "other": 343745381,
+    "other_tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1190121502
+    ],
+    "hit": "POINT (-8235581.561156731 4950663.823520422)"
+  },
+  {
+    "way": 813297759,
+    "layer": "2",
+    "other": 813297764,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135160
+    ],
+    "hit": "POINT (-8235578.566662427 4950594.715592759)"
+  },
+  {
+    "way": 813297764,
+    "layer": "2",
+    "other": 194911389,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135160
+    ],
+    "hit": "POINT (-8235578.566662427 4950594.715592759)"
+  },
+  {
+    "way": 813297764,
+    "layer": "2",
+    "other": 194911394,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135440
+    ],
+    "hit": "POINT (-8235577.520259215 4950575.66153082)"
+  },
+  {
+    "way": 813297764,
+    "layer": "2",
+    "other": 813297759,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135160
+    ],
+    "hit": "POINT (-8235578.566662427 4950594.715592759)"
+  },
+  {
+    "way": 813297764,
+    "layer": "2",
+    "other": 813297762,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135440
+    ],
+    "hit": "POINT (-8235577.520259215 4950575.66153082)"
+  },
+  {
+    "way": 813297762,
+    "layer": "2",
+    "other": 103320584,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135163
+    ],
+    "hit": "POINT (-8235574.603688556 4950523.160453261)"
+  },
+  {
+    "way": 813297762,
+    "layer": "2",
+    "other": 194911394,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135440
+    ],
+    "hit": "POINT (-8235577.520259215 4950575.66153082)"
+  },
+  {
+    "way": 813297762,
+    "layer": "2",
+    "other": 343782857,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135163
+    ],
+    "hit": "POINT (-8235574.603688556 4950523.160453261)"
+  },
+  {
+    "way": 813297762,
+    "layer": "2",
+    "other": 813297764,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135440
+    ],
+    "hit": "POINT (-8235577.520259215 4950575.66153082)"
+  },
+  {
+    "way": 343782857,
+    "layer": "2",
+    "other": 97010385,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "IND Culver Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "6",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      2054217463
+    ],
+    "hit": "POINT (-8235581.060219022 4950398.988169114)"
+  },
+  {
+    "way": 343782857,
+    "layer": "2",
+    "other": 103320584,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135163
+    ],
+    "hit": "POINT (-8235574.603688556 4950523.160453261)"
+  },
+  {
+    "way": 343782857,
+    "layer": "2",
+    "other": 174484202,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1851633685
+    ],
+    "hit": "POINT (-8235573.724264579 4950492.732821746)"
+  },
+  {
+    "way": 343782857,
+    "layer": "2",
+    "other": 813297762,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193135163
+    ],
+    "hit": "POINT (-8235574.603688556 4950523.160453261)"
+  },
+  {
+    "way": 343782857,
+    "layer": "2",
+    "other": 813297765,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      2054217463
+    ],
+    "hit": "POINT (-8235581.060219022 4950398.988169114)"
+  },
+  {
+    "way": 813297765,
+    "layer": "2",
+    "other": 97010385,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "IND Culver Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "6",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      2054217463
+    ],
+    "hit": "POINT (-8235581.060219022 4950398.988169114)"
+  },
+  {
+    "way": 813297765,
+    "layer": "2",
+    "other": 117618773,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193045399
+    ],
+    "hit": "POINT (-8235590.299736758 4950352.218775259)"
+  },
+  {
+    "way": 813297765,
+    "layer": "2",
+    "other": 343782857,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      2054217463
+    ],
+    "hit": "POINT (-8235581.060219022 4950398.988169114)"
+  },
+  {
+    "way": 813297765,
+    "layer": "2",
+    "other": 427044474,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "7",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193045399
+    ],
+    "hit": "POINT (-8235590.299736758 4950352.218775259)"
+  },
+  {
+    "way": 427044474,
+    "layer": "2",
+    "other": 117618773,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193045399
+    ],
+    "hit": "POINT (-8235590.299736758 4950352.218775259)"
+  },
+  {
+    "way": 427044474,
+    "layer": "2",
+    "other": 813297765,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      1193045399
+    ],
+    "hit": "POINT (-8235590.299736758 4950352.218775259)"
+  },
+  {
+    "way": 427044474,
+    "layer": "2",
+    "other": 821683809,
+    "other_tags": {
+      "bridge": "yes",
+      "covered": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "7",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3506093921
+    ],
+    "hit": "POINT (-8235582.451712657 4950260.468747839)"
+  },
+  {
+    "way": 821683809,
+    "layer": "2",
+    "other": 427044474,
+    "other_tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "10 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:track_ref": "7",
+      "voltage": "625"
+    },
+    "shared_nodes": [
+      3506093921
+    ],
+    "hit": "POINT (-8235582.451712657 4950260.468747839)"
+  }
+]

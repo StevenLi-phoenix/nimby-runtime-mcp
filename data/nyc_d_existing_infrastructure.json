@@ -1,0 +1,126 @@
+{
+  "code": "nyc-d",
+  "stage": "shared_stations_native_verified",
+  "stations": [
+    {
+      "station": "rockefeller",
+      "station_id": "562949985861634",
+      "tracks": [
+        {
+          "track_ref": "3",
+          "platform_nodes": [
+            "281475871473666",
+            "281475871539202"
+          ]
+        },
+        {
+          "track_ref": "4",
+          "platform_nodes": [
+            "281475871997954",
+            "281475872063490"
+          ]
+        }
+      ]
+    },
+    {
+      "station": "bryant",
+      "station_id": "562949985796100",
+      "tracks": [
+        {
+          "track_ref": "3",
+          "platform_nodes": [
+            "281475870031873",
+            "281475870097409"
+          ]
+        },
+        {
+          "track_ref": "4",
+          "platform_nodes": [
+            "281475870687234",
+            "281475870752770"
+          ]
+        }
+      ]
+    },
+    {
+      "station": "herald",
+      "station_id": "562949985730561",
+      "tracks": [
+        {
+          "track_ref": "3",
+          "platform_nodes": [
+            "281475866427394",
+            "281475866492930"
+          ]
+        },
+        {
+          "track_ref": "4",
+          "platform_nodes": [
+            "281475867082754",
+            "281475867148290"
+          ]
+        }
+      ]
+    },
+    {
+      "station": "west_fourth",
+      "station_id": "562949985599490",
+      "tracks": [
+        {
+          "track_ref": "3",
+          "platform_nodes": [
+            "281475860660226",
+            "281475860725761"
+          ]
+        },
+        {
+          "track_ref": "4",
+          "platform_nodes": [
+            "281475861315586",
+            "281475861381122"
+          ]
+        }
+      ]
+    },
+    {
+      "station": "broadway_lafayette",
+      "station_id": "562949985533953",
+      "tracks": [
+        {
+          "track_ref": "3",
+          "platform_nodes": [
+            "281475859152897",
+            "281475859218433"
+          ]
+        },
+        {
+          "track_ref": "4",
+          "platform_nodes": [
+            "281475859808258",
+            "281475859873794"
+          ]
+        }
+      ]
+    },
+    {
+      "station": "coney_west_end",
+      "station_id": "562949985140738",
+      "platform_nodes": [
+        "281475846701057",
+        "281475846766593",
+        "281475846832129",
+        "281475846897665"
+      ],
+      "track_refs": [
+        "8",
+        "7"
+      ]
+    }
+  ],
+  "operations_proven": false,
+  "pending": [
+    "Verify full route source and station order.",
+    "Build northern extension, Chrystie/Manhattan Bridge and West End gaps.",
+    "Verify directional paths, terminals and operations."
+  ]
+}

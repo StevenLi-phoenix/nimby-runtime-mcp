@@ -1,0 +1,155 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475794731010",
+      "end_node_id": "281475830906881",
+      "points": [
+        {
+          "x": -8235320.348608155,
+          "y": 4959489.2403565245,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "existing_endpoint"
+        },
+        {
+          "x": -8235314.516830266,
+          "y": 4959382.526622649,
+          "depth": -1,
+          "chainage_metres": 81.14837676730359,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235305.861076803,
+          "y": 4959323.86299635,
+          "depth": 0,
+          "chainage_metres": 126.14837676730359,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235292.230668209,
+          "y": 4959231.484071812,
+          "depth": 1,
+          "chainage_metres": 197.01088334037578,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235282.968976406,
+          "y": 4959166.250756855,
+          "depth": 2,
+          "chainage_metres": 247.01088334037578,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235257.075973016,
+          "y": 4959020.195647622,
+          "source_node_id": 592095923,
+          "depth": 2,
+          "chainage_metres": 359.5913754768603,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235243.168991795,
+          "y": 4958980.329714226,
+          "depth": 2,
+          "chainage_metres": 391.5720389495301,
+          "reason": "existing_endpoint"
+        }
+      ],
+      "source_length_metres": 391.5720389495301,
+      "portal_chainage_metres": 81.14837676730359,
+      "bridge_chainage_metres": 197.01088334037578,
+      "source_projection_gaps_world_metres": [
+        3.805436619130508e-10,
+        2.308722397155503
+      ],
+      "source_way_ids": [
+        46341913,
+        905418481,
+        813282280
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475829858305",
+      "end_node_id": "281475830841345",
+      "points": [
+        {
+          "x": -8235304.741972049,
+          "y": 4959491.964968309,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "existing_endpoint"
+        },
+        {
+          "x": -8235302.427533565,
+          "y": 4959421.050474386,
+          "source_node_id": 7606986839,
+          "depth": -2,
+          "chainage_metres": 53.84347431488232,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235298.197392915,
+          "y": 4959384.624452258,
+          "depth": -1,
+          "chainage_metres": 81.67182928333172,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235289.923883661,
+          "y": 4959325.905697476,
+          "depth": 0,
+          "chainage_metres": 126.67182928333172,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235277.291592545,
+          "y": 4959236.251793494,
+          "depth": 1,
+          "chainage_metres": 195.37944568480253,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235267.916702336,
+          "y": 4959171.034650215,
+          "depth": 2,
+          "chainage_metres": 245.37944568480253,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235232.7211350165,
+          "y": 4958981.894083187,
+          "depth": 2,
+          "chainage_metres": 391.38016416105984,
+          "reason": "existing_endpoint"
+        }
+      ],
+      "source_length_metres": 391.38016416105984,
+      "portal_chainage_metres": 81.67182928333172,
+      "bridge_chainage_metres": 195.37944568480253,
+      "source_projection_gaps_world_metres": [
+        2.437017994999652e-10,
+        0.11537588344344024
+      ],
+      "source_way_ids": [
+        194911403,
+        905418484,
+        165795037
+      ]
+    }
+  ],
+  "scale": 0.7588691372539235,
+  "stage": "outer_tracks_candidate_native_audit_pending",
+  "source": "data/nyc_south_culver_source.json",
+  "adaptations": [
+    "Monotonic -2,-1,0,+1,+2 across the unroofed source approach; relative layers are not surveyed gradients.",
+    "Keep existing station and G relay geometry."
+  ],
+  "remaining_topology": [
+    "B3 joins B1 through OSM way 426574735.",
+    "B4 joins the single center 3-4 rail through OSM way 426574738.",
+    "Crossovers 194911406 and 194911409 remain to be constructed."
+  ],
+  "attribution": "\u00a9 OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

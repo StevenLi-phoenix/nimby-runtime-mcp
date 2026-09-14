@@ -1,0 +1,43 @@
+{
+  "tracks": [
+    {
+      "track_ref": "3",
+      "source_way_id": 333765219,
+      "offset": -2.0973628131763538,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8214536.500009308,
+          "y": 4969805.942178318,
+          "depth": -2
+        },
+        {
+          "x": -8214813.170839487,
+          "y": 4969652.000521421,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 818901119,
+      "offset": 1.7108535264278275,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8214534.057329587,
+          "y": 4969801.552085084,
+          "depth": -2
+        },
+        {
+          "x": -8214810.728159766,
+          "y": 4969647.610428187,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "source": "data/nyc_169_source.json",
+  "stage": "station_and_express_built_approaches_and_operations_pending",
+  "native_verification": "work/nyc-169-all-built.json"
+}

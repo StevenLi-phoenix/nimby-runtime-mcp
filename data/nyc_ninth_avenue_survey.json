@@ -1,0 +1,199 @@
+{
+  "center": {
+    "x": -8237010.071691207,
+    "y": 4960309.56055071
+  },
+  "axis": {
+    "x": 0.7830830357633111,
+    "y": -0.6219171641784111
+  },
+  "scale": 0.7587518709577206,
+  "platform_centers": [
+    {
+      "x": -8237008.61768024,
+      "y": 4960316.2774248775
+    },
+    {
+      "x": -8237011.525702173,
+      "y": 4960302.843676542
+    }
+  ],
+  "cross_section": [
+    {
+      "way": 225541876,
+      "offset": -9.696779502332072,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "C1",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "x": -8237018.019735673,
+      "y": 4960299.552821147
+    },
+    {
+      "way": 225541885,
+      "offset": -9.690151730426114,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "D2",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "x": -8237018.014303166,
+      "y": 4960299.5596614545
+    },
+    {
+      "way": 46640044,
+      "offset": -0.28007201099409385,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "C3",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "x": -8237010.3012545165,
+      "y": 4960309.271497531
+    },
+    {
+      "way": 46341525,
+      "offset": -0.2448243333138162,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "3-4",
+        "railway:track_ref:signals": "D3-4",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "x": -8237010.27236347,
+      "y": 4960309.307875508
+    },
+    {
+      "way": 225541875,
+      "offset": 8.960170550964202,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "name": "South Brooklyn Railway",
+        "operator": "South Brooklyn Railway",
+        "owner": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "C2",
+        "railway:traffic_mode": "passenger",
+        "service": "yard",
+        "start_date": "1919-03-16",
+        "tunnel": "yes",
+        "voltage": "600"
+      },
+      "x": -8237002.727414279,
+      "y": 4960318.808050222
+    },
+    {
+      "way": 299892108,
+      "offset": 9.152695764174526,
+      "tags": {
+        "electrified": "rail",
+        "electrified:rail": "top",
+        "embedded": "no",
+        "frequency": "0",
+        "gauge": "1435",
+        "level": "-1",
+        "maxspeed": "20 mph",
+        "name": "BMT West End Line",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "D1",
+        "railway:traffic_mode": "passenger",
+        "start_date": "1916-06-24",
+        "voltage": "600"
+      },
+      "x": -8237002.569609417,
+      "y": 4960319.006749209
+    },
+    {
+      "way": 299892070,
+      "offset": 57.27572615982848,
+      "tags": {
+        "electrified": "no",
+        "embedded": "no",
+        "gauge": "1435",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "owner": "Metropolitan Transit Authority",
+        "railway": "subway",
+        "service": "yard"
+      },
+      "x": -8236963.125174759,
+      "y": 4960368.672957853
+    }
+  ]
+}

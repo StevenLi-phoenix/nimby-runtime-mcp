@@ -1,0 +1,394 @@
+{
+  "from_station": "Carroll Street",
+  "to_station": "Smith–9th Streets",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475810918402",
+      "end_node_id": "281475813605377",
+      "source_way_ids": [
+        818608021,
+        813282230,
+        813282231,
+        813282241,
+        426568715
+      ],
+      "source_projection_gaps_world_metres": [
+        0.8176947942069964,
+        12.880264467668926
+      ],
+      "source_length_metres": 572.5693622528718,
+      "portal_chainage_metres": 58.057962020292905,
+      "bridge_chainage_metres": 193.65754289953543,
+      "points": [
+        {
+          "x": -8237181.893668418,
+          "y": 4965149.992475151,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8237209.674844666,
+          "y": 4965093.041322713,
+          "depth": -1,
+          "chainage_metres": 48.057962020292905,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237238.847713364,
+          "y": 4965019.525804289,
+          "depth": 0,
+          "chainage_metres": 108.0579620202929,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237277.402279474,
+          "y": 4964913.453437731,
+          "depth": 1,
+          "chainage_metres": 193.65754289953543,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237313.651014007,
+          "y": 4964814.398312608,
+          "depth": 2,
+          "chainage_metres": 273.65754289953543,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237349.612121954,
+          "y": 4964715.24087466,
+          "depth": 3,
+          "chainage_metres": 353.65754289953543,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237366.10164974,
+          "y": 4964652.724019053,
+          "source_node_id": 4258554707,
+          "depth": 3,
+          "chainage_metres": 402.72488150374386,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237368.962560653,
+          "y": 4964580.7872312935,
+          "source_node_id": 4258555114,
+          "depth": 3,
+          "chainage_metres": 457.4599794803002,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237352.542935761,
+          "y": 4964504.873284005,
+          "source_node_id": 4258555101,
+          "depth": 3,
+          "chainage_metres": 516.5061471924947,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237328.8137349235,
+          "y": 4964432.470993262,
+          "depth": 3,
+          "chainage_metres": 572.5693622528718,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475810852866",
+      "end_node_id": "281475813539841",
+      "source_way_ids": [
+        818608022,
+        813282236,
+        813282237,
+        813282238,
+        426568716
+      ],
+      "source_projection_gaps_world_metres": [
+        1.1240339767766103,
+        10.86661934651074
+      ],
+      "source_length_metres": 553.2080419109765,
+      "portal_chainage_metres": 56.285069726905355,
+      "bridge_chainage_metres": 191.19639582643643,
+      "points": [
+        {
+          "x": -8237169.250917788,
+          "y": 4965142.009448009,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8237193.831594182,
+          "y": 4965086.129826639,
+          "depth": -1,
+          "chainage_metres": 46.285069726905355,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237222.761542771,
+          "y": 4965012.512280639,
+          "depth": 0,
+          "chainage_metres": 106.28506972690536,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237261.316613056,
+          "y": 4964907.405927831,
+          "depth": 1,
+          "chainage_metres": 191.19639582643643,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237297.248428196,
+          "y": 4964808.235401821,
+          "depth": 2,
+          "chainage_metres": 271.1963958264364,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237333.165310279,
+          "y": 4964709.0595173165,
+          "depth": 3,
+          "chainage_metres": 351.1963958264364,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237348.357322906,
+          "y": 4964644.254796212,
+          "source_node_id": 4258554705,
+          "depth": 3,
+          "chainage_metres": 401.7547614749654,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237350.015983319,
+          "y": 4964582.387125536,
+          "source_node_id": 4258555116,
+          "depth": 3,
+          "chainage_metres": 448.78892838158305,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237333.429379191,
+          "y": 4964511.096679024,
+          "source_node_id": 4258555103,
+          "depth": 3,
+          "chainage_metres": 504.42222599864306,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237313.91327609,
+          "y": 4964447.702812513,
+          "depth": 3,
+          "chainage_metres": 553.2080419109765,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475811115011",
+      "end_node_id": "281475813801986",
+      "source_way_ids": [
+        46341912,
+        813282232,
+        813282233,
+        813282240,
+        426568714
+      ],
+      "source_projection_gaps_world_metres": [
+        1.0111079690352704,
+        12.999441208107832
+      ],
+      "source_length_metres": 566.316768859897,
+      "portal_chainage_metres": 57.452079846352675,
+      "bridge_chainage_metres": 192.83046907227515,
+      "points": [
+        {
+          "x": -8237177.763551239,
+          "y": 4965147.384592406,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8237204.371990417,
+          "y": 4965090.746527687,
+          "depth": -1,
+          "chainage_metres": 47.452079846352675,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237233.162862236,
+          "y": 4965017.072300372,
+          "depth": 0,
+          "chainage_metres": 107.45207984635267,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237272.0366800185,
+          "y": 4964911.427815065,
+          "depth": 1,
+          "chainage_metres": 192.83046907227515,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237308.058731274,
+          "y": 4964812.2900301805,
+          "depth": 2,
+          "chainage_metres": 272.83046907227515,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237343.818234573,
+          "y": 4964713.059368593,
+          "depth": 3,
+          "chainage_metres": 352.83046907227515,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237360.001341644,
+          "y": 4964651.652522517,
+          "source_node_id": 4258554706,
+          "depth": 3,
+          "chainage_metres": 401.0238507580241,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237362.795460862,
+          "y": 4964581.330314631,
+          "source_node_id": 4258555115,
+          "depth": 3,
+          "chainage_metres": 454.53095952675443,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237346.709794442,
+          "y": 4964506.942855966,
+          "source_node_id": 4258555102,
+          "depth": 3,
+          "chainage_metres": 512.3900765682697,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237324.4853305835,
+          "y": 4964436.893870967,
+          "depth": 3,
+          "chainage_metres": 566.316768859897,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475811180547",
+      "end_node_id": "281475814129666",
+      "source_way_ids": [
+        818608023,
+        813282234,
+        813282235,
+        813282239,
+        46341911
+      ],
+      "source_projection_gaps_world_metres": [
+        1.068463548428697,
+        10.76178124488386
+      ],
+      "source_length_metres": 558.6264019636482,
+      "portal_chainage_metres": 56.81607594503787,
+      "bridge_chainage_metres": 192.01275537235813,
+      "points": [
+        {
+          "x": -8237173.513323517,
+          "y": 4965144.700864996,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8237199.082013824,
+          "y": 4965088.50070641,
+          "depth": -1,
+          "chainage_metres": 46.81607594503787,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237227.985478376,
+          "y": 4965014.872004599,
+          "depth": 0,
+          "chainage_metres": 106.81607594503788,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237266.682212512,
+          "y": 4964909.416871242,
+          "depth": 1,
+          "chainage_metres": 192.01275537235813,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237302.60472845,
+          "y": 4964810.242976406,
+          "depth": 2,
+          "chainage_metres": 272.01275537235813,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237338.515383479,
+          "y": 4964711.064819368,
+          "depth": 3,
+          "chainage_metres": 352.01275537235813,
+          "reason": "layer_transition"
+        },
+        {
+          "x": -8237354.012353038,
+          "y": 4964645.047409478,
+          "source_node_id": 1283468325,
+          "depth": 3,
+          "chainage_metres": 403.52268499292865,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237355.715541248,
+          "y": 4964581.873397998,
+          "source_node_id": 1283468331,
+          "depth": 3,
+          "chainage_metres": 451.5500689744207,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237338.7949786475,
+          "y": 4964509.129850927,
+          "source_node_id": 1283468323,
+          "depth": 3,
+          "chainage_metres": 508.31746443983076,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8237317.9068792695,
+          "y": 4964443.618615654,
+          "depth": 3,
+          "chainage_metres": 558.6264019636482,
+          "reason": "native_endpoint"
+        }
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "adaptations": [
+    "All four tracks use their own connected OSM node chain.",
+    "Short untagged source gaps at the portal do not cause a ground-to-tunnel dip.",
+    "Explicit monotonic -2,-1,0,+1,+2,+3 transition; source bridge +4 maps to +3.",
+    "Layer transitions interpolate along source geometry, not straight shortcuts."
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

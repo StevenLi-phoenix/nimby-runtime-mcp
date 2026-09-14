@@ -1,0 +1,25 @@
+{
+  "station": "15th Street–Prospect Park",
+  "plan_index": 18,
+  "depth": -2,
+  "primary_ref": "2",
+  "secondary_ref": "1",
+  "start": {
+    "x": -8235317.251222291,
+    "y": 4962430.757400651
+  },
+  "end": {
+    "x": -8235408.0375281805,
+    "y": 4962270.080216202
+  },
+  "spacing_metres": 5.7515531153367,
+  "surface_offsets": [
+    -2.87577655766835,
+    -1.525
+  ],
+  "island_width_metres": 2.7015531153367,
+  "source_platform_id": 904605003,
+  "layout": "Two local platform tracks and one island; express tracks bypass this station.",
+  "stage": "native_layout_pending",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

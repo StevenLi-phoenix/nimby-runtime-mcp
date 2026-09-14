@@ -1,0 +1,176 @@
+{
+  "name": "Fort Hamilton Parkway",
+  "plan_index": 24,
+  "center": {
+    "x": -8237008.604386076,
+    "y": 4959519.363942802
+  },
+  "scale": 0.758814720539478,
+  "southbound_axis": {
+    "x": -0.015440793585812242,
+    "y": -0.9998807838404739
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 427044476,
+      "offset_metres": -3.703785424527703,
+      "points": [
+        {
+          "x": -8237011.042990116,
+          "y": 4959677.56182721,
+          "depth": 2
+        },
+        {
+          "x": -8237012.060418559,
+          "y": 4959611.677444845,
+          "depth": 2
+        },
+        {
+          "x": -8237014.909218198,
+          "y": 4959427.201174224,
+          "depth": 2
+        },
+        {
+          "x": -8237015.9266466405,
+          "y": 4959361.316791859,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 427044478,
+      "offset_metres": 4.078759857474484,
+      "points": [
+        {
+          "x": -8237000.788026334,
+          "y": 4959677.403463552,
+          "depth": 2
+        },
+        {
+          "x": -8237001.805454777,
+          "y": 4959611.519081187,
+          "depth": 2
+        },
+        {
+          "x": -8237004.654254415,
+          "y": 4959427.042810566,
+          "depth": 2
+        },
+        {
+          "x": -8237005.671682858,
+          "y": 4959361.158428201,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "source_platform_way_ids": [
+    427044491,
+    427044492
+  ],
+  "source": "data/nyc_west_end_fort_hamilton_source.json",
+  "layout": "two_side_platforms_with_center_express_track",
+  "depth": 2,
+  "stage": "candidate_native_creation_pending",
+  "track_spacing_metres": 7.782545282002188,
+  "source_platforms": [
+    {
+      "osm_way_id": 427044491,
+      "tags": {
+        "area": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "name": "Fort Hamilton Parkway",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898456,
+        4262898463,
+        4262898462,
+        4262898457,
+        4262898456
+      ],
+      "points": [
+        {
+          "x": -8237017.326553134,
+          "y": 4959412.673797615
+        },
+        {
+          "x": -8237013.897912818,
+          "y": 4959660.294908575
+        },
+        {
+          "x": -8237018.250504909,
+          "y": 4959660.206885267
+        },
+        {
+          "x": -8237022.0131036965,
+          "y": 4959412.879180147
+        },
+        {
+          "x": -8237017.326553134,
+          "y": 4959412.673797615
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044492,
+      "tags": {
+        "area": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "name": "Fort Hamilton Parkway",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898461,
+        4262898452,
+        4262898451,
+        4262898460,
+        4262898461
+      ],
+      "points": [
+        {
+          "x": -8236999.303927575,
+          "y": 4959626.802096376
+        },
+        {
+          "x": -8237003.522936277,
+          "y": 4959382.438601838
+        },
+        {
+          "x": -8236999.214871982,
+          "y": 4959382.365251159
+        },
+        {
+          "x": -8236995.162842518,
+          "y": 4959626.5967093585
+        },
+        {
+          "x": -8236999.303927575,
+          "y": 4959626.802096376
+        }
+      ]
+    }
+  ]
+}

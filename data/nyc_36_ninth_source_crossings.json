@@ -1,0 +1,518 @@
+[
+  {
+    "ref": "3",
+    "way": 46340164,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "F4",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8238253.758332335 4961331.958448955)"
+  },
+  {
+    "ref": "3",
+    "way": 299892000,
+    "tags": {
+      "electrified": "no",
+      "embedded": "no",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard"
+    },
+    "hit": "POINT (-8237717.350393064 4960868.29513667)"
+  },
+  {
+    "ref": "3",
+    "way": 299892068,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237818.672857446 4960946.431550443)"
+  },
+  {
+    "ref": "3",
+    "way": 800823556,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237757.160117699 4960898.995032643)"
+  },
+  {
+    "ref": "3",
+    "way": 817936164,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8238193.405841418 4961424.778436841)"
+  },
+  {
+    "ref": "3",
+    "way": 817936182,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3",
+      "railway:track_ref:signals": "F3",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "MULTIPOINT ((-8238144.9262031745 4961478.042282067), (-8238251.014058611 4961343.593452829))"
+  },
+  {
+    "ref": "3",
+    "way": 817936183,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3",
+      "railway:track_ref:signals": "F3",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "LINESTRING (-8238128.250543454 4961499.06910846, -8238144.9262031745 4961478.042282067)"
+  },
+  {
+    "ref": "3",
+    "way": 899725604,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-1",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8238150.570101359 4961202.379335952)"
+  },
+  {
+    "ref": "3",
+    "way": 1546615742,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "15 mph",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "F2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8238254.314883369 4961317.684260766)"
+  },
+  {
+    "ref": "3",
+    "way": 819639302,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-1",
+      "level": "-1",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3",
+      "railway:track_ref:signals": "D3",
+      "start_date": "1916-06-24",
+      "tunnel": "yes",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237605.605534181 4960780.162152667)"
+  },
+  {
+    "ref": "3",
+    "way": 225541885,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "level": "-1",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "D2",
+      "railway:traffic_mode": "passenger",
+      "start_date": "1916-06-24",
+      "voltage": "600"
+    },
+    "hit": "MULTILINESTRING ((-8237124.182132347 4960383.403758096, -8237113.729232161 4960375.891883812), (-8237113.729232161 4960375.891883812, -8237080.366780771 4960350.554022235), (-8237080.366780771 4960350.554022235, -8237061.030585219 4960333.711056147))"
+  },
+  {
+    "ref": "3",
+    "way": 299891994,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "yard",
+      "start_date": "1916-06-24",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237242.781917837 4960478.769850593)"
+  },
+  {
+    "ref": "4",
+    "way": 46340164,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "F4",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8238140.918701507 4961475.03426105)"
+  },
+  {
+    "ref": "4",
+    "way": 299892000,
+    "tags": {
+      "electrified": "no",
+      "embedded": "no",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard"
+    },
+    "hit": "MULTIPOINT ((-8237536.863197421 4960745.71079356), (-8237596.582043092 4960780.472279715), (-8237580.532401217 4960772.857636365))"
+  },
+  {
+    "ref": "4",
+    "way": 299892068,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237821.976590983 4960955.313738516)"
+  },
+  {
+    "ref": "4",
+    "way": 800823556,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237747.365294102 4960897.840797895)"
+  },
+  {
+    "ref": "4",
+    "way": 813722542,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "F4",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "LINESTRING (-8238124.254173735 4961496.04640768, -8238140.918701507 4961475.03426105)"
+  },
+  {
+    "ref": "4",
+    "way": 817936165,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8238181.39446836 4961415.681059745)"
+  },
+  {
+    "ref": "4",
+    "way": 899725604,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-1",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "tunnel": "yes",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8238129.497321751 4961192.196374767)"
+  },
+  {
+    "ref": "4",
+    "way": 1546615742,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-2",
+      "level": "-2",
+      "maxspeed": "15 mph",
+      "name": "BMT Fourth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "F2",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8238239.972717046 4961334.765186036)"
+  },
+  {
+    "ref": "4",
+    "way": 299892106,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-1",
+      "level": "-1",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "D4",
+      "railway:traffic_mode": "passenger",
+      "start_date": "1916-06-24",
+      "tunnel": "yes",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237602.343873101 4960784.094310996)"
+  },
+  {
+    "ref": "4",
+    "way": 299891995,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "start_date": "1916-06-24",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237228.488495221 4960500.953604042)"
+  },
+  {
+    "ref": "4",
+    "way": 299892028,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237358.639841247 4960604.12466446)"
+  },
+  {
+    "ref": "4",
+    "way": 299892059,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237413.62830154 4960646.5449644495)"
+  },
+  {
+    "ref": "4",
+    "way": 299892108,
+    "tags": {
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "level": "-1",
+      "maxspeed": "20 mph",
+      "name": "BMT West End Line",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "D1",
+      "railway:traffic_mode": "passenger",
+      "start_date": "1916-06-24",
+      "voltage": "600"
+    },
+    "hit": "MULTILINESTRING ((-8237107.050062713 4960403.665307119, -8237098.144503451 4960396.080059018), (-8237098.144503451 4960396.080059018, -8237070.837832359 4960373.588439143))"
+  },
+  {
+    "ref": "4",
+    "way": 824316073,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "electrified:rail": "top",
+      "embedded": "no",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "1",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "owner": "Metropolitan Transit Authority",
+      "railway": "subway",
+      "service": "yard",
+      "voltage": "600"
+    },
+    "hit": "POINT (-8237423.363692511 4960654.447177065)"
+  }
+]

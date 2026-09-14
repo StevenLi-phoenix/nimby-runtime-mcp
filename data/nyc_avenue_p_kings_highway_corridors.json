@@ -1,0 +1,159 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475838902273",
+      "end_node_id": "281475840147457",
+      "points": [
+        {
+          "x": -8234622.372667568,
+          "y": 4954679.8004988665,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8234607.429413048,
+          "y": 4954575.497490477,
+          "depth": 2,
+          "chainage_metres": 80
+        },
+        {
+          "x": -8234592.469451067,
+          "y": 4954471.196878458,
+          "depth": 2,
+          "chainage_metres": 160
+        },
+        {
+          "x": -8234562.074996147,
+          "y": 4954262.051464162,
+          "source_node_id": 3502073191,
+          "depth": 2,
+          "chainage_metres": 320.4616181186907
+        },
+        {
+          "x": -8234559.51464786,
+          "y": 4954222.462876222,
+          "source_node_id": 1773274909,
+          "depth": 2,
+          "chainage_metres": 350.581799245351
+        },
+        {
+          "x": -8234559.905091352,
+          "y": 4954154.508333059,
+          "depth": 2,
+          "chainage_metres": 402.17802170475227
+        }
+      ],
+      "source_length_metres": 402.17802170475227,
+      "source_projection_gaps_world_metres": [
+        0.01687844275389967,
+        0.6196012075287997
+      ],
+      "source_way_ids": [
+        813282272,
+        813282273,
+        813282268
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475838836737",
+      "end_node_id": "281475840081921",
+      "points": [
+        {
+          "x": -8234611.826091379,
+          "y": 4954681.3183240965,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8234596.884667485,
+          "y": 4954577.015051561,
+          "depth": 2,
+          "chainage_metres": 80
+        },
+        {
+          "x": -8234581.944674635,
+          "y": 4954472.711577297,
+          "depth": 2,
+          "chainage_metres": 160
+        },
+        {
+          "x": -8234546.256496505,
+          "y": 4954223.562557059,
+          "source_node_id": 1773258936,
+          "depth": 2,
+          "chainage_metres": 351.0955923240402
+        },
+        {
+          "x": -8234537.794672201,
+          "y": 4954152.189905106,
+          "depth": 2,
+          "chainage_metres": 405.42023114004553
+        }
+      ],
+      "source_length_metres": 405.42023114004553,
+      "source_projection_gaps_world_metres": [
+        0.014427094331738517,
+        4.187155858613551
+      ],
+      "source_way_ids": [
+        813282270,
+        161238888
+      ]
+    },
+    {
+      "track_ref": "3-4",
+      "start_node_id": "281475839098882",
+      "end_node_id": "281475839688705",
+      "points": [
+        {
+          "x": -8234617.163773968,
+          "y": 4954680.551598363,
+          "depth": 2,
+          "chainage_metres": 0
+        },
+        {
+          "x": -8234602.522842626,
+          "y": 4954576.204831518,
+          "depth": 2,
+          "chainage_metres": 80
+        },
+        {
+          "x": -8234587.454503356,
+          "y": 4954471.919821658,
+          "depth": 2,
+          "chainage_metres": 160
+        },
+        {
+          "x": -8234556.887507875,
+          "y": 4954261.68490243,
+          "source_node_id": 2054217483,
+          "depth": 2,
+          "chainage_metres": 321.29796948793467
+        },
+        {
+          "x": -8234548.799322132,
+          "y": 4954153.3423935585,
+          "depth": 2,
+          "chainage_metres": 403.62886679384775
+        }
+      ],
+      "source_length_metres": 403.62886679384775,
+      "source_projection_gaps_world_metres": [
+        0.43184657272024607,
+        3.0894141590370054
+      ],
+      "source_way_ids": [
+        813282274,
+        813282275,
+        813282271,
+        813282269
+      ]
+    }
+  ],
+  "scale": 0.7592437006614161,
+  "source": "data/nyc_mid_culver_source.json",
+  "stage": "candidate_native_audit_pending",
+  "attribution": "\u00a9 OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

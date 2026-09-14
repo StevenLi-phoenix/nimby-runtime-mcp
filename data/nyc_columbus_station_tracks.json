@@ -1,0 +1,74 @@
+[
+  {
+    "way": 46340129,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND Eighth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "1",
+      "railway:track_ref:signals": "A1",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  },
+  {
+    "way": 171570637,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND Eighth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "3",
+      "railway:track_ref:signals": "A3",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  },
+  {
+    "way": 816331850,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND Eighth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "4",
+      "railway:track_ref:signals": "A4",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  },
+  {
+    "way": 1547812315,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "name": "IND Eighth Avenue Line",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "2",
+      "railway:track_ref:signals": "A2",
+      "tunnel": "yes",
+      "voltage": "625"
+    }
+  }
+]

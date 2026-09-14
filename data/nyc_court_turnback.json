@@ -1,0 +1,100 @@
+{
+  "station": "Court Square",
+  "station_id": "562949983109121",
+  "tracks": [
+    {
+      "role": "west_primary",
+      "start_node_id": "281475794337793",
+      "points": [
+        {
+          "x": -8231259.978320812,
+          "y": 4975104.011659532,
+          "depth": -2,
+          "metres": 0
+        },
+        {
+          "x": -8231236.563335595,
+          "y": 4975116.203963122,
+          "depth": -2,
+          "metres": 20
+        },
+        {
+          "x": -8231178.025872551,
+          "y": 4975146.684722098,
+          "depth": -1,
+          "metres": 70
+        },
+        {
+          "x": -8230990.705990813,
+          "y": 4975244.223150819,
+          "depth": -1,
+          "metres": 230
+        },
+        {
+          "x": -8230791.678616466,
+          "y": 4975347.857731335,
+          "depth": -1,
+          "metres": 400
+        }
+      ]
+    },
+    {
+      "role": "west_secondary",
+      "start_node_id": "281475794403329",
+      "points": [
+        {
+          "x": -8231263.026406217,
+          "y": 4975109.865424096,
+          "depth": -2,
+          "metres": 0
+        },
+        {
+          "x": -8231239.611421,
+          "y": 4975122.057727686,
+          "depth": -2,
+          "metres": 20
+        },
+        {
+          "x": -8231181.073957956,
+          "y": 4975152.538486661,
+          "depth": -1,
+          "metres": 70
+        },
+        {
+          "x": -8230993.754076218,
+          "y": 4975250.076915382,
+          "depth": -1,
+          "metres": 230
+        },
+        {
+          "x": -8230794.7267018715,
+          "y": 4975353.711495899,
+          "depth": -1,
+          "metres": 400
+        }
+      ]
+    }
+  ],
+  "outward_tangent": {
+    "x": 0.8869606563679538,
+    "y": 0.46184498920669087
+  },
+  "scale": 0.7576008681081818,
+  "crossover": {
+    "from_role": "west_secondary",
+    "from_metres": 250,
+    "to_role": "west_primary",
+    "to_metres": 190,
+    "depth": -1,
+    "clear_length_beyond_arrival_branch_metres": 150
+  },
+  "superseded_north_crossovers": [
+    "281475794665473",
+    "281475794796545",
+    "281475794599937",
+    "281475794731009"
+  ],
+  "source_sha256": "34f17b5af1b58d8c375d56132e93831bc8ddc71c31db00a23dad1221e4d605ee",
+  "adaptation": "400m shallow station-after relay at -1; real source leads join Queens Boulevard at -2. Future Queens Boulevard and 60th Street Tunnel tracks also occupy -3. This relay is a game adaptation, not a claimed real facility; no depot or yard links.",
+  "stage": "native_blueprint_geometry_pending"
+}

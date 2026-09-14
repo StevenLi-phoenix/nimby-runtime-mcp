@@ -1,0 +1,116 @@
+[
+  {
+    "way": 117618773,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "connections": [
+      [
+        1324677124
+      ],
+      [
+        1193045399
+      ]
+    ],
+    "points": [
+      {
+        "x": -8235586.16978365,
+        "y": 4950408.910754882
+      },
+      {
+        "x": -8235588.32938177,
+        "y": 4950394.415282158
+      },
+      {
+        "x": -8235589.041826511,
+        "y": 4950381.663974023
+      },
+      {
+        "x": -8235590.299736758,
+        "y": 4950352.218775259
+      }
+    ]
+  },
+  {
+    "way": 174484202,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "connections": [
+      [
+        1851633665
+      ],
+      [
+        1851633685
+      ]
+    ],
+    "points": [
+      {
+        "x": -8235578.043460822,
+        "y": 4950445.493964343
+      },
+      {
+        "x": -8235574.503501014,
+        "y": 4950470.791568018
+      },
+      {
+        "x": -8235573.724264579,
+        "y": 4950492.732821746
+      }
+    ]
+  },
+  {
+    "way": 194911389,
+    "tags": {
+      "bridge": "yes",
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "2",
+      "level": "2",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "service": "crossover",
+      "voltage": "625"
+    },
+    "connections": [
+      [
+        591987340
+      ],
+      [
+        1193135160
+      ]
+    ],
+    "points": [
+      {
+        "x": -8235586.715249153,
+        "y": 4950654.0472474145
+      },
+      {
+        "x": -8235578.566662427,
+        "y": 4950594.715592759
+      }
+    ]
+  }
+]

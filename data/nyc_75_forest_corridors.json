@@ -1,0 +1,247 @@
+{
+  "source": "data/nyc_forest_hills_source.json",
+  "scale": 0.7579185822067666,
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475889299457",
+      "end_node_id": "281475883401217",
+      "points": [
+        {
+          "x": -8219660.311804833,
+          "y": 4970996.174819948,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8219806.346402081,
+          "y": 4971080.1545796115,
+          "source_node_id": 7647540735,
+          "depth": -2,
+          "metres": 127.68474970113058,
+          "adaptation": "2m outward correction to preserve adjacent express clearance"
+        },
+        {
+          "x": -8219880.069431779,
+          "y": 4971126.117612387,
+          "source_node_id": 7647523410,
+          "depth": -2,
+          "metres": 193.60806159028473
+        },
+        {
+          "x": -8220007.399544555,
+          "y": 4971200.65200279,
+          "depth": -2,
+          "metres": 305.4320919168999
+        },
+        {
+          "x": -8220181.2540698275,
+          "y": 4971302.50700527,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 458.14813787534985
+        }
+      ],
+      "source_way_ids": [
+        818901100,
+        818901018,
+        818901049,
+        818901007
+      ],
+      "source_length_metres": 458.14813787534985,
+      "source_projection_gaps_world_metres": [
+        3.98562131537357,
+        0.0671571650489607
+      ]
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475889430530",
+      "end_node_id": "281475883335681",
+      "points": [
+        {
+          "x": -8219662.964125175,
+          "y": 4970991.905958875,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8219838.759758222,
+          "y": 4971090.261840921,
+          "depth": -2,
+          "metres": 152.64709304069322
+        },
+        {
+          "x": -8220012.562203673,
+          "y": 4971192.025718146,
+          "depth": -2,
+          "metres": 305.29418608138644
+        },
+        {
+          "x": -8220186.248782763,
+          "y": 4971293.987192872,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 457.94127912207966
+        }
+      ],
+      "source_way_ids": [
+        818901150,
+        818901017,
+        818901155,
+        818901012
+      ],
+      "source_length_metres": 457.94127912207966,
+      "source_projection_gaps_world_metres": [
+        3.985038637652868,
+        0.04756596616234311
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475889561602",
+      "end_node_id": "281475883925506",
+      "points": [
+        {
+          "x": -8219665.616280257,
+          "y": 4970987.635775409,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8219841.374348749,
+          "y": 4971085.971204897,
+          "depth": -2,
+          "metres": 152.6146699066995
+        },
+        {
+          "x": -8220015.143882006,
+          "y": 4971187.70662925,
+          "depth": -2,
+          "metres": 305.229339813399
+        },
+        {
+          "x": -8220188.882205139,
+          "y": 4971289.4953657305,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 457.84400972009854
+        }
+      ],
+      "source_way_ids": [
+        818901124,
+        818901016,
+        818901126,
+        818901011
+      ],
+      "source_length_metres": 457.84400972009854,
+      "source_projection_gaps_world_metres": [
+        3.984367220408201,
+        0.06661609836668542
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475889233921",
+      "end_node_id": "281475883859970",
+      "points": [
+        {
+          "x": -8219668.273100227,
+          "y": 4970983.356492623,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8219815.003189409,
+          "y": 4971064.708310708,
+          "source_node_id": 7647540734,
+          "depth": -2,
+          "metres": 127.12486612707444
+        },
+        {
+          "x": -8219892.492686951,
+          "y": 4971104.2475729,
+          "source_node_id": 7647523401,
+          "depth": -2,
+          "metres": 193.05931998542172
+        },
+        {
+          "x": -8220020.225907311,
+          "y": 4971179.02424895,
+          "depth": -2,
+          "metres": 305.239788437716
+        },
+        {
+          "x": -8220193.967970691,
+          "y": 4971280.82023886,
+          "source_node_id": -2,
+          "depth": -2,
+          "metres": 457.859682656574
+        }
+      ],
+      "source_way_ids": [
+        818901047,
+        818901015,
+        818901046,
+        818901008
+      ],
+      "source_length_metres": 457.859682656574,
+      "source_projection_gaps_world_metres": [
+        3.9916573993960776,
+        0.06797135578036441
+      ]
+    }
+  ],
+  "stage": "four_tracks_and_crossovers_built_operations_pending",
+  "pending": [
+    "Audit native curves and attach express/local crossovers for F service.",
+    "Keep yard tracks and yard access unbuilt."
+  ],
+  "native_build_verification": {
+    "cost": 2875921.0,
+    "protected_nodes": 2965,
+    "new_nodes": 18,
+    "runtime_after": {
+      "pid": 37572,
+      "thread": 31860,
+      "speed": 0,
+      "cash": 1332738404.7642605,
+      "simulation_time": 1793170066
+    }
+  },
+  "native_geometry_verification": "work/nyc-75-forest-final-audit.json",
+  "crossovers": [
+    {
+      "source_way": 818901019,
+      "nodes": [
+        "281475890282497",
+        "281475890348033"
+      ]
+    },
+    {
+      "source_way": 818901020,
+      "nodes": [
+        "281475890413569",
+        "281475890479105"
+      ]
+    },
+    {
+      "source_way": 818901021,
+      "nodes": [
+        "281475890544641",
+        "281475890610177"
+      ]
+    },
+    {
+      "source_way": 818901022,
+      "nodes": [
+        "281475890675713",
+        "281475890741249"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Sutphin Boulevard",
+  "plan_index": 3,
+  "center": {
+    "x": -8216559.054777211,
+    "y": 4968999.189227957
+  },
+  "scale": 0.7580745438158896,
+  "southbound_axis": {
+    "x": -0.9367639238751714,
+    "y": -0.3499619278235737
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "x": -8216561.6989629725,
+      "y": 4969006.267077383,
+      "source_way_id": 818901096,
+      "points": [
+        {
+          "x": -8216413.413188464,
+          "y": 4969061.664573158,
+          "depth": -2
+        },
+        {
+          "x": -8216475.198927842,
+          "y": 4969038.582283252,
+          "depth": -2
+        },
+        {
+          "x": -8216648.198998103,
+          "y": 4968973.951871513,
+          "depth": -2
+        },
+        {
+          "x": -8216709.984737481,
+          "y": 4968950.869581607,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "x": -8216556.414632258,
+      "y": 4968992.122194805,
+      "source_way_id": 818901073,
+      "points": [
+        {
+          "x": -8216408.1288577495,
+          "y": 4969047.519690581,
+          "depth": -2
+        },
+        {
+          "x": -8216469.914597128,
+          "y": 4969024.437400674,
+          "depth": -2
+        },
+        {
+          "x": -8216642.914667388,
+          "y": 4968959.806988936,
+          "depth": -2
+        },
+        {
+          "x": -8216704.7004067665,
+          "y": 4968936.72469903,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "track_spacing_metres": 11.446721136269753,
+  "platform_type": "two side platforms",
+  "platform_length_metres": 140,
+  "depth": -2,
+  "source_platforms": [
+    {
+      "osm_way_id": 906713687,
+      "tags": {
+        "area": "yes",
+        "covered": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "location": "underground",
+        "name": "Sutphin Boulevard (F)",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes"
+      },
+      "node_ids": [
+        8419634776,
+        8419634777,
+        8419634778,
+        8419634773,
+        8419634776
+      ],
+      "points": [
+        {
+          "x": -8216670.405685686,
+          "y": 4968947.3147468055
+        },
+        {
+          "x": -8216668.602309935,
+          "y": 4968942.703821015
+        },
+        {
+          "x": -8216438.6051100055,
+          "y": 4969028.799268589
+        },
+        {
+          "x": -8216440.408485757,
+          "y": 4969033.351496533
+        },
+        {
+          "x": -8216670.405685686,
+          "y": 4968947.3147468055
+        }
+      ]
+    },
+    {
+      "osm_way_id": 906713688,
+      "tags": {
+        "area": "yes",
+        "bench": "no",
+        "covered": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "location": "underground",
+        "name": "Sutphin Boulevard (F)",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes"
+      },
+      "node_ids": [
+        8419634772,
+        8419634779,
+        8419634780,
+        8419634774,
+        8419634772
+      ],
+      "points": [
+        {
+          "x": -8216447.566329016,
+          "y": 4969051.105205763
+        },
+        {
+          "x": -8216449.469892307,
+          "y": 4969055.613390162
+        },
+        {
+          "x": -8216678.910494782,
+          "y": 4968969.855450358
+        },
+        {
+          "x": -8216677.207306572,
+          "y": 4968965.244513941
+        },
+        {
+          "x": -8216447.566329016,
+          "y": 4969051.105205763
+        }
+      ]
+    }
+  ],
+  "reserved_express_track_refs": [
+    "3",
+    "4"
+  ],
+  "reserved_express_depth": -2,
+  "source": "data/nyc_sutphin_source.json",
+  "stage": "station_and_express_built_adjacent_corridors_and_operations_pending",
+  "native_station_id": "562949986451457",
+  "native_verification": "work/nyc-sutphin-all-built.json"
+}

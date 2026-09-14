@@ -1,0 +1,112 @@
+{
+  "name": "East Broadway",
+  "plan_index": 22,
+  "center": {
+    "x": -8236546.4701905195,
+    "y": 4970191.952216306
+  },
+  "scale": 0.7579883342781699,
+  "southbound_axis": {
+    "x": 0.12036191273441338,
+    "y": -0.9927300791065583
+  },
+  "cross_section": [
+    {
+      "source_way_id": 1546629378,
+      "track_ref": "1",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -4.999237354941485,
+      "x": -8236553.017643917,
+      "y": 4970191.158381172
+    },
+    {
+      "source_way_id": 1546629377,
+      "track_ref": "2",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 4.288425808732685,
+      "x": -8236540.853680212,
+      "y": 4970192.633180787
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 907931667,
+      "tracks": [
+        {
+          "source_way_id": 1546629378,
+          "track_ref": "1",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -4.999237354941485,
+          "x": -8236553.017643917,
+          "y": 4970191.158381172,
+          "points": [
+            {
+              "x": -8236572.072593546,
+              "y": 4970348.321234617,
+              "depth": -3
+            },
+            {
+              "x": -8236564.133031201,
+              "y": 4970282.836712348,
+              "depth": -3
+            },
+            {
+              "x": -8236541.902256634,
+              "y": 4970099.480049997,
+              "depth": -3
+            },
+            {
+              "x": -8236533.962694289,
+              "y": 4970033.9955277275,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 1546629377,
+          "track_ref": "2",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 4.288425808732685,
+          "x": -8236540.853680212,
+          "y": 4970192.633180787,
+          "points": [
+            {
+              "x": -8236559.90862984,
+              "y": 4970349.796034232,
+              "depth": -3
+            },
+            {
+              "x": -8236551.969067495,
+              "y": 4970284.311511963,
+              "depth": -3
+            },
+            {
+              "x": -8236529.738292929,
+              "y": 4970100.954849611,
+              "depth": -3
+            },
+            {
+              "x": -8236521.798730584,
+              "y": 4970035.470327342,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.287663163674171,
+      "island_width_metres": 6.2376631636741715
+    }
+  ],
+  "depth": -3,
+  "platform_length_metres": 140,
+  "source": "data/nyc_east_broadway_source.json",
+  "reserved_other_services": [],
+  "source_depth": -4,
+  "adaptation": "Source -4 station maps to native minimum -3; surrounding tunnel crossings require separate verification.",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Verify island platform buildings.",
+    "Connect F south through Rutgers Street Tunnel to York Street and north to Delancey Street.",
+    "Verify Rutgers Street Tunnel source geometry before crossing the river."
+  ]
+}

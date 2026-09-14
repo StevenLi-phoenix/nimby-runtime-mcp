@@ -1,0 +1,195 @@
+{
+  "source": "data/nyc_l_plan.json",
+  "status": "independent_single_track_candidates",
+  "paths": [
+    {
+      "key": "14-secondary",
+      "corridor": 14,
+      "direction": "to_canarsie",
+      "start_node_id": "281475779919873",
+      "end_node_id": "281475789225985",
+      "points": [
+        {
+          "x": -8226862.569540878,
+          "y": 4967461.883183724,
+          "depth": -1,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226682.547479327,
+          "y": 4967321.275863534,
+          "depth": -1,
+          "source_node_id": 7618780317,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226625.485108348,
+          "y": 4967241.875716171,
+          "depth": -1,
+          "source_node_id": 7618780314,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226607.351163296,
+          "y": 4967142.406211683,
+          "depth": -1,
+          "source_node_id": 7618780311,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226618.427452629,
+          "y": 4967070.862203041,
+          "depth": -1,
+          "source_node_id": 7618780309,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226645.444693046,
+          "y": 4967003.70850395,
+          "depth": 1,
+          "source_node_id": 7618780300,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226883.674845622,
+          "y": 4966680.7862300845,
+          "depth": 1,
+          "reason": "live_endpoint"
+        }
+      ]
+    },
+    {
+      "key": "15-secondary",
+      "corridor": 15,
+      "direction": "to_canarsie",
+      "start_node_id": "281475789357057",
+      "end_node_id": "281475780837377",
+      "points": [
+        {
+          "x": -8227052.588117802,
+          "y": 4966413.113320131,
+          "depth": 1,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8227121.201932797,
+          "y": 4966206.576161332,
+          "depth": 1,
+          "source_node_id": 591994187,
+          "reason": "geometry"
+        },
+        {
+          "x": -8227151.547625988,
+          "y": 4965963.39890971,
+          "depth": -1,
+          "source_node_id": 592159579,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8227158.78491698,
+          "y": 4965801.9589308705,
+          "depth": -2,
+          "reason": "live_endpoint"
+        }
+      ]
+    },
+    {
+      "key": "14-primary",
+      "corridor": 14,
+      "direction": "to_manhattan",
+      "start_node_id": "281475779854337",
+      "end_node_id": "281475789160449",
+      "points": [
+        {
+          "x": -8226858.616527549,
+          "y": 4967467.161732356,
+          "depth": -1,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8226655.118356796,
+          "y": 4967301.425766275,
+          "depth": -1,
+          "source_node_id": 7618718563,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226619.930265755,
+          "y": 4967244.283551401,
+          "depth": -1,
+          "source_node_id": 592000377,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226602.208202821,
+          "y": 4967179.551162929,
+          "depth": -2,
+          "source_node_id": 591994266,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226611.04697039,
+          "y": 4967079.700568561,
+          "depth": -2,
+          "source_node_id": 7618718566,
+          "reason": "geometry"
+        },
+        {
+          "x": -8226645.222054062,
+          "y": 4967003.635096137,
+          "depth": 0,
+          "source_node_id": 592159623,
+          "reason": "layer_boundary"
+        },
+        {
+          "x": -8226878.098248117,
+          "y": 4966677.267149569,
+          "depth": 0,
+          "reason": "live_endpoint"
+        }
+      ]
+    },
+    {
+      "key": "15-primary",
+      "corridor": 15,
+      "direction": "to_manhattan",
+      "start_node_id": "281475789291521",
+      "end_node_id": "281475780771841",
+      "points": [
+        {
+          "x": -8227047.011672873,
+          "y": 4966409.594335898,
+          "depth": 0,
+          "reason": "live_endpoint"
+        },
+        {
+          "x": -8227092.926782136,
+          "y": 4966302.68899397,
+          "depth": -2,
+          "source_node_id": 7607533659,
+          "reason": "geometry"
+        },
+        {
+          "x": -8227128.760526222,
+          "y": 4966170.139559127,
+          "depth": -2,
+          "source_node_id": 7607533644,
+          "reason": "geometry"
+        },
+        {
+          "x": -8227154.631175883,
+          "y": 4965922.808788976,
+          "depth": -2,
+          "source_node_id": 7607533638,
+          "reason": "geometry"
+        },
+        {
+          "x": -8227152.77476505,
+          "y": 4965804.670514449,
+          "depth": -2,
+          "reason": "live_endpoint"
+        }
+      ]
+    }
+  ]
+}

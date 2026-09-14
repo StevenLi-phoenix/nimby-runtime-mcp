@@ -1,0 +1,222 @@
+{
+  "source": "data/nyc_central_park_west_source.json",
+  "stage": "source_survey_native_design_pending",
+  "platforms": [
+    {
+      "name": "59th Street - Columbus Circle (A,C,B,D)",
+      "platform_way": 510806175,
+      "depth": "-3",
+      "center": {
+        "x": -8235591.909146069,
+        "y": 4978231.148938384
+      },
+      "nearest_rail": 816331850,
+      "track_ref": "4",
+      "distance_world": 5.886207505881525
+    },
+    {
+      "name": "59th Street - Columbus Circle (A,C,B,D)",
+      "platform_way": 510806176,
+      "depth": "-3",
+      "center": {
+        "x": -8235613.09806327,
+        "y": 4978242.746538371
+      },
+      "nearest_rail": 171570637,
+      "track_ref": "3",
+      "distance_world": 5.946914015973057
+    },
+    {
+      "name": "72nd Street",
+      "platform_way": 687260462,
+      "depth": "-2",
+      "center": {
+        "x": -8235026.190584764,
+        "y": 4979309.9067465905
+      },
+      "nearest_rail": 689037413,
+      "track_ref": "1",
+      "distance_world": 4.764414491028811
+    },
+    {
+      "name": "72nd Street",
+      "platform_way": 687260463,
+      "depth": "-1",
+      "center": {
+        "x": -8235026.190584764,
+        "y": 4979309.9067465905
+      },
+      "nearest_rail": 1547812316,
+      "track_ref": "2",
+      "distance_world": 4.764414491028811
+    },
+    {
+      "name": "81st Street",
+      "platform_way": 686769239,
+      "depth": "-2",
+      "center": {
+        "x": -8234551.344939352,
+        "y": 4980170.716138289
+      },
+      "nearest_rail": 689037413,
+      "track_ref": "1",
+      "distance_world": 4.396200750127468
+    },
+    {
+      "name": "81st Street",
+      "platform_way": 686769243,
+      "depth": "-1",
+      "center": {
+        "x": -8234551.344939352,
+        "y": 4980170.716138289
+      },
+      "nearest_rail": 1547812316,
+      "track_ref": "2",
+      "distance_world": 4.396200750127468
+    },
+    {
+      "name": "86th Street",
+      "platform_way": 686769240,
+      "depth": "-2",
+      "center": {
+        "x": -8234190.646195487,
+        "y": 4980823.680539866
+      },
+      "nearest_rail": 689037413,
+      "track_ref": "1",
+      "distance_world": 4.387173368069325
+    },
+    {
+      "name": "86th Street",
+      "platform_way": 686769244,
+      "depth": "-1",
+      "center": {
+        "x": -8234190.646195487,
+        "y": 4980823.680539866
+      },
+      "nearest_rail": 1547812317,
+      "track_ref": "2",
+      "distance_world": 4.387173368069325
+    },
+    {
+      "name": "96th Street",
+      "platform_way": 686769241,
+      "depth": "-2",
+      "center": {
+        "x": -8233714.36769165,
+        "y": 4981685.626041125
+      },
+      "nearest_rail": 689037413,
+      "track_ref": "1",
+      "distance_world": 4.2599903106651125
+    },
+    {
+      "name": "96th Street",
+      "platform_way": 686769245,
+      "depth": "-1",
+      "center": {
+        "x": -8233714.36769165,
+        "y": 4981685.626041125
+      },
+      "nearest_rail": 1547812318,
+      "track_ref": "2",
+      "distance_world": 4.2599903106651125
+    },
+    {
+      "name": "103rd Street",
+      "platform_way": 686769242,
+      "depth": "-2",
+      "center": {
+        "x": -8233362.5976434555,
+        "y": 4982322.7277404
+      },
+      "nearest_rail": 689037413,
+      "track_ref": "1",
+      "distance_world": 4.483817584250798
+    },
+    {
+      "name": "103th Street",
+      "platform_way": 686769246,
+      "depth": "-1",
+      "center": {
+        "x": -8233362.5976434555,
+        "y": 4982322.7277404
+      },
+      "nearest_rail": 813748784,
+      "track_ref": "2",
+      "distance_world": 4.48406155725743
+    },
+    {
+      "name": "110th Street",
+      "platform_way": 685770071,
+      "depth": "-1",
+      "center": {
+        "x": -8232992.349274486,
+        "y": 4982936.1086433865
+      },
+      "nearest_rail": 813748784,
+      "track_ref": "2",
+      "distance_world": 5.050306161657777
+    },
+    {
+      "name": "110th Street",
+      "platform_way": 685770070,
+      "depth": "-1",
+      "center": {
+        "x": -8233015.0314496225,
+        "y": 4982948.7374044955
+      },
+      "nearest_rail": 813748791,
+      "track_ref": "1",
+      "distance_world": 5.054697428010511
+    },
+    {
+      "name": "116th Street",
+      "platform_way": 685770073,
+      "depth": "-1",
+      "center": {
+        "x": -8232621.425818829,
+        "y": 4983603.89032114
+      },
+      "nearest_rail": 813748784,
+      "track_ref": "2",
+      "distance_world": 4.939373329575308
+    },
+    {
+      "name": "116th Street",
+      "platform_way": 685770072,
+      "depth": "-1",
+      "center": {
+        "x": -8232644.130418849,
+        "y": 4983616.478691468
+      },
+      "nearest_rail": 813748791,
+      "track_ref": "1",
+      "distance_world": 5.168051298342727
+    },
+    {
+      "name": "125th Street",
+      "platform_way": 685770067,
+      "depth": "-2",
+      "center": {
+        "x": -8232333.225700801,
+        "y": 4984508.794822748
+      },
+      "nearest_rail": 685340794,
+      "track_ref": "2",
+      "distance_world": 2.716902465054429
+    },
+    {
+      "name": "125th Street",
+      "platform_way": 685770066,
+      "depth": "-2",
+      "center": {
+        "x": -8232346.399007153,
+        "y": 4984516.744784006
+      },
+      "nearest_rail": 685340792,
+      "track_ref": "3",
+      "distance_world": 2.6875753095935915
+    }
+  ]
+}

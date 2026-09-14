@@ -1,0 +1,154 @@
+{
+  "operator_source": "https://www.mta.info/maps/subway-line-maps/d-line",
+  "service": "Regular weekday/off-peak; rush-direction express and late-night variants are separate.",
+  "stations": [
+    {
+      "osm": "Norwood–205th Street",
+      "mta": "Norwood-205 St"
+    },
+    {
+      "osm": "Bedford Park Boulevard",
+      "mta": "Bedford Park Blvd"
+    },
+    {
+      "osm": "Kingsbridge Road",
+      "mta": "Kingsbridge Rd"
+    },
+    {
+      "osm": "Fordham Road",
+      "mta": "Fordham Rd"
+    },
+    {
+      "osm": "182nd–183rd Streets",
+      "mta": "182-183 Sts"
+    },
+    {
+      "osm": "Tremont Avenue",
+      "mta": "Tremont Av"
+    },
+    {
+      "osm": "174th–175th Streets",
+      "mta": "174-175 Sts"
+    },
+    {
+      "osm": "170th Street",
+      "mta": "170 St"
+    },
+    {
+      "osm": "167th Street",
+      "mta": "167 St"
+    },
+    {
+      "osm": "161st Street–Yankee Stadium",
+      "mta": "161 St-Yankee Stadium"
+    },
+    {
+      "osm": "155th Street",
+      "mta": "155 St"
+    },
+    {
+      "osm": "145th Street",
+      "mta": "145 St"
+    },
+    {
+      "osm": "125th Street",
+      "mta": "125 St"
+    },
+    {
+      "osm": "59th Street–Columbus Circle",
+      "mta": "59 St-Columbus Circle"
+    },
+    {
+      "osm": "7th Avenue",
+      "mta": "7 Av"
+    },
+    {
+      "osm": "47th–50th Streets–Rockefeller Center",
+      "mta": "47-50 Sts-Rockefeller Ctr"
+    },
+    {
+      "osm": "42nd Street–Bryant Park",
+      "mta": "42 St-Bryant Pk"
+    },
+    {
+      "osm": "34th Street–Herald Square",
+      "mta": "34 St-Herald Sq"
+    },
+    {
+      "osm": "West 4th Street–Washington Square",
+      "mta": "W 4 St-Washington Sq"
+    },
+    {
+      "osm": "Broadway–Lafayette Street",
+      "mta": "Broadway-Lafayette St"
+    },
+    {
+      "osm": "Grand Street",
+      "mta": "Grand St"
+    },
+    {
+      "osm": "Atlantic Avenue–Barclays Center",
+      "mta": "Atlantic Av-Barclays Ctr"
+    },
+    {
+      "osm": "36th Street",
+      "mta": "36 St"
+    },
+    {
+      "osm": "9th Avenue",
+      "mta": "9 Av"
+    },
+    {
+      "osm": "Fort Hamilton Parkway",
+      "mta": "Fort Hamilton Pkwy"
+    },
+    {
+      "osm": "50th Street",
+      "mta": "50 St"
+    },
+    {
+      "osm": "55th Street",
+      "mta": "55 St"
+    },
+    {
+      "osm": "62nd Street",
+      "mta": "62 St"
+    },
+    {
+      "osm": "71st Street",
+      "mta": "71 St"
+    },
+    {
+      "osm": "79th Street",
+      "mta": "79 St"
+    },
+    {
+      "osm": "18th Avenue",
+      "mta": "18 Av"
+    },
+    {
+      "osm": "20th Avenue",
+      "mta": "20 Av"
+    },
+    {
+      "osm": "Bay Parkway",
+      "mta": "Bay Pkwy"
+    },
+    {
+      "osm": "25th Avenue",
+      "mta": "25 Av"
+    },
+    {
+      "osm": "Bay 50th Street",
+      "mta": "Bay-50 St"
+    },
+    {
+      "osm": "Coney Island–Stillwell Avenue",
+      "mta": "Coney Island-Stillwell Av"
+    }
+  ],
+  "relations": {
+    "to_coney_island": 9769160,
+    "to_norwood": 366771
+  }
+}

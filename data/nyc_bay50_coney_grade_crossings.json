@@ -1,0 +1,146 @@
+[
+  {
+    "way": 343766682,
+    "other": 46905910,
+    "tags": {
+      "alt_name": "Shore Parkway",
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "destination:lanes": "||none;Stillwell Avenue;Cropsey Avenue North",
+      "hgv": "no",
+      "highway": "motorway",
+      "lanes": "3",
+      "layer": "1",
+      "lit": "yes",
+      "maxspeed": "50 mph",
+      "motorcar": "designated",
+      "name": "Belt Parkway",
+      "oneway": "yes",
+      "ref": "BP",
+      "surface": "asphalt",
+      "turn:lanes": "||through;slight_right"
+    },
+    "hit": "POINT (-8235512.550169516 4951034.424755889)"
+  },
+  {
+    "way": 343766682,
+    "other": 248495780,
+    "tags": {
+      "alt_name": "Shore Parkway",
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "hgv": "no",
+      "highway": "motorway",
+      "lanes": "3",
+      "layer": "1",
+      "lit": "yes",
+      "maxspeed": "50 mph",
+      "motorcar": "designated",
+      "name": "Belt Parkway",
+      "oneway": "yes",
+      "ref": "BP",
+      "source:bridge": "Bing",
+      "surface": "asphalt"
+    },
+    "hit": "POINT (-8235514.070575697 4951018.497853553)"
+  },
+  {
+    "way": 103081450,
+    "other": 46905910,
+    "tags": {
+      "alt_name": "Shore Parkway",
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "destination:lanes": "||none;Stillwell Avenue;Cropsey Avenue North",
+      "hgv": "no",
+      "highway": "motorway",
+      "lanes": "3",
+      "layer": "1",
+      "lit": "yes",
+      "maxspeed": "50 mph",
+      "motorcar": "designated",
+      "name": "Belt Parkway",
+      "oneway": "yes",
+      "ref": "BP",
+      "surface": "asphalt",
+      "turn:lanes": "||through;slight_right"
+    },
+    "hit": "POINT (-8235507.7092778785 4951033.485929527)"
+  },
+  {
+    "way": 103081450,
+    "other": 248495780,
+    "tags": {
+      "alt_name": "Shore Parkway",
+      "bridge": "yes",
+      "bridge:structure": "beam",
+      "hgv": "no",
+      "highway": "motorway",
+      "lanes": "3",
+      "layer": "1",
+      "lit": "yes",
+      "maxspeed": "50 mph",
+      "motorcar": "designated",
+      "name": "Belt Parkway",
+      "oneway": "yes",
+      "ref": "BP",
+      "source:bridge": "Bing",
+      "surface": "asphalt"
+    },
+    "hit": "POINT (-8235509.166140144 4951017.555591536)"
+  },
+  {
+    "way": 46340143,
+    "other": 101141590,
+    "tags": {
+      "natural": "coastline"
+    },
+    "hit": "POINT (-8235545.756159527 4950821.012274853)"
+  },
+  {
+    "way": 46340143,
+    "other": 1006461603,
+    "tags": {
+      "ele": "0",
+      "gnis:feature_id": "947272",
+      "name": "Coney Island Creek",
+      "waterway": "stream"
+    },
+    "hit": "POINT (-8235556.290220048 4950789.776944374)"
+  },
+  {
+    "way": 46340143,
+    "other": 1132272785,
+    "tags": {
+      "natural": "coastline"
+    },
+    "hit": "POINT (-8235573.37072544 4950739.130260738)"
+  },
+  {
+    "way": 343744067,
+    "other": 101141590,
+    "tags": {
+      "natural": "coastline"
+    },
+    "hit": "POINT (-8235540.9786886675 4950819.102466264)"
+  },
+  {
+    "way": 343744067,
+    "other": 1006461603,
+    "tags": {
+      "ele": "0",
+      "gnis:feature_id": "947272",
+      "name": "Coney Island Creek",
+      "waterway": "stream"
+    },
+    "hit": "POINT (-8235552.516728442 4950785.2220022)"
+  },
+  {
+    "way": 343744067,
+    "other": 1132272785,
+    "tags": {
+      "natural": "coastline"
+    },
+    "hit": "POINT (-8235568.835253346 4950737.3040536195)"
+  }
+]

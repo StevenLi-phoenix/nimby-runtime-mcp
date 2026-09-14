@@ -1,0 +1,148 @@
+{
+  "source": "data/nyc_harlem_source.json",
+  "name": "135th Street",
+  "center": {
+    "x": -8231823.8665284235,
+    "y": 4985495.003282081
+  },
+  "scale": 0.7567927379998277,
+  "southbound_axis": {
+    "x": -0.33388637314218444,
+    "y": -0.9426133299661945
+  },
+  "source_platforms": [
+    685340796,
+    685340797
+  ],
+  "tracks": [
+    {
+      "way": 813746959,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "1",
+        "railway:track_ref:signals": "A1",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": -10.00342399653135,
+      "x": -8231836.326162787,
+      "y": 4985499.416652862
+    },
+    {
+      "way": 813746960,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line layup tracks",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "5",
+        "railway:track_ref:signals": "A5",
+        "service": "siding",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": -5.998699718249686,
+      "x": -8231831.338130664,
+      "y": 4985497.649824512
+    },
+    {
+      "way": 813746961,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "3",
+        "railway:track_ref:signals": "A3",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": -2.003002400477194,
+      "x": -8231826.361341954,
+      "y": 4985495.886978731
+    },
+    {
+      "way": 813746962,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "4",
+        "railway:track_ref:signals": "A4",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": 2.0006359804730844,
+      "x": -8231821.374662356,
+      "y": 4985494.120629463
+    },
+    {
+      "way": 813746963,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line layup tracks",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "6",
+        "railway:track_ref:signals": "A6",
+        "service": "siding",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": 5.99841185581242,
+      "x": -8231816.395284726,
+      "y": 4985492.356866651
+    },
+    {
+      "way": 813746964,
+      "tags": {
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "level": "-1",
+        "name": "IND Eighth Avenue Line",
+        "operator": "New York City Transit Authority",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "2",
+        "railway:track_ref:signals": "A2",
+        "tunnel": "yes",
+        "voltage": "625"
+      },
+      "offset_metres": 9.88037476263544,
+      "x": -8231811.560156429,
+      "y": 4985490.644198902
+    }
+  ],
+  "stage": "source_cross_section_native_design_pending"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "refs": [
+      "3",
+      "4"
+    ],
+    "gap_metres": 3.792618589622116,
+    "crosses": false
+  },
+  {
+    "refs": [
+      "3",
+      "1"
+    ],
+    "gap_metres": 7.617633684610045,
+    "crosses": false
+  },
+  {
+    "refs": [
+      "3",
+      "2"
+    ],
+    "gap_metres": 11.314260346730036,
+    "crosses": false
+  },
+  {
+    "refs": [
+      "4",
+      "1"
+    ],
+    "gap_metres": 14.434964406470172,
+    "crosses": false
+  },
+  {
+    "refs": [
+      "4",
+      "2"
+    ],
+    "gap_metres": 3.931252883871811,
+    "crosses": false
+  },
+  {
+    "refs": [
+      "1",
+      "2"
+    ],
+    "gap_metres": 19.020870098942176,
+    "crosses": false
+  }
+]

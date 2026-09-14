@@ -1,0 +1,754 @@
+{
+  "source": "data/nyc_harlem_source.json",
+  "attribution": "OpenStreetMap contributors, ODbL",
+  "scale": 0.7567179818979256,
+  "routes": [
+    {
+      "start_track_ref": "1",
+      "target_way_id": 677322264,
+      "target_track_ref": "1",
+      "target_depth": -2,
+      "length_metres": 146.1071294676044,
+      "source_node_ids": [
+        7685372571,
+        6422236183,
+        6424622707
+      ],
+      "segments": [
+        {
+          "way_id": 813746968,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "A1",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372571,
+            6422236183,
+            6424622707
+          ]
+        }
+      ]
+    },
+    {
+      "start_track_ref": "3",
+      "target_way_id": 677322268,
+      "target_track_ref": "3",
+      "target_depth": -2,
+      "length_metres": 123.87943124764963,
+      "source_node_ids": [
+        7685372569,
+        6422236785,
+        6424622732,
+        6424622730
+      ],
+      "segments": [
+        {
+          "way_id": 823180885,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "3",
+            "railway:track_ref:signals": "A3",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372569,
+            6422236785
+          ]
+        },
+        {
+          "way_id": 696269630,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "maxspeed": "25 mph",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "3",
+            "railway:track_ref:signals": "A3",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6422236785,
+            6424622732,
+            6424622730
+          ]
+        }
+      ]
+    },
+    {
+      "start_track_ref": "4",
+      "target_way_id": 677322263,
+      "target_track_ref": "4",
+      "target_depth": -2,
+      "length_metres": 106.59345807442041,
+      "source_node_ids": [
+        7685372568,
+        6422236789,
+        6424622728,
+        6424622717
+      ],
+      "segments": [
+        {
+          "way_id": 813746966,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "4",
+            "railway:track_ref:signals": "A4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372568,
+            6422236789,
+            6424622728
+          ]
+        },
+        {
+          "way_id": 685770076,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "4",
+            "railway:track_ref:signals": "A4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622728,
+            6424622717
+          ]
+        }
+      ]
+    },
+    {
+      "start_track_ref": "2",
+      "target_way_id": 685770077,
+      "target_track_ref": "2",
+      "target_depth": -2,
+      "length_metres": 130.93944048457644,
+      "source_node_ids": [
+        7685372570,
+        6422236787,
+        6424622714
+      ],
+      "segments": [
+        {
+          "way_id": 813746965,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "A2",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372570,
+            6422236787,
+            6424622714
+          ]
+        }
+      ]
+    },
+    {
+      "start_track_ref": "3",
+      "target_way_id": 677322262,
+      "target_track_ref": "1",
+      "target_depth": -3,
+      "length_metres": 538.4516919830713,
+      "source_node_ids": [
+        7685372569,
+        6422236785,
+        6424622732,
+        6424622730,
+        6424622708,
+        6424622706,
+        7657141820,
+        6424622709
+      ],
+      "segments": [
+        {
+          "way_id": 823180885,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "3",
+            "railway:track_ref:signals": "A3",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372569,
+            6422236785
+          ]
+        },
+        {
+          "way_id": 696269630,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "maxspeed": "25 mph",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "3",
+            "railway:track_ref:signals": "A3",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6422236785,
+            6424622732,
+            6424622730
+          ]
+        },
+        {
+          "way_id": 685546723,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "C1",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622730,
+            6424622708
+          ]
+        },
+        {
+          "way_id": 685546722,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "maxspeed": "25 mph",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "C1",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622708,
+            6424622706
+          ]
+        },
+        {
+          "way_id": 819968808,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "maxspeed": "25 mph",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "C1",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622706,
+            7657141820
+          ]
+        },
+        {
+          "way_id": 819968809,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "maxspeed": "25 mph",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "C1",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7657141820,
+            6424622709
+          ]
+        }
+      ]
+    },
+    {
+      "start_track_ref": "3",
+      "target_way_id": 677322261,
+      "target_track_ref": "3-4",
+      "target_depth": -3,
+      "length_metres": 538.0934834651152,
+      "source_node_ids": [
+        7685372569,
+        6422236785,
+        592002739,
+        6424622729,
+        7624144901,
+        7657141816,
+        7657141819,
+        7657141822,
+        7657141821
+      ],
+      "segments": [
+        {
+          "way_id": 823180885,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "3",
+            "railway:track_ref:signals": "A3",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372569,
+            6422236785
+          ]
+        },
+        {
+          "way_id": 685546725,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "3-4",
+            "railway:track_ref:signals": "C3-4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6422236785,
+            592002739
+          ]
+        },
+        {
+          "way_id": 685546727,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:bidirectional": "regular",
+            "railway:preferred_direction": "both",
+            "railway:track_ref": "3-4",
+            "railway:track_ref:signals": "C3-4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            592002739,
+            6424622729
+          ]
+        },
+        {
+          "way_id": 819968806,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:bidirectional": "regular",
+            "railway:preferred_direction": "both",
+            "railway:track_ref": "3-4",
+            "railway:track_ref:signals": "C3-4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622729,
+            7624144901,
+            7657141816
+          ]
+        },
+        {
+          "way_id": 819968804,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:bidirectional": "regular",
+            "railway:preferred_direction": "both",
+            "railway:track_ref": "3-4",
+            "railway:track_ref:signals": "C3-4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7657141816,
+            7657141819
+          ]
+        },
+        {
+          "way_id": 819968805,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:bidirectional": "regular",
+            "railway:preferred_direction": "both",
+            "railway:track_ref": "3-4",
+            "railway:track_ref:signals": "C3-4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7657141819,
+            7657141822
+          ]
+        },
+        {
+          "way_id": 819968807,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:bidirectional": "regular",
+            "railway:preferred_direction": "both",
+            "railway:track_ref": "3-4",
+            "railway:track_ref:signals": "C3-4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7657141822,
+            7657141821
+          ]
+        }
+      ]
+    },
+    {
+      "start_track_ref": "4",
+      "target_way_id": 677322260,
+      "target_track_ref": "2",
+      "target_depth": -3,
+      "length_metres": 483.7382718317172,
+      "source_node_ids": [
+        7685372568,
+        6422236789,
+        6424622728,
+        6424622717,
+        6424622716,
+        6424622715,
+        6424622705,
+        7657141818,
+        7657141817
+      ],
+      "segments": [
+        {
+          "way_id": 813746966,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "4",
+            "railway:track_ref:signals": "A4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7685372568,
+            6422236789,
+            6424622728
+          ]
+        },
+        {
+          "way_id": 685770076,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Eighth Avenue Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "4",
+            "railway:track_ref:signals": "A4",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622728,
+            6424622717
+          ]
+        },
+        {
+          "way_id": 685546724,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "C2",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622717,
+            6424622716,
+            6424622715
+          ]
+        },
+        {
+          "way_id": 685546718,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "C2",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622715,
+            6424622705
+          ]
+        },
+        {
+          "way_id": 819968803,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "C2",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            6424622705,
+            7657141818
+          ]
+        },
+        {
+          "way_id": 819968802,
+          "tags": {
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "-3",
+            "level": "-3",
+            "name": "IND Concourse Line",
+            "operator": "New York City Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "C2",
+            "tunnel": "yes",
+            "voltage": "625"
+          },
+          "node_ids": [
+            7657141818,
+            7657141817
+          ]
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "node_id": 6422236785,
+      "x": -8231749.610325154,
+      "y": 4985712.244536181,
+      "neighbors": [
+        {
+          "node_id": 592002739,
+          "way_id": 685546725
+        },
+        {
+          "node_id": 6424622732,
+          "way_id": 696269630
+        },
+        {
+          "node_id": 7685372569,
+          "way_id": 823180885
+        }
+      ]
+    },
+    {
+      "node_id": 6424622717,
+      "x": -8231707.564953481,
+      "y": 4985815.624881318,
+      "neighbors": [
+        {
+          "node_id": 6424622757,
+          "way_id": 677322263
+        },
+        {
+          "node_id": 6424622716,
+          "way_id": 685546724
+        },
+        {
+          "node_id": 6424622728,
+          "way_id": 685770076
+        }
+      ]
+    },
+    {
+      "node_id": 6424622730,
+      "x": -8231710.203225412,
+      "y": 4985839.940309423,
+      "neighbors": [
+        {
+          "node_id": 6424622731,
+          "way_id": 677322268
+        },
+        {
+          "node_id": 6424622708,
+          "way_id": 685546723
+        },
+        {
+          "node_id": 6424622732,
+          "way_id": 696269630
+        }
+      ]
+    }
+  ],
+  "scope": "Main-track graph between source boundaries; native station approach clipping remains pending.",
+  "stage": "source_topology_survey_native_junction_geometry_pending",
+  "exclusions": "Service sidings, yards and crossover ways excluded from these main-route traces."
+}

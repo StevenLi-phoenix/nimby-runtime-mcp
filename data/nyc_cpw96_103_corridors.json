@@ -1,0 +1,151 @@
+{
+  "source": "data/nyc_central_park_west_source.json",
+  "attribution": "OpenStreetMap contributors, ODbL",
+  "scale": 0.7570634659977786,
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475945005057",
+      "end_node_id": "281475945857025",
+      "source_way_ids": [
+        689037413
+      ],
+      "length_metres": 410.9615475938473,
+      "endpoint_source_distance_metres": [
+        9.469275291796341e-11,
+        4.724414454180574e-10
+      ],
+      "native_endpoint_blend_metres": 0,
+      "points": [
+        {
+          "x": -8233665.930245106,
+          "y": 4981764.4975948855,
+          "depth": -2
+        },
+        {
+          "x": -8233534.693343828,
+          "y": 4982002.078515674,
+          "depth": -2
+        },
+        {
+          "x": -8233403.437081921,
+          "y": 4982239.648733024,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475945136129",
+      "end_node_id": "281475945988097",
+      "source_way_ids": [
+        813748784,
+        1547812318
+      ],
+      "length_metres": 410.96154759484506,
+      "endpoint_source_distance_metres": [
+        9.469275291796341e-11,
+        0.00013359738581971572
+      ],
+      "native_endpoint_blend_metres": 0,
+      "points": [
+        {
+          "x": -8233665.930245106,
+          "y": 4981764.4975948855,
+          "depth": -1
+        },
+        {
+          "x": -8233534.693343828,
+          "y": 4982002.078515674,
+          "depth": -1
+        },
+        {
+          "x": -8233403.436868442,
+          "y": 4982239.648614916,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475945267201",
+      "end_node_id": "281475946119169",
+      "source_way_ids": [
+        686769237
+      ],
+      "length_metres": 310.9590849733207,
+      "endpoint_source_distance_metres": [
+        0.0035709361023485574,
+        0.07918352867396007
+      ],
+      "native_endpoint_blend_metres": 0,
+      "points": [
+        {
+          "x": -8233629.367620155,
+          "y": 4981819.749207443,
+          "depth": -2
+        },
+        {
+          "x": -8233530.071656571,
+          "y": 4981999.521057647,
+          "depth": -2
+        },
+        {
+          "x": -8233430.855231942,
+          "y": 4982179.336799635,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475945398273",
+      "end_node_id": "281475946250241",
+      "source_way_ids": [
+        689037416
+      ],
+      "length_metres": 311.4137187927374,
+      "endpoint_source_distance_metres": [
+        0.0035709361023485574,
+        1.7410702408701721
+      ],
+      "native_endpoint_blend_metres": 100,
+      "points": [
+        {
+          "x": -8233629.367620155,
+          "y": 4981819.749207443,
+          "depth": -1
+        },
+        {
+          "x": -8233494.348185903,
+          "y": 4982064.193635384,
+          "depth": -1
+        },
+        {
+          "x": -8233461.5054485975,
+          "y": 4982121.30104011,
+          "depth": -1
+        },
+        {
+          "x": -8233436.947002533,
+          "y": 4982163.623475776,
+          "depth": -1
+        },
+        {
+          "x": -8233426.240551557,
+          "y": 4982176.783712413,
+          "depth": -1
+        }
+      ]
+    }
+  ],
+  "stage": "source_continuity_verified_blueprint_pending",
+  "source_junction_verification": {
+    "track_ref": "2",
+    "ways": [
+      1547812318,
+      813748784
+    ],
+    "shared_node_id": 6437617429
+  }
+}

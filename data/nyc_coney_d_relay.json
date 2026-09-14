@@ -1,0 +1,216 @@
+{
+  "station_id": "562949985140738",
+  "service": "D",
+  "tracks": [
+    {
+      "role": "east_primary",
+      "start_node_id": "281475847094273",
+      "points": [
+        {
+          "x": -8235559.35550192,
+          "y": 4950056.353654914,
+          "depth": 2,
+          "metres": 0
+        },
+        {
+          "x": -8235551.08257984,
+          "y": 4949977.790441398,
+          "depth": 2,
+          "metres": 60
+        },
+        {
+          "x": -8235542.80965776,
+          "y": 4949899.227227882,
+          "depth": 2,
+          "metres": 120
+        },
+        {
+          "x": -8235526.2638136,
+          "y": 4949742.1008008495,
+          "depth": 2,
+          "metres": 240
+        }
+      ]
+    },
+    {
+      "role": "east_secondary",
+      "start_node_id": "281475847159809",
+      "points": [
+        {
+          "x": -8235572.506120767,
+          "y": 4950054.968858643,
+          "depth": 2,
+          "metres": 0
+        },
+        {
+          "x": -8235564.233198687,
+          "y": 4949976.405645127,
+          "depth": 2,
+          "metres": 60
+        },
+        {
+          "x": -8235555.960276607,
+          "y": 4949897.842431611,
+          "depth": 2,
+          "metres": 120
+        },
+        {
+          "x": -8235539.414432447,
+          "y": 4949740.716004579,
+          "depth": 2,
+          "metres": 240
+        }
+      ]
+    }
+  ],
+  "train_length_metres": 120,
+  "crossover_candidate": {
+    "from_role": "east_secondary",
+    "from_metres": 60,
+    "to_role": "east_primary",
+    "to_metres": 120,
+    "clear_length_beyond_branch_metres": 120
+  },
+  "live_intersections": [],
+  "stage": "candidate_site_conflicts_review_required",
+  "minimum_required_clearance_metres": 20,
+  "site_intersections": [
+    {
+      "role": "east_primary",
+      "way": 5679454,
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "name": "Bowery Street",
+        "name:etymology:wikidata": "Q785788",
+        "service": "alley",
+        "surface": "asphalt"
+      },
+      "hit": "POINT (-8235535.269027286 4949827.618169291)"
+    },
+    {
+      "role": "east_primary",
+      "way": 420504587,
+      "tags": {
+        "bicycle": "designated",
+        "cycleway": "no",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "2",
+        "lanes:forward": "3",
+        "lit": "yes",
+        "name": "Surf Avenue",
+        "oneway": "no",
+        "parking:both": "no",
+        "parking:both:reason": "bus_stop",
+        "shoulder": "no",
+        "sidewalk:both": "separate",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left||",
+        "width": "72'0\""
+      },
+      "hit": "POINT (-8235546.96159711 4949938.65582331)"
+    },
+    {
+      "role": "east_primary",
+      "way": 1110784983,
+      "tags": {
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "crossing:signals": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "hit": "POINT (-8235544.762757404 4949917.77469912)"
+    },
+    {
+      "role": "east_primary",
+      "way": 1110784986,
+      "tags": {
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "crossing:signals": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tactile_paving": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "hit": "POINT (-8235548.850188936 4949956.590700662)"
+    },
+    {
+      "role": "east_secondary",
+      "way": 1017723074,
+      "tags": {
+        "bicycle": "designated",
+        "cycleway": "no",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "name": "Surf Avenue",
+        "oneway": "no",
+        "shoulder": "no",
+        "sidewalk:both": "separate",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left||"
+      },
+      "hit": "POINT (-8235560.229470727 4949938.384528581)"
+    },
+    {
+      "role": "east_secondary",
+      "way": 1018185333,
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "name": "Bowery Street",
+        "name:etymology:wikidata": "Q785788",
+        "service": "alley",
+        "surface": "asphalt"
+      },
+      "hit": "POINT (-8235548.569506461 4949827.656510914)"
+    },
+    {
+      "role": "east_secondary",
+      "way": 1110784985,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete"
+      },
+      "hit": "POINT (-8235558.033818697 4949917.533675926)"
+    },
+    {
+      "role": "east_secondary",
+      "way": 1110784986,
+      "tags": {
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "crossing:signals": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tactile_paving": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "hit": "POINT (-8235562.122456544 4949956.361133152)"
+    }
+  ]
+}

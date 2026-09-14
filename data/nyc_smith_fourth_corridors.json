@@ -1,0 +1,454 @@
+{
+  "from_station": "Smith–9th Streets",
+  "to_station": "4th Avenue",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475813736449",
+      "end_node_id": "281475816620033",
+      "points": [
+        {
+          "x": -8237102.609241853,
+          "y": 4964211.188136969,
+          "chainage_metres": 0,
+          "depth": 3,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236924.743241177,
+          "y": 4964086.566498576,
+          "chainage_metres": 164.47408627781303,
+          "depth": 3,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236838.31367999,
+          "y": 4964026.182773381,
+          "chainage_metres": 244.47408627781303,
+          "depth": 2,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236638.203842663,
+          "y": 4963903.078289063,
+          "chainage_metres": 422.68076397485623,
+          "depth": 2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 422.68076397485623,
+      "lower_viaduct_boundary_metres": 244.47408627781303,
+      "source_projection_gaps_world_metres": [
+        8.55740810411358,
+        0.34243545946006065
+      ],
+      "source_way_ids": [
+        426568715,
+        813282229,
+        813282247
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475813670913",
+      "end_node_id": "281475816554497",
+      "points": [
+        {
+          "x": -8237087.709119943,
+          "y": 4964226.419611804,
+          "chainage_metres": 0,
+          "depth": 3,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236911.800124082,
+          "y": 4964108.013598396,
+          "chainage_metres": 160.67768921653834,
+          "depth": 3,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236825.267035668,
+          "y": 4964047.758128036,
+          "chainage_metres": 240.67768921653834,
+          "depth": 2,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236628.69964671,
+          "y": 4963918.0203487035,
+          "chainage_metres": 419.3247477813721,
+          "depth": 2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 419.3247477813721,
+      "lower_viaduct_boundary_metres": 240.67768921653834,
+      "source_projection_gaps_world_metres": [
+        13.040558426988502,
+        0.6026655718948228
+      ],
+      "source_way_ids": [
+        426568716,
+        813282226,
+        813282245
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475813933058",
+      "end_node_id": "281475816816642",
+      "points": [
+        {
+          "x": -8237098.282956861,
+          "y": 4964215.612413908,
+          "chainage_metres": 0,
+          "depth": 3,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236921.38825392,
+          "y": 4964091.784118984,
+          "chainage_metres": 163.65563139086936,
+          "depth": 3,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236834.974095264,
+          "y": 4964031.378466682,
+          "chainage_metres": 243.65563139086936,
+          "depth": 2,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236634.949326203,
+          "y": 4963908.194157391,
+          "chainage_metres": 421.8384164650101,
+          "depth": 2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 421.8384164650101,
+      "lower_viaduct_boundary_metres": 243.65563139086936,
+      "source_projection_gaps_world_metres": [
+        8.765463747845134,
+        0.28832914490446054
+      ],
+      "source_way_ids": [
+        426568714,
+        813282228,
+        813282242,
+        813282246
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475813998594",
+      "end_node_id": "281475817144322",
+      "points": [
+        {
+          "x": -8237091.704505547,
+          "y": 4964222.337158595,
+          "chainage_metres": 0,
+          "depth": 3,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236914.903918366,
+          "y": 4964103.184441379,
+          "chainage_metres": 161.56044824296077,
+          "depth": 3,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236828.350585565,
+          "y": 4964042.958708293,
+          "chainage_metres": 241.56044824296077,
+          "depth": 2,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8236631.771872199,
+          "y": 4963913.189604399,
+          "chainage_metres": 420.2252410468043,
+          "depth": 2,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 420.2252410468043,
+      "lower_viaduct_boundary_metres": 241.56044824296077,
+      "source_projection_gaps_world_metres": [
+        12.98894523332196,
+        0.8814838827634811
+      ],
+      "source_way_ids": [
+        46341911,
+        813282227,
+        813282243,
+        813282244
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "crossovers": [
+    {
+      "source_way_id": 426568708,
+      "endpoints": [
+        {
+          "x": -8236544.274377009,
+          "y": 4963850.675635136,
+          "track_ref": "3",
+          "source_node_id": 4258554914
+        },
+        {
+          "x": -8236599.589031983,
+          "y": 4963892.827589216,
+          "track_ref": "4",
+          "source_node_id": 4258554918
+        }
+      ],
+      "source_points": [
+        {
+          "x": -8236544.274377009,
+          "y": 4963850.675635136
+        },
+        {
+          "x": -8236562.308134518,
+          "y": 4963863.371103596
+        },
+        {
+          "x": -8236581.989420489,
+          "y": 4963880.234820688
+        },
+        {
+          "x": -8236599.589031983,
+          "y": 4963892.827589216
+        }
+      ],
+      "depth": 2,
+      "stage": "native_branch_projection_pending"
+    },
+    {
+      "source_way_id": 426568709,
+      "endpoints": [
+        {
+          "x": -8236691.995341292,
+          "y": 4963942.655777442,
+          "track_ref": "3",
+          "source_node_id": 4258554941
+        },
+        {
+          "x": -8236636.636158519,
+          "y": 4963901.721792135,
+          "track_ref": "1",
+          "source_node_id": 4258554925
+        }
+      ],
+      "source_points": [
+        {
+          "x": -8236691.995341292,
+          "y": 4963942.655777442
+        },
+        {
+          "x": -8236672.904048619,
+          "y": 4963929.020881286
+        },
+        {
+          "x": -8236664.610746556,
+          "y": 4963922.210778798
+        },
+        {
+          "x": -8236651.430518845,
+          "y": 4963911.716772392
+        },
+        {
+          "x": -8236636.636158519,
+          "y": 4963901.721792135
+        }
+      ],
+      "depth": 2,
+      "stage": "native_branch_projection_pending"
+    },
+    {
+      "source_way_id": 426568710,
+      "endpoints": [
+        {
+          "x": -8236624.246299194,
+          "y": 4963909.295080205,
+          "track_ref": "4",
+          "source_node_id": 4258554931
+        },
+        {
+          "x": -8236679.048884512,
+          "y": 4963952.151782005,
+          "track_ref": "2",
+          "source_node_id": 4258554946
+        }
+      ],
+      "source_points": [
+        {
+          "x": -8236624.246299194,
+          "y": 4963909.295080205
+        },
+        {
+          "x": -8236639.708576464,
+          "y": 4963920.214715175
+        },
+        {
+          "x": -8236650.584490716,
+          "y": 4963929.886821378
+        },
+        {
+          "x": -8236663.653398935,
+          "y": 4963940.454232104
+        },
+        {
+          "x": -8236679.048884512,
+          "y": 4963952.151782005
+        }
+      ],
+      "depth": 2,
+      "stage": "native_branch_projection_pending"
+    },
+    {
+      "source_way_id": 426568711,
+      "endpoints": [
+        {
+          "x": -8236621.051429807,
+          "y": 4963913.668803501,
+          "track_ref": "2",
+          "source_node_id": 4258554933
+        },
+        {
+          "x": -8236681.954323222,
+          "y": 4963947.249670306,
+          "track_ref": "4",
+          "source_node_id": 4258554945
+        }
+      ],
+      "source_points": [
+        {
+          "x": -8236621.051429807,
+          "y": 4963913.668803501
+        },
+        {
+          "x": -8236637.971992408,
+          "y": 4963923.546380421
+        },
+        {
+          "x": -8236650.584490716,
+          "y": 4963929.886821378
+        },
+        {
+          "x": -8236666.336198663,
+          "y": 4963937.812378353
+        },
+        {
+          "x": -8236681.954323222,
+          "y": 4963947.249670306
+        }
+      ],
+      "depth": 2,
+      "stage": "native_branch_projection_pending"
+    },
+    {
+      "source_way_id": 426568712,
+      "endpoints": [
+        {
+          "x": -8236695.2013426265,
+          "y": 4963937.416100353,
+          "track_ref": "1",
+          "source_node_id": 4258554939
+        },
+        {
+          "x": -8236633.530344727,
+          "y": 4963906.990803948,
+          "track_ref": "3",
+          "source_node_id": 4258554927
+        }
+      ],
+      "source_points": [
+        {
+          "x": -8236695.2013426265,
+          "y": 4963937.416100353
+        },
+        {
+          "x": -8236677.156453168,
+          "y": 4963927.318355219
+        },
+        {
+          "x": -8236664.610746556,
+          "y": 4963922.210778798
+        },
+        {
+          "x": -8236650.573358768,
+          "y": 4963915.635511927
+        },
+        {
+          "x": -8236633.530344727,
+          "y": 4963906.990803948
+        }
+      ],
+      "depth": 2,
+      "stage": "native_branch_projection_pending"
+    },
+    {
+      "source_way_id": 426568713,
+      "endpoints": [
+        {
+          "x": -8236761.603418885,
+          "y": 4963984.984252093,
+          "track_ref": "3",
+          "source_node_id": 4258554958
+        },
+        {
+          "x": -8236691.316292398,
+          "y": 4963953.5167416865,
+          "track_ref": "4",
+          "source_node_id": 4258554949
+        }
+      ],
+      "source_points": [
+        {
+          "x": -8236761.603418885,
+          "y": 4963984.984252093
+        },
+        {
+          "x": -8236748.901864983,
+          "y": 4963977.587029731
+        },
+        {
+          "x": -8236740.975917241,
+          "y": 4963974.211315036
+        },
+        {
+          "x": -8236730.923767221,
+          "y": 4963970.982371632
+        },
+        {
+          "x": -8236718.912394165,
+          "y": 4963967.313119058
+        },
+        {
+          "x": -8236707.491014409,
+          "y": 4963962.410999766
+        },
+        {
+          "x": -8236691.316292398,
+          "y": 4963953.5167416865
+        }
+      ],
+      "depth": 2,
+      "stage": "native_branch_projection_pending"
+    }
+  ],
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "adaptations": [
+    "Source +4 viaduct maps to +3; descend to source +2 over an 80m approach.",
+    "Preserve six source crossovers; these normal same-layer junctions are not grade-separated."
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

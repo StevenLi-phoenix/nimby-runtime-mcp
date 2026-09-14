@@ -1,0 +1,123 @@
+{
+  "station": "Ditmas Avenue",
+  "plan_index": 33,
+  "scale": 0.7588691372539235,
+  "center": {
+    "x": -8235214.176468513,
+    "y": 4958824.77659706
+  },
+  "southbound_tangent": {
+    "x": 0.14808035249950363,
+    "y": -0.9889753329601415
+  },
+  "platform_length_metres": 140,
+  "native_depth": 2,
+  "primary_ref": "2",
+  "secondary_ref": "1",
+  "track_spacing_metres": 8.016718328405716,
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 820304820,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8235243.168497144,
+          "y": 4958980.328384644,
+          "depth": 2
+        },
+        {
+          "x": -8235233.411851022,
+          "y": 4958915.167259728,
+          "depth": 2
+        },
+        {
+          "x": -8235219.752546452,
+          "y": 4958823.941684844,
+          "depth": 2
+        },
+        {
+          "x": -8235206.093241882,
+          "y": 4958732.71610996,
+          "depth": 2
+        },
+        {
+          "x": -8235196.33659576,
+          "y": 4958667.554985044,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "3-4",
+      "source_way_id": 813282279,
+      "role": "center_through_no_platform",
+      "points": [
+        {
+          "x": -8235237.598329138,
+          "y": 4958981.16241196,
+          "depth": 2
+        },
+        {
+          "x": -8235227.841683016,
+          "y": 4958916.001287043,
+          "depth": 2
+        },
+        {
+          "x": -8235214.182378446,
+          "y": 4958824.775712159,
+          "depth": 2
+        },
+        {
+          "x": -8235200.523073875,
+          "y": 4958733.550137276,
+          "depth": 2
+        },
+        {
+          "x": -8235190.7664277535,
+          "y": 4958668.389012359,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 813282278,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8235232.720929456,
+          "y": 4958981.892710321,
+          "depth": 2
+        },
+        {
+          "x": -8235222.964283334,
+          "y": 4958916.731585404,
+          "depth": 2
+        },
+        {
+          "x": -8235209.304978764,
+          "y": 4958825.50601052,
+          "depth": 2
+        },
+        {
+          "x": -8235195.645674193,
+          "y": 4958734.280435637,
+          "depth": 2
+        },
+        {
+          "x": -8235185.889028071,
+          "y": 4958669.11931072,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "source": "data/nyc_south_culver_source.json",
+  "stage": "candidate_three_track_station_native_audit_pending",
+  "pending": [
+    "Church four-to-three merge and portal transitions need separate native geometry audit.",
+    "18 Av needs two island faces sharing one physical center track; do not duplicate center rail.",
+    "No depot, yard storage fan or yard links."
+  ]
+}

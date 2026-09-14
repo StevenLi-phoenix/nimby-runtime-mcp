@@ -1,0 +1,119 @@
+{
+  "plan_index": 37,
+  "station": "Avenue N",
+  "center": {
+    "x": -8234768.1323289,
+    "y": 4955729.767623235
+  },
+  "scale": 0.7591091699993463,
+  "southbound_tangent": {
+    "x": 0.13904287034530782,
+    "y": -0.9902863627285483
+  },
+  "native_depth": 2,
+  "platform_length_metres": 140,
+  "primary_ref": "2",
+  "secondary_ref": "1",
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 813282272,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8234794.891185071,
+          "y": 4955885.64112322,
+          "depth": 2
+        },
+        {
+          "x": -8234785.732892968,
+          "y": 4955820.414249283,
+          "depth": 2
+        },
+        {
+          "x": -8234772.911284023,
+          "y": 4955729.09662577,
+          "depth": 2
+        },
+        {
+          "x": -8234760.089675078,
+          "y": 4955637.779002258,
+          "depth": 2
+        },
+        {
+          "x": -8234750.931382975,
+          "y": 4955572.552128321,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "3-4",
+      "source_way_id": 813282274,
+      "role": "center_through_no_platform",
+      "points": [
+        {
+          "x": -8234790.196087506,
+          "y": 4955886.300346519,
+          "depth": 2
+        },
+        {
+          "x": -8234781.037795402,
+          "y": 4955821.073472582,
+          "depth": 2
+        },
+        {
+          "x": -8234768.216186457,
+          "y": 4955729.755849069,
+          "depth": 2
+        },
+        {
+          "x": -8234755.3945775125,
+          "y": 4955638.438225556,
+          "depth": 2
+        },
+        {
+          "x": -8234746.236285409,
+          "y": 4955573.211351619,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 813282270,
+      "role": "local_platform",
+      "points": [
+        {
+          "x": -8234784.883450551,
+          "y": 4955887.046276503,
+          "depth": 2
+        },
+        {
+          "x": -8234775.725158447,
+          "y": 4955821.819402566,
+          "depth": 2
+        },
+        {
+          "x": -8234762.903549503,
+          "y": 4955730.501779053,
+          "depth": 2
+        },
+        {
+          "x": -8234750.081940558,
+          "y": 4955639.184155541,
+          "depth": 2
+        },
+        {
+          "x": -8234740.923648454,
+          "y": 4955573.9572816035,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "track_spacing_metres": 7.671481029406004,
+  "source": "data/nyc_mid_culver_source.json",
+  "operator_reference": "https://www.mta.info/maps/subway-line-maps/f-line",
+  "attribution": "\u00a9 OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

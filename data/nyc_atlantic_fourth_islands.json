@@ -1,0 +1,194 @@
+{
+  "name": "Atlantic Avenue-Barclays Center",
+  "plan_index": 21,
+  "center": {
+    "x": -8235283.695070996,
+    "y": 4965789.992001569
+  },
+  "scale": 0.7583293737269674,
+  "southbound_axis": {
+    "x": -0.454663059128314,
+    "y": -0.8906635182065578
+  },
+  "cross_section": [
+    {
+      "source_way_id": 817936175,
+      "track_ref": "1",
+      "line_name": "BMT Fourth Avenue Line",
+      "offset_metres": -11.135299222162445,
+      "x": -8235296.773563173,
+      "y": 4965796.668268352
+    },
+    {
+      "source_way_id": 817936186,
+      "track_ref": "3",
+      "line_name": "BMT Fourth Avenue Line",
+      "offset_metres": -2.201730321683408,
+      "x": -8235286.281019717,
+      "y": 4965791.312068387
+    },
+    {
+      "source_way_id": 113082100,
+      "track_ref": "4",
+      "line_name": "BMT Fourth Avenue Line",
+      "offset_metres": 2.226834867795293,
+      "x": -8235281.079636797,
+      "y": 4965788.656883099
+    },
+    {
+      "source_way_id": 817936191,
+      "track_ref": "2",
+      "line_name": "BMT Fourth Avenue Line",
+      "offset_metres": 11.125891703710955,
+      "x": -8235270.62762802,
+      "y": 4965783.3213751465
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 510502288,
+      "tracks": [
+        {
+          "source_way_id": 817936175,
+          "track_ref": "1",
+          "line_name": "BMT Fourth Avenue Line",
+          "offset_metres": -11.135299222162445,
+          "x": -8235296.773563173,
+          "y": 4965796.668268352,
+          "points": [
+            {
+              "x": -8235224.82650562,
+              "y": 4965937.609165392,
+              "depth": -3
+            },
+            {
+              "x": -8235254.804446267,
+              "y": 4965878.8837916255,
+              "depth": -3
+            },
+            {
+              "x": -8235338.742680078,
+              "y": 4965714.452745078,
+              "depth": -3
+            },
+            {
+              "x": -8235368.720620725,
+              "y": 4965655.727371312,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 817936186,
+          "track_ref": "3",
+          "line_name": "BMT Fourth Avenue Line",
+          "offset_metres": -2.201730321683408,
+          "x": -8235286.281019717,
+          "y": 4965791.312068387,
+          "points": [
+            {
+              "x": -8235214.333962165,
+              "y": 4965932.252965427,
+              "depth": -3
+            },
+            {
+              "x": -8235244.311902812,
+              "y": 4965873.527591661,
+              "depth": -3
+            },
+            {
+              "x": -8235328.250136623,
+              "y": 4965709.096545113,
+              "depth": -3
+            },
+            {
+              "x": -8235358.22807727,
+              "y": 4965650.371171347,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.933568900479036,
+      "island_width_metres": 5.883568900479037
+    },
+    {
+      "platform_way_id": 510502279,
+      "tracks": [
+        {
+          "source_way_id": 113082100,
+          "track_ref": "4",
+          "line_name": "BMT Fourth Avenue Line",
+          "offset_metres": 2.226834867795293,
+          "x": -8235281.079636797,
+          "y": 4965788.656883099,
+          "points": [
+            {
+              "x": -8235209.132579245,
+              "y": 4965929.597780139,
+              "depth": -3
+            },
+            {
+              "x": -8235239.110519892,
+              "y": 4965870.872406373,
+              "depth": -3
+            },
+            {
+              "x": -8235323.048753703,
+              "y": 4965706.441359825,
+              "depth": -3
+            },
+            {
+              "x": -8235353.02669435,
+              "y": 4965647.715986059,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 817936191,
+          "track_ref": "2",
+          "line_name": "BMT Fourth Avenue Line",
+          "offset_metres": 11.125891703710955,
+          "x": -8235270.62762802,
+          "y": 4965783.3213751465,
+          "points": [
+            {
+              "x": -8235198.680570467,
+              "y": 4965924.262272187,
+              "depth": -3
+            },
+            {
+              "x": -8235228.658511114,
+              "y": 4965865.53689842,
+              "depth": -3
+            },
+            {
+              "x": -8235312.596744926,
+              "y": 4965701.105851873,
+              "depth": -3
+            },
+            {
+              "x": -8235342.574685573,
+              "y": 4965642.380478106,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.899056835915662,
+      "island_width_metres": 5.849056835915662
+    }
+  ],
+  "depth": -3,
+  "platform_length_metres": 140,
+  "source": "data/nyc_atlantic_source.json",
+  "stage": "station_built_approaches_and_other_lines_pending",
+  "pending": [
+    "Connect Fourth Avenue express/local approaches.",
+    "Build and merge Brighton and IRT platforms after source and native audit.",
+    "Verify operating routes."
+  ],
+  "native_station_id": "562949986779137",
+  "native_verification": "work/nyc-atlantic_fourth-built.json"
+}

@@ -1,0 +1,192 @@
+{
+  "name": "59th Street-Columbus Circle",
+  "plan_index": 13,
+  "center": {
+    "x": -8235602.503604669,
+    "y": 4978236.947738377
+  },
+  "scale": 0.7573646324101864,
+  "southbound_axis": {
+    "x": -0.4789608025275439,
+    "y": -0.87783628863369
+  },
+  "cross_section": [
+    {
+      "source_way_id": 46340129,
+      "track_ref": "1",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": -14.144782496243637,
+      "x": -8235618.898354092,
+      "y": 4978245.892962496
+    },
+    {
+      "source_way_id": 171570637,
+      "track_ref": "3",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": -4.643162310285223,
+      "x": -8235607.885340488,
+      "y": 4978239.884095122
+    },
+    {
+      "source_way_id": 816331850,
+      "track_ref": "4",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": 4.689141682584665,
+      "x": -8235597.068575681,
+      "y": 4978233.982304071
+    },
+    {
+      "source_way_id": 1547812315,
+      "track_ref": "2",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": 14.173305151099393,
+      "x": -8235586.075795581,
+      "y": 4978227.984476404
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 510806176,
+      "tracks": [
+        {
+          "source_way_id": 46340129,
+          "track_ref": "1",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": -14.144782496243637,
+          "x": -8235618.898354092,
+          "y": 4978245.892962496,
+          "points": [
+            {
+              "x": -8235543.009813957,
+              "y": 4978384.980992394,
+              "depth": -3
+            },
+            {
+              "x": -8235574.630039013,
+              "y": 4978327.027646603,
+              "depth": -3
+            },
+            {
+              "x": -8235663.16666917,
+              "y": 4978164.7582783885,
+              "depth": -3
+            },
+            {
+              "x": -8235694.786894226,
+              "y": 4978106.804932598,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 171570637,
+          "track_ref": "3",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": -4.643162310285223,
+          "x": -8235607.885340488,
+          "y": 4978239.884095122,
+          "points": [
+            {
+              "x": -8235531.996800353,
+              "y": 4978378.97212502,
+              "depth": -3
+            },
+            {
+              "x": -8235563.617025409,
+              "y": 4978321.018779229,
+              "depth": -3
+            },
+            {
+              "x": -8235652.153655566,
+              "y": 4978158.749411015,
+              "depth": -3
+            },
+            {
+              "x": -8235683.773880622,
+              "y": 4978100.796065224,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.501620185958416,
+      "island_width_metres": 6.451620185958416
+    },
+    {
+      "platform_way_id": 510806175,
+      "tracks": [
+        {
+          "source_way_id": 816331850,
+          "track_ref": "4",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": 4.689141682584665,
+          "x": -8235597.068575681,
+          "y": 4978233.982304071,
+          "points": [
+            {
+              "x": -8235521.180035546,
+              "y": 4978373.070333969,
+              "depth": -3
+            },
+            {
+              "x": -8235552.8002606025,
+              "y": 4978315.116988178,
+              "depth": -3
+            },
+            {
+              "x": -8235641.33689076,
+              "y": 4978152.847619964,
+              "depth": -3
+            },
+            {
+              "x": -8235672.957115816,
+              "y": 4978094.894274173,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 1547812315,
+          "track_ref": "2",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": 14.173305151099393,
+          "x": -8235586.075795581,
+          "y": 4978227.984476404,
+          "points": [
+            {
+              "x": -8235510.187255446,
+              "y": 4978367.072506302,
+              "depth": -3
+            },
+            {
+              "x": -8235541.807480502,
+              "y": 4978309.1191605115,
+              "depth": -3
+            },
+            {
+              "x": -8235630.344110659,
+              "y": 4978146.849792297,
+              "depth": -3
+            },
+            {
+              "x": -8235661.964335715,
+              "y": 4978088.8964465065,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.48416346851473,
+      "island_width_metres": 6.43416346851473
+    }
+  ],
+  "depth": -3,
+  "platform_length_metres": 140,
+  "source": "data/nyc_columbus_source.json",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Sixth Avenue south to Bryant Park and retain the northern route splits.",
+    "Verify the northern junction layers against source geometry."
+  ]
+}

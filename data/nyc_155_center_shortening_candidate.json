@@ -1,0 +1,32 @@
+{
+  "stage": "candidate_not_applied",
+  "points": [
+    {
+      "id": "281475969384449",
+      "before": {
+        "x": -8230851.578813686,
+        "y": 4987348.463126832,
+        "depth": -2
+      },
+      "after": {
+        "x": -8230785.49831891,
+        "y": 4987348.689713817,
+        "depth": -2
+      }
+    },
+    {
+      "id": "281475969318913",
+      "before": {
+        "x": -8230534.392438759,
+        "y": 4987349.550744359,
+        "depth": -2
+      },
+      "after": {
+        "x": -8230600.472933535,
+        "y": 4987349.324157374,
+        "depth": -2
+      }
+    }
+  ],
+  "reason": "Reduce straight center track to platform length to avoid approach crossing"
+}

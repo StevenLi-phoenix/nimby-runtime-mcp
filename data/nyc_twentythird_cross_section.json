@@ -1,0 +1,44 @@
+[
+  {
+    "way": 552497965,
+    "name": "IND Sixth Avenue Line",
+    "ref": "3",
+    "depth": "-3",
+    "offset_metres": -4.577697176043986
+  },
+  {
+    "way": 554387916,
+    "name": "IND Sixth Avenue Line",
+    "ref": "1",
+    "depth": "-1",
+    "offset_metres": -9.531410036268024
+  },
+  {
+    "way": 813712317,
+    "name": "PATH",
+    "ref": null,
+    "depth": "-1",
+    "offset_metres": -1.984477374842495
+  },
+  {
+    "way": 813712318,
+    "name": "PATH",
+    "ref": null,
+    "depth": "-1",
+    "offset_metres": 1.838869559021377
+  },
+  {
+    "way": 813712319,
+    "name": "IND Sixth Avenue Line",
+    "ref": "2",
+    "depth": "-1",
+    "offset_metres": 9.607166753208835
+  },
+  {
+    "way": 819186630,
+    "name": "IND Sixth Avenue Line",
+    "ref": "4",
+    "depth": "-3",
+    "offset_metres": 6.060644574953503
+  }
+]

@@ -1,0 +1,428 @@
+{
+  "station_id": "562949986648065",
+  "native_free_endpoints": [
+    {
+      "role": "west_primary",
+      "island": 0,
+      "id": "281475903717377",
+      "x": -8213422.906659558,
+      "y": 4970102.144021187,
+      "depth": -2
+    },
+    {
+      "role": "west_secondary",
+      "island": 0,
+      "id": "281475903782913",
+      "x": -8213425.987154685,
+      "y": 4970111.886783652,
+      "depth": -2
+    },
+    {
+      "role": "west_primary",
+      "island": 1,
+      "id": "281475904241666",
+      "x": -8213418.2698598765,
+      "y": 4970087.478765463,
+      "depth": -2
+    },
+    {
+      "role": "west_secondary",
+      "island": 1,
+      "id": "281475904307202",
+      "x": -8213421.389441493,
+      "y": 4970097.345147794,
+      "depth": -2
+    }
+  ],
+  "source_sections": [
+    {
+      "way": 818900541,
+      "ref": "4",
+      "depth": "-1",
+      "service": "yard",
+      "start": 247.19,
+      "end": 495.85,
+      "first_node": 7647540585,
+      "last_node": 7647540601
+    },
+    {
+      "way": 818900542,
+      "ref": "4",
+      "depth": "-1",
+      "service": "yard",
+      "start": 241.47,
+      "end": 247.19,
+      "first_node": 7647540587,
+      "last_node": 7647540585
+    },
+    {
+      "way": 818900543,
+      "ref": "3",
+      "depth": "-1",
+      "service": "yard",
+      "start": 247.33,
+      "end": 495.85,
+      "first_node": 7647540586,
+      "last_node": 7647540603
+    },
+    {
+      "way": 818900544,
+      "ref": "3",
+      "depth": "-1",
+      "service": "yard",
+      "start": 241.42,
+      "end": 247.33,
+      "first_node": 7647540588,
+      "last_node": 7647540586
+    },
+    {
+      "way": 818900545,
+      "ref": "5",
+      "depth": "-1",
+      "service": "yard",
+      "start": 247.33,
+      "end": 495.85,
+      "first_node": 7647540586,
+      "last_node": 7647540604
+    },
+    {
+      "way": 818900546,
+      "ref": "2",
+      "depth": "-2",
+      "service": "yard",
+      "start": 378.3,
+      "end": 495.82,
+      "first_node": 7647540589,
+      "last_node": 7647531055
+    },
+    {
+      "way": 818900547,
+      "ref": "8",
+      "depth": "-2",
+      "service": "yard",
+      "start": 336.4,
+      "end": 495.82,
+      "first_node": 7647540590,
+      "last_node": 7647526836
+    },
+    {
+      "way": 818900548,
+      "ref": "7",
+      "depth": "-2",
+      "service": "yard",
+      "start": 359.1,
+      "end": 495.82,
+      "first_node": 7647540592,
+      "last_node": 592002104
+    },
+    {
+      "way": 818900549,
+      "ref": "1",
+      "depth": "-2",
+      "service": "yard",
+      "start": 378.12,
+      "end": 495.82,
+      "first_node": 7647540591,
+      "last_node": 7647536183
+    },
+    {
+      "way": 818900550,
+      "ref": null,
+      "depth": "-2",
+      "service": "yard",
+      "start": 336.4,
+      "end": 378.3,
+      "first_node": 7647540590,
+      "last_node": 7647540589
+    },
+    {
+      "way": 818900551,
+      "ref": null,
+      "depth": "-2",
+      "service": "yard",
+      "start": 359.1,
+      "end": 378.12,
+      "first_node": 7647540592,
+      "last_node": 7647540591
+    },
+    {
+      "way": 818900552,
+      "ref": "8",
+      "depth": "-2",
+      "service": "yard",
+      "start": 331.12,
+      "end": 336.4,
+      "first_node": 7647540594,
+      "last_node": 7647540590
+    },
+    {
+      "way": 818900553,
+      "ref": "7",
+      "depth": "-2",
+      "service": "yard",
+      "start": 331.06,
+      "end": 359.1,
+      "first_node": 7647540593,
+      "last_node": 7647540592
+    },
+    {
+      "way": 818900554,
+      "ref": "7",
+      "depth": "-2",
+      "service": "yard",
+      "start": 280.93,
+      "end": 331.06,
+      "first_node": 7647540597,
+      "last_node": 7647540593
+    },
+    {
+      "way": 818900555,
+      "ref": "8",
+      "depth": "-2",
+      "service": "yard",
+      "start": 280.94,
+      "end": 331.12,
+      "first_node": 7647540596,
+      "last_node": 7647540594
+    },
+    {
+      "way": 818900556,
+      "ref": null,
+      "depth": "-2",
+      "service": "yard",
+      "start": 280.94,
+      "end": 331.06,
+      "first_node": 7647540596,
+      "last_node": 7647540593
+    },
+    {
+      "way": 818900557,
+      "ref": null,
+      "depth": "-2",
+      "service": "yard",
+      "start": 280.93,
+      "end": 331.12,
+      "first_node": 7647540597,
+      "last_node": 7647540594
+    },
+    {
+      "way": 818900558,
+      "ref": "1",
+      "depth": "-2",
+      "service": "yard",
+      "start": 185.75,
+      "end": 235.95,
+      "first_node": 7647540608,
+      "last_node": 7647540612
+    },
+    {
+      "way": 818900559,
+      "ref": "2",
+      "depth": "-2",
+      "service": "yard",
+      "start": 186.45,
+      "end": 236.13,
+      "first_node": 7647540611,
+      "last_node": 7647540607
+    },
+    {
+      "way": 818900560,
+      "ref": "6",
+      "depth": "-1",
+      "service": "yard",
+      "start": 247.19,
+      "end": 495.85,
+      "first_node": 7647540585,
+      "last_node": 7647540600
+    },
+    {
+      "way": 818900561,
+      "ref": "4",
+      "depth": "-2",
+      "service": "yard",
+      "start": 236.1,
+      "end": 241.47,
+      "first_node": 7647540602,
+      "last_node": 7647540587
+    },
+    {
+      "way": 818900562,
+      "ref": "3",
+      "depth": "-2",
+      "service": "yard",
+      "start": 236.01,
+      "end": 241.42,
+      "first_node": 7647540606,
+      "last_node": 7647540588
+    },
+    {
+      "way": 818900563,
+      "ref": "8",
+      "depth": "-2",
+      "service": "yard",
+      "start": 236.13,
+      "end": 280.94,
+      "first_node": 7647540607,
+      "last_node": 7647540596
+    },
+    {
+      "way": 818900564,
+      "ref": "7",
+      "depth": "-2",
+      "service": "yard",
+      "start": 235.95,
+      "end": 280.93,
+      "first_node": 7647540608,
+      "last_node": 7647540597
+    },
+    {
+      "way": 818900565,
+      "ref": "1",
+      "depth": "-2",
+      "service": "yard",
+      "start": 235.95,
+      "end": 378.12,
+      "first_node": 7647540608,
+      "last_node": 7647540591
+    },
+    {
+      "way": 818900566,
+      "ref": "3",
+      "depth": "-2",
+      "service": "yard",
+      "start": 185.97,
+      "end": 236.01,
+      "first_node": 7647540610,
+      "last_node": 7647540606
+    },
+    {
+      "way": 818900567,
+      "ref": "4",
+      "depth": "-2",
+      "service": "yard",
+      "start": 186.13,
+      "end": 236.1,
+      "first_node": 7647540609,
+      "last_node": 7647540602
+    },
+    {
+      "way": 818900568,
+      "ref": "2",
+      "depth": "-2",
+      "service": "yard",
+      "start": 236.13,
+      "end": 378.3,
+      "first_node": 7647540607,
+      "last_node": 7647540589
+    },
+    {
+      "way": 818900569,
+      "ref": null,
+      "depth": "-2",
+      "service": "yard",
+      "start": 185.97,
+      "end": 236.1,
+      "first_node": 7647540610,
+      "last_node": 7647540602
+    },
+    {
+      "way": 818900570,
+      "ref": null,
+      "depth": "-2",
+      "service": "yard",
+      "start": 186.13,
+      "end": 236.01,
+      "first_node": 7647540609,
+      "last_node": 7647540606
+    },
+    {
+      "way": 818901073,
+      "ref": "2",
+      "depth": "-2",
+      "service": null,
+      "start": -2774.27,
+      "end": 92.35,
+      "first_node": 7647531056,
+      "last_node": 7654134370
+    },
+    {
+      "way": 818901119,
+      "ref": "4",
+      "depth": "-2",
+      "service": null,
+      "start": -2774.2,
+      "end": 92.29,
+      "first_node": 7647526837,
+      "last_node": 7654134372
+    },
+    {
+      "way": 821683802,
+      "ref": "2",
+      "depth": "-2",
+      "service": null,
+      "start": 92.35,
+      "end": 186.45,
+      "first_node": 7654134370,
+      "last_node": 7647540611
+    },
+    {
+      "way": 821683803,
+      "ref": "4",
+      "depth": "-2",
+      "service": null,
+      "start": 92.29,
+      "end": 186.13,
+      "first_node": 7654134372,
+      "last_node": 7647540609
+    },
+    {
+      "way": 821683804,
+      "ref": "3",
+      "depth": "-2",
+      "service": null,
+      "start": -92.43,
+      "end": 185.97,
+      "first_node": 7647540610,
+      "last_node": 7654134371
+    },
+    {
+      "way": 821683805,
+      "ref": "1",
+      "depth": "-2",
+      "service": null,
+      "start": -92.39,
+      "end": 185.75,
+      "first_node": 7647540612,
+      "last_node": 7654134369
+    }
+  ],
+  "source": "data/nyc_179_source.json",
+  "stage": "source_and_native_survey",
+  "constraints": [
+    "No yard construction; distinguish operational reversal from storage fan.",
+    "Verify arrival-platform to reversal to departure-platform routing."
+  ],
+  "findings": {
+    "source_main_tracks_end_station_chainage_metres": [
+      185.75,
+      186.45
+    ],
+    "central_crossover_source_ways": [
+      818900569,
+      818900570
+    ],
+    "central_crossover_chainage_metres": [
+      185.97,
+      236.1
+    ],
+    "upper_tracks_source_depth": -1,
+    "lower_tracks_source_depth": -2,
+    "storage_fan_source_end_chainage_metres": 495.85,
+    "scope_unresolved": "Central crossover and continuation carry service=yard tags; determine operational turnback scope before mutation. No terminal relay built."
+  },
+  "next_actions": [
+    "Map arrival/departure platform directions and the minimum reversal path using source connectivity.",
+    "Separate required reversal track from deferred storage branches; preserve both source levels.",
+    "Check train clearance beyond final crossover, native geometry, and operational routing before declaring the terminal ready."
+  ]
+}

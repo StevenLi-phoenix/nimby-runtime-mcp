@@ -1,0 +1,517 @@
+{
+  "from_station": "Fort Hamilton Parkway",
+  "to_station": "Church Avenue",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475822518273",
+      "end_node_id": "281475824877569",
+      "points": [
+        {
+          "x": -8234936.937618928,
+          "y": 4960868.75091331,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8234967.2111509405,
+          "y": 4960823.870822271,
+          "source_node_id": 7606978480,
+          "depth": -2,
+          "chainage_metres": 36.993983326882315,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234996.143086597,
+          "y": 4960734.267525975,
+          "source_node_id": 7606978481,
+          "depth": -2,
+          "chainage_metres": 108.43955463951598,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235020.110172965,
+          "y": 4960691.644991486,
+          "source_node_id": 7606978482,
+          "depth": -2,
+          "chainage_metres": 145.5430807018334,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235051.335290132,
+          "y": 4960653.9964630315,
+          "source_node_id": 7606978483,
+          "depth": -2,
+          "chainage_metres": 182.65683098285322,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235088.794298785,
+          "y": 4960622.56900259,
+          "source_node_id": 7606999404,
+          "depth": -2,
+          "chainage_metres": 219.75850208674913,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235244.775169285,
+          "y": 4960528.93278803,
+          "source_node_id": 7606999405,
+          "depth": -2,
+          "chainage_metres": 357.8018699258625,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235299.099080792,
+          "y": 4960490.683341568,
+          "source_node_id": 7606999385,
+          "depth": -2,
+          "chainage_metres": 408.2409557125983,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235344.484037187,
+          "y": 4960444.5406523775,
+          "source_node_id": 7606999387,
+          "depth": -2,
+          "chainage_metres": 457.3929123522116,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235384.414338536,
+          "y": 4960387.071667555,
+          "source_node_id": 7606999389,
+          "depth": -2,
+          "chainage_metres": 510.55569686608743,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235408.459348546,
+          "y": 4960326.5953518255,
+          "source_node_id": 7606999391,
+          "depth": -2,
+          "chainage_metres": 560.0600067045156,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235421.027319057,
+          "y": 4960258.989082969,
+          "source_node_id": 7606999393,
+          "depth": -2,
+          "chainage_metres": 612.2557443484894,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235421.583916511,
+          "y": 4960226.0957503,
+          "source_node_id": 7606999394,
+          "depth": -2,
+          "chainage_metres": 637.218136769519,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235411.909287565,
+          "y": 4960128.573433424,
+          "depth": -2,
+          "chainage_metres": 711.5879635515425,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 711.5879635515425,
+      "express_upper_layer_boundary_metres": null,
+      "source_projection_gaps_world_metres": [
+        20.33510558975697,
+        0.6735358960311058
+      ],
+      "source_way_ids": [
+        814347385
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475822452737",
+      "end_node_id": "281475825336322",
+      "points": [
+        {
+          "x": -8234931.90055559,
+          "y": 4960869.204592823,
+          "depth": -2,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8234962.112718263,
+          "y": 4960822.667694145,
+          "source_node_id": 591991894,
+          "depth": -2,
+          "chainage_metres": 38.235228556395214,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234991.445404085,
+          "y": 4960731.934652676,
+          "source_node_id": 7606986874,
+          "depth": -2,
+          "chainage_metres": 110.58999751543001,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235015.857768416,
+          "y": 4960688.563851609,
+          "source_node_id": 7606986873,
+          "depth": -2,
+          "chainage_metres": 148.3540229497608,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235047.639483038,
+          "y": 4960650.284437471,
+          "source_node_id": 7606986875,
+          "depth": -2,
+          "chainage_metres": 186.10585739573327,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235085.7552766865,
+          "y": 4960618.2994534215,
+          "source_node_id": 591991676,
+          "depth": -2,
+          "chainage_metres": 223.86121461809026,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235269.109609972,
+          "y": 4960506.719627552,
+          "source_node_id": 7606986878,
+          "depth": -2,
+          "chainage_metres": 386.7403193100911,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235317.522456518,
+          "y": 4960463.687274438,
+          "source_node_id": 591991654,
+          "depth": -2,
+          "chainage_metres": 435.9476486498534,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235356.695785328,
+          "y": 4960412.101518388,
+          "source_node_id": 7606986884,
+          "depth": -2,
+          "chainage_metres": 485.15473081287877,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235385.137915225,
+          "y": 4960353.913815974,
+          "source_node_id": 591991665,
+          "depth": -2,
+          "chainage_metres": 534.3569693591659,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235401.791311048,
+          "y": 4960291.310337729,
+          "source_node_id": 7606986881,
+          "depth": -2,
+          "chainage_metres": 583.5695182593123,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235406.010319749,
+          "y": 4960226.682606297,
+          "source_node_id": 7606999406,
+          "depth": -2,
+          "chainage_metres": 632.7705482577759,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235391.68659091,
+          "y": 4960131.446756159,
+          "depth": -2,
+          "chainage_metres": 705.9251315008532,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 705.9251315008532,
+      "express_upper_layer_boundary_metres": null,
+      "source_projection_gaps_world_metres": [
+        20.03862631958648,
+        1.17991845620726
+      ],
+      "source_way_ids": [
+        46340211
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475822714882",
+      "end_node_id": "281475824812033",
+      "points": [
+        {
+          "x": -8234937.053317482,
+          "y": 4960868.741576409,
+          "depth": -3,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8234967.1666231435,
+          "y": 4960823.797460794,
+          "source_node_id": 7606999331,
+          "depth": -3,
+          "chainage_metres": 37.02898735154738,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234996.098558801,
+          "y": 4960734.194165173,
+          "source_node_id": 7606999319,
+          "depth": -3,
+          "chainage_metres": 108.4745581768482,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235020.076777118,
+          "y": 4960691.571631004,
+          "source_node_id": 7606999320,
+          "depth": -3,
+          "chainage_metres": 145.5822247895453,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235051.301894286,
+          "y": 4960653.937774871,
+          "source_node_id": 7606999321,
+          "depth": -3,
+          "chainage_metres": 182.68740647157102,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235088.760902938,
+          "y": 4960622.495642621,
+          "source_node_id": 7606999322,
+          "depth": -3,
+          "chainage_metres": 219.79623392031203,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235272.749757321,
+          "y": 4960511.033143544,
+          "source_node_id": 7606999289,
+          "depth": -3,
+          "chainage_metres": 383.0309267822214,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235322.910319871,
+          "y": 4960467.619305673,
+          "source_node_id": 7606999291,
+          "depth": -3,
+          "chainage_metres": 433.42797489809175,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235344.57309278,
+          "y": 4960442.457267408,
+          "source_node_id": 7606999292,
+          "depth": -3,
+          "chainage_metres": 458.62136041942773,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235380.028350598,
+          "y": 4960386.382100471,
+          "source_node_id": 7606999294,
+          "depth": -3,
+          "chainage_metres": 509.02207707315534,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235393.486877036,
+          "y": 4960356.026525291,
+          "source_node_id": 7606999295,
+          "depth": -3,
+          "chainage_metres": 534.2176218797844,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235409.9414062435,
+          "y": 4960297.774859668,
+          "depth": -3,
+          "chainage_metres": 580.2018336540009,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235415.327761129,
+          "y": 4960259.150468905,
+          "source_node_id": 7606999298,
+          "depth": -3,
+          "chainage_metres": 609.8107871101759,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235413.813816053,
+          "y": 4960192.835744389,
+          "depth": -2,
+          "chainage_metres": 660.2018336540009,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235404.335738211,
+          "y": 4960129.6495094495,
+          "depth": -2,
+          "chainage_metres": 708.6819610075086,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 708.6819610075086,
+      "express_upper_layer_boundary_metres": 660.2018336540009,
+      "source_projection_gaps_world_metres": [
+        20.179620068846774,
+        0.3546426188525391
+      ],
+      "source_way_ids": [
+        97047837,
+        814347382
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475822780418",
+      "end_node_id": "281475825401858",
+      "points": [
+        {
+          "x": -8234931.858382076,
+          "y": 4960869.209475184,
+          "depth": -3,
+          "chainage_metres": 0,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8234962.068190466,
+          "y": 4960822.594332676,
+          "source_node_id": 7606999337,
+          "depth": -3,
+          "chainage_metres": 38.28943905836768,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8234991.412008239,
+          "y": 4960731.861291892,
+          "source_node_id": 7606999323,
+          "depth": -3,
+          "chainage_metres": 110.64680626342344,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235015.824372569,
+          "y": 4960688.505163237,
+          "source_node_id": 7606999324,
+          "depth": -3,
+          "chainage_metres": 148.40113027675267,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235047.594955242,
+          "y": 4960650.211077299,
+          "source_node_id": 7606999325,
+          "depth": -3,
+          "chainage_metres": 186.15613684567734,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235085.72188084,
+          "y": 4960618.226093487,
+          "source_node_id": 7606999326,
+          "depth": -3,
+          "chainage_metres": 223.91796472490574,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235269.566019884,
+          "y": 4960506.895689392,
+          "source_node_id": 7606999300,
+          "depth": -3,
+          "chainage_metres": 387.0064047212882,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235318.991873796,
+          "y": 4960464.171442377,
+          "source_node_id": 7606999302,
+          "depth": -3,
+          "chainage_metres": 436.638930331693,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235359.167078024,
+          "y": 4960412.659042167,
+          "source_node_id": 7606999304,
+          "depth": -3,
+          "chainage_metres": 486.2667150874846,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235375.28614029,
+          "y": 4960384.21069806,
+          "source_node_id": 7606999305,
+          "depth": -3,
+          "chainage_metres": 511.0770095002062,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235404.421342586,
+          "y": 4960298.504446502,
+          "depth": -3,
+          "chainage_metres": 579.9726535212071,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235410.084613112,
+          "y": 4960258.915725727,
+          "source_node_id": 7606999309,
+          "depth": -3,
+          "chainage_metres": 610.3393220798444,
+          "reason": "source_curve"
+        },
+        {
+          "x": -8235408.604063885,
+          "y": 4960193.598654597,
+          "depth": -2,
+          "chainage_metres": 659.9726535212071,
+          "reason": "layer_anchor"
+        },
+        {
+          "x": -8235399.157113086,
+          "y": 4960130.385318591,
+          "depth": -2,
+          "chainage_metres": 708.4697325901857,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 708.4697325901857,
+      "express_upper_layer_boundary_metres": 659.9726535212071,
+      "source_projection_gaps_world_metres": [
+        20.026891048476607,
+        0.32704620216416147
+      ],
+      "source_way_ids": [
+        814347384,
+        206583270
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "adaptations": [
+    "Express tracks rise from -3 to source -2 over the last 80m before the source layer boundary.",
+    "Local tracks stay at -2; preserve separate source paths through the bend."
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

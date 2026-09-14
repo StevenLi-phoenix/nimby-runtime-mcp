@@ -1,0 +1,199 @@
+{
+  "name": "34th Street-Herald Square",
+  "plan_index": 15,
+  "center": {
+    "x": -8236303.22305105,
+    "y": 4975459.659981303
+  },
+  "scale": 0.7575765388501281,
+  "southbound_axis": {
+    "x": -0.1336936987092275,
+    "y": -0.9910227015187121
+  },
+  "cross_section": [
+    {
+      "source_way_id": 817381417,
+      "track_ref": "1",
+      "line_name": "BMT Broadway Line",
+      "offset_metres": -12.194042284777336,
+      "x": -8236319.174670599,
+      "y": 4975461.811931016
+    },
+    {
+      "source_way_id": 817381424,
+      "track_ref": "3",
+      "line_name": "BMT Broadway Line",
+      "offset_metres": -1.694582277371372,
+      "x": -8236305.439816512,
+      "y": 4975459.959033558
+    },
+    {
+      "source_way_id": 813742185,
+      "track_ref": "4",
+      "line_name": "BMT Broadway Line",
+      "offset_metres": 2.130064908461677,
+      "x": -8236300.436609586,
+      "y": 4975459.2840770325
+    },
+    {
+      "source_way_id": 817381411,
+      "track_ref": "2",
+      "line_name": "BMT Broadway Line",
+      "offset_metres": 11.874623820517952,
+      "x": -8236287.689278322,
+      "y": 4975457.564401124
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 511809790,
+      "tracks": [
+        {
+          "source_way_id": 817381417,
+          "track_ref": "1",
+          "line_name": "BMT Broadway Line",
+          "offset_metres": -12.194042284777336,
+          "x": -8236319.174670599,
+          "y": 4975461.811931016,
+          "points": [
+            {
+              "x": -8236297.997610563,
+              "y": 4975618.789765048,
+              "depth": -2
+            },
+            {
+              "x": -8236306.821385578,
+              "y": 4975553.382334202,
+              "depth": -2
+            },
+            {
+              "x": -8236331.527955621,
+              "y": 4975370.24152783,
+              "depth": -2
+            },
+            {
+              "x": -8236340.351730635,
+              "y": 4975304.834096984,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 817381424,
+          "track_ref": "3",
+          "line_name": "BMT Broadway Line",
+          "offset_metres": -1.694582277371372,
+          "x": -8236305.439816512,
+          "y": 4975459.959033558,
+          "points": [
+            {
+              "x": -8236284.262756476,
+              "y": 4975616.93686759,
+              "depth": -2
+            },
+            {
+              "x": -8236293.086531491,
+              "y": 4975551.529436744,
+              "depth": -2
+            },
+            {
+              "x": -8236317.793101533,
+              "y": 4975368.3886303725,
+              "depth": -2
+            },
+            {
+              "x": -8236326.616876548,
+              "y": 4975302.981199526,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 10.499460007405963,
+      "island_width_metres": 7.449460007405963
+    },
+    {
+      "platform_way_id": 511809787,
+      "tracks": [
+        {
+          "source_way_id": 813742185,
+          "track_ref": "4",
+          "line_name": "BMT Broadway Line",
+          "offset_metres": 2.130064908461677,
+          "x": -8236300.436609586,
+          "y": 4975459.2840770325,
+          "points": [
+            {
+              "x": -8236279.25954955,
+              "y": 4975616.261911064,
+              "depth": -2
+            },
+            {
+              "x": -8236288.083324565,
+              "y": 4975550.854480218,
+              "depth": -2
+            },
+            {
+              "x": -8236312.789894607,
+              "y": 4975367.713673847,
+              "depth": -2
+            },
+            {
+              "x": -8236321.613669622,
+              "y": 4975302.306243001,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 817381411,
+          "track_ref": "2",
+          "line_name": "BMT Broadway Line",
+          "offset_metres": 11.874623820517952,
+          "x": -8236287.689278322,
+          "y": 4975457.564401124,
+          "points": [
+            {
+              "x": -8236266.512218286,
+              "y": 4975614.542235156,
+              "depth": -2
+            },
+            {
+              "x": -8236275.335993301,
+              "y": 4975549.134804309,
+              "depth": -2
+            },
+            {
+              "x": -8236300.042563343,
+              "y": 4975365.993997938,
+              "depth": -2
+            },
+            {
+              "x": -8236308.866338358,
+              "y": 4975300.586567092,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.744558912056275,
+      "island_width_metres": 6.694558912056276
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_twentythird_source.json",
+  "lower_sixth_platforms": {
+    "source_way_ids": [
+      511809778,
+      511809779
+    ],
+    "depth": -3
+  },
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Broadway tracks south to 28th Street and north to Times Square.",
+    "Unify upper platforms with the built Sixth Avenue station; preserve PATH source facilities."
+  ]
+}

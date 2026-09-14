@@ -1,0 +1,30 @@
+[
+  {
+    "ref": "3",
+    "native_node": "281475912171521",
+    "existing_node": "281475809935361",
+    "existing_depth": -3,
+    "candidate_metres": 3734.1001778951
+  },
+  {
+    "ref": "3",
+    "native_node": "281475912171521",
+    "existing_node": "281475810000897",
+    "existing_depth": -3,
+    "candidate_metres": 3729.116438034909
+  },
+  {
+    "ref": "4",
+    "native_node": "281475913809921",
+    "existing_node": "281475809935361",
+    "existing_depth": -3,
+    "candidate_metres": 3732.0628119111434
+  },
+  {
+    "ref": "4",
+    "native_node": "281475913809921",
+    "existing_node": "281475810000897",
+    "existing_depth": -3,
+    "candidate_metres": 3727.079159979796
+  }
+]

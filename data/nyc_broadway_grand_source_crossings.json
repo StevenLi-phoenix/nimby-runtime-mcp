@@ -1,0 +1,98 @@
+[
+  {
+    "ref": "3",
+    "way": 818167983,
+    "name": "Chrystie Street Connection",
+    "service": null,
+    "depth": "-2",
+    "metres": 346.30361238603973
+  },
+  {
+    "ref": "3",
+    "way": 818168004,
+    "name": null,
+    "service": "yard",
+    "depth": "-2",
+    "metres": 287.60403327075585
+  },
+  {
+    "ref": "3",
+    "way": 818168009,
+    "name": "IND Sixth Avenue Line",
+    "service": null,
+    "depth": "-2",
+    "metres": 300.1370807897521
+  },
+  {
+    "ref": "3",
+    "way": 818234624,
+    "name": "BMT Nassau Street Line",
+    "service": null,
+    "depth": "-1",
+    "metres": 780.5113685214434
+  },
+  {
+    "ref": "3",
+    "way": 818234626,
+    "name": "BMT Nassau Street Line",
+    "service": null,
+    "depth": "-1",
+    "metres": 768.1962712812914
+  },
+  {
+    "ref": "3",
+    "way": 818234627,
+    "name": "BMT Nassau Street Line",
+    "service": null,
+    "depth": "-1",
+    "metres": 761.7521251952833
+  },
+  {
+    "ref": "4",
+    "way": 818167983,
+    "name": "Chrystie Street Connection",
+    "service": null,
+    "depth": "-2",
+    "metres": 401.0949958117383
+  },
+  {
+    "ref": "4",
+    "way": 818168004,
+    "name": null,
+    "service": "yard",
+    "depth": "-2",
+    "metres": 299.93046656328585
+  },
+  {
+    "ref": "4",
+    "way": 818168009,
+    "name": "IND Sixth Avenue Line",
+    "service": null,
+    "depth": "-2",
+    "metres": 315.38897624014726
+  },
+  {
+    "ref": "4",
+    "way": 818234624,
+    "name": "BMT Nassau Street Line",
+    "service": null,
+    "depth": "-1",
+    "metres": 786.6869564904433
+  },
+  {
+    "ref": "4",
+    "way": 818234626,
+    "name": "BMT Nassau Street Line",
+    "service": null,
+    "depth": "-1",
+    "metres": 774.5458642454448
+  },
+  {
+    "ref": "4",
+    "way": 818234627,
+    "name": "BMT Nassau Street Line",
+    "service": null,
+    "depth": "-1",
+    "metres": 768.1949405196129
+  }
+]

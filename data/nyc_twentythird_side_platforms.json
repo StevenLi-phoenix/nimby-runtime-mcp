@@ -1,0 +1,177 @@
+{
+  "name": "23rd Street | Sixth Avenue",
+  "plan_index": 16,
+  "center": {
+    "x": -8236841.532494938,
+    "y": 4974492.751978807
+  },
+  "scale": 0.7576535940727847,
+  "southbound_axis": {
+    "x": -0.48341582512943837,
+    "y": -0.8753908498576074
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "x": -8236852.545059515,
+      "y": 4974498.833431444,
+      "source_way_id": 554387916,
+      "points": [
+        {
+          "x": -8236775.979859443,
+          "y": 4974637.481096822,
+          "depth": -1
+        },
+        {
+          "x": -8236807.88202614,
+          "y": 4974579.711236248,
+          "depth": -1
+        },
+        {
+          "x": -8236897.208092891,
+          "y": 4974417.9556266405,
+          "depth": -1
+        },
+        {
+          "x": -8236929.110259587,
+          "y": 4974360.185766066,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "x": -8236830.432401261,
+      "y": 4974486.622190102,
+      "source_way_id": 813712319,
+      "points": [
+        {
+          "x": -8236753.8672011895,
+          "y": 4974625.26985548,
+          "depth": -1
+        },
+        {
+          "x": -8236785.769367886,
+          "y": 4974567.499994906,
+          "depth": -1
+        },
+        {
+          "x": -8236875.095434637,
+          "y": 4974405.744385298,
+          "depth": -1
+        },
+        {
+          "x": -8236906.997601333,
+          "y": 4974347.974524724,
+          "depth": -1
+        }
+      ]
+    }
+  ],
+  "track_spacing_metres": 19.13857678947686,
+  "platform_type": "two side platforms",
+  "platform_length_metres": 140,
+  "depth": -1,
+  "source_platforms": [
+    {
+      "osm_way_id": 579071551,
+      "tags": {
+        "area": "yes",
+        "destination": "Uptown & Queens",
+        "layer": "-1",
+        "level": "-1",
+        "location": "underground",
+        "name": "6th Avenue / 23rd Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        5546740509,
+        5546740508,
+        8430487880,
+        8430487881,
+        5546740509
+      ],
+      "points": [
+        {
+          "x": -8236769.495970781,
+          "y": 4974592.645280057
+        },
+        {
+          "x": -8236765.722240045,
+          "y": 4974590.60295846
+        },
+        {
+          "x": -8236882.9305318985,
+          "y": 4974378.277305753
+        },
+        {
+          "x": -8236886.882373824,
+          "y": 4974380.246119762
+        },
+        {
+          "x": -8236769.495970781,
+          "y": 4974592.645280057
+        }
+      ]
+    },
+    {
+      "osm_way_id": 579071552,
+      "tags": {
+        "area": "yes",
+        "destination": "Downtown & Brooklyn",
+        "layer": "-1",
+        "level": "-1",
+        "location": "underground",
+        "name": "6th Avenue / 23rd Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        8430487885,
+        8430487887,
+        8430487886,
+        8430487884,
+        8430487885
+      ],
+      "points": [
+        {
+          "x": -8236795.589259423,
+          "y": 4974606.221587004
+        },
+        {
+          "x": -8236912.496988655,
+          "y": 4974394.439223538
+        },
+        {
+          "x": -8236916.638073712,
+          "y": 4974396.643123484
+        },
+        {
+          "x": -8236799.496573551,
+          "y": 4974608.38145576
+        },
+        {
+          "x": -8236795.589259423,
+          "y": 4974606.221587004
+        }
+      ]
+    }
+  ],
+  "reserved_path_platforms": [
+    578686028,
+    578686029
+  ],
+  "reserved_path_depth": -1,
+  "stage": "candidate_native_creation_pending"
+}

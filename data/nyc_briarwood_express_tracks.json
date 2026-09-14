@@ -1,0 +1,43 @@
+{
+  "tracks": [
+    {
+      "track_ref": "3",
+      "source_way_id": 818901149,
+      "offset": -1.8364560769106786,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8217595.064392887,
+          "y": 4969381.181540719,
+          "depth": -2
+        },
+        {
+          "x": -8217725.310668351,
+          "y": 4969669.764228574,
+          "depth": -2
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "source_way_id": 818901121,
+      "offset": 1.9707214922169598,
+      "depth": -2,
+      "points": [
+        {
+          "x": -8217599.642249287,
+          "y": 4969379.115412809,
+          "depth": -2
+        },
+        {
+          "x": -8217729.888524751,
+          "y": 4969667.698100664,
+          "depth": -2
+        }
+      ]
+    }
+  ],
+  "source": "data/nyc_briarwood_source.json",
+  "stage": "built_adjacent_corridors_and_operations_pending",
+  "native_verification": "work/nyc-briarwood-all-built.json"
+}

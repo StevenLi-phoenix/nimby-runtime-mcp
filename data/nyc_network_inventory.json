@@ -1,0 +1,1373 @@
+{
+  "scope": "New York City Subway: full network, shared infrastructure and service patterns",
+  "stage": "discovery_only",
+  "operator_reference": "https://www.mta.info/map/5256",
+  "discovery_index": "https://wiki.openstreetmap.org/wiki/New_York_City_Subway",
+  "source_url": "https://api.openstreetmap.org/api/0.6/relations.json?relations=366764,366765,366766,366768,366769,366774,366777,366780,6942556,7837591,7893704,7894362,9651536,9655665,9663807,9677108,9682651,9712349,9716997,9721629,9721630,9747970,9748435,9753684,9767766,9769161,9769302,11248274",
+  "source_sha256": "3eb1888aad2dec2af2d9b3cb125cafaff843cf2e709d8a3b2ec12cc8f72bb1ed",
+  "source_timestamp": null,
+  "fetched_at": "2026-09-11T22:09:44.864075+00:00",
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+  "services": [
+    {
+      "osm_relation_id": 9651536,
+      "osm_version": 11,
+      "source_tags": {
+        "alt_name": "Broadway–7th Avenue Local",
+        "colour": "#D82233",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "1",
+        "name": "NYCS - 1 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "1",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126093",
+        "wikipedia": "en:1 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 364630,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9651535,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9655665,
+      "osm_version": 11,
+      "source_tags": {
+        "colour": "#D82233",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "2",
+        "name": "NYCS - 2 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "2",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126142",
+        "wikipedia": "en:2 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366783,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9655663,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 7575713,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9655662,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9663807,
+      "osm_version": 10,
+      "source_tags": {
+        "alt_name": "7th Avenue Express",
+        "colour": "#d82233",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "3",
+        "name": "NYCS - 3 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "3",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126151",
+        "wikipedia": "en:3 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366784,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9663806,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830385,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830384,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9677108,
+      "osm_version": 10,
+      "source_tags": {
+        "alt_name": "Lexington Avenue Express",
+        "colour": "#009952",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "4",
+        "name": "NYCS - 4 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "4",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126163",
+        "wikipedia": "en:4 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366785,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9677107,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830180,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830179,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255832,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255833,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9682651,
+      "osm_version": 9,
+      "source_tags": {
+        "alt_name": "Lexington Avenue Express",
+        "colour": "#009952",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "5",
+        "name": "NYCS - 5 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "5",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126177",
+        "wikipedia": "en:5 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9682649,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9682648,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255831,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 366778,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255830,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9682650,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255827,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255826,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255829,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255828,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366777,
+      "osm_version": 51,
+      "source_tags": {
+        "alt_name": "Lexington Avenue Local",
+        "colour": "#009952",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "6",
+        "name": "NYCS - 6 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "6",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126192",
+        "wikipedia": "en:6 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9699136,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9699135,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366765,
+      "osm_version": 55,
+      "source_tags": {
+        "alt_name": "Flushing Local",
+        "colour": "#9a38a1",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "7",
+        "name": "NYCS - 7 Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "7",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126203",
+        "wikipedia": "en:7 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9699137,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9699138,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9721630,
+      "osm_version": 8,
+      "source_tags": {
+        "alt_name": "Pelham Bay Park Express",
+        "colour": "#009952",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "6X",
+        "name": "NYCS - <6> Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "<6>",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126192",
+        "wikipedia": "en:6 (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9720365,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9720364,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9721629,
+      "osm_version": 8,
+      "source_tags": {
+        "alt_name": "Flushing Express",
+        "colour": "#9a38a1",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "7X",
+        "name": "NYCS - <7> Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "<7>",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q111448876"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9720366,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9720367,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 11248274,
+      "osm_version": 5,
+      "source_tags": {
+        "alt_name": "Culver Express",
+        "colour": "#eb6800",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "FX",
+        "name": "NYCS - <F> Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "<F>",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q111495096"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 11248273,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11248272,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366774,
+      "osm_version": 100,
+      "source_tags": {
+        "alt_name": "8th Avenue Express",
+        "colour": "#0062cf",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "A",
+        "name": "NYCS - A Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "A",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126344",
+        "wikipedia": "en:A (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9709546,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9727212,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9727209,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9727208,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9727211,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9727210,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255871,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255872,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255870,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11255869,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9748435,
+      "osm_version": 11,
+      "source_tags": {
+        "alt_name": "6th Avenue Express",
+        "colour": "#eb6800",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "B",
+        "name": "NYCS - B Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "B",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126381",
+        "wikipedia": "en:B (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9830089,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830090,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9748434,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 366770,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9767766,
+      "osm_version": 8,
+      "source_tags": {
+        "alt_name": "8th Avenue Local",
+        "colour": "#0062cf",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "C",
+        "name": "NYCS - C Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "C",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126358",
+        "wikipedia": "en:C (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366775,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9767765,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9769161,
+      "osm_version": 10,
+      "source_tags": {
+        "alt_name": "6th Avenue Express",
+        "colour": "#eb6800",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "D",
+        "name": "NYCS - D Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "D",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126396",
+        "wikipedia": "en:D (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9769160,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 366771,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256043,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256042,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256041,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256040,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9769302,
+      "osm_version": 8,
+      "source_tags": {
+        "alt_name": "8th Avenue Local",
+        "colour": "#0062cf",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "E",
+        "name": "NYCS - E Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "E",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126368",
+        "wikipedia": "en:E (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9769301,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 366776,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256046,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256047,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256045,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256044,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9753684,
+      "osm_version": 10,
+      "source_tags": {
+        "alt_name": "Queens Boulevard Express/6th Avenue Local",
+        "colour": "#eb6800",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "F",
+        "name": "NYCS - F Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "F",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126404",
+        "wikipedia": "en:F (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366772,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9753683,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 20236478,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 20236477,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366764,
+      "osm_version": 35,
+      "source_tags": {
+        "alt_name": "Brooklyn–Queens Crosstown Local",
+        "colour": "#799534",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "G",
+        "name": "NYCS - G Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "G",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126527",
+        "wikipedia": "en:G (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9699110,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9699111,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9747970,
+      "osm_version": 10,
+      "source_tags": {
+        "alt_name": "Nassau Street Local",
+        "colour": "#8E5C33",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "J",
+        "name": "NYCS - J Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "J",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126484",
+        "wikipedia": "en:J/Z (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9747969,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 366782,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256037,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11241943,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11241942,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9716997,
+      "osm_version": 10,
+      "source_tags": {
+        "alt_name": "14th Street–Canarsie Local",
+        "colour": "#7C858C",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "L",
+        "name": "NYCS - L Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "L",
+        "route_master": "subway",
+        "start_date": "1924-06-30",
+        "type": "route_master",
+        "wikidata": "Q126534"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366763,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9716996,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 9712349,
+      "osm_version": 13,
+      "source_tags": {
+        "alt_name": "Queens Boulevard/6th Avenue Local",
+        "colour": "#EB6800",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "M",
+        "name": "NYCS - M Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "M",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126418",
+        "wikipedia": "en:M (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366767,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9712342,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256038,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256039,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256036,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256035,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366768,
+      "osm_version": 88,
+      "source_tags": {
+        "alt_name": "Broadway Express",
+        "colour": "#F6BC26",
+        "colour:text": "#000000",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "N",
+        "name": "NYCS - N Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "N",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126434",
+        "wikipedia": "en:N (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9699161,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9712347,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256101,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256100,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9712348,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256102,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366769,
+      "osm_version": 128,
+      "source_tags": {
+        "alt_name": "2nd Avenue/Broadway Express/Brighton Local",
+        "colour": "#F6BC26",
+        "colour:text": "#000000",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "Q",
+        "name": "NYCS - Q Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "Q",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126448",
+        "wikipedia": "en:Q (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9712345,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9712346,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256104,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11256103,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366780,
+      "osm_version": 65,
+      "source_tags": {
+        "alt_name": "Broadway Local",
+        "colour": "#F6BC26",
+        "colour:text": "#000000",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "R",
+        "name": "NYCS - R Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "R",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126459",
+        "wikipedia": "en:R (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9712343,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9712344,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830405,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9830404,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 366766,
+      "osm_version": 25,
+      "source_tags": {
+        "colour": "#808183",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "GS",
+        "name": "NYCS - S 42nd Street Shuttle",
+        "network": "NYC Subway",
+        "network:guid": "US-NY-MTA",
+        "network:short": "MTA",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "S",
+        "ref:MTA": "0",
+        "route_master": "subway",
+        "type": "route_master",
+        "website": "https://www.mta.info/schedules/subway/42-st-shuttle",
+        "wikidata": "Q126698",
+        "wikipedia": "en:42nd Street Shuttle"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9699093,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11245930,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9699094,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 11245932,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 7893704,
+      "osm_version": 10,
+      "source_tags": {
+        "colour": "#7C858C",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "H",
+        "name": "NYCS - S Rockaway Park Shuttle",
+        "network": "NYC Subway",
+        "network:guid": "US-NY-MTA",
+        "network:short": "MTA",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "old_name": "NYCS - H Train",
+        "opening_hours": "24/7",
+        "operator": "MTA New York City Transit",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "S",
+        "ref:MTA": "H",
+        "route_master": "subway",
+        "type": "route_master",
+        "website": "https://www.mta.info/schedules/subway/rockaway-park-shuttle",
+        "wikidata": "Q126772",
+        "wikipedia": "en:Rockaway Park Shuttle"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 2623983,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 6342927,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 7894362,
+      "osm_version": 11,
+      "source_tags": {
+        "colour": "#7C858C",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "FS",
+        "name": "NYCS - S Franklin Avenue Shuttle",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "opening_hours": "24/7",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "S",
+        "ref:MTA": "S",
+        "route_master": "subway",
+        "type": "route_master",
+        "website": "https://www.mta.info/schedules/subway/franklin-avenue-shuttle",
+        "wikidata": "Q126725",
+        "wikipedia": "en:Franklin Avenue Shuttle"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 366809,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 6342928,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 6942556,
+      "osm_version": 21,
+      "source_tags": {
+        "alt_name": "Broadway Local",
+        "colour": "#F6BC26",
+        "colour:text": "#000000",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "W",
+        "name": "NYCS - W Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "W",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q126567",
+        "wikipedia": "en:W (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 9712256,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 9699150,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    },
+    {
+      "osm_relation_id": 7837591,
+      "osm_version": 11,
+      "source_tags": {
+        "alt_name": "Nassau Street Express",
+        "colour": "#8E5C33",
+        "colour:text": "#FFFFFF",
+        "gtfs:feed": "US-NY-MTA-Subway",
+        "gtfs:route_id": "Z",
+        "name": "NYCS - Z Train",
+        "network": "NYC Subway",
+        "network:wikidata": "Q7733",
+        "network:wikipedia": "en:New York City Subway",
+        "operator": "Metropolitan Transportation Authority",
+        "operator:wikidata": "Q1146109",
+        "operator:wikipedia": "en:Metropolitan Transportation Authority",
+        "owner": "City of New York",
+        "owner:wikidata": "Q60",
+        "ref": "Z",
+        "route_master": "subway",
+        "type": "route_master",
+        "wikidata": "Q3239257",
+        "wikipedia": "en:J/Z (New York City Subway service)"
+      },
+      "routes": [
+        {
+          "type": "relation",
+          "ref": 7837590,
+          "role": ""
+        },
+        {
+          "type": "relation",
+          "ref": 366773,
+          "role": ""
+        }
+      ],
+      "status": "discovered_requires_operator_and_geometry_validation"
+    }
+  ],
+  "construction_gates": [
+    "Match operator map and distinguish regular, express, branch and night patterns",
+    "Fetch route geometry; validate ordered stops and continuous track graph",
+    "Deduplicate shared physical ways before creating infrastructure",
+    "Check local/express tracks, junctions, bridge/tunnel layers and interchange station ownership",
+    "Read current world and preserve player changes before every construction batch",
+    "Verify native construction, complete round trips and terminal reversals"
+  ]
+}

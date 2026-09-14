@@ -1,0 +1,80 @@
+{
+  "tracks": [
+    {
+      "track_ref": "3",
+      "start_node_id": "281475851878401",
+      "source_way_ids": [
+        818608012
+      ],
+      "source_depths": [
+        "-2"
+      ],
+      "points": [
+        {
+          "x": -8236223.016887433,
+          "y": 4967250.292515523,
+          "source_node_id": -1,
+          "depth": -2
+        },
+        {
+          "x": -8236211.965662183,
+          "y": 4967540.2317535505,
+          "source_node_id": -2,
+          "depth": -2
+        }
+      ],
+      "source_length_metres": 219.99996077182342,
+      "projection_gaps": [
+        0.1429950138195288,
+        0.001669424378235886
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475852468226",
+      "source_way_ids": [
+        818608011
+      ],
+      "source_depths": [
+        "-2"
+      ],
+      "points": [
+        {
+          "x": -8236218.047266614,
+          "y": 4967250.099727978,
+          "source_node_id": -1,
+          "depth": -2
+        },
+        {
+          "x": -8236206.950168042,
+          "y": 4967540.038190919,
+          "source_node_id": -2,
+          "depth": -2
+        }
+      ],
+      "source_length_metres": 220.00079827775866,
+      "projection_gaps": [
+        0.20790937486353867,
+        0.11245118168501525
+      ]
+    }
+  ],
+  "crossovers": [
+    {
+      "source_way": 1133183148,
+      "from_track": "A4",
+      "to_track": "B2"
+    },
+    {
+      "source_way": 1133183149,
+      "from_track": "B2",
+      "to_track": "A4"
+    }
+  ],
+  "stage": "candidate_AC_interfaces_not_built",
+  "pending": [
+    "Verify source depth transitions before native creation.",
+    "Connect A4/B2 crossovers only after native A4 interface exists.",
+    "Continue A/C north to High Street."
+  ]
+}

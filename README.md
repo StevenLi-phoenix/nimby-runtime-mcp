@@ -9,6 +9,7 @@
 - [创建一条线路：完整流程](docs/create-line.md)
 - [OSM 数据与线路几何](docs/osm-data.md)
 - [默认参数与接口支持范围](docs/defaults.md)
+- [候车与 schedules 接口](docs/operations.md)
 - [变更记录](CHANGELOG.md)
 
 默认建设规则为地铁 Medium、按实际地面／高架／地下区间还原；城间高铁 High speed／高架、普速 Medium／Ground。避免造成信号阻塞的跨线平交，普通同层渡线可保留，新站标签为 Name and pax。当前接口固定创建 Medium，High speed 尚待参数化，复杂立交也可能需要扩展层级／坡度接口，详见默认参数文档。
@@ -34,12 +35,29 @@ uv run python session_call.py runtime_status
 
 文件队列中的请求仍经过标准 MCP `call_tool`。单连接租约禁止同时附加多个适配器；超时结果先核实再恢复，不自动重放建造或购车。
 
+后台 MCP 进程可以常驻，但原生连接在最后一次请求结束后空闲 30 秒自动安全关闭并释放租约；下一次请求自动附加。正在执行的请求不会被空闲计时器中断；原生 shutdown 无法安全完成时保留连接和租约，稍后重试清理。更新此逻辑后，已启动的旧 Python 服务须正常退出并重启才能生效。
+
+### 减少模型上下文输出
+
+`session_call.py` 与 `mcp_call.py` 默认输出摘要（也可显式 `--summary`），`--full` 恢复各入口原有的完整输出格式。Python `session_call.call()` 的返回与异常行为保持兼容。
+
+```powershell
+uv run python session_call.py runtime_status --summary
+uv run python session_call.py get_track_network '{"seed_node_ids":["实际节点ID"],"detail":"summary"}'
+uv run python session_call.py runtime_status --full
+```
+
+摘要列出数组数量、少量样本、完整购车 ID、显式 `verified=false` / `isError=true` / error / failures 异常及 `details_ref`。摘要不会自行判定操作验证成功；它不是通用业务审计器。完整协议结果仍保存于持久会话队列；独立 `mcp_call.py` 的结果保存在系统临时目录。异常详情可能较长，优先保留恢复依据。不要把完整日志再次打印给模型。
+
+`get_track_network` 支持 `detail="summary"`（计数、类型／层级分布、建筑层级不一致）、`"topology"`（移除 curve，保留节点及建筑）、`"geometry"`（默认，兼容完整返回）。投影在 Python 层完整读取后进行，减少 MCP 返回量，不减少原生读取量。summary 不替代曲线视觉核对、合站或保护对象检查；几何审核使用 geometry。批处理继续通过真实 MCP 完整读回、保存检查点，最后只输出摘要，异常再按 ID 展开。
+
 ## 代码结构
 
 | 文件 | 职责 |
 | --- | --- |
 | `server.py` | MCP 工具、参数校验、新站标签与车辆编号 |
 | `bridge.js` | 原生命令工厂、核心队列和运行时读回 |
+| `operations.js` | 候车／载客读取、原生 schedules 与列车排班操作 |
 | `runtime_connection.py` | 附加、哈希校验和关闭生命周期 |
 | `runtime_lease.py` | 单连接租约 |
 | `mcp_session.py` / `session_call.py` | 持久标准 MCP 客户端和请求驱动 |

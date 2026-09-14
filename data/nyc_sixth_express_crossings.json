@@ -1,0 +1,98 @@
+[
+  {
+    "ref": "3",
+    "way": 552266810,
+    "name": "PATH",
+    "depth": "-2",
+    "intersection": "POINT (-8236497.951756733 4975123.313828851)",
+    "chainage_metres": 195.52802130779565
+  },
+  {
+    "ref": "3",
+    "way": 552261294,
+    "name": "BMT Canarsie Line",
+    "depth": "-3",
+    "intersection": "POINT (-8237298.196585446 4973677.850009122)",
+    "chainage_metres": 1447.1982999775362
+  },
+  {
+    "ref": "3",
+    "way": 741691192,
+    "name": "IND Eighth Avenue Line",
+    "depth": "-3",
+    "intersection": "POINT (-8237601.910374022 4973117.259554877)",
+    "chainage_metres": 1930.2684833791343
+  },
+  {
+    "ref": "3",
+    "way": 741691193,
+    "name": null,
+    "depth": "-4",
+    "intersection": "POINT (-8237617.636853489 4973085.48611545)",
+    "chainage_metres": 1957.1263999477494
+  },
+  {
+    "ref": "3",
+    "way": 741776133,
+    "name": "IND Eighth Avenue Line",
+    "depth": "-2",
+    "intersection": "POINT (-8237617.801769231 4973085.152923246)",
+    "chainage_metres": 1957.408045516467
+  },
+  {
+    "ref": "3",
+    "way": 808580928,
+    "name": "BMT Canarsie Line",
+    "depth": "-3",
+    "intersection": "POINT (-8237293.095479728 4973687.0947805885)",
+    "chainage_metres": 1439.1992430942612
+  },
+  {
+    "ref": "3",
+    "way": 1547121833,
+    "name": "PATH",
+    "depth": "-2",
+    "intersection": "POINT (-8237557.938655485 4973205.629786044)",
+    "chainage_metres": 1855.4883148251663
+  },
+  {
+    "ref": "3",
+    "way": 1547121834,
+    "name": "PATH",
+    "depth": "-2",
+    "intersection": "POINT (-8237550.217223956 4973219.743596896)",
+    "chainage_metres": 1843.300507815132
+  },
+  {
+    "ref": "4",
+    "way": 552256574,
+    "name": "PATH",
+    "depth": "-2",
+    "intersection": "POINT (-8236489.843628586 4975121.55520939)",
+    "chainage_metres": 193.73072372708572
+  },
+  {
+    "ref": "4",
+    "way": 552261294,
+    "name": "BMT Canarsie Line",
+    "depth": "-3",
+    "intersection": "POINT (-8237287.67831641 4973672.051476708)",
+    "chainage_metres": 1447.2030508247801
+  },
+  {
+    "ref": "4",
+    "way": 808580928,
+    "name": "BMT Canarsie Line",
+    "depth": "-3",
+    "intersection": "POINT (-8237282.555292429 4973681.286056376)",
+    "chainage_metres": 1439.2027112724165
+  },
+  {
+    "ref": "4",
+    "way": 816057932,
+    "name": "IND Eighth Avenue Line",
+    "depth": "-2",
+    "intersection": "POINT (-8237609.73517172 4973087.131005067)",
+    "chainage_metres": 1953.0568740169747
+  }
+]

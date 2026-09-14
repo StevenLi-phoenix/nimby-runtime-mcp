@@ -1,0 +1,408 @@
+[
+  {
+    "ref": "1",
+    "segment_metres": [
+      37.5,
+      75.0
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901033,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8218959.8043860635 4970405.824142995)"
+  },
+  {
+    "ref": "1",
+    "segment_metres": [
+      37.5,
+      75.0
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901040,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "6",
+      "railway:track_ref:signals": "D6",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8218949.881701604 4970393.89169283)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      75.0,
+      112.5
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901033,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8218995.399046264 4970437.790039265)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      75.0,
+      112.5
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901040,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "6",
+      "railway:track_ref:signals": "D6",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8218977.376669785 4970413.119748421)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      150,
+      352.8090223098721
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901033,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219148.861053906 4970598.173500333)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      352.8090223098721,
+      394.6008234289245
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901038,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "7",
+      "railway:track_ref:signals": "D7",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219257.712612493 4970707.062139186)"
+  },
+  {
+    "ref": "3",
+    "segment_metres": [
+      441.11952569770466,
+      529.2135334648082
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 1547574199,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "15 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219383.803834579 4970816.056030255)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      75.0,
+      112.5
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901040,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "6",
+      "railway:track_ref:signals": "D6",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8218999.113950588 4970434.3815078195)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      112.5,
+      150
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901033,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219032.796785093 4970474.905087078)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      150,
+      352.939047833938
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901033,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "5",
+      "railway:track_ref:signals": "D5",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219093.361272733 4970535.599194015)"
+  },
+  {
+    "ref": "4",
+    "segment_metres": [
+      441.8423717433796,
+      529.408571750907
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901038,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "7",
+      "railway:track_ref:signals": "D7",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219386.303315584 4970811.644469421)"
+  },
+  {
+    "ref": "2",
+    "segment_metres": [
+      150,
+      210.50992875068158
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901040,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "20 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "6",
+      "railway:track_ref:signals": "D6",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219090.050120272 4970524.635968565)"
+  },
+  {
+    "ref": "2",
+    "segment_metres": [
+      210.50992875068158,
+      353.33450194320625
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901037,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "8",
+      "railway:track_ref:signals": "D8",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219214.915335924 4970649.946990223)"
+  },
+  {
+    "ref": "2",
+    "segment_metres": [
+      442.9632146752258,
+      530.0017529148093
+    ],
+    "depths": [
+      -2,
+      -2
+    ],
+    "source_way": 818901037,
+    "tags": {
+      "electrified": "rail",
+      "frequency": "0",
+      "gauge": "1435",
+      "layer": "-3",
+      "level": "-3",
+      "maxspeed": "10 mph",
+      "operator": "New York City Transit Authority",
+      "railway": "subway",
+      "railway:preferred_direction": "forward",
+      "railway:track_ref": "8",
+      "railway:track_ref:signals": "D8",
+      "service": "yard",
+      "tunnel": "yes",
+      "voltage": "625"
+    },
+    "hit": "POINT (-8219388.926917787 4970807.325175524)"
+  }
+]

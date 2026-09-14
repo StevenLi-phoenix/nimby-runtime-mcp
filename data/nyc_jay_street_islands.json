@@ -1,0 +1,196 @@
+{
+  "name": "Jay Street–MetroTech",
+  "plan_index": 24,
+  "center": {
+    "x": -8236226.770594884,
+    "y": 4967092.054468937
+  },
+  "scale": 0.7582289474944719,
+  "southbound_axis": {
+    "x": -0.038574722284631276,
+    "y": -0.9992557184227987
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818168015,
+      "track_ref": "1",
+      "line_name": "IND Culver Line",
+      "offset_metres": -9.82054371194364,
+      "x": -8236239.712905375,
+      "y": 4967092.554086827
+    },
+    {
+      "source_way_id": 818608012,
+      "track_ref": "3",
+      "line_name": "IND Fulton Street Line",
+      "offset_metres": -1.8925925680459412,
+      "x": -8236229.264807156,
+      "y": 4967092.150754146
+    },
+    {
+      "source_way_id": 818608011,
+      "track_ref": "4",
+      "line_name": "IND Fulton Street Line",
+      "offset_metres": 1.8293624669318866,
+      "x": -8236224.359712376,
+      "y": 4967091.961400545
+    },
+    {
+      "source_way_id": 818608013,
+      "track_ref": "2",
+      "line_name": "IND Culver Line",
+      "offset_metres": 9.878890554127723,
+      "x": -8236213.751390182,
+      "y": 4967091.551882666
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 904597216,
+      "tracks": [
+        {
+          "source_way_id": 818168015,
+          "track_ref": "1",
+          "line_name": "IND Culver Line",
+          "offset_metres": -9.82054371194364,
+          "x": -8236239.712905375,
+          "y": 4967092.554086827,
+          "points": [
+            {
+              "x": -8236233.607933138,
+              "y": 4967250.699837668,
+              "depth": -2
+            },
+            {
+              "x": -8236236.15167157,
+              "y": 4967184.805774817,
+              "depth": -2
+            },
+            {
+              "x": -8236243.274139181,
+              "y": 4967000.302398836,
+              "depth": -2
+            },
+            {
+              "x": -8236245.817877613,
+              "y": 4966934.408335986,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818608012,
+          "track_ref": "3",
+          "line_name": "IND Fulton Street Line",
+          "offset_metres": -1.8925925680459412,
+          "x": -8236229.264807156,
+          "y": 4967092.150754146,
+          "points": [
+            {
+              "x": -8236223.159834919,
+              "y": 4967250.296504987,
+              "depth": -2
+            },
+            {
+              "x": -8236225.703573351,
+              "y": 4967184.402442137,
+              "depth": -2
+            },
+            {
+              "x": -8236232.826040962,
+              "y": 4966999.899066156,
+              "depth": -2
+            },
+            {
+              "x": -8236235.369779394,
+              "y": 4966934.005003305,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.927951143897699,
+      "island_width_metres": 4.8779511438976995
+    },
+    {
+      "platform_way_id": 904597215,
+      "tracks": [
+        {
+          "source_way_id": 818608011,
+          "track_ref": "4",
+          "line_name": "IND Fulton Street Line",
+          "offset_metres": 1.8293624669318866,
+          "x": -8236224.359712376,
+          "y": 4967091.961400545,
+          "points": [
+            {
+              "x": -8236218.254740139,
+              "y": 4967250.107151386,
+              "depth": -2
+            },
+            {
+              "x": -8236220.798478571,
+              "y": 4967184.213088536,
+              "depth": -2
+            },
+            {
+              "x": -8236227.920946182,
+              "y": 4966999.709712555,
+              "depth": -2
+            },
+            {
+              "x": -8236230.464684614,
+              "y": 4966933.815649704,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818608013,
+          "track_ref": "2",
+          "line_name": "IND Culver Line",
+          "offset_metres": 9.878890554127723,
+          "x": -8236213.751390182,
+          "y": 4967091.551882666,
+          "points": [
+            {
+              "x": -8236207.646417945,
+              "y": 4967249.697633507,
+              "depth": -2
+            },
+            {
+              "x": -8236210.190156377,
+              "y": 4967183.803570656,
+              "depth": -2
+            },
+            {
+              "x": -8236217.312623988,
+              "y": 4966999.300194675,
+              "depth": -2
+            },
+            {
+              "x": -8236219.85636242,
+              "y": 4966933.4061318245,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.049528087195837,
+      "island_width_metres": 4.999528087195837
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_jay_street_source.json",
+  "reserved_broadway_platform": {
+    "source_way_id": 904597698,
+    "depth": -3
+  },
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect F south to Bergen and north to York Street.",
+    "Preserve A/C and R station geometry for full network construction."
+  ]
+}

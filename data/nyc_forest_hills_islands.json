@@ -1,0 +1,192 @@
+{
+  "name": "Forest Hills-71st Avenue",
+  "plan_index": 7,
+  "center": {
+    "x": -8220324.180064255,
+    "y": 4971371.781556282
+  },
+  "scale": 0.7578828278796589,
+  "southbound_axis": {
+    "x": -0.8626829430857157,
+    "y": 0.5057451331540104
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818901007,
+      "track_ref": "1",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -9.490433717370635,
+      "x": -8220317.846973588,
+      "y": 4971382.584328148
+    },
+    {
+      "source_way_id": 818901012,
+      "track_ref": "3",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -2.005512527015415,
+      "x": -8220322.84175949,
+      "y": 4971374.064391287
+    },
+    {
+      "source_way_id": 818901130,
+      "track_ref": "4",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 1.940558136366243,
+      "x": -8220325.475024105,
+      "y": 4971369.572657567
+    },
+    {
+      "source_way_id": 818901045,
+      "track_ref": "2",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 9.561938153115328,
+      "x": -8220330.5608707685,
+      "y": 4971360.89739234
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 906943663,
+      "tracks": [
+        {
+          "source_way_id": 818901007,
+          "track_ref": "1",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -9.490433717370635,
+          "x": -8220317.846973588,
+          "y": 4971382.584328148,
+          "points": [
+            {
+              "x": -8220181.2533612745,
+              "y": 4971302.506757122,
+              "depth": -2
+            },
+            {
+              "x": -8220238.167366405,
+              "y": 4971335.872411716,
+              "depth": -2
+            },
+            {
+              "x": -8220397.5265807705,
+              "y": 4971429.296244579,
+              "depth": -2
+            },
+            {
+              "x": -8220454.440585901,
+              "y": 4971462.661899173,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901012,
+          "track_ref": "3",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -2.005512527015415,
+          "x": -8220322.84175949,
+          "y": 4971374.064391287,
+          "points": [
+            {
+              "x": -8220186.248147177,
+              "y": 4971293.986820262,
+              "depth": -2
+            },
+            {
+              "x": -8220243.162152307,
+              "y": 4971327.352474855,
+              "depth": -2
+            },
+            {
+              "x": -8220402.521366673,
+              "y": 4971420.776307719,
+              "depth": -2
+            },
+            {
+              "x": -8220459.435371803,
+              "y": 4971454.141962312,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.48492119035522,
+      "island_width_metres": 4.434921190355221
+    },
+    {
+      "platform_way_id": 906943664,
+      "tracks": [
+        {
+          "source_way_id": 818901130,
+          "track_ref": "4",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 1.940558136366243,
+          "x": -8220325.475024105,
+          "y": 4971369.572657567,
+          "points": [
+            {
+              "x": -8220188.881411792,
+              "y": 4971289.495086542,
+              "depth": -2
+            },
+            {
+              "x": -8220245.795416922,
+              "y": 4971322.860741136,
+              "depth": -2
+            },
+            {
+              "x": -8220405.154631288,
+              "y": 4971416.284573999,
+              "depth": -2
+            },
+            {
+              "x": -8220462.068636418,
+              "y": 4971449.650228593,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901045,
+          "track_ref": "2",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 9.561938153115328,
+          "x": -8220330.5608707685,
+          "y": 4971360.89739234,
+          "points": [
+            {
+              "x": -8220193.967258455,
+              "y": 4971280.819821315,
+              "depth": -2
+            },
+            {
+              "x": -8220250.881263586,
+              "y": 4971314.185475908,
+              "depth": -2
+            },
+            {
+              "x": -8220410.240477951,
+              "y": 4971407.609308772,
+              "depth": -2
+            },
+            {
+              "x": -8220467.154483082,
+              "y": 4971440.974963365,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.621380016749085,
+      "island_width_metres": 4.571380016749085
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_forest_hills_source.json",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Queens Boulevard express and local tracks in both directions.",
+    "Retain the local terminal reversal requirement; defer yard access."
+  ]
+}

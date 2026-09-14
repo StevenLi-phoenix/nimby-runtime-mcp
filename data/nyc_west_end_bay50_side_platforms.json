@@ -1,0 +1,237 @@
+{
+  "name": "Bay 50th Street",
+  "plan_index": 34,
+  "center": {
+    "x": -8235835.245019551,
+    "y": 4951886.018889507
+  },
+  "scale": 0.7594081676384722,
+  "southbound_axis": {
+    "x": 0.14149475211909587,
+    "y": -0.9899390057588172
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 702926823,
+      "offset_metres": -3.7771656582200337,
+      "points": [
+        {
+          "x": -8235862.527493922,
+          "y": 4952041.743092395,
+          "depth": 2
+        },
+        {
+          "x": -8235853.211373939,
+          "y": 4951976.564770121,
+          "depth": 2
+        },
+        {
+          "x": -8235827.126237986,
+          "y": 4951794.065467754,
+          "depth": 2
+        },
+        {
+          "x": -8235817.810118003,
+          "y": 4951728.88714548,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 103320571,
+      "offset_metres": 3.7647932601302307,
+      "points": [
+        {
+          "x": -8235852.696049343,
+          "y": 4952043.148328279,
+          "depth": 2
+        },
+        {
+          "x": -8235843.37992936,
+          "y": 4951977.970006005,
+          "depth": 2
+        },
+        {
+          "x": -8235817.2947934065,
+          "y": 4951795.470703638,
+          "depth": 2
+        },
+        {
+          "x": -8235807.978673424,
+          "y": 4951730.292381364,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "source_platform_way_ids": [
+    427044480,
+    427044482
+  ],
+  "source": "data/nyc_west_end_bay50_source.json",
+  "layout": "two_side_platforms_with_center_express_track",
+  "depth": 2,
+  "stage": "candidate_native_creation_pending",
+  "source_adjacent_gaps_metres": [
+    3.4194873064541667,
+    4.122471611896098
+  ],
+  "geometry_review_required": "Source gap between track 1 and center is below 3.5 metres; audit native spacing before construction",
+  "center_track_adjustment_metres": 0.15,
+  "track_spacing_metres": 7.541958918350264,
+  "source_platforms": [
+    {
+      "osm_way_id": 427044480,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Bay 50th Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898009,
+        4262898008,
+        4262898022,
+        4262897915,
+        4262898038,
+        4262898036,
+        4262898035,
+        4262898030,
+        4262898031,
+        4262898027,
+        4262898021,
+        4262898009
+      ],
+      "points": [
+        {
+          "x": -8235807.940473206,
+          "y": 4951782.70688212
+        },
+        {
+          "x": -8235812.960982243,
+          "y": 4951781.871332774
+        },
+        {
+          "x": -8235836.037512684,
+          "y": 4951941.315960501
+        },
+        {
+          "x": -8235847.536816082,
+          "y": 4952022.3952153465
+        },
+        {
+          "x": -8235845.533065248,
+          "y": 4952021.926123532
+        },
+        {
+          "x": -8235842.894793317,
+          "y": 4952012.690883018
+        },
+        {
+          "x": -8235841.102549516,
+          "y": 4951999.893492686
+        },
+        {
+          "x": -8235839.054270883,
+          "y": 4951989.104411412
+        },
+        {
+          "x": -8235837.462402165,
+          "y": 4951989.192365829
+        },
+        {
+          "x": -8235834.790734387,
+          "y": 4951973.419219328
+        },
+        {
+          "x": -8235830.315690857,
+          "y": 4951940.846872572
+        },
+        {
+          "x": -8235807.940473206,
+          "y": 4951782.70688212
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044482,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "Bay 50th Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898034,
+        4262898033,
+        4262898007,
+        4262898006,
+        4262898003,
+        4262898004,
+        4262898034
+      ],
+      "points": [
+        {
+          "x": -8235858.835744397,
+          "y": 4951997.723948217
+        },
+        {
+          "x": -8235863.299655979,
+          "y": 4951997.137584927
+        },
+        {
+          "x": -8235831.818503981,
+          "y": 4951774.849789314
+        },
+        {
+          "x": -8235830.3936145,
+          "y": 4951768.912997615
+        },
+        {
+          "x": -8235826.386112832,
+          "y": 4951752.231365129
+        },
+        {
+          "x": -8235823.458410224,
+          "y": 4951752.436587148
+        },
+        {
+          "x": -8235858.835744397,
+          "y": 4951997.723948217
+        }
+      ]
+    }
+  ]
+}

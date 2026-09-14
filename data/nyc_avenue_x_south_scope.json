@@ -1,0 +1,12 @@
+{
+  "source": "data/nyc_coney_culver_source.json",
+  "central_track_way": 194911410,
+  "southern_source_node": 591987679,
+  "excluded_yard_ways": [
+    103242782,
+    813282256
+  ],
+  "reason": "Both source connections from the central rail southern endpoint are tagged service=yard; the user excludes yard links. Do not invent a mainline center-to-local merge. Continue the two outer mainline rails toward Neptune Avenue; retain the existing center endpoint until its final buffer geometry is reviewed.",
+  "neptune_plan": "data/nyc_neptune_island.json",
+  "stage": "source_scope_verified_native_work_pending"
+}

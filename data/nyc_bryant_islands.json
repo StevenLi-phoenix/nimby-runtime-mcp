@@ -1,0 +1,196 @@
+{
+  "name": "42nd Street-Bryant Park",
+  "plan_index": 14,
+  "center": {
+    "x": -8235921.8777344,
+    "y": 4976161.125246987
+  },
+  "scale": 0.7575244723824038,
+  "southbound_axis": {
+    "x": -0.4827646247317691,
+    "y": -0.8757501453654427
+  },
+  "cross_section": [
+    {
+      "source_way_id": 819186607,
+      "track_ref": "1",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -9.530378925845389,
+      "x": -8235932.895504828,
+      "y": 4976167.198885494
+    },
+    {
+      "source_way_id": 819186606,
+      "track_ref": "3",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": -1.9080650684453992,
+      "x": -8235924.083588233,
+      "y": 4976162.341242444
+    },
+    {
+      "source_way_id": 1547812312,
+      "track_ref": "4",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 1.9061147792031705,
+      "x": -8235919.674135235,
+      "y": 4976159.910494435
+    },
+    {
+      "source_way_id": 819186627,
+      "track_ref": "2",
+      "line_name": "IND Sixth Avenue Line",
+      "offset_metres": 9.521616540491047,
+      "x": -8235910.8700938905,
+      "y": 4976155.057192681
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 907922927,
+      "tracks": [
+        {
+          "source_way_id": 819186607,
+          "track_ref": "1",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -9.530378925845389,
+          "x": -8235932.895504828,
+          "y": 4976167.198885494,
+          "points": [
+            {
+              "x": -8235856.420411177,
+              "y": 4976305.927099928,
+              "depth": -2
+            },
+            {
+              "x": -8235888.2850335315,
+              "y": 4976248.123677247,
+              "depth": -2
+            },
+            {
+              "x": -8235977.505976124,
+              "y": 4976086.274093741,
+              "depth": -2
+            },
+            {
+              "x": -8236009.370598478,
+              "y": 4976028.47067106,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 819186606,
+          "track_ref": "3",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": -1.9080650684453992,
+          "x": -8235924.083588233,
+          "y": 4976162.341242444,
+          "points": [
+            {
+              "x": -8235847.608494583,
+              "y": 4976301.069456878,
+              "depth": -2
+            },
+            {
+              "x": -8235879.473116937,
+              "y": 4976243.266034197,
+              "depth": -2
+            },
+            {
+              "x": -8235968.694059529,
+              "y": 4976081.4164506905,
+              "depth": -2
+            },
+            {
+              "x": -8236000.558681884,
+              "y": 4976023.613028009,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.622313857399989,
+      "island_width_metres": 4.5723138573999895
+    },
+    {
+      "platform_way_id": 907922928,
+      "tracks": [
+        {
+          "source_way_id": 1547812312,
+          "track_ref": "4",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 1.9061147792031705,
+          "x": -8235919.674135235,
+          "y": 4976159.910494435,
+          "points": [
+            {
+              "x": -8235843.1990415845,
+              "y": 4976298.638708869,
+              "depth": -2
+            },
+            {
+              "x": -8235875.063663939,
+              "y": 4976240.835286188,
+              "depth": -2
+            },
+            {
+              "x": -8235964.284606531,
+              "y": 4976078.985702681,
+              "depth": -2
+            },
+            {
+              "x": -8235996.149228886,
+              "y": 4976021.18228,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 819186627,
+          "track_ref": "2",
+          "line_name": "IND Sixth Avenue Line",
+          "offset_metres": 9.521616540491047,
+          "x": -8235910.8700938905,
+          "y": 4976155.057192681,
+          "points": [
+            {
+              "x": -8235834.39500024,
+              "y": 4976293.785407116,
+              "depth": -2
+            },
+            {
+              "x": -8235866.259622594,
+              "y": 4976235.981984435,
+              "depth": -2
+            },
+            {
+              "x": -8235955.480565187,
+              "y": 4976074.132400928,
+              "depth": -2
+            },
+            {
+              "x": -8235987.345187541,
+              "y": 4976016.328978247,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.615501761287877,
+      "island_width_metres": 4.565501761287877
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_bryant_source.json",
+  "reserved_flushing_platform": {
+    "source_way_id": 903249946,
+    "source_depth": -4
+  },
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Sixth Avenue south to Herald Square and north to Rockefeller Center.",
+    "Preserve Flushing interchange and verify native depth adaptation."
+  ]
+}

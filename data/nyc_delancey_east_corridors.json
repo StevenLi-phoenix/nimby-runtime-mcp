@@ -1,0 +1,120 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475856990209",
+      "end_node_id": "281475854958593",
+      "points": [
+        {
+          "x": -8236380.259037791,
+          "y": 4970773.881092666,
+          "source_node_id": -1,
+          "depth": -3,
+          "metres": 0.0
+        },
+        {
+          "x": -8236437.236834293,
+          "y": 4970629.056635455,
+          "depth": -3,
+          "metres": 118.00285140078324
+        },
+        {
+          "x": -8236494.367587458,
+          "y": 4970484.292542172,
+          "depth": -3,
+          "metres": 236.00570280156649
+        },
+        {
+          "x": -8236572.073104738,
+          "y": 4970348.322591708,
+          "source_node_id": -2,
+          "depth": -3,
+          "metres": 354.0085542023497
+        }
+      ],
+      "source_way_ids": [
+        818168011,
+        1546629378
+      ],
+      "source_length_metres": 354.0085542023497,
+      "source_projection_gaps_world_metres": [
+        0.16443705281229462,
+        21.826312325806406
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 339.340470212455,
+          "depth": -3
+        },
+        {
+          "start_metres": 339.340470212455,
+          "end_metres": 354.0085542023497,
+          "depth": -4
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475856924673",
+      "end_node_id": "281475854893057",
+      "points": [
+        {
+          "x": -8236375.59604734,
+          "y": 4970772.013375956,
+          "source_node_id": -1,
+          "depth": -3,
+          "metres": 0.0
+        },
+        {
+          "x": -8236431.678029753,
+          "y": 4970629.365032591,
+          "depth": -3,
+          "metres": 116.21873869554913
+        },
+        {
+          "x": -8236487.918805402,
+          "y": 4970486.779322815,
+          "depth": -3,
+          "metres": 232.43747739109827
+        },
+        {
+          "x": -8236559.908799401,
+          "y": 4970349.797432743,
+          "source_node_id": -2,
+          "depth": -3,
+          "metres": 348.6562160866474
+        }
+      ],
+      "source_way_ids": [
+        813742871,
+        1546629377
+      ],
+      "source_length_metres": 348.6562160866474,
+      "source_projection_gaps_world_metres": [
+        0.17069932032247923,
+        17.127999587300756
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 339.3239328380116,
+          "depth": -3
+        },
+        {
+          "start_metres": 339.3239328380116,
+          "end_metres": 348.6562160866474,
+          "depth": -4
+        }
+      ]
+    }
+  ],
+  "scale": 0.7582289474944719,
+  "source": "data/nyc_delancey_source.json",
+  "stage": "candidate_native_curves_and_crossing_audit_pending",
+  "adaptation": "East Broadway source -4 maps to native -3; original depths remain in source_layer_segments.",
+  "pending": [
+    "Check source tunnel crossings and station approach curves.",
+    "Inspect native curves and layer transitions before building."
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Jamaica-179th Street",
+  "plan_index": 0,
+  "center": {
+    "x": -8213573.084373054,
+    "y": 4970051.981242526
+  },
+  "scale": 0.7579920557693433,
+  "southbound_axis": {
+    "x": -0.9534748798010529,
+    "y": -0.30147247567293367
+  },
+  "cross_section": [
+    {
+      "source_way_id": 821683805,
+      "track_ref": "1",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -9.68152039540698,
+      "x": -8213576.934956843,
+      "y": 4970064.159584535
+    },
+    {
+      "source_way_id": 821683804,
+      "track_ref": "3",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -1.9362924311290282,
+      "x": -8213573.854485179,
+      "y": 4970054.416896276
+    },
+    {
+      "source_way_id": 818901119,
+      "track_ref": "4",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 1.8787331901492201,
+      "x": -8213572.337153684,
+      "y": 4970049.617992293
+    },
+    {
+      "source_way_id": 818901073,
+      "track_ref": "2",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 9.722247256556622,
+      "x": -8213569.21759117,
+      "y": 4970039.751670377
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 906708611,
+      "tracks": [
+        {
+          "source_way_id": 821683805,
+          "track_ref": "1",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -9.68152039540698,
+          "x": -8213576.934956843,
+          "y": 4970064.159584535,
+          "points": [
+            {
+              "x": -8213425.987483574,
+              "y": 4970111.8865980385,
+              "depth": -2
+            },
+            {
+              "x": -8213488.882264103,
+              "y": 4970092.000342412,
+              "depth": -2
+            },
+            {
+              "x": -8213664.987649583,
+              "y": 4970036.318826659,
+              "depth": -2
+            },
+            {
+              "x": -8213727.882430112,
+              "y": 4970016.432571032,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 821683804,
+          "track_ref": "3",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -1.9362924311290282,
+          "x": -8213573.854485179,
+          "y": 4970054.416896276,
+          "points": [
+            {
+              "x": -8213422.90701191,
+              "y": 4970102.143909779,
+              "depth": -2
+            },
+            {
+              "x": -8213485.801792439,
+              "y": 4970082.257654153,
+              "depth": -2
+            },
+            {
+              "x": -8213661.9071779195,
+              "y": 4970026.5761384,
+              "depth": -2
+            },
+            {
+              "x": -8213724.801958448,
+              "y": 4970006.689882773,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.7452279642779525,
+      "island_width_metres": 4.695227964277953
+    },
+    {
+      "platform_way_id": 906708610,
+      "tracks": [
+        {
+          "source_way_id": 818901119,
+          "track_ref": "4",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 1.8787331901492201,
+          "x": -8213572.337153684,
+          "y": 4970049.617992293,
+          "points": [
+            {
+              "x": -8213421.389680415,
+              "y": 4970097.345005796,
+              "depth": -2
+            },
+            {
+              "x": -8213484.284460944,
+              "y": 4970077.45875017,
+              "depth": -2
+            },
+            {
+              "x": -8213660.389846425,
+              "y": 4970021.777234416,
+              "depth": -2
+            },
+            {
+              "x": -8213723.284626953,
+              "y": 4970001.89097879,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901073,
+          "track_ref": "2",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 9.722247256556622,
+          "x": -8213569.21759117,
+          "y": 4970039.751670377,
+          "points": [
+            {
+              "x": -8213418.270117901,
+              "y": 4970087.4786838805,
+              "depth": -2
+            },
+            {
+              "x": -8213481.16489843,
+              "y": 4970067.592428254,
+              "depth": -2
+            },
+            {
+              "x": -8213657.27028391,
+              "y": 4970011.910912501,
+              "depth": -2
+            },
+            {
+              "x": -8213720.165064439,
+              "y": 4969992.024656874,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.843514066407402,
+      "island_width_metres": 4.793514066407402
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_179_source.json",
+  "stage": "station_built_approaches_reversal_and_operations_pending",
+  "pending": [
+    "Connect four tracks toward 169th Street.",
+    "Plan and validate terminal reversal beyond arrival platforms, preserving deferred yard scope.",
+    "Complete F line operations and shared infrastructure verification."
+  ],
+  "native_station_id": "562949986648065",
+  "native_verification": "work/nyc-179-built.json"
+}

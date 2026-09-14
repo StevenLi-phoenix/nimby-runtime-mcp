@@ -1,0 +1,275 @@
+{
+  "name": "2nd Avenue",
+  "plan_index": 20,
+  "center": {
+    "x": -8236534.639610212,
+    "y": 4971624.450930698
+  },
+  "scale": 0.7578727804607388,
+  "southbound_axis": {
+    "x": 0.9273392006228283,
+    "y": -0.3742218686664553
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818168009,
+      "track_ref": "1",
+      "line_name": "IND Sixth Avenue Line",
+      "service": null,
+      "offset_metres": -10.261387053816247,
+      "x": -8236539.706470426,
+      "y": 4971611.895015361
+    },
+    {
+      "source_way_id": 818168004,
+      "track_ref": "5",
+      "line_name": "",
+      "service": "yard",
+      "offset_metres": -1.7921240337515736,
+      "x": -8236535.52452391,
+      "y": 4971622.258073385
+    },
+    {
+      "source_way_id": 818168005,
+      "track_ref": "6",
+      "line_name": "",
+      "service": "yard",
+      "offset_metres": 2.0588047464075068,
+      "x": -8236533.623015107,
+      "y": 4971626.970100665
+    },
+    {
+      "source_way_id": 46695594,
+      "track_ref": "2",
+      "line_name": "IND Sixth Avenue Line",
+      "service": null,
+      "offset_metres": 9.988544527261242,
+      "x": -8236529.707473982,
+      "y": 4971636.672993735
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 907929301,
+      "tracks": [
+        {
+          "source_way_id": 818168009,
+          "track_ref": "1",
+          "line_name": "IND Sixth Avenue Line",
+          "service": null,
+          "offset_metres": -10.261387053816247,
+          "x": -8236539.706470426,
+          "y": 4971611.895015361,
+          "points": [
+            {
+              "x": -8236686.539430975,
+              "y": 4971671.148527821,
+              "depth": -2
+            },
+            {
+              "x": -8236625.359030747,
+              "y": 4971646.459564296,
+              "depth": -2
+            },
+            {
+              "x": -8236454.0539101055,
+              "y": 4971577.330466426,
+              "depth": -2
+            },
+            {
+              "x": -8236392.873509877,
+              "y": 4971552.641502901,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 818168004,
+          "track_ref": "5",
+          "line_name": "",
+          "service": "yard",
+          "offset_metres": -1.7921240337515736,
+          "x": -8236535.52452391,
+          "y": 4971622.258073385,
+          "points": [
+            {
+              "x": -8236682.357484459,
+              "y": 4971681.511585845,
+              "depth": -2
+            },
+            {
+              "x": -8236621.177084231,
+              "y": 4971656.82262232,
+              "depth": -2
+            },
+            {
+              "x": -8236449.871963589,
+              "y": 4971587.69352445,
+              "depth": -2
+            },
+            {
+              "x": -8236388.691563361,
+              "y": 4971563.004560925,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.469263020064673,
+      "island_width_metres": 5.419263020064673
+    },
+    {
+      "platform_way_id": 907929300,
+      "tracks": [
+        {
+          "source_way_id": 818168005,
+          "track_ref": "6",
+          "line_name": "",
+          "service": "yard",
+          "offset_metres": 2.0588047464075068,
+          "x": -8236533.623015107,
+          "y": 4971626.970100665,
+          "points": [
+            {
+              "x": -8236680.4559756555,
+              "y": 4971686.223613125,
+              "depth": -2
+            },
+            {
+              "x": -8236619.275575427,
+              "y": 4971661.5346496,
+              "depth": -2
+            },
+            {
+              "x": -8236447.970454786,
+              "y": 4971592.405551731,
+              "depth": -2
+            },
+            {
+              "x": -8236386.790054558,
+              "y": 4971567.716588206,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 46695594,
+          "track_ref": "2",
+          "line_name": "IND Sixth Avenue Line",
+          "service": null,
+          "offset_metres": 9.988544527261242,
+          "x": -8236529.707473982,
+          "y": 4971636.672993735,
+          "points": [
+            {
+              "x": -8236676.540434531,
+              "y": 4971695.926506195,
+              "depth": -2
+            },
+            {
+              "x": -8236615.360034303,
+              "y": 4971671.23754267,
+              "depth": -2
+            },
+            {
+              "x": -8236444.054913661,
+              "y": 4971602.108444801,
+              "depth": -2
+            },
+            {
+              "x": -8236382.874513433,
+              "y": 4971577.419481276,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 7.929739780853735,
+      "island_width_metres": 4.879739780853735
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_delancey_source.json",
+  "deferred_yard_track_refs": [
+    "5",
+    "6"
+  ],
+  "stage": "source_layout_only_central_yard_tracks_deferred",
+  "pending": [
+    "Plan B1/B2 running tracks and platform faces without building B5/B6 yard tracks.",
+    "Connect F south to Delancey and north to Broadway\u2013Lafayette.",
+    "Retain deferred B5/B6 source geometry without creating yard extensions."
+  ],
+  "running_track_group": {
+    "tracks": [
+      {
+        "source_way_id": 818168009,
+        "track_ref": "1",
+        "line_name": "IND Sixth Avenue Line",
+        "service": null,
+        "offset_metres": -10.261387053816247,
+        "x": -8236539.706470426,
+        "y": 4971611.895015361,
+        "points": [
+          {
+            "x": -8236686.539430975,
+            "y": 4971671.148527821,
+            "depth": -2
+          },
+          {
+            "x": -8236625.359030747,
+            "y": 4971646.459564296,
+            "depth": -2
+          },
+          {
+            "x": -8236454.0539101055,
+            "y": 4971577.330466426,
+            "depth": -2
+          },
+          {
+            "x": -8236392.873509877,
+            "y": 4971552.641502901,
+            "depth": -2
+          }
+        ]
+      },
+      {
+        "source_way_id": 46695594,
+        "track_ref": "2",
+        "line_name": "IND Sixth Avenue Line",
+        "service": null,
+        "offset_metres": 9.988544527261242,
+        "x": -8236529.707473982,
+        "y": 4971636.672993735,
+        "points": [
+          {
+            "x": -8236676.540434531,
+            "y": 4971695.926506195,
+            "depth": -2
+          },
+          {
+            "x": -8236615.360034303,
+            "y": 4971671.23754267,
+            "depth": -2
+          },
+          {
+            "x": -8236444.054913661,
+            "y": 4971602.108444801,
+            "depth": -2
+          },
+          {
+            "x": -8236382.874513433,
+            "y": 4971577.419481276,
+            "depth": -2
+          }
+        ]
+      }
+    ],
+    "track_spacing_metres": 20.24993158107749,
+    "platform_way_id": [
+      907929301,
+      907929300
+    ]
+  }
+}

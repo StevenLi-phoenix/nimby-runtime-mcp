@@ -1,0 +1,250 @@
+{
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475852075009",
+      "end_node_id": "281475812491265",
+      "points": [
+        {
+          "x": -8236245.817893458,
+          "y": 4966934.40689894,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8236255.968027803,
+          "y": 4966906.502359096,
+          "source_node_id": 7644671103,
+          "depth": -2,
+          "metres": 22.255156802176955
+        },
+        {
+          "x": -8236316.158476475,
+          "y": 4966756.67964596,
+          "source_node_id": 7644671094,
+          "depth": -2,
+          "metres": 144.71445308017823
+        },
+        {
+          "x": -8236333.424129496,
+          "y": 4966722.634020608,
+          "source_node_id": 7644671090,
+          "depth": -2,
+          "metres": 173.658619182426
+        },
+        {
+          "x": -8236370.393332389,
+          "y": 4966664.144529484,
+          "source_node_id": 7644660132,
+          "depth": -2,
+          "metres": 226.1231453241092
+        },
+        {
+          "x": -8236428.624558023,
+          "y": 4966555.813637103,
+          "source_node_id": 7644660136,
+          "depth": -1,
+          "metres": 319.37747014354596
+        },
+        {
+          "x": -8236483.828447319,
+          "y": 4966448.660075734,
+          "source_node_id": -2,
+          "depth": -1,
+          "metres": 410.7727001174783
+        }
+      ],
+      "source_way_ids": [
+        818168015,
+        818608003,
+        818608005
+      ],
+      "source_length_metres": 410.7727001174783,
+      "source_projection_gaps_world_metres": [
+        2.876004173452195,
+        3.619791323885223e-10
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 5.543820353306787,
+          "depth": -2
+        },
+        {
+          "start_metres": 5.543820353306787,
+          "end_metres": 22.255156802176955,
+          "depth": -2
+        },
+        {
+          "start_metres": 22.255156802176955,
+          "end_metres": 38.97332047853247,
+          "depth": -2
+        },
+        {
+          "start_metres": 38.97332047853247,
+          "end_metres": 55.75042377167125,
+          "depth": -2
+        },
+        {
+          "start_metres": 55.75042377167125,
+          "end_metres": 91.54085496706821,
+          "depth": -2
+        },
+        {
+          "start_metres": 91.54085496706821,
+          "end_metres": 118.30671187950101,
+          "depth": -2
+        },
+        {
+          "start_metres": 118.30671187950101,
+          "end_metres": 144.71445308017823,
+          "depth": -2
+        },
+        {
+          "start_metres": 144.71445308017823,
+          "end_metres": 173.658619182426,
+          "depth": -2
+        },
+        {
+          "start_metres": 173.658619182426,
+          "end_metres": 226.1231453241092,
+          "depth": -2
+        },
+        {
+          "start_metres": 226.1231453241092,
+          "end_metres": 319.37747014354596,
+          "depth": -2
+        },
+        {
+          "start_metres": 319.37747014354596,
+          "end_metres": 410.7727001174783,
+          "depth": -1
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475852533762",
+      "end_node_id": "281475812556801",
+      "points": [
+        {
+          "x": -8236219.856417681,
+          "y": 4966933.40470034,
+          "source_node_id": -1,
+          "depth": -2,
+          "metres": 0.0
+        },
+        {
+          "x": -8236289.697833514,
+          "y": 4966783.663714344,
+          "source_node_id": 7644671087,
+          "depth": -2,
+          "metres": 124.85348500924638
+        },
+        {
+          "x": -8236328.949085967,
+          "y": 4966720.343762871,
+          "source_node_id": 7644671089,
+          "depth": -2,
+          "metres": 181.36202341006774
+        },
+        {
+          "x": -8236356.912542054,
+          "y": 4966657.391247305,
+          "source_node_id": 7644660131,
+          "depth": -2,
+          "metres": 233.59169361441582
+        },
+        {
+          "x": -8236415.221691333,
+          "y": 4966548.9136208985,
+          "source_node_id": 7644660134,
+          "depth": -1,
+          "metres": 326.9719900641031
+        },
+        {
+          "x": -8236470.3796425965,
+          "y": 4966441.858039144,
+          "source_node_id": -2,
+          "depth": -1,
+          "metres": 418.2852260430788
+        }
+      ],
+      "source_way_ids": [
+        818608013,
+        818608002,
+        818608004
+      ],
+      "source_length_metres": 418.2852260430788,
+      "source_projection_gaps_world_metres": [
+        6.671628794630219,
+        2.375780497462514e-10
+      ],
+      "source_layer_segments": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 9.754723537647012,
+          "depth": -2
+        },
+        {
+          "start_metres": 9.754723537647012,
+          "end_metres": 28.0189450980034,
+          "depth": -2
+        },
+        {
+          "start_metres": 28.0189450980034,
+          "end_metres": 46.28521707420563,
+          "depth": -2
+        },
+        {
+          "start_metres": 46.28521707420563,
+          "end_metres": 62.4833840532732,
+          "depth": -2
+        },
+        {
+          "start_metres": 62.4833840532732,
+          "end_metres": 98.19483340894304,
+          "depth": -2
+        },
+        {
+          "start_metres": 98.19483340894304,
+          "end_metres": 124.85348500924638,
+          "depth": -2
+        },
+        {
+          "start_metres": 124.85348500924638,
+          "end_metres": 152.78396839686263,
+          "depth": -2
+        },
+        {
+          "start_metres": 152.78396839686263,
+          "end_metres": 181.36202341006774,
+          "depth": -2
+        },
+        {
+          "start_metres": 181.36202341006774,
+          "end_metres": 233.59169361441582,
+          "depth": -2
+        },
+        {
+          "start_metres": 233.59169361441582,
+          "end_metres": 326.9719900641031,
+          "depth": -2
+        },
+        {
+          "start_metres": 326.9719900641031,
+          "end_metres": 418.2852260430788,
+          "depth": -1
+        }
+      ]
+    }
+  ],
+  "scale": 0.7582289474944719,
+  "source": "data/nyc_jay_street_source.json",
+  "stage": "candidate_native_curves_and_crossing_audit_pending",
+  "pending": [
+    "Check crossings against existing G and future A/C/R tracks.",
+    "Inspect native curves and layer transitions before building."
+  ]
+}

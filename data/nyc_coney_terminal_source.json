@@ -1,0 +1,496 @@
+{
+  "name": "Coney Island–Stillwell Avenue",
+  "plan_index": 44,
+  "center": {
+    "x": -8235553.783919547,
+    "y": 4950215.808802002
+  },
+  "scale": 0.7595168085902605,
+  "southbound_axis": {
+    "x": 0.10472372293285485,
+    "y": -0.9945013533701613
+  },
+  "cross_section": [
+    {
+      "source_way_id": 343782602,
+      "track_ref": "8",
+      "line_name": "BMT West End Line",
+      "offset_metres": -26.935055060975575,
+      "x": -8235589.052327577,
+      "y": 4950212.094941806
+    },
+    {
+      "source_way_id": 821683809,
+      "track_ref": "7",
+      "line_name": "BMT West End Line",
+      "offset_metres": -16.89141294539044,
+      "x": -8235575.901314244,
+      "y": 4950213.479779617
+    },
+    {
+      "source_way_id": 821683810,
+      "track_ref": "6",
+      "line_name": "IND Culver Line",
+      "offset_metres": -13.480245905982478,
+      "x": -8235571.434776836,
+      "y": 4950213.950118269
+    },
+    {
+      "source_way_id": 821683811,
+      "track_ref": "5",
+      "line_name": "IND Culver Line",
+      "offset_metres": -2.073976469868739,
+      "x": -8235556.4995571505,
+      "y": 4950215.522837906
+    },
+    {
+      "source_way_id": 343793853,
+      "track_ref": "4",
+      "line_name": "BMT Brighton Line",
+      "offset_metres": 1.8147168851833222,
+      "x": -8235551.407753045,
+      "y": 4950216.059018859
+    },
+    {
+      "source_way_id": 343792689,
+      "track_ref": "3",
+      "line_name": "BMT Brighton Line",
+      "offset_metres": 13.063887403256452,
+      "x": -8235536.678236623,
+      "y": 4950217.610077378
+    },
+    {
+      "source_way_id": 343792688,
+      "track_ref": null,
+      "line_name": "BMT Sea Beach Line",
+      "offset_metres": 16.84110877487797,
+      "x": -8235531.732392471,
+      "y": 4950218.130888346
+    },
+    {
+      "source_way_id": 343791897,
+      "track_ref": null,
+      "line_name": "BMT Sea Beach Line",
+      "offset_metres": 28.354287909206228,
+      "x": -8235516.657186628,
+      "y": 4950219.71834891
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 427044493,
+      "track_refs": [
+        "8",
+        "7"
+      ],
+      "source_track_ways": [
+        343782602,
+        821683809
+      ],
+      "track_spacing_metres": 10.043642115585136
+    },
+    {
+      "platform_way_id": 427044488,
+      "track_refs": [
+        "6",
+        "5"
+      ],
+      "source_track_ways": [
+        821683810,
+        821683811
+      ],
+      "track_spacing_metres": 11.406269436113739
+    },
+    {
+      "platform_way_id": 792754806,
+      "track_refs": [
+        "4",
+        "3"
+      ],
+      "source_track_ways": [
+        343793853,
+        343792689
+      ],
+      "track_spacing_metres": 11.249170518073129
+    },
+    {
+      "platform_way_id": 792754814,
+      "track_refs": [
+        null,
+        null
+      ],
+      "source_track_ways": [
+        343792688,
+        343791897
+      ],
+      "track_spacing_metres": 11.513179134328258
+    }
+  ],
+  "platforms": [
+    {
+      "source_way_id": 427044493,
+      "center": {
+        "x": -8235579.857158449,
+        "y": 4950194.2173142675
+      },
+      "footprint": {
+        "osm_way_id": 427044493,
+        "version": 16,
+        "tags": {
+          "area": "yes",
+          "bench": "yes",
+          "bin": "yes",
+          "bridge": "yes",
+          "destination": "Manhattan",
+          "gtfs:stop_id": "D43N",
+          "layer": "2",
+          "level": "2",
+          "lit": "yes",
+          "name": "Coney Island–Stillwell Avenue",
+          "network": "NYC Subway",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "passenger_information_display": "yes",
+          "passenger_information_display:speech_output": "no",
+          "public_transport": "platform",
+          "railway": "platform",
+          "shelter": "yes",
+          "source:geometry": "bing",
+          "subway": "yes",
+          "surface": "paved",
+          "tactile_paving": "yes",
+          "wheelchair": "yes"
+        },
+        "node_ids": [
+          4262897802,
+          4262897812,
+          4262897816,
+          4262897829,
+          4262897833,
+          4262897836,
+          4262897841,
+          4262897840,
+          4262897835,
+          4262897831,
+          4262897825,
+          4262897815,
+          4262897810,
+          4262897811,
+          4262897801,
+          4262897802
+        ],
+        "points": [
+          {
+            "x": -8235558.184063663,
+            "y": 4950069.408666534
+          },
+          {
+            "x": -8235560.198946447,
+            "y": 4950085.295999933
+          },
+          {
+            "x": -8235563.293628291,
+            "y": 4950108.540797946
+          },
+          {
+            "x": -8235586.459214324,
+            "y": 4950267.943558206
+          },
+          {
+            "x": -8235588.373909566,
+            "y": 4950282.995791667
+          },
+          {
+            "x": -8235590.299736758,
+            "y": 4950300.466377882
+          },
+          {
+            "x": -8235591.969529119,
+            "y": 4950317.277449538
+          },
+          {
+            "x": -8235599.839817119,
+            "y": 4950317.204166687
+          },
+          {
+            "x": -8235598.826809754,
+            "y": 4950300.055994629
+          },
+          {
+            "x": -8235596.578156038,
+            "y": 4950279.815327561
+          },
+          {
+            "x": -8235592.392543184,
+            "y": 4950251.6308911685
+          },
+          {
+            "x": -8235571.063728749,
+            "y": 4950101.359234038
+          },
+          {
+            "x": -8235566.633213013,
+            "y": 4950075.930677592
+          },
+          {
+            "x": -8235564.039468879,
+            "y": 4950076.355707675
+          },
+          {
+            "x": -8235562.870614225,
+            "y": 4950068.661200375
+          },
+          {
+            "x": -8235558.184063663,
+            "y": 4950069.408666534
+          }
+        ]
+      },
+      "offset_metres": -21.411547733888124
+    },
+    {
+      "source_way_id": 427044488,
+      "center": {
+        "x": -8235564.329458726,
+        "y": 4950216.698710604
+      },
+      "footprint": {
+        "osm_way_id": 427044488,
+        "version": 15,
+        "tags": {
+          "area": "yes",
+          "bench": "yes",
+          "bin": "yes",
+          "bridge": "yes",
+          "destination": "Manhattan",
+          "layer": "2",
+          "level": "2",
+          "lit": "yes",
+          "name": "Coney Island–Stillwell Avenue",
+          "network": "NYC Subway",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "passenger_information_display": "yes",
+          "passenger_information_display:speech_output": "no",
+          "public_transport": "platform",
+          "railway": "platform",
+          "shelter": "yes",
+          "source:geometry": "bing",
+          "subway": "yes",
+          "surface": "paved",
+          "tactile_paving": "yes",
+          "wheelchair": "yes"
+        },
+        "node_ids": [
+          4262897845,
+          4262897844,
+          4262897843,
+          4262897842,
+          4262897838,
+          4262897837,
+          4262897834,
+          4262897813,
+          4262897814,
+          4262897845
+        ],
+        "points": [
+          {
+            "x": -8235578.53326658,
+            "y": 4950350.166848328
+          },
+          {
+            "x": -8235582.084358336,
+            "y": 4950349.888372561
+          },
+          {
+            "x": -8235582.117754185,
+            "y": 4950339.115763522
+          },
+          {
+            "x": -8235582.117754185,
+            "y": 4950325.426505983
+          },
+          {
+            "x": -8235581.650212323,
+            "y": 4950310.432833624
+          },
+          {
+            "x": -8235580.97116343,
+            "y": 4950302.606233701
+          },
+          {
+            "x": -8235579.245711322,
+            "y": 4950288.887714077
+          },
+          {
+            "x": -8235551.382442776,
+            "y": 4950092.3309897315
+          },
+          {
+            "x": -8235542.855369781,
+            "y": 4950093.708675825
+          },
+          {
+            "x": -8235578.53326658,
+            "y": 4950350.166848328
+          }
+        ]
+      },
+      "offset_metres": -7.8946899524244225
+    },
+    {
+      "source_way_id": 792754806,
+      "center": {
+        "x": -8235546.295020638,
+        "y": 4950229.267823739
+      },
+      "footprint": {
+        "osm_way_id": 792754806,
+        "version": 14,
+        "tags": {
+          "area": "yes",
+          "bench": "yes",
+          "bin": "yes",
+          "bridge": "yes",
+          "covered": "yes",
+          "destination": "Manhattan",
+          "gtfs:stop_id": "D43N;D43S",
+          "layer": "2",
+          "level": "2",
+          "lit": "yes",
+          "name": "Coney Island–Stillwell Avenue",
+          "network": "NYC Subway",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "passenger_information_display": "yes",
+          "passenger_information_display:speech_output": "no",
+          "public_transport": "platform",
+          "railway": "platform",
+          "shelter": "yes",
+          "subway": "yes",
+          "surface": "paved",
+          "tactile_paving": "yes",
+          "wheelchair": "yes"
+        },
+        "node_ids": [
+          7412940494,
+          7412923742,
+          7412923771,
+          7412940501,
+          7412923776,
+          7412923779,
+          7412923774,
+          7412940494
+        ],
+        "points": [
+          {
+            "x": -8235559.8427240765,
+            "y": 4950352.8490100475
+          },
+          {
+            "x": -8235568.058102497,
+            "y": 4950351.676480243
+          },
+          {
+            "x": -8235567.03396318,
+            "y": 4950338.6320956405
+          },
+          {
+            "x": -8235566.644344964,
+            "y": 4950334.718783641
+          },
+          {
+            "x": -8235566.210198951,
+            "y": 4950331.890060963
+          },
+          {
+            "x": -8235530.398718762,
+            "y": 4950096.537329794
+          },
+          {
+            "x": -8235523.062764318,
+            "y": 4950097.577922913
+          },
+          {
+            "x": -8235559.8427240765,
+            "y": 4950352.8490100475
+          }
+        ]
+      },
+      "offset_metres": 6.727191489649107
+    },
+    {
+      "source_way_id": 792754814,
+      "center": {
+        "x": -8235524.654040376,
+        "y": 4950223.051359397
+      },
+      "footprint": {
+        "osm_way_id": 792754814,
+        "version": 14,
+        "tags": {
+          "area": "yes",
+          "bench": "yes",
+          "bin": "yes",
+          "bridge": "yes",
+          "covered": "yes",
+          "destination": "Manhattan",
+          "gtfs:stop_id": "D43N",
+          "layer": "2",
+          "level": "2",
+          "lit": "yes",
+          "name": "Coney Island–Stillwell Avenue",
+          "network": "NYC Subway",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "passenger_information_display": "yes",
+          "passenger_information_display:speech_output": "no",
+          "public_transport": "platform",
+          "railway": "platform",
+          "shelter": "yes",
+          "subway": "yes",
+          "surface": "paved",
+          "tactile_paving": "yes",
+          "wheelchair": "yes"
+        },
+        "node_ids": [
+          7412940502,
+          7412923778,
+          7412923766,
+          7412923761,
+          7412940502
+        ],
+        "points": [
+          {
+            "x": -8235538.914659807,
+            "y": 4950355.369949597
+          },
+          {
+            "x": -8235548.543795762,
+            "y": 4950354.373298999
+          },
+          {
+            "x": -8235512.576468286,
+            "y": 4950098.735766085
+          },
+          {
+            "x": -8235500.921317599,
+            "y": 4950099.893609398
+          },
+          {
+            "x": -8235538.914659807,
+            "y": 4950355.369949597
+          }
+        ]
+      },
+      "offset_metres": 22.579046195885898
+    }
+  ],
+  "source": "data/nyc_coney_culver_source.json",
+  "stage": "source_cross_section_only_native_terminal_plan_pending",
+  "pending": [
+    "Verify service-to-platform mapping using operator data.",
+    "Plan arrival-platform to station-after relay to departure-platform paths, preserving four islands/eight physical tracks.",
+    "Do not add yard or depot links."
+  ]
+}

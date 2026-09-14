@@ -1,0 +1,1271 @@
+{
+  "scale": 0.7587031106589781,
+  "corridors": [
+    {
+      "track_ref": "3",
+      "start_node_id": "281475914989569",
+      "end_node_id": "281475917283329",
+      "length_metres": 1245.9110436266928,
+      "source_projection_gaps": [
+        0.6965887802408415,
+        0.13752494889762484
+      ],
+      "source_layers": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 47.36479759838767,
+          "depth": -2,
+          "way": 817936170
+        },
+        {
+          "start_metres": 47.36479759838767,
+          "end_metres": 101.6820913232259,
+          "depth": -2,
+          "way": 817936168
+        },
+        {
+          "start_metres": 101.6820913232259,
+          "end_metres": 162.97357835685398,
+          "depth": -1,
+          "way": 46340165
+        },
+        {
+          "start_metres": 162.97357835685398,
+          "end_metres": 246.95806920201358,
+          "depth": -1,
+          "way": 46640017
+        },
+        {
+          "start_metres": 246.95806920201358,
+          "end_metres": 265.73592037522394,
+          "depth": -1,
+          "way": 46640018
+        },
+        {
+          "start_metres": 265.73592037522394,
+          "end_metres": 788.7842943494434,
+          "depth": -1,
+          "way": 46341526
+        },
+        {
+          "start_metres": 788.7842943494434,
+          "end_metres": 870.6049509889308,
+          "depth": -1,
+          "way": 299892112
+        },
+        {
+          "start_metres": 870.6049509889308,
+          "end_metres": 989.7860228113168,
+          "depth": 0,
+          "way": 299892101
+        },
+        {
+          "start_metres": 989.7860228113168,
+          "end_metres": 1104.7338508276334,
+          "depth": 0,
+          "way": 299892110
+        },
+        {
+          "start_metres": 1104.7338508276334,
+          "end_metres": 1147.8021133361217,
+          "depth": 0,
+          "way": 299892105
+        },
+        {
+          "start_metres": 1147.8021133361217,
+          "end_metres": 1162.6694966702853,
+          "depth": 0,
+          "way": 299892097
+        },
+        {
+          "start_metres": 1162.6694966702853,
+          "end_metres": 1245.9110436266928,
+          "depth": 0,
+          "way": 299892098
+        }
+      ],
+      "source_route": [
+        {
+          "osm_node_id": 7653979311,
+          "x": -8238128.250543454,
+          "y": 4961499.06910846,
+          "latitude": 40.6544031,
+          "longitude": -74.0043652,
+          "chainage": 41588.69323575614,
+          "metres": -27.64031610337406
+        },
+        {
+          "osm_node_id": 7638784126,
+          "x": -8238144.9262031745,
+          "y": 4961478.042282067,
+          "latitude": 40.6542598,
+          "longitude": -74.004515,
+          "chainage": 41615.52987219364,
+          "metres": -7.279276558612764
+        },
+        {
+          "osm_node_id": 7638784118,
+          "x": -8238193.405841418,
+          "y": 4961424.778436841,
+          "latitude": 40.6538968,
+          "longitude": -74.0049505,
+          "chainage": 41687.55287221738,
+          "metres": 47.36479759838767
+        },
+        {
+          "osm_node_id": 7638784141,
+          "x": -8238237.777790447,
+          "y": 4961368.594931784,
+          "latitude": 40.6535139,
+          "longitude": -74.0053491,
+          "chainage": 41759.14516301168,
+          "metres": 101.6820913232259
+        },
+        {
+          "osm_node_id": 7638781734,
+          "x": -8238242.397549314,
+          "y": 4961362.050726255,
+          "latitude": 40.6534693,
+          "longitude": -74.0053906,
+          "chainage": 41767.1557059394,
+          "metres": 107.7597151605587
+        },
+        {
+          "osm_node_id": 3487995352,
+          "x": -8238246.4607107295,
+          "y": 4961355.051659258,
+          "latitude": 40.6534216,
+          "longitude": -74.0054271,
+          "chainage": 41775.24867940517,
+          "metres": 113.89987930352072
+        },
+        {
+          "osm_node_id": 595924322,
+          "x": -8238249.722371809,
+          "y": 4961347.6564241,
+          "latitude": 40.6533712,
+          "longitude": -74.0054564,
+          "chainage": 41783.33124929652,
+          "metres": 120.0321502222032
+        },
+        {
+          "osm_node_id": 3487827711,
+          "x": -8238252.171400606,
+          "y": 4961339.9530600775,
+          "latitude": 40.6533187,
+          "longitude": -74.0054784,
+          "chainage": 41791.41453818798,
+          "metres": 126.16496664851002
+        },
+        {
+          "osm_node_id": 7638784138,
+          "x": -8238253.752137375,
+          "y": 4961332.029606268,
+          "latitude": 40.6532647,
+          "longitude": -74.0054926,
+          "chainage": 41799.494132794665,
+          "metres": 132.2949802094663
+        },
+        {
+          "osm_node_id": 595924324,
+          "x": -8238254.453450168,
+          "y": 4961323.974101465,
+          "latitude": 40.6532098,
+          "longitude": -74.0054989,
+          "chainage": 41807.580108138296,
+          "metres": 138.42983485539298
+        },
+        {
+          "osm_node_id": 7638784139,
+          "x": -8238254.275338982,
+          "y": 4961315.88925723,
+          "latitude": 40.6531547,
+          "longitude": -74.0054973,
+          "chainage": 41815.66691405311,
+          "metres": 144.5653196582607
+        },
+        {
+          "osm_node_id": 1413119433,
+          "x": -8238253.206671871,
+          "y": 4961307.863111751,
+          "latitude": 40.6531,
+          "longitude": -74.0054877,
+          "chainage": 41823.76389254138,
+          "metres": 150.708522424251
+        },
+        {
+          "osm_node_id": 7638784140,
+          "x": -8238251.26971273,
+          "y": 4961300.0130489515,
+          "latitude": 40.6530465,
+          "longitude": -74.0054703,
+          "chainage": 41831.849391701726,
+          "metres": 156.84301578843588
+        },
+        {
+          "osm_node_id": 595924201,
+          "x": -8238248.486725462,
+          "y": 4961292.4271064,
+          "latitude": 40.6529948,
+          "longitude": -74.0054453,
+          "chainage": 41839.929709921445,
+          "metres": 162.97357835685398
+        },
+        {
+          "osm_node_id": 3039736623,
+          "x": -8238246.549766322,
+          "y": 4961286.660620151,
+          "latitude": 40.6529555,
+          "longitude": -74.0054279,
+          "chainage": 41846.0128155731,
+          "metres": 167.588849537231
+        },
+        {
+          "osm_node_id": 595924207,
+          "x": -8238244.37903625,
+          "y": 4961281.569094402,
+          "latitude": 40.6529208,
+          "longitude": -74.0054084,
+          "chainage": 41851.547768463744,
+          "metres": 171.78823551271125
+        },
+        {
+          "osm_node_id": 3039736616,
+          "x": -8238240.427194328,
+          "y": 4961274.570084944,
+          "latitude": 40.6528731,
+          "longitude": -74.0053729,
+          "chainage": 41859.58537930017,
+          "metres": 177.88639585657802
+        },
+        {
+          "osm_node_id": 3039736614,
+          "x": -8238236.052338338,
+          "y": 4961268.143325949,
+          "latitude": 40.6528293,
+          "longitude": -74.0053336,
+          "chainage": 41867.35986295589,
+          "metres": 183.78492078994168
+        },
+        {
+          "osm_node_id": 3039736612,
+          "x": -8238230.085613633,
+          "y": 4961261.584514611,
+          "latitude": 40.6527846,
+          "longitude": -74.00528,
+          "chainage": 41876.226644214,
+          "metres": 190.51217531200018
+        },
+        {
+          "osm_node_id": 595924210,
+          "x": -8238170.807984785,
+          "y": 4961216.626695675,
+          "latitude": 40.6524782,
+          "longitude": -74.0047475,
+          "chainage": 41950.62451222984,
+          "metres": 246.95806920201358
+        },
+        {
+          "osm_node_id": 595924180,
+          "x": -8238150.570101359,
+          "y": 4961202.379335952,
+          "latitude": 40.6523811,
+          "longitude": -74.0045657,
+          "chainage": 41975.37444525292,
+          "metres": 265.73592037522394
+        },
+        {
+          "osm_node_id": 3039736322,
+          "x": -8237676.772084645,
+          "y": 4960837.002535209,
+          "latitude": 40.6498909,
+          "longitude": -74.0003095,
+          "chainage": 42573.6927277441,
+          "metres": 719.6818624654188
+        },
+        {
+          "osm_node_id": 3039736245,
+          "x": -8237605.605534181,
+          "y": 4960780.162152667,
+          "latitude": 40.6495035,
+          "longitude": -73.9996702,
+          "chainage": 42664.77240161548,
+          "metres": 788.7842943494434
+        },
+        {
+          "osm_node_id": 3039736235,
+          "x": -8237597.401287708,
+          "y": 4960772.063085268,
+          "latitude": 40.6494483,
+          "longitude": -73.9995965,
+          "chainage": 42676.3008253111,
+          "metres": 797.5309452682995
+        },
+        {
+          "osm_node_id": 3039736231,
+          "x": -8237593.460577735,
+          "y": 4960767.250599114,
+          "latitude": 40.6494155,
+          "longitude": -73.9995611,
+          "chainage": 42682.52089107276,
+          "metres": 802.2501285101753
+        },
+        {
+          "osm_node_id": 3039736226,
+          "x": -8237588.941006409,
+          "y": 4960761.425733367,
+          "latitude": 40.6493758,
+          "longitude": -73.9995205,
+          "chainage": 42689.893515160686,
+          "metres": 807.8437613394053
+        },
+        {
+          "osm_node_id": 3039736218,
+          "x": -8237584.710865759,
+          "y": 4960755.5861988915,
+          "latitude": 40.649336,
+          "longitude": -73.9994825,
+          "chainage": 42697.10421920443,
+          "metres": 813.314544927438
+        },
+        {
+          "osm_node_id": 3039736211,
+          "x": -8237579.3230024045,
+          "y": 4960748.734287257,
+          "latitude": 40.6492893,
+          "longitude": -73.9994341,
+          "chainage": 42705.820741708994,
+          "metres": 819.9277976657759
+        },
+        {
+          "osm_node_id": 3039736201,
+          "x": -8237572.610437109,
+          "y": 4960742.175823867,
+          "latitude": 40.6492446,
+          "longitude": -73.9993738,
+          "chainage": 42715.205408718684,
+          "metres": 827.0479737185269
+        },
+        {
+          "osm_node_id": 3039736169,
+          "x": -8237528.828481381,
+          "y": 4960705.040625191,
+          "latitude": 40.6489915,
+          "longitude": -73.9989805,
+          "chainage": 42772.615186876275,
+          "metres": 870.6049509889308
+        },
+        {
+          "osm_node_id": 3039735694,
+          "x": -8237449.190517667,
+          "y": 4960640.806307453,
+          "latitude": 40.6485537,
+          "longitude": -73.9982651,
+          "chainage": 42874.92966698473,
+          "metres": 948.2312653126719
+        },
+        {
+          "osm_node_id": 3039735672,
+          "x": -8237406.165534476,
+          "y": 4960606.913998079,
+          "latitude": 40.6483227,
+          "longitude": -73.9978786,
+          "chainage": 42929.700442159956,
+          "metres": 989.7860228113168
+        },
+        {
+          "osm_node_id": 3039735661,
+          "x": -8237395.868481576,
+          "y": 4960597.157142882,
+          "latitude": 40.6482562,
+          "longitude": -73.9977861,
+          "chainage": 42943.885840347335,
+          "metres": 1000.5485285420182
+        },
+        {
+          "osm_node_id": 3039735653,
+          "x": -8237382.832969206,
+          "y": 4960583.394858403,
+          "latitude": 40.6481624,
+          "longitude": -73.997669,
+          "chainage": 42962.84171164975,
+          "metres": 1014.9304070644102
+        },
+        {
+          "osm_node_id": 3039735648,
+          "x": -8237370.131415305,
+          "y": 4960571.65731763,
+          "latitude": 40.6480824,
+          "longitude": -73.9975549,
+          "chainage": 42980.13620022031,
+          "metres": 1028.051789340152
+        },
+        {
+          "osm_node_id": 3039735637,
+          "x": -8237327.807744907,
+          "y": 4960537.105013647,
+          "latitude": 40.6478469,
+          "longitude": -73.9971747,
+          "chainage": 43034.77277026679,
+          "metres": 1069.5047249901545
+        },
+        {
+          "osm_node_id": 3039735517,
+          "x": -8237295.068682663,
+          "y": 4960512.470982629,
+          "latitude": 40.647679,
+          "longitude": -73.9968806,
+          "chainage": 43075.74448832729,
+          "metres": 1100.5900949316965
+        },
+        {
+          "osm_node_id": 3039735514,
+          "x": -8237290.549111337,
+          "y": 4960509.404570958,
+          "latitude": 40.6476581,
+          "longitude": -73.99684,
+          "chainage": 43081.20611862473,
+          "metres": 1104.7338508276334
+        },
+        {
+          "osm_node_id": 3039735512,
+          "x": -8237282.467316305,
+          "y": 4960503.917310358,
+          "latitude": 40.6476207,
+          "longitude": -73.9967674,
+          "chainage": 43090.97471319251,
+          "metres": 1112.1453139129735
+        },
+        {
+          "osm_node_id": 3039735507,
+          "x": -8237269.287088597,
+          "y": 4960495.378317362,
+          "latitude": 40.6475625,
+          "longitude": -73.996649,
+          "chainage": 43106.67926042661,
+          "metres": 1124.0604027509726
+        },
+        {
+          "osm_node_id": 3039735502,
+          "x": -8237259.435313661,
+          "y": 4960489.729674883,
+          "latitude": 40.647524,
+          "longitude": -73.9965605,
+          "chainage": 43118.035519989084,
+          "metres": 1132.6764322064737
+        },
+        {
+          "osm_node_id": 3039735493,
+          "x": -8237242.781917837,
+          "y": 4960478.769850593,
+          "latitude": 40.6474493,
+          "longitude": -73.9964109,
+          "chainage": 43137.97175185257,
+          "metres": 1147.8021133361217
+        },
+        {
+          "osm_node_id": 3039735485,
+          "x": -8237227.464355906,
+          "y": 4960466.548267158,
+          "latitude": 40.647366,
+          "longitude": -73.9962733,
+          "chainage": 43157.56753724648,
+          "metres": 1162.6694966702853
+        },
+        {
+          "osm_node_id": 3039735474,
+          "x": -8237177.248133608,
+          "y": 4960426.435758373,
+          "latitude": 40.6470926,
+          "longitude": -73.9958222,
+          "chainage": 43221.83792189483,
+          "metres": 1211.4316374262417
+        },
+        {
+          "osm_node_id": 3039735455,
+          "x": -8237124.182132347,
+          "y": 4960383.403758096,
+          "latitude": 40.6467993,
+          "longitude": -73.9953455,
+          "chainage": 43290.15888161987,
+          "metres": 1263.2669620928355
+        },
+        {
+          "osm_node_id": 8401217851,
+          "x": -8237113.729232161,
+          "y": 4960375.891883812,
+          "latitude": 40.6467481,
+          "longitude": -73.9952516,
+          "chainage": 43303.03099790028,
+          "metres": 1273.0330767555424
+        },
+        {
+          "osm_node_id": 8401217852,
+          "x": -8237080.366780771,
+          "y": 4960350.554022235,
+          "latitude": 40.6465754,
+          "longitude": -73.9949519,
+          "chainage": 43344.92443881973,
+          "metres": 1304.8177606973404
+        },
+        {
+          "osm_node_id": 2343111497,
+          "x": -8237061.030585219,
+          "y": 4960333.711056147,
+          "latitude": 40.6464606,
+          "longitude": -73.9947782,
+          "chainage": 43370.56764386633,
+          "metres": 1324.2733401334553
+        }
+      ],
+      "source_bounds": [
+        31581.111242313556,
+        32827.02228594025
+      ],
+      "unresolved_vertical_ranges": [
+        {
+          "start_metres": 870.6049509889308,
+          "end_metres": 989.7860228113168,
+          "depth": 0,
+          "way": 299892101,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "maxspeed": "20 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "D1",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 989.7860228113168,
+          "end_metres": 1104.7338508276334,
+          "depth": 0,
+          "way": 299892110,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "incline": "up",
+            "maxspeed": "20 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "D1",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 1104.7338508276334,
+          "end_metres": 1147.8021133361217,
+          "depth": 0,
+          "way": 299892105,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "maxspeed": "20 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "D1",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 1147.8021133361217,
+          "end_metres": 1162.6694966702853,
+          "depth": 0,
+          "way": 299892097,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "maxspeed": "20 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "D1",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 1162.6694966702853,
+          "end_metres": 1245.9110436266928,
+          "depth": 0,
+          "way": 299892098,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "incline": "up",
+            "maxspeed": "20 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "1",
+            "railway:track_ref:signals": "D1",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        }
+      ]
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475915579394",
+      "end_node_id": "281475917217793",
+      "length_metres": 1233.6374479933074,
+      "source_projection_gaps": [
+        0.6572527615289865,
+        1.2772455916595076
+      ],
+      "source_layers": [
+        {
+          "start_metres": 0.0,
+          "end_metres": 47.12763314537733,
+          "depth": -2,
+          "way": 817936171
+        },
+        {
+          "start_metres": 47.12763314537733,
+          "end_metres": 101.67366800810487,
+          "depth": -2,
+          "way": 817936169
+        },
+        {
+          "start_metres": 101.67366800810487,
+          "end_metres": 163.36520468410163,
+          "depth": -1,
+          "way": 817936172
+        },
+        {
+          "start_metres": 163.36520468410163,
+          "end_metres": 253.20307873272031,
+          "depth": -1,
+          "way": 299892107
+        },
+        {
+          "start_metres": 253.20307873272031,
+          "end_metres": 776.1623856278893,
+          "depth": -1,
+          "way": 819639301
+        },
+        {
+          "start_metres": 776.1623856278893,
+          "end_metres": 858.0638468266006,
+          "depth": -1,
+          "way": 299892111
+        },
+        {
+          "start_metres": 858.0638468266006,
+          "end_metres": 978.3357904823024,
+          "depth": 0,
+          "way": 299892100
+        },
+        {
+          "start_metres": 978.3357904823024,
+          "end_metres": 1092.5981930888265,
+          "depth": 0,
+          "way": 299892113
+        },
+        {
+          "start_metres": 1092.5981930888265,
+          "end_metres": 1166.7556003330392,
+          "depth": 0,
+          "way": 299892109
+        },
+        {
+          "start_metres": 1166.7556003330392,
+          "end_metres": 1233.6374479933074,
+          "depth": 0,
+          "way": 299892093
+        }
+      ],
+      "source_route": [
+        {
+          "osm_node_id": 8423939553,
+          "x": -8238124.254173735,
+          "y": 4961496.04640768,
+          "latitude": 40.6543825,
+          "longitude": -74.0043293,
+          "chainage": 13265.136089594309,
+          "metres": -27.725215769438364
+        },
+        {
+          "osm_node_id": 7638784125,
+          "x": -8238140.918701507,
+          "y": 4961475.03426105,
+          "latitude": 40.6542393,
+          "longitude": -74.004479,
+          "chainage": 13238.31787205701,
+          "metres": -7.378150701562845
+        },
+        {
+          "osm_node_id": 7638784119,
+          "x": -8238181.39446836,
+          "y": 4961415.681059745,
+          "latitude": 40.6538348,
+          "longitude": -74.0048426,
+          "chainage": 13166.47714400253,
+          "metres": 47.12763314537733
+        },
+        {
+          "osm_node_id": 7638784120,
+          "x": -8238225.955660524,
+          "y": 4961359.262837335,
+          "latitude": 40.6534503,
+          "longitude": -74.0052429,
+          "chainage": 13094.583363554797,
+          "metres": 101.67366800810487
+        },
+        {
+          "osm_node_id": 7638784137,
+          "x": -8238231.120884897,
+          "y": 4961352.703964952,
+          "latitude": 40.6534056,
+          "longitude": -74.0052893,
+          "chainage": 13086.234809802658,
+          "metres": 108.0077417093562
+        },
+        {
+          "osm_node_id": 7638784136,
+          "x": -8238235.395553343,
+          "y": 4961345.822289256,
+          "latitude": 40.6533587,
+          "longitude": -74.0053277,
+          "chainage": 13078.133559855487,
+          "metres": 114.1541852445007
+        },
+        {
+          "osm_node_id": 7638784135,
+          "x": -8238238.790797813,
+          "y": 4961338.456407201,
+          "latitude": 40.6533085,
+          "longitude": -74.0053582,
+          "chainage": 13070.022832177245,
+          "metres": 120.30781956369174
+        },
+        {
+          "osm_node_id": 7638784134,
+          "x": -8238241.262090509,
+          "y": 4961330.738377363,
+          "latitude": 40.6532559,
+          "longitude": -74.0053804,
+          "chainage": 13061.918804033423,
+          "metres": 126.45637092527613
+        },
+        {
+          "osm_node_id": 7638784133,
+          "x": -8238242.776035583,
+          "y": 4961322.770911885,
+          "latitude": 40.6532016,
+          "longitude": -74.005394,
+          "chainage": 13053.808777163578,
+          "metres": 132.60947353895608
+        },
+        {
+          "osm_node_id": 7638784132,
+          "x": -8238243.299237189,
+          "y": 4961314.686068641,
+          "latitude": 40.6531465,
+          "longitude": -74.0053987,
+          "chainage": 13045.707022402581,
+          "metres": 138.7563000779228
+        },
+        {
+          "osm_node_id": 7638784131,
+          "x": -8238242.82056338,
+          "y": 4961306.5865590535,
+          "latitude": 40.6530913,
+          "longitude": -74.0053944,
+          "chainage": 13037.593380546188,
+          "metres": 144.91214539314024
+        },
+        {
+          "osm_node_id": 7638784130,
+          "x": -8238241.3734100005,
+          "y": 4961298.6191132255,
+          "latitude": 40.653037,
+          "longitude": -74.0053814,
+          "chainage": 13029.495575539559,
+          "metres": 151.0559752411791
+        },
+        {
+          "osm_node_id": 7638784129,
+          "x": -8238238.946645101,
+          "y": 4961290.871768808,
+          "latitude": 40.6529842,
+          "longitude": -74.0053596,
+          "chainage": 13021.377045290643,
+          "metres": 157.21552939500907
+        },
+        {
+          "osm_node_id": 3039736619,
+          "x": -8238235.595928428,
+          "y": 4961283.491255112,
+          "latitude": 40.6529339,
+          "longitude": -74.0053295,
+          "chainage": 13013.271535766962,
+          "metres": 163.36520468410163
+        },
+        {
+          "osm_node_id": 3039736615,
+          "x": -8238229.484488383,
+          "y": 4961272.853347539,
+          "latitude": 40.6528614,
+          "longitude": -74.0052746,
+          "chainage": 13001.00308937169,
+          "metres": 172.67331312714668
+        },
+        {
+          "osm_node_id": 3039736613,
+          "x": -8238223.94077774,
+          "y": 4961265.854344313,
+          "latitude": 40.6528137,
+          "longitude": -74.0052248,
+          "chainage": 12992.074552322185,
+          "metres": 179.44742196024163
+        },
+        {
+          "osm_node_id": 3039736610,
+          "x": -8238215.046350427,
+          "y": 4961257.8429128,
+          "latitude": 40.6527591,
+          "longitude": -74.0051449,
+          "chainage": 12980.104010474475,
+          "metres": 188.52950929637154
+        },
+        {
+          "osm_node_id": 3039736606,
+          "x": -8238192.893771758,
+          "y": 4961239.912589827,
+          "latitude": 40.6526369,
+          "longitude": -74.0049459,
+          "chainage": 12951.604304798982,
+          "metres": 210.15232464523433
+        },
+        {
+          "osm_node_id": 3039736594,
+          "x": -8238147.40862782,
+          "y": 4961205.988860761,
+          "latitude": 40.6524057,
+          "longitude": -74.0045373,
+          "chainage": 12894.861748346175,
+          "metres": 253.20307873272031
+        },
+        {
+          "osm_node_id": 8359593631,
+          "x": -8238129.497321751,
+          "y": 4961192.196374767,
+          "latitude": 40.6523117,
+          "longitude": -74.0043764,
+          "chainage": 12872.255387405443,
+          "metres": 270.354595099132
+        },
+        {
+          "osm_node_id": 3039736326,
+          "x": -8237673.56608331,
+          "y": 4960840.993405649,
+          "latitude": 40.6499181,
+          "longitude": -74.0002807,
+          "chainage": 12296.740991665882,
+          "metres": 706.9991573757579
+        },
+        {
+          "osm_node_id": 3039736248,
+          "x": -8237602.343873101,
+          "y": 4960784.094310996,
+          "latitude": 40.6495303,
+          "longitude": -73.9996409,
+          "chainage": 12205.581185833455,
+          "metres": 776.1623856278893
+        },
+        {
+          "osm_node_id": 3039736243,
+          "x": -8237593.894723749,
+          "y": 4960778.782963178,
+          "latitude": 40.6494941,
+          "longitude": -73.999565,
+          "chainage": 12195.601278998989,
+          "metres": 783.7341719872857
+        },
+        {
+          "osm_node_id": 3039736241,
+          "x": -8237586.380658121,
+          "y": 4960775.100234756,
+          "latitude": 40.649469,
+          "longitude": -73.9994975,
+          "chainage": 12187.233264246954,
+          "metres": 790.0830108096961
+        },
+        {
+          "osm_node_id": 3039736237,
+          "x": -8237579.37866215,
+          "y": 4960772.415218493,
+          "latitude": 40.6494507,
+          "longitude": -73.9994346,
+          "chainage": 12179.734113634726,
+          "metres": 795.7726397064944
+        },
+        {
+          "osm_node_id": 3039736233,
+          "x": -8237570.339519498,
+          "y": 4960768.541753701,
+          "latitude": 40.6494243,
+          "longitude": -73.9993534,
+          "chainage": 12169.89999804735,
+          "metres": 803.2338137932165
+        },
+        {
+          "osm_node_id": 3039736228,
+          "x": -8237561.066605914,
+          "y": 4960764.022713384,
+          "latitude": 40.6493935,
+          "longitude": -73.9992701,
+          "chainage": 12159.58454111529,
+          "metres": 811.0601830554406
+        },
+        {
+          "osm_node_id": 3039736221,
+          "x": -8237553.808575113,
+          "y": 4960759.224903384,
+          "latitude": 40.6493608,
+          "longitude": -73.9992049,
+          "chainage": 12150.88408182281,
+          "metres": 817.6612485848091
+        },
+        {
+          "osm_node_id": 3039736187,
+          "x": -8237512.175085558,
+          "y": 4960726.021775049,
+          "latitude": 40.6491345,
+          "longitude": -73.9988309,
+          "chainage": 12097.63189704305,
+          "metres": 858.0638468266006
+        },
+        {
+          "osm_node_id": 3039735719,
+          "x": -8237432.804288621,
+          "y": 4960662.11010482,
+          "latitude": 40.6486989,
+          "longitude": -73.9981179,
+          "chainage": 11995.727898113388,
+          "metres": 935.3787278031232
+        },
+        {
+          "osm_node_id": 3039735688,
+          "x": -8237388.844221707,
+          "y": 4960626.427737632,
+          "latitude": 40.6484557,
+          "longitude": -73.997723,
+          "chainage": 11939.108830554971,
+          "metres": 978.3357904823024
+        },
+        {
+          "osm_node_id": 3039735674,
+          "x": -8237363.619225094,
+          "y": 4960607.471532955,
+          "latitude": 40.6483265,
+          "longitude": -73.9974964,
+          "chainage": 11907.555096229233,
+          "metres": 1002.2757068681458
+        },
+        {
+          "osm_node_id": 3039735667,
+          "x": -8237355.804596841,
+          "y": 4960602.218968802,
+          "latitude": 40.6482907,
+          "longitude": -73.9974262,
+          "chainage": 11898.139266743357,
+          "metres": 1009.4195259885128
+        },
+        {
+          "osm_node_id": 3039735663,
+          "x": -8237348.346190957,
+          "y": 4960598.022788292,
+          "latitude": 40.6482621,
+          "longitude": -73.9973592,
+          "chainage": 11889.581477939844,
+          "metres": 1015.9123469741025
+        },
+        {
+          "osm_node_id": 3039735660,
+          "x": -8237341.188347699,
+          "y": 4960594.618894932,
+          "latitude": 40.6482389,
+          "longitude": -73.9972949,
+          "chainage": 11881.65549471281,
+          "metres": 1021.9258151034846
+        },
+        {
+          "osm_node_id": 3039735657,
+          "x": -8237333.0286290245,
+          "y": 4960589.923871551,
+          "latitude": 40.6482069,
+          "longitude": -73.9972216,
+          "chainage": 11872.241449174451,
+          "metres": 1029.0682807373232
+        },
+        {
+          "osm_node_id": 3039735651,
+          "x": -8237322.431013501,
+          "y": 4960582.76396523,
+          "latitude": 40.6481581,
+          "longitude": -73.9971264,
+          "chainage": 11859.451855228825,
+          "metres": 1038.7717854479342
+        },
+        {
+          "osm_node_id": 3039735638,
+          "x": -8237266.559761072,
+          "y": 4960539.041700071,
+          "latitude": 40.6478601,
+          "longitude": -73.9966245,
+          "chainage": 11788.506571250564,
+          "metres": 1092.5981930888265
+        },
+        {
+          "osm_node_id": 3039735633,
+          "x": -8237257.320243336,
+          "y": 4960531.294956671,
+          "latitude": 40.6478073,
+          "longitude": -73.9965415,
+          "chainage": 11776.449178444436,
+          "metres": 1101.7461745172732
+        },
+        {
+          "osm_node_id": 3039735527,
+          "x": -8237251.052956003,
+          "y": 4960524.531233071,
+          "latitude": 40.6477612,
+          "longitude": -73.9964852,
+          "chainage": 11767.22817809447,
+          "metres": 1108.742176166179
+        },
+        {
+          "osm_node_id": 3039735519,
+          "x": -8237245.609432904,
+          "y": 4960517.928904345,
+          "latitude": 40.6477162,
+          "longitude": -73.9964363,
+          "chainage": 11758.671152423503,
+          "metres": 1115.2344181607295
+        },
+        {
+          "osm_node_id": 3039735516,
+          "x": -8237239.932138874,
+          "y": 4960511.487970172,
+          "latitude": 40.6476723,
+          "longitude": -73.9963853,
+          "chainage": 11750.085274453246,
+          "metres": 1121.7485504845026
+        },
+        {
+          "osm_node_id": 2343111509,
+          "x": -8237228.488495221,
+          "y": 4960500.953604042,
+          "latitude": 40.6476005,
+          "longitude": -73.9962825,
+          "chainage": 11734.531180142378,
+          "metres": 1133.5494902216415
+        },
+        {
+          "osm_node_id": 3039735488,
+          "x": -8237194.74755756,
+          "y": 4960473.077202387,
+          "latitude": 40.6474105,
+          "longitude": -73.9959794,
+          "chainage": 11690.764244637718,
+          "metres": 1166.7556003330392
+        },
+        {
+          "osm_node_id": 3039735469,
+          "x": -8237107.050062713,
+          "y": 4960403.665307119,
+          "latitude": 40.6469374,
+          "longitude": -73.9951916,
+          "chainage": 11578.921221577817,
+          "metres": 1251.611249834088
+        },
+        {
+          "osm_node_id": 3039735443,
+          "x": -8237098.144503451,
+          "y": 4960396.080059018,
+          "latitude": 40.6468857,
+          "longitude": -73.9951116,
+          "chainage": 11567.22314590184,
+          "metres": 1260.4866162381732
+        },
+        {
+          "osm_node_id": 8401217850,
+          "x": -8237070.837832359,
+          "y": 4960373.588439143,
+          "latitude": 40.6467324,
+          "longitude": -73.9948663,
+          "chainage": 11531.846214848803,
+          "metres": 1287.3272038736832
+        }
+      ],
+      "source_bounds": [
+        31560.182328690847,
+        32793.819776684155
+      ],
+      "unresolved_vertical_ranges": [
+        {
+          "start_metres": 858.0638468266006,
+          "end_metres": 978.3357904823024,
+          "depth": 0,
+          "way": 299892100,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "maxspeed": "15 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "D2",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 978.3357904823024,
+          "end_metres": 1092.5981930888265,
+          "depth": 0,
+          "way": 299892113,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "incline": "down",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "D2",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 1092.5981930888265,
+          "end_metres": 1166.7556003330392,
+          "depth": 0,
+          "way": 299892109,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "maxspeed": "15 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "D2",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        },
+        {
+          "start_metres": 1166.7556003330392,
+          "end_metres": 1233.6374479933074,
+          "depth": 0,
+          "way": 299892093,
+          "tags": {
+            "electrified": "rail",
+            "electrified:rail": "top",
+            "embedded": "no",
+            "frequency": "0",
+            "gauge": "1435",
+            "incline": "down",
+            "maxspeed": "20 mph",
+            "name": "BMT West End Line",
+            "operator": "New York City Transit Authority",
+            "operator:wikidata": "Q1325591",
+            "owner": "Metropolitan Transit Authority",
+            "railway": "subway",
+            "railway:preferred_direction": "forward",
+            "railway:track_ref": "2",
+            "railway:track_ref:signals": "D2",
+            "railway:traffic_mode": "passenger",
+            "start_date": "1916-06-24",
+            "voltage": "600"
+          },
+          "reason": "Missing explicit vertical tags; zero is only the parser default."
+        }
+      ]
+    }
+  ],
+  "source": "data/nyc_d_plan.json",
+  "stage": "source_survey_native_crossings_pending"
+}

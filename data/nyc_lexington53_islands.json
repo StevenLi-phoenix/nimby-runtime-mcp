@@ -1,0 +1,109 @@
+{
+  "name": "Lexington Avenue-53rd Street",
+  "plan_index": 11,
+  "center": {
+    "x": -8234243.520003839,
+    "y": 4976672.89862328
+  },
+  "scale": 0.7574718963107441,
+  "southbound_axis": {
+    "x": -0.8735149731930977,
+    "y": 0.4867972797864239
+  },
+  "cross_section": [
+    {
+      "source_way_id": 1546629369,
+      "track_ref": "3",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -4.139162437550473,
+      "x": -8234240.859927571,
+      "y": 4976677.671896564
+    },
+    {
+      "source_way_id": 1546629370,
+      "track_ref": "4",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 4.155409288109543,
+      "x": -8234246.190521317,
+      "y": 4976668.106614163
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 907542974,
+      "tracks": [
+        {
+          "source_way_id": 1546629369,
+          "track_ref": "3",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -4.139162437550473,
+          "x": -8234240.859927571,
+          "y": 4976677.671896564,
+          "points": [
+            {
+              "x": -8234102.476183839,
+              "y": 4976600.552634636,
+              "depth": -3
+            },
+            {
+              "x": -8234160.136077061,
+              "y": 4976632.68566044,
+              "depth": -3
+            },
+            {
+              "x": -8234321.583778081,
+              "y": 4976722.658132688,
+              "depth": -3
+            },
+            {
+              "x": -8234379.243671304,
+              "y": 4976754.791158492,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 1546629370,
+          "track_ref": "4",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 4.155409288109543,
+          "x": -8234246.190521317,
+          "y": 4976668.106614163,
+          "points": [
+            {
+              "x": -8234107.806777584,
+              "y": 4976590.987352235,
+              "depth": -3
+            },
+            {
+              "x": -8234165.4666708065,
+              "y": 4976623.120378039,
+              "depth": -3
+            },
+            {
+              "x": -8234326.914371827,
+              "y": 4976713.092850287,
+              "depth": -3
+            },
+            {
+              "x": -8234384.574265049,
+              "y": 4976745.225876091,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.294571725660017,
+      "island_width_metres": 5.244571725660017
+    }
+  ],
+  "depth": -3,
+  "platform_length_metres": 140,
+  "source": "data/nyc_lexington53_source.json",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Fifth Avenue to the west and the East River tunnel to the east.",
+    "Preserve Lexington Avenue interchange tracks above this station."
+  ]
+}

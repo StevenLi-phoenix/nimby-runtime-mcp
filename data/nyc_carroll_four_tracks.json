@@ -1,0 +1,97 @@
+{
+  "station": "Carroll Street",
+  "source": "data/nyc_culver_cross_sections.json",
+  "stage": "station_span_only_approaches_pending",
+  "tracks": [
+    {
+      "source_way_id": 46341912,
+      "track_ref": "3",
+      "depth": -2,
+      "points": [
+        {
+          "x": -8237009.797952899,
+          "y": 4965415.582703565
+        },
+        {
+          "x": -8237093.280873256,
+          "y": 4965281.180080957
+        },
+        {
+          "x": -8237176.894772873,
+          "y": 4965146.864674607
+        }
+      ],
+      "role": "express_through_track_no_platform"
+    },
+    {
+      "source_way_id": 818608023,
+      "track_ref": "4",
+      "depth": -2,
+      "points": [
+        {
+          "x": -8237172.593246877,
+          "y": 4965144.153780796
+        },
+        {
+          "x": -8237089.030645533,
+          "y": 4965278.496353546
+        },
+        {
+          "x": -8237005.537926014,
+          "y": 4965412.893509156
+        }
+      ],
+      "role": "express_through_track_no_platform"
+    }
+  ],
+  "native_alignment": {
+    "points": [
+      {
+        "id": "281475810983939",
+        "x": -8237008.798195273,
+        "y": 4965414.975569507,
+        "dx": -0.5339038290961543,
+        "dy": -0.845545209481116
+      },
+      {
+        "id": "281475811049475",
+        "x": -8237093.280873256,
+        "y": 4965281.180080957,
+        "dx": -0.5339038290961543,
+        "dy": -0.845545209481116
+      },
+      {
+        "id": "281475811115011",
+        "x": -8237177.763551239,
+        "y": 4965147.384592406,
+        "dx": -0.5339038290961543,
+        "dy": -0.845545209481116
+      },
+      {
+        "id": "281475811311619",
+        "x": -8237004.54796755,
+        "y": 4965412.2918420965,
+        "dx": 0.5339038290961543,
+        "dy": 0.845545209481116
+      },
+      {
+        "id": "281475811246083",
+        "x": -8237089.030645533,
+        "y": 4965278.496353546,
+        "dx": 0.5339038290961543,
+        "dy": 0.845545209481116
+      },
+      {
+        "id": "281475811180547",
+        "x": -8237173.513323517,
+        "y": 4965144.700864996,
+        "dx": 0.5339038290961543,
+        "dy": 0.845545209481116
+      }
+    ],
+    "reason": "Straight parallel station-span adaptation, retaining exact source offsets at station center; source corridor curves retained for connections."
+  },
+  "adaptations": [
+    "Keep four tracks parallel through the 140 m straight station and 50 m end approaches, retaining source offsets at station center; connect source curves outside station span."
+  ]
+}

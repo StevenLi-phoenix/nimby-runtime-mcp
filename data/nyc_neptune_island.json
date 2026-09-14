@@ -1,0 +1,166 @@
+{
+  "plan_index": 42,
+  "name": "Neptune Avenue",
+  "center": {
+    "x": -8234812.191420833,
+    "y": 4950733.860746865
+  },
+  "scale": 0.7594966790886509,
+  "southbound_tangent": {
+    "x": -0.05367544506036713,
+    "y": -0.9985584342428697
+  },
+  "platform_footprint": {
+    "osm_way_id": 427044496,
+    "version": 13,
+    "tags": {
+      "area": "yes",
+      "bench": "yes",
+      "bin": "yes",
+      "bridge": "yes",
+      "departures_board": "realtime",
+      "departures_board:speech_output": "no",
+      "layer": "2",
+      "level": "2",
+      "lit": "yes",
+      "name": "Neptune Avenue",
+      "network": "NYC Subway",
+      "operator": "New York City Transit Authority",
+      "operator:wikidata": "Q1325591",
+      "public_transport": "platform",
+      "railway": "platform",
+      "shelter": "yes",
+      "source:geometry": "bing",
+      "subway": "yes",
+      "surface": "paved",
+      "tactile_paving": "yes",
+      "wheelchair": "no"
+    },
+    "node_ids": [
+      4262897855,
+      4262897854,
+      4262897853,
+      4262897852,
+      4262897851,
+      4262897848,
+      4262897849,
+      4262897850,
+      4262897855
+    ],
+    "points": [
+      {
+        "x": -8234809.0372864725,
+        "y": 4950855.408193039
+      },
+      {
+        "x": -8234803.026033969,
+        "y": 4950855.071073427
+      },
+      {
+        "x": -8234803.771874556,
+        "y": 4950833.993792015
+      },
+      {
+        "x": -8234805.196764041,
+        "y": 4950805.118869483
+      },
+      {
+        "x": -8234808.491820967,
+        "y": 4950744.32057966
+      },
+      {
+        "x": -8234815.794379564,
+        "y": 4950609.475187727
+      },
+      {
+        "x": -8234821.74997232,
+        "y": 4950609.768327873
+      },
+      {
+        "x": -8234818.4326514965,
+        "y": 4950672.309978201
+      },
+      {
+        "x": -8234809.0372864725,
+        "y": 4950855.408193039
+      }
+    ]
+  },
+  "cross_section": [
+    {
+      "track_ref": "1",
+      "source_way_id": 343800202,
+      "offset_metres": -3.7900898818448563,
+      "depth": 2,
+      "x": -8234817.174492283,
+      "y": 4950734.128601573
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 343795969,
+      "offset_metres": 3.9303162773091285,
+      "depth": 2,
+      "x": -8234807.02398485,
+      "y": 4950733.582982022
+    }
+  ],
+  "layout": "one_island_two_tracks",
+  "platform_length_metres": 140,
+  "native_depth": 2,
+  "source": "data/nyc_coney_culver_source.json",
+  "stage": "candidate_native_geometry_pending",
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 343800202,
+      "points": [
+        {
+          "x": -8234808.693805554,
+          "y": 4950891.900209282,
+          "depth": 2
+        },
+        {
+          "x": -8234812.227425024,
+          "y": 4950826.162039404,
+          "depth": 2
+        },
+        {
+          "x": -8234822.121559542,
+          "y": 4950642.095163743,
+          "depth": 2
+        },
+        {
+          "x": -8234825.655179012,
+          "y": 4950576.356993865,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 343795969,
+      "points": [
+        {
+          "x": -8234798.543298122,
+          "y": 4950891.3545897305,
+          "depth": 2
+        },
+        {
+          "x": -8234802.0769175915,
+          "y": 4950825.616419853,
+          "depth": 2
+        },
+        {
+          "x": -8234811.971052109,
+          "y": 4950641.549544192,
+          "depth": 2
+        },
+        {
+          "x": -8234815.504671579,
+          "y": 4950575.811374314,
+          "depth": 2
+        }
+      ]
+    }
+  ]
+}

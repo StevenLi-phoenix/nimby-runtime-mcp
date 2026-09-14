@@ -1,0 +1,201 @@
+{
+  "name": "West 4th Street-Washington Square",
+  "plan_index": 18,
+  "center": {
+    "x": -8237701.137510996,
+    "y": 4972924.630899078
+  },
+  "scale": 0.7577756047657839,
+  "southbound_axis": {
+    "x": -0.4774441717964104,
+    "y": -0.878662086821572
+  },
+  "cross_section": [
+    {
+      "source_way_id": 816341839,
+      "track_ref": "1",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": -9.999943770458065,
+      "x": -8237712.732726527,
+      "y": 4972930.93146463
+    },
+    {
+      "source_way_id": 741776140,
+      "track_ref": "3",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": -1.9984793076438645,
+      "x": -8237703.454803857,
+      "y": 4972925.890061147
+    },
+    {
+      "source_way_id": 741776133,
+      "track_ref": "4",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": 1.946061390398482,
+      "x": -8237698.880998182,
+      "y": 4972923.404763448
+    },
+    {
+      "source_way_id": 816057932,
+      "track_ref": "2",
+      "line_name": "IND Eighth Avenue Line",
+      "offset_metres": 10.0371199575425,
+      "x": -8237689.499188633,
+      "y": 4972918.306910294
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 552742165,
+      "tracks": [
+        {
+          "source_way_id": 816341839,
+          "track_ref": "1",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": -9.999943770458065,
+          "x": -8237712.732726527,
+          "y": 4972930.93146463,
+          "points": [
+            {
+              "x": -8237637.125514768,
+              "y": 4973070.0748334,
+              "depth": -2
+            },
+            {
+              "x": -8237668.628519667,
+              "y": 4973012.098429746,
+              "depth": -2
+            },
+            {
+              "x": -8237756.836933387,
+              "y": 4972849.764499514,
+              "depth": -2
+            },
+            {
+              "x": -8237788.339938287,
+              "y": 4972791.788095861,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 741776140,
+          "track_ref": "3",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": -1.9984793076438645,
+          "x": -8237703.454803857,
+          "y": 4972925.890061147,
+          "points": [
+            {
+              "x": -8237627.847592098,
+              "y": 4973065.033429916,
+              "depth": -2
+            },
+            {
+              "x": -8237659.350596997,
+              "y": 4973007.057026262,
+              "depth": -2
+            },
+            {
+              "x": -8237747.559010717,
+              "y": 4972844.723096031,
+              "depth": -2
+            },
+            {
+              "x": -8237779.062015616,
+              "y": 4972786.746692377,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.001464462814202,
+      "island_width_metres": 4.951464462814202
+    },
+    {
+      "platform_way_id": 552742166,
+      "tracks": [
+        {
+          "source_way_id": 741776133,
+          "track_ref": "4",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": 1.946061390398482,
+          "x": -8237698.880998182,
+          "y": 4972923.404763448,
+          "points": [
+            {
+              "x": -8237623.273786423,
+              "y": 4973062.5481322175,
+              "depth": -2
+            },
+            {
+              "x": -8237654.776791322,
+              "y": 4973004.571728564,
+              "depth": -2
+            },
+            {
+              "x": -8237742.985205042,
+              "y": 4972842.237798332,
+              "depth": -2
+            },
+            {
+              "x": -8237774.488209941,
+              "y": 4972784.261394679,
+              "depth": -2
+            }
+          ]
+        },
+        {
+          "source_way_id": 816057932,
+          "track_ref": "2",
+          "line_name": "IND Eighth Avenue Line",
+          "offset_metres": 10.0371199575425,
+          "x": -8237689.499188633,
+          "y": 4972918.306910294,
+          "points": [
+            {
+              "x": -8237613.891976873,
+              "y": 4973057.450279064,
+              "depth": -2
+            },
+            {
+              "x": -8237645.394981773,
+              "y": 4972999.47387541,
+              "depth": -2
+            },
+            {
+              "x": -8237733.603395493,
+              "y": 4972837.139945178,
+              "depth": -2
+            },
+            {
+              "x": -8237765.106400392,
+              "y": 4972779.163541525,
+              "depth": -2
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.091058567144017,
+      "island_width_metres": 5.041058567144018
+    }
+  ],
+  "depth": -2,
+  "platform_length_metres": 140,
+  "source": "data/nyc_west_fourth_source.json",
+  "lower_sixth_avenue_platforms": {
+    "source_way_ids": [
+      552495904,
+      552495905
+    ],
+    "depth": -3
+  },
+  "source_depth": -2,
+  "adaptation": "Eighth Avenue source and native depth -2; lower Sixth Avenue uses -3",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Eighth Avenue tracks south and north.",
+    "Unify with the existing lower Sixth Avenue platforms."
+  ]
+}

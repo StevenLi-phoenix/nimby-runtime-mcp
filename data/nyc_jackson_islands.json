@@ -1,0 +1,192 @@
+{
+  "name": "Jackson Heights-Roosevelt Avenue",
+  "plan_index": 8,
+  "center": {
+    "x": -8225548.370525939,
+    "y": 4975045.983293253
+  },
+  "scale": 0.7575981250829124,
+  "southbound_axis": {
+    "x": -0.8716340305210193,
+    "y": 0.490157236851281
+  },
+  "cross_section": [
+    {
+      "source_way_id": 818901115,
+      "track_ref": "1",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -10.918121781141473,
+      "x": -8225541.306627248,
+      "y": 4975058.544842944
+    },
+    {
+      "source_way_id": 813738323,
+      "track_ref": "3",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": -1.6184519537030768,
+      "x": -8225547.323406219,
+      "y": 4975047.845359371
+    },
+    {
+      "source_way_id": 818901140,
+      "track_ref": "4",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 2.061340198946242,
+      "x": -8225549.70418924,
+      "y": 4975043.611674044
+    },
+    {
+      "source_way_id": 818901093,
+      "track_ref": "2",
+      "line_name": "IND Queens Boulevard Line",
+      "offset_metres": 10.307327542940104,
+      "x": -8225555.039247813,
+      "y": 4975034.124476352
+    }
+  ],
+  "islands": [
+    {
+      "platform_way_id": 515886158,
+      "tracks": [
+        {
+          "source_way_id": 818901115,
+          "track_ref": "1",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -10.918121781141473,
+          "x": -8225541.306627248,
+          "y": 4975058.544842944,
+          "points": [
+            {
+              "x": -8225403.243873131,
+              "y": 4974980.906228915,
+              "depth": -3
+            },
+            {
+              "x": -8225460.7700206805,
+              "y": 4975013.2556514265,
+              "depth": -3
+            },
+            {
+              "x": -8225621.843233816,
+              "y": 4975103.834034461,
+              "depth": -3
+            },
+            {
+              "x": -8225679.369381365,
+              "y": 4975136.183456972,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 813738323,
+          "track_ref": "3",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": -1.6184519537030768,
+          "x": -8225547.323406219,
+          "y": 4975047.845359371,
+          "points": [
+            {
+              "x": -8225409.260652102,
+              "y": 4974970.206745342,
+              "depth": -3
+            },
+            {
+              "x": -8225466.786799651,
+              "y": 4975002.556167854,
+              "depth": -3
+            },
+            {
+              "x": -8225627.860012786,
+              "y": 4975093.134550888,
+              "depth": -3
+            },
+            {
+              "x": -8225685.3861603355,
+              "y": 4975125.4839734,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 9.299669827438397,
+      "island_width_metres": 6.249669827438397
+    },
+    {
+      "platform_way_id": 515886157,
+      "tracks": [
+        {
+          "source_way_id": 818901140,
+          "track_ref": "4",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 2.061340198946242,
+          "x": -8225549.70418924,
+          "y": 4975043.611674044,
+          "points": [
+            {
+              "x": -8225411.641435123,
+              "y": 4974965.973060016,
+              "depth": -3
+            },
+            {
+              "x": -8225469.167582672,
+              "y": 4974998.322482527,
+              "depth": -3
+            },
+            {
+              "x": -8225630.240795808,
+              "y": 4975088.900865561,
+              "depth": -3
+            },
+            {
+              "x": -8225687.766943357,
+              "y": 4975121.250288073,
+              "depth": -3
+            }
+          ]
+        },
+        {
+          "source_way_id": 818901093,
+          "track_ref": "2",
+          "line_name": "IND Queens Boulevard Line",
+          "offset_metres": 10.307327542940104,
+          "x": -8225555.039247813,
+          "y": 4975034.124476352,
+          "points": [
+            {
+              "x": -8225416.976493696,
+              "y": 4974956.485862323,
+              "depth": -3
+            },
+            {
+              "x": -8225474.502641245,
+              "y": 4974988.835284835,
+              "depth": -3
+            },
+            {
+              "x": -8225635.575854381,
+              "y": 4975079.413667869,
+              "depth": -3
+            },
+            {
+              "x": -8225693.10200193,
+              "y": 4975111.7630903805,
+              "depth": -3
+            }
+          ]
+        }
+      ],
+      "track_spacing_metres": 8.245987343993862,
+      "island_width_metres": 5.195987343993862
+    }
+  ],
+  "depth": -3,
+  "platform_length_metres": 140,
+  "source": "data/nyc_jackson_source.json",
+  "stage": "candidate_native_platform_audit_pending",
+  "pending": [
+    "Unify IND platforms under one native station.",
+    "Connect Queens Boulevard express and local tracks in both directions.",
+    "Preserve the elevated Flushing interchange source."
+  ]
+}

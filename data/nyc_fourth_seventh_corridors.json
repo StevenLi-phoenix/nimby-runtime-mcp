@@ -1,0 +1,282 @@
+{
+  "from_station": "4th Avenue",
+  "to_station": "7th Avenue",
+  "corridors": [
+    {
+      "track_ref": "1",
+      "start_node_id": "281475816751105",
+      "end_node_id": "281475818848257",
+      "points": [
+        {
+          "x": -8236371.211671738,
+          "y": 4963733.252941698,
+          "chainage_metres": 0,
+          "depth": 2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236300.813645531,
+          "y": 4963697.612315509,
+          "chainage_metres": 60,
+          "depth": 0,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236225.034029485,
+          "y": 4963674.947121095,
+          "chainage_metres": 120,
+          "depth": -1,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236149.102436983,
+          "y": 4963652.781003895,
+          "chainage_metres": 180,
+          "depth": -2,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236074.499490264,
+          "y": 4963626.823854032,
+          "chainage_metres": 240,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236006.649112406,
+          "y": 4963586.342204447,
+          "chainage_metres": 300,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8235567.3934907,
+          "y": 4963295.682183933,
+          "chainage_metres": 699.5191856422564,
+          "depth": -3,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 699.5191856422564,
+      "source_projection_gaps_world_metres": [
+        0.25263378753528676,
+        3.241778890843395
+      ],
+      "fully_tunnelled_source_chainage_metres": 85.94206660846348,
+      "source_way_ids": [
+        913241243,
+        426568717
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "2",
+      "start_node_id": "281475816685569",
+      "end_node_id": "281475819307010",
+      "points": [
+        {
+          "x": -8236361.707640705,
+          "y": 4963748.194742059,
+          "chainage_metres": 0,
+          "depth": 2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236291.656214539,
+          "y": 4963711.928615055,
+          "chainage_metres": 60,
+          "depth": 0,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236216.061735368,
+          "y": 4963688.721737364,
+          "chainage_metres": 120,
+          "depth": -1,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236140.142255245,
+          "y": 4963666.514170426,
+          "chainage_metres": 180,
+          "depth": -2,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236065.712557219,
+          "y": 4963640.074023429,
+          "chainage_metres": 240,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8235997.548119124,
+          "y": 4963600.045517262,
+          "chainage_metres": 300,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8235552.432315516,
+          "y": 4963319.94326254,
+          "chainage_metres": 698.9157809336136,
+          "depth": -3,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 698.9157809336136,
+      "source_projection_gaps_world_metres": [
+        0.40316083333853014,
+        2.112808719238689
+      ],
+      "fully_tunnelled_source_chainage_metres": 81.70498329343994,
+      "source_way_ids": [
+        913241246,
+        426568718
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "3",
+      "start_node_id": "281475816947714",
+      "end_node_id": "281475818782721",
+      "points": [
+        {
+          "x": -8236367.957983832,
+          "y": 4963738.368972865,
+          "chainage_metres": 0,
+          "depth": 2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236297.749935199,
+          "y": 4963702.414431832,
+          "chainage_metres": 60,
+          "depth": 0,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236222.03813102,
+          "y": 4963679.541034501,
+          "chainage_metres": 120,
+          "depth": -1,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236146.111924859,
+          "y": 4963657.356474339,
+          "chainage_metres": 180,
+          "depth": -2,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236071.566889417,
+          "y": 4963631.237729147,
+          "chainage_metres": 240,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236003.548382038,
+          "y": 4963591.002924956,
+          "chainage_metres": 300,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8235561.253398093,
+          "y": 4963305.638897935,
+          "chainage_metres": 699.2549495431107,
+          "depth": -3,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 699.2549495431107,
+      "source_projection_gaps_world_metres": [
+        0.47862440239316195,
+        2.4658594821150603
+      ],
+      "fully_tunnelled_source_chainage_metres": 83.8272794721938,
+      "source_way_ids": [
+        913241244,
+        97047837
+      ],
+      "stage": "candidate_native_curves_pending"
+    },
+    {
+      "track_ref": "4",
+      "start_node_id": "281475817013250",
+      "end_node_id": "281475819372546",
+      "points": [
+        {
+          "x": -8236364.780529828,
+          "y": 4963743.364419873,
+          "chainage_metres": 0,
+          "depth": 2,
+          "reason": "native_endpoint"
+        },
+        {
+          "x": -8236294.698860702,
+          "y": 4963707.184232929,
+          "chainage_metres": 60,
+          "depth": 0,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236219.050516822,
+          "y": 4963684.125663247,
+          "chainage_metres": 120,
+          "depth": -1,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236143.12540061,
+          "y": 4963661.937373095,
+          "chainage_metres": 180,
+          "depth": -2,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236068.638232606,
+          "y": 4963635.657396798,
+          "chainage_metres": 240,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8236000.667538357,
+          "y": 4963595.33388194,
+          "chainage_metres": 300,
+          "depth": -3,
+          "reason": "transition_anchor"
+        },
+        {
+          "x": -8235558.669961656,
+          "y": 4963309.828356685,
+          "chainage_metres": 699.1236941676673,
+          "depth": -3,
+          "reason": "native_endpoint"
+        }
+      ],
+      "source_length_metres": 699.1236941676673,
+      "source_projection_gaps_world_metres": [
+        0.5418143785933166,
+        2.4483191297359226
+      ],
+      "fully_tunnelled_source_chainage_metres": 82.6973779275715,
+      "source_way_ids": [
+        913241245,
+        814347384
+      ],
+      "stage": "candidate_native_curves_pending"
+    }
+  ],
+  "source_sha256": "45f5a618cd73a01d969f4e81ffaac0f3adaae2a8d93699ea1562fa3217715766",
+  "adaptations": [
+    "Preserve built +2 viaduct endpoints and new -3 station endpoints.",
+    "Place the ground anchor 60m from the existing endpoint, before the fully tunnelled source; reach -3 at 240m.",
+    "The earlier ground anchor at 120m lay inside the source tunnel and conflicted with a road; preserve the source tunnel crossing.",
+    "Source levels describe relative layers, not measured vertical grades."
+  ],
+  "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+}

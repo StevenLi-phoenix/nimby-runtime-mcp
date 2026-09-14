@@ -1,0 +1,186 @@
+{
+  "name": "50th Street",
+  "plan_index": 25,
+  "center": {
+    "x": -8237063.124670014,
+    "y": 4958830.743786281
+  },
+  "scale": 0.7588678744524459,
+  "southbound_axis": {
+    "x": -0.09579264217419856,
+    "y": -0.9954013108818401
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 427044476,
+      "offset_metres": -3.9719284270942268,
+      "points": [
+        {
+          "x": -8237053.186900144,
+          "y": 4958988.648268548,
+          "depth": 2
+        },
+        {
+          "x": -8237059.498449585,
+          "y": 4958923.063642792,
+          "depth": 2
+        },
+        {
+          "x": -8237077.170788019,
+          "y": 4958739.426690675,
+          "depth": 2
+        },
+        {
+          "x": -8237083.48233746,
+          "y": 4958673.84206492,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 427044478,
+      "offset_metres": 3.860954936658689,
+      "points": [
+        {
+          "x": -8237042.912565664,
+          "y": 4958987.659515936,
+          "depth": 2
+        },
+        {
+          "x": -8237049.224115105,
+          "y": 4958922.0748901805,
+          "depth": 2
+        },
+        {
+          "x": -8237066.896453539,
+          "y": 4958738.437938063,
+          "depth": 2
+        },
+        {
+          "x": -8237073.20800298,
+          "y": 4958672.853312308,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "source_platform_way_ids": [
+    427044437,
+    427044438
+  ],
+  "source": "data/nyc_west_end_fort_hamilton_source.json",
+  "layout": "two_side_platforms_with_center_express_track",
+  "depth": 2,
+  "stage": "candidate_native_creation_pending",
+  "track_spacing_metres": 7.832883363752916,
+  "source_platforms": [
+    {
+      "osm_way_id": 427044437,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "50th Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898418,
+        4262898417,
+        4262898445,
+        4262898446,
+        4262898418
+      ],
+      "points": [
+        {
+          "x": -8237085.275970315,
+          "y": 4958725.135903094
+        },
+        {
+          "x": -8237080.711871193,
+          "y": 4958724.886527535
+        },
+        {
+          "x": -8237057.0898752455,
+          "y": 4958970.905939885
+        },
+        {
+          "x": -8237061.731898011,
+          "y": 4958971.419373062
+        },
+        {
+          "x": -8237085.275970315,
+          "y": 4958725.135903094
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044438,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "name": "50th Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898502,
+        4262898501,
+        4262898438,
+        4262898439,
+        4262898502
+      ],
+      "points": [
+        {
+          "x": -8237069.179171946,
+          "y": 4958692.511765984
+        },
+        {
+          "x": -8237064.069607318,
+          "y": 4958691.92500192
+        },
+        {
+          "x": -8237040.826097641,
+          "y": 4958938.046272546
+        },
+        {
+          "x": -8237045.42359261,
+          "y": 4958938.339661944
+        },
+        {
+          "x": -8237069.179171946,
+          "y": 4958692.511765984
+        }
+      ]
+    }
+  ]
+}

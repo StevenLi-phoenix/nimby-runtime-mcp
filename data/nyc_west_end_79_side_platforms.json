@@ -1,0 +1,182 @@
+{
+  "name": "79th Street",
+  "plan_index": 29,
+  "center": {
+    "x": -8237708.998080218,
+    "y": 4955505.415610779
+  },
+  "scale": 0.7591261085334702,
+  "southbound_axis": {
+    "x": -0.21251930403559283,
+    "y": -0.9771568683748927
+  },
+  "tracks": [
+    {
+      "track_ref": "1",
+      "source_way_id": 813334676,
+      "offset_metres": -3.8154403426357386,
+      "points": [
+        {
+          "x": -8237680.3150557475,
+          "y": 4955660.949293002,
+          "depth": 2
+        },
+        {
+          "x": -8237694.312684181,
+          "y": 4955596.588651378,
+          "depth": 2
+        },
+        {
+          "x": -8237733.506043796,
+          "y": 4955416.37885483,
+          "depth": 2
+        },
+        {
+          "x": -8237747.50367223,
+          "y": 4955352.018213206,
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "track_ref": "2",
+      "source_way_id": 813334677,
+      "offset_metres": 4.130671159422626,
+      "points": [
+        {
+          "x": -8237670.086719054,
+          "y": 4955658.724758675,
+          "depth": 2
+        },
+        {
+          "x": -8237684.084347487,
+          "y": 4955594.3641170515,
+          "depth": 2
+        },
+        {
+          "x": -8237723.277707103,
+          "y": 4955414.154320504,
+          "depth": 2
+        },
+        {
+          "x": -8237737.275335536,
+          "y": 4955349.79367888,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "source_platform_way_ids": [
+    427044445,
+    427044446
+  ],
+  "source": "data/nyc_west_end_79_source.json",
+  "layout": "two_side_platforms_with_center_express_track",
+  "depth": 2,
+  "stage": "candidate_native_creation_pending",
+  "track_spacing_metres": 7.946111502058365,
+  "source_platforms": [
+    {
+      "osm_way_id": 427044445,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Coney Island",
+        "layer": "2",
+        "level": "2",
+        "name": "79th Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898305,
+        4262898222,
+        4262898223,
+        4262898215,
+        4262898305
+      ],
+      "points": [
+        {
+          "x": -8237740.747396004,
+          "y": 4955392.959686342
+        },
+        {
+          "x": -8237688.983832785,
+          "y": 4955632.135085812
+        },
+        {
+          "x": -8237693.369820722,
+          "y": 4955633.146937734
+        },
+        {
+          "x": -8237745.222439534,
+          "y": 4955394.00084189
+        },
+        {
+          "x": -8237740.747396004,
+          "y": 4955392.959686342
+        }
+      ]
+    },
+    {
+      "osm_way_id": 427044446,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "destination": "Manhattan",
+        "layer": "2",
+        "level": "2",
+        "name": "79th Street",
+        "network": "NYC Subway",
+        "operator": "New York City Transit Authority",
+        "operator:wikidata": "Q1325591",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "source:geometry": "bing",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "node_ids": [
+        4262898303,
+        4262898304,
+        4262898221,
+        4262898220,
+        4262898303
+      ],
+      "points": [
+        {
+          "x": -8237725.5300216125,
+          "y": 4955375.040096905
+        },
+        {
+          "x": -8237729.7490303125,
+          "y": 4955375.963937456
+        },
+        {
+          "x": -8237677.150570913,
+          "y": 4955617.602557422
+        },
+        {
+          "x": -8237672.508548147,
+          "y": 4955616.64936509
+        },
+        {
+          "x": -8237725.5300216125,
+          "y": 4955375.040096905
+        }
+      ]
+    }
+  ]
+}
